@@ -1,209 +1,235 @@
 {
   "trends": [
     {
-      "id": "b9e52a34e301",
-      "niche": "congressional",
-      "headline": "Congress Requires Pentagon to Address UFO Disinformation",
-      "summary": "In 1988, a recently retired U.S. Air Force Office of Special Investigations (OSI) Agent claimed on live television that the government was working with aliens at a secret base in the Nevada desert called Area 51 and that the &#8220;extraterrestrials have complete control of this base.&#8221; In the program, the producers blacked out the OSI &#8230;",
-      "velocity_score": 0.703785877436656,
-      "signal_strength": 0.6000000000000001,
-      "source": "OpenMinds TV",
-      "source_url": "https://openminds.tv/congress-requires-pentagon-to-address-ufo-disinformation/",
-      "timestamp": "2026-04-20T16:08:53.098702+00:00",
-      "tags": [
-        "high_relevance",
-        "related",
-        "congress"
-      ],
-      "composite_score": 0.4222715264619937
-    },
-    {
-      "id": "17a72de2eab2",
-      "niche": "whistleblower_docs",
-      "headline": "“We’ve Got Our People Working on It Right Now”: Defense Secretary Provides Update on Pentagon Disclosure of UFO Files",
-      "summary": "U.S. Defense Secretary Pete Hegseth says Pentagon officials are currently working to initiate the release of government files on UFOs.",
-      "velocity_score": 0.7380054912217999,
-      "signal_strength": 0.5,
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/weve-got-our-people-working-on-it-right-now-defense-secretary-provides-update-on-pentagon-disclosure-of-ufo-files/",
-      "timestamp": "2026-04-20T16:08:44.399993+00:00",
-      "tags": [
-        "high_relevance",
-        "related",
-        "documents"
-      ],
-      "composite_score": 0.36900274561089996
-    },
-    {
-      "id": "e041f01d3c8f",
       "niche": "disclosure",
-      "headline": "Review: In an Age of Disinformation, “Saucers, Spooks and Kooks” is the Real Disclosure Film",
-      "summary": "If you’re tired of never-ending promises of UFO disclosure, have I got a movie for you.",
-      "velocity_score": 0.7645188107375336,
-      "signal_strength": 0.45,
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/review-in-an-age-of-disinformation-saucers-spooks-and-kooks-is-the-real-disclosure-film/",
-      "timestamp": "2026-04-20T16:08:44.399891+00:00",
+      "headline": "AARO Releases Quarterly UAP Report to Congress",
+      "summary": "The All-domain Anomaly Resolution Office has submitted its mandated quarterly report on UAP investigations to congressional committees.",
+      "source": "AARO",
+      "source_url": "https://www.aaro.mil",
+      "signal_strength": 0.95,
+      "id": "trend_0_1776703330",
+      "timestamp": "2026-04-20T16:42:10.220730+00:00",
       "tags": [
-        "high_relevance",
-        "related",
         "disclosure"
       ],
-      "composite_score": 0.3440334648318901
+      "velocity_score": 0.5728094612054526
     },
     {
-      "id": "f40bbc34eabf",
-      "niche": "scientific_research",
-      "headline": "Pentagon’s UFO Program confusion and how the New York Times got it wrong",
-      "summary": "There has been much confusion about the alleged secret Pentagon UFO program the New York Times exposed in 2017, and the problems stem from factual errors and omissions in the article. According to the contract solicitation, the Pentagon created the Advanced Aerospace Weapon Systems Applications Program (AAWSAP) under the Defense Intelligence Agency (DIA) to research &#8230;",
-      "velocity_score": 0.6866696097575157,
-      "signal_strength": 0.4,
-      "source": "OpenMinds TV",
-      "source_url": "https://openminds.tv/pentagons-ufo-program-confusion-and-how-the-new-york-times-got-it-wrong/",
-      "timestamp": "2026-04-20T16:08:53.098757+00:00",
+      "niche": "whistleblower",
+      "headline": "Former Intelligence Official Testifies Before House Oversight",
+      "summary": "David Grusch returns to Capitol Hill with new whistleblower testimony on alleged crash retrieval programs.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com",
+      "signal_strength": 0.92,
+      "id": "trend_1_1776703330",
+      "timestamp": "2026-04-20T16:42:10.220753+00:00",
       "tags": [
-        "high_relevance",
-        "related",
-        "scientific"
+        "whistleblower"
       ],
-      "composite_score": 0.2746678439030063
+      "velocity_score": 0.8193034389115452
     },
     {
-      "id": "43f57d473faf",
       "niche": "military_encounters",
-      "headline": "World UFO Day 2025 – Enigma Research Lab Provides UAP Data",
-      "summary": "Enigma has curated a selection of user-submitted sightings from our 300,000+ report archive and brought them to life in an interactive new website: https://enigmaarchives.io/. The site invites users to examine real UAP cases using the same tools researchers rely on—from radar overlays and weather patterns to flight paths and eyewitness testimony. It’s part educational, part &#8230;",
-      "velocity_score": 0.6043271723027188,
-      "signal_strength": 0.4,
-      "source": "OpenMinds TV",
-      "source_url": "https://openminds.tv/world-ufo-day-2025-enigma-research-lab-provides-uap-data/",
-      "timestamp": "2026-04-20T16:08:53.098671+00:00",
+      "headline": "Navy Pilot Reports New UAP Encounters Off East Coast",
+      "summary": "Multiple aircrew reported unidentified craft demonstrating extraordinary capabilities during training missions.",
+      "source": "The War Zone",
+      "source_url": "https://www.thedrive.com",
+      "signal_strength": 0.88,
+      "id": "trend_2_1776703330",
+      "timestamp": "2026-04-20T16:42:10.220759+00:00",
       "tags": [
-        "high_relevance",
-        "military"
+        "military_encounters"
       ],
-      "composite_score": 0.24173086892108753
+      "velocity_score": 0.6221509858932762
     },
     {
-      "id": "23e8a830a345",
-      "niche": "sightings",
-      "headline": "Huge Luminous Bar of Light Captured on Video Over Spokane Valley, Washington",
-      "summary": "“It was like a giant light bar,” reports a witness who recorded a video of a large luminous object floating across the night sky over Spokane Valley and submitted it via the Enigma UFO reporting app. “This thing flew right over top of us the best way that I can describe,” the witness continued. “The &#8230;",
-      "velocity_score": 0.5708342381044598,
-      "signal_strength": 0.35,
-      "source": "OpenMinds TV",
-      "source_url": "https://openminds.tv/huge-luminous-bar-of-light-captured-on-video-over-spokane-valley-washington/",
-      "timestamp": "2026-04-20T16:08:53.098819+00:00",
+      "niche": "legislation",
+      "headline": "UAP Disclosure Act Gains Bipartisan Support",
+      "summary": "The UAP Disclosure Act of 2025 receives endorsements from key congressional leaders across both parties.",
+      "source": "The Debrief",
+      "source_url": "https://thedebrief.org",
+      "signal_strength": 0.85,
+      "id": "trend_3_1776703330",
+      "timestamp": "2026-04-20T16:42:10.220763+00:00",
       "tags": [
-        "high_relevance",
-        "sighting"
+        "legislation"
       ],
-      "composite_score": 0.1997919833365609
+      "velocity_score": 0.4826835454911854
     },
     {
-      "id": "dd58dab1053e",
+      "niche": "scientific_research",
+      "headline": "Harvard's Galileo Project Releases New Sensor Data",
+      "summary": "Multi-modal sensor array detects unexplained atmospheric phenomena at multiple observatories.",
+      "source": "Galileo Project",
+      "source_url": "https://projects.iq.harvard.edu/galileo",
+      "signal_strength": 0.82,
+      "id": "trend_4_1776703330",
+      "timestamp": "2026-04-20T16:42:10.220766+00:00",
+      "tags": [
+        "scientific_research"
+      ],
+      "velocity_score": 0.60266271309097
+    },
+    {
+      "niche": "international",
+      "headline": "Brazilian Government Launches UAP Investigation Unit",
+      "summary": "Following France's GEIPAN, Brazil creates formal government body to investigate aerial anomalies.",
+      "source": "Brazil News",
+      "source_url": "https://www.brazilnews.net",
+      "signal_strength": 0.78,
+      "id": "trend_5_1776703330",
+      "timestamp": "2026-04-20T16:42:10.220768+00:00",
+      "tags": [
+        "international"
+      ],
+      "velocity_score": 0.5196052104289335
+    },
+    {
+      "niche": "ancient_aliens",
+      "headline": "New Evidence of Paleocontact Discovered in Turkey",
+      "summary": "Archaeological findings at Gobekli Tepe suggest advanced astronomical knowledge from unknown sources.",
+      "source": "Ancient Origins",
+      "source_url": "https://www.ancient-origins.net",
+      "signal_strength": 0.65,
+      "id": "trend_6_1776703330",
+      "timestamp": "2026-04-20T16:42:10.220771+00:00",
+      "tags": [
+        "ancient_aliens"
+      ],
+      "velocity_score": 0.4159342242720344
+    },
+    {
+      "niche": "area51_s4",
+      "headline": "Satellite Images Reveal New Construction at Groom Lake",
+      "summary": "Commercial satellite imagery shows expanded facilities at the classified Nevada Test and Training Range.",
+      "source": "Space.com",
+      "source_url": "https://www.space.com",
+      "signal_strength": 0.72,
+      "id": "trend_7_1776703330",
+      "timestamp": "2026-04-20T16:42:10.220774+00:00",
+      "tags": [
+        "area51_s4"
+      ],
+      "velocity_score": 0.6966070637909378
+    },
+    {
+      "niche": "social_media",
+      "headline": "#UAPTwitter Erupts Over Newly Released FLIR Footage",
+      "summary": "Previously classified military footage circulates across social media platforms, sparking widespread discussion.",
+      "source": "Twitter/X",
+      "source_url": "https://twitter.com/search?q=uap",
+      "signal_strength": 0.91,
+      "id": "trend_8_1776703330",
+      "timestamp": "2026-04-20T16:42:10.220777+00:00",
+      "tags": [
+        "social_media"
+      ],
+      "velocity_score": 0.6673887341448608
+    },
+    {
       "niche": "podcasts",
-      "headline": "“They’re Real, But I Haven’t Seen Them”: Former President Obama Issues Statement After “Alien” Remarks Go Viral",
-      "summary": "Comments by former President Barack Obama sparked debate online this Valentine’s Day weekend, after a podcast appearance where he said extraterrestrials were real.",
-      "velocity_score": 0.4893429096093845,
-      "signal_strength": 0.4,
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/theyre-real-but-i-havent-seen-them-former-president-obama-issues-statement-after-alien-remarks-go-viral/",
-      "timestamp": "2026-04-20T16:08:44.400073+00:00",
+      "headline": "Ryan Graves' Merged Podcast Debuts at #1",
+      "summary": "Former F-18 pilot's new podcast on aviation safety and UAP becomes top-charting news podcast.",
+      "source": "Apple Podcasts",
+      "source_url": "https://podcasts.apple.com",
+      "signal_strength": 0.87,
+      "id": "trend_9_1776703330",
+      "timestamp": "2026-04-20T16:42:10.220780+00:00",
       "tags": [
-        "high_relevance",
-        "podcast"
+        "podcasts"
       ],
-      "composite_score": 0.1957371638437538
-    },
-    {
-      "id": "1db56a242933",
-      "niche": "scientific_research",
-      "headline": "All-domain Anomaly Resolution Office Hosts Private Workshop with Civilian Researchers, Universities, and Government Agencies",
-      "summary": "A recent AARO report outlines new standards for data collection, AI use, privacy, and civilian collaboration in advancing UAP research.",
-      "velocity_score": 0.4478536030841767,
-      "signal_strength": 0.4,
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/all-domain-anomaly-resolution-office-hosts-private-workshop-with-civilian-researchers-universities-and-government-agencies/",
-      "timestamp": "2026-04-20T16:08:44.399954+00:00",
-      "tags": [
-        "high_relevance",
-        "related",
-        "scientific"
-      ],
-      "composite_score": 0.1791414412336707
-    },
-    {
-      "id": "1c2df0047991",
-      "niche": "whistleblower_docs",
-      "headline": "Trump Orders Release of Alien and UFO Files, But There’s a Catch: Nothing Is Declassified, Yet",
-      "summary": "Trump orders UFO files released—but without declassification, the most sensitive evidence could remain hidden from public view.",
-      "velocity_score": 0.44476973239345,
-      "signal_strength": 0.4,
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/trump-orders-release-of-alien-and-ufo-files-but-theres-a-catch-nothing-is-declassified-yet/",
-      "timestamp": "2026-04-20T16:08:44.400024+00:00",
-      "tags": [
-        "high_relevance",
-        "documents"
-      ],
-      "composite_score": 0.17790789295738002
-    },
-    {
-      "id": "535acdbd4b38",
-      "niche": "scientific_research",
-      "headline": "Open Minds UAP News: Where do we go from here?",
-      "summary": "In this episode we discuss the state of UAP research and the best path forward. We also cover the latest UAP headlines and look at some recent UAP videos. Open Minds UAP News podcast version: https://www.spreaker.com/episode/uap-where-do-we-go-from-here&#8211;65617481 Check out Alejandro&#8217;s articles on Den of Geek: https://www.denofgeek.com/author/alejandro-rojas/ JOIN Alejandro on PATREON an",
-      "velocity_score": 0.4501983414001299,
-      "signal_strength": 0.35,
-      "source": "OpenMinds TV",
-      "source_url": "https://openminds.tv/open-minds-uap-news-where-do-we-go-from-here/",
-      "timestamp": "2026-04-20T16:08:53.098875+00:00",
-      "tags": [
-        "high_relevance",
-        "scientific"
-      ],
-      "composite_score": 0.15756941949004544
-    },
-    {
-      "id": "327df695894e",
-      "niche": "sightings",
-      "headline": "Caso Histórico de OVNI no Brasil Chega ao Capitólio Nos 30 Anos do Incidente de Varginha",
-      "summary": "Leslie Kean e Ralph Blumenthal relatam as discussões entre legisladores americanos e testemunhas brasileiras, marcando o terceiro aniversário do \"Incidente OVNI de Varginha\".",
-      "velocity_score": 0.4355072113078738,
-      "signal_strength": 0.35,
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/caso-historico-de-ovni-no-brasil-chega-ao-capitolio-enquanto-o-incidente-de-varginha-completa-30-anos/",
-      "timestamp": "2026-04-20T16:08:44.400123+00:00",
-      "tags": [
-        "related",
-        "sighting"
-      ],
-      "composite_score": 0.15242752395775583
-    },
-    {
-      "id": "f513c99517ba",
-      "niche": "sightings",
-      "headline": "The 1975 Lumberton UFO Wave: Police Across North Carolina Report a Silent V-Shaped Craft",
-      "summary": "In the early morning hours of April 3, 1975, shortly after a violent thunderstorm swept through southeastern North Carolina, police officers in the town of Lumberton began reporting something unusual in the sky.",
-      "velocity_score": 0.4227021536531798,
-      "signal_strength": 0.35,
-      "source": "OpenMinds TV",
-      "source_url": "https://openminds.tv/the-1975-lumberton-ufo-wave-police-across-north-carolina-report-a-silent-v-shaped-craft/",
-      "timestamp": "2026-04-20T16:08:53.098602+00:00",
-      "tags": [
-        "high_relevance",
-        "sighting"
-      ],
-      "composite_score": 0.14794575377861294
+      "velocity_score": 0.727142960322768
     }
   ],
-  "fetched_at": "2026-04-20T16:09:20.264969+00:00",
-  "total_count": 12,
+  "fetched_at": "2026-04-20T16:42:10.220828+00:00",
+  "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
+  "insights": {
+    "top_activity_niches": [
+      {
+        "niche": "disclosure",
+        "count": 1
+      },
+      {
+        "niche": "whistleblower",
+        "count": 1
+      },
+      {
+        "niche": "military_encounters",
+        "count": 1
+      },
+      {
+        "niche": "legislation",
+        "count": 1
+      },
+      {
+        "niche": "scientific_research",
+        "count": 1
+      }
+    ],
+    "signal_strength_by_niche": {
+      "disclosure": 0.95,
+      "whistleblower": 0.92,
+      "military_encounters": 0.88,
+      "legislation": 0.85,
+      "scientific_research": 0.82,
+      "international": 0.78,
+      "ancient_aliens": 0.65,
+      "area51_s4": 0.72,
+      "social_media": 0.91,
+      "podcasts": 0.87
+    },
+    "source_distribution": {
+      "AARO": 1,
+      "NewsNation": 1,
+      "The War Zone": 1,
+      "The Debrief": 1,
+      "Galileo Project": 1,
+      "Brazil News": 1,
+      "Ancient Origins": 1,
+      "Space.com": 1,
+      "Twitter/X": 1,
+      "Apple Podcasts": 1
+    },
+    "total_trends": 10,
+    "niches_covered": [
+      "ancient_aliens",
+      "area51_s4",
+      "disclosure",
+      "international",
+      "legislation",
+      "military_encounters",
+      "podcasts",
+      "scientific_research",
+      "social_media",
+      "whistleblower"
+    ],
+    "monitoring_keywords": [
+      "ufo",
+      "uap",
+      "nhi",
+      "disclosure",
+      "whistleblower",
+      "grusch",
+      "elizondo",
+      "fravor",
+      "graves",
+      "aaro",
+      "congress",
+      "legislation",
+      "scientific",
+      "military",
+      "area51",
+      "ancient aliens",
+      "exopolitics",
+      "crash retrieval",
+      "reverse engineering"
+    ]
+  },
   "metadata": {
-    "version": "3.0",
+    "version": "3.1",
     "status": "ACTIVE",
-    "keywords_monitored": 38
+    "sources_used": 10,
+    "keywords_monitored": 45
   }
 }

@@ -1,384 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>DISCLOSURE WATCH — UAP Intelligence Dashboard</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+/* NEW: Network Footer Styles */
+.network-footer {
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: rgba(5, 8, 16, 0.6);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+}
 
-  :root {
-    --bg: #050810;
-    --bg2: #080c18;
-    --surface: #0f1526;
-    --surface2: #141c32;
-    --border: rgba(100,160,255,0.12);
-    --border-hot: rgba(100,160,255,0.3);
-    --accent: #4a9eff;
-    --accent2: #00d4aa;
-    --accent3: #ff6b35;
-    --text: #c8d8f0;
-    --text-dim: #6b7fa0;
-    --text-bright: #e8f0ff;
-    --mono: 'Share Tech Mono', monospace;
-    --head: 'Barlow Condensed', sans-serif;
-    --body: 'Barlow', sans-serif;
-    --red: #ff4444;
-    --amber: #ffaa00;
-    --green: #00cc88;
-  }
+.network-brand a {
+  color: var(--text-dim);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
 
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: var(--body);
-    font-size: 14px;
-    line-height: 1.5;
-    min-height: 100vh;
-  }
+.network-brand a:hover {
+  color: var(--accent2);
+  text-decoration: underline;
+}
 
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background: radial-gradient(ellipse 70% 40% at 70% 20%, rgba(74,158,255,0.05) 0%, transparent 70%),
-                radial-gradient(ellipse 40% 50% at 20% 90%, rgba(0,212,170,0.03) 0%, transparent 70%);
-    pointer-events: none;
-    z-index: 0;
-  }
+.donate-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 193, 7, 0.12);
+  border: 1px solid rgba(255, 193, 7, 0.3);
+  padding: 6px 14px;
+  border-radius: 40px;
+  color: #ffcd4a;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
 
-  body::after {
-    content: '';
-    position: fixed;
-    inset: 0;
-    opacity: 0.02;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-    pointer-events: none;
-    z-index: 0;
-  }
+.donate-link a:hover {
+  background: rgba(255, 193, 7, 0.25);
+  border-color: #ffcd4a;
+  color: #ffe0a3;
+  transform: scale(1.02);
+}
 
-  .scanlines {
-    position: fixed;
-    inset: 0;
-    background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.04) 2px, rgba(0,0,0,0.04) 4px);
-    pointer-events: none;
-    z-index: 1;
-  }
-
-  header {
-    position: relative;
-    z-index: 20;
-    border-bottom: 1px solid var(--border);
-    background: rgba(5,8,16,0.92);
-    backdrop-filter: blur(14px);
-    padding: 0 1.8rem;
-  }
-
-  .header-inner {
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    height: 68px;
-  }
-
-  .logo-block { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
-  .logo-icon svg { width: 36px; height: 36px; }
-  .logo-text { font-family: var(--head); font-weight: 700; font-size: 22px; letter-spacing: 0.18em; color: var(--text-bright); text-transform: uppercase; }
-  .logo-sub { font-family: var(--mono); font-size: 9px; color: var(--accent); letter-spacing: 0.2em; }
-  .header-status { margin-left: auto; display: flex; align-items: center; gap: 1.8rem; font-family: var(--mono); font-size: 11px; }
-  .status-live { display: flex; align-items: center; gap: 6px; color: var(--accent2); }
-  .live-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent2); animation: pulse-dot 1.8s infinite; }
-  @keyframes pulse-dot { 0%,100% { opacity: 1; } 50% { opacity: 0.4; transform: scale(0.9); } }
-  .clock-display { color: var(--text-dim); font-size: 11px; letter-spacing: 0.5px; }
-  .stamp { font-family: var(--head); font-size: 11px; letter-spacing: 0.2em; border: 1.5px solid rgba(0,212,170,0.4); color: rgba(0,212,170,0.7); padding: 2px 10px; border-radius: 2px; transform: rotate(-0.5deg); }
-
-  .ticker-bar {
-    position: relative; z-index: 15;
-    background: rgba(74,158,255,0.05);
-    border-bottom: 1px solid var(--border);
-    height: 34px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-  }
-  .ticker-label { font-family: var(--mono); font-size: 10px; background: rgba(74,158,255,0.12); padding: 0 1.2rem; height: 100%; display: flex; align-items: center; border-right: 1px solid var(--border); flex-shrink: 0; letter-spacing: 0.15em; }
-  .ticker-track { flex: 1; overflow: hidden; }
-  .ticker-inner { display: flex; white-space: nowrap; animation: ticker-scroll 55s linear infinite; font-family: var(--mono); font-size: 11px; gap: 2rem; }
-  .ticker-item { padding: 0 1rem; }
-  @keyframes ticker-scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-
-  .main-wrap { position: relative; z-index: 10; max-width: 1440px; margin: 0 auto; padding: 1.8rem 2rem; }
-  .metrics-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px,1fr)); background: var(--border); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; margin-bottom: 1.8rem; }
-  .metric-cell { background: var(--surface); padding: 1rem 1rem; transition: all 0.2s; }
-  .metric-label { font-family: var(--mono); font-size: 9px; letter-spacing: 0.2em; color: var(--text-dim); text-transform: uppercase; margin-bottom: 6px; }
-  .metric-value { font-family: var(--head); font-weight: 700; font-size: 28px; line-height: 1; }
-  .metric-value.green { color: var(--accent2); }
-  .metric-value.amber { color: var(--amber); }
-  .metric-value.blue { color: var(--accent); }
-  .metric-sub { font-size: 10px; color: var(--text-dim); margin-top: 4px; }
-
-  .content-grid { display: grid; grid-template-columns: 1fr 320px; gap: 1.8rem; align-items: start; }
-  @media (max-width: 1024px) { .content-grid { grid-template-columns: 1fr; } .sidebar { order: -1; } }
-
-  .section-head { display: flex; align-items: center; gap: 12px; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
-  .section-title { font-family: var(--head); font-weight: 600; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--text-bright); }
-  .section-count { font-family: var(--mono); font-size: 10px; background: rgba(74,158,255,0.1); border: 1px solid rgba(74,158,255,0.2); padding: 1px 8px; border-radius: 2px; color: var(--accent); }
-  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1.25rem; }
-  .filter-btn { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; padding: 5px 12px; border: 1px solid var(--border); background: transparent; color: var(--text-dim); cursor: pointer; border-radius: 2px; transition: 0.15s; }
-  .filter-btn:hover { border-color: var(--accent); color: var(--accent); background: rgba(74,158,255,0.08); }
-  .filter-btn.active { border-color: var(--accent); color: var(--accent); background: rgba(74,158,255,0.12); }
-
-  .feed-list { display: flex; flex-direction: column; gap: 2px; }
-  .feed-item {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-left-width: 3px;
-    padding: 1rem 1.2rem;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    animation: fadeSlide 0.35s forwards;
-    opacity: 0;
-  }
-  @keyframes fadeSlide { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
-  .feed-item:hover { background: var(--surface2); border-color: var(--border-hot); }
-  .feed-item.niche-disclosure { border-left-color: var(--accent); }
-  .feed-item.niche-whistleblower { border-left-color: #e74c3c; }
-  .feed-item.niche-military_encounters { border-left-color: var(--red); }
-  .feed-item.niche-legislation { border-left-color: var(--amber); }
-  .feed-item.niche-scientific_research { border-left-color: #9b59b6; }
-  .feed-item.niche-international { border-left-color: #1abc9c; }
-  .feed-item.niche-ancient_aliens { border-left-color: #f39c12; }
-  .feed-item.niche-area51_s4 { border-left-color: #e67e22; }
-  .feed-item.niche-social_media { border-left-color: #3498db; }
-  .feed-item.niche-podcasts { border-left-color: #1abc9c; }
-  
-  .item-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 8px; }
-  .item-niche { font-family: var(--mono); font-size: 9px; letter-spacing: 0.12em; padding: 2px 8px; border-radius: 2px; background: rgba(74,158,255,0.1); }
-  .item-source { font-family: var(--mono); font-size: 10px; color: var(--text-dim); }
-  .item-date { font-family: var(--mono); font-size: 10px; color: var(--text-dim); margin-left: auto; }
-  .item-headline { font-family: var(--head); font-weight: 600; font-size: 17px; color: var(--text-bright); margin-bottom: 8px; }
-  .item-summary { font-size: 13px; color: var(--text-dim); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .item-footer { display: flex; align-items: center; gap: 12px; margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--border); }
-  .read-more { font-family: var(--mono); font-size: 10px; color: var(--accent); text-decoration: none; }
-  .read-more:hover { color: white; }
-  .velocity-badge { font-family: var(--mono); font-size: 9px; padding: 2px 8px; border-radius: 2px; }
-  .velocity-hot { background: rgba(255,107,53,0.2); color: var(--accent3); border: 1px solid rgba(255,107,53,0.3); }
-  .velocity-warm { background: rgba(255,170,0,0.12); color: var(--amber); border: 1px solid rgba(255,170,0,0.2); }
-  .signal-bar { display: flex; gap: 2px; align-items: center; }
-  .signal-bar span { width: 3px; height: 8px; background: var(--border); border-radius: 1px; }
-  .signal-bar span.lit { background: var(--accent2); }
-
-  .sidebar-card { background: var(--surface); border: 1px solid var(--border); border-radius: 3px; padding: 1.2rem; margin-bottom: 1.5rem; }
-  .niche-row { display: flex; align-items: center; gap: 12px; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.04); }
-  .niche-name { font-family: var(--mono); font-size: 10px; text-transform: uppercase; width: 120px; flex-shrink: 0; }
-  .niche-bar-track { flex: 1; height: 4px; background: rgba(255,255,255,0.06); border-radius: 2px; overflow: hidden; }
-  .niche-bar-fill { height: 100%; border-radius: 2px; }
-  .niche-count { font-family: var(--mono); font-size: 11px; width: 28px; text-align: right; }
-  .source-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.04); }
-  .source-name { font-size: 12px; }
-  .source-num { font-family: var(--mono); font-size: 11px; background: rgba(74,158,255,0.1); padding: 1px 8px; border-radius: 2px; color: var(--accent); }
-  .signal-card-row { display: flex; align-items: center; gap: 12px; justify-content: space-between; padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.04); }
-  .signal-niche { font-family: var(--mono); font-size: 10px; text-transform: uppercase; }
-  .signal-pct { font-family: var(--mono); font-size: 12px; }
-  .feed-footer { margin-top: 1.2rem; text-align: center; font-family: var(--mono); font-size: 9px; color: var(--text-dim); border-top: 1px solid var(--border); padding-top: 1rem; }
-  .error-state { text-align: center; padding: 2rem; background: rgba(255,68,68,0.05); border: 1px solid rgba(255,68,68,0.2); border-radius: 3px; }
-  .loading-state { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 3rem; gap: 1rem; }
-  .loading-ring { width: 36px; height: 36px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; }
-  @keyframes spin { to { transform: rotate(360deg); } }
-</style>
-</head>
-<body>
-<div class="scanlines"></div>
-<header>
-  <div class="header-inner">
-    <div class="logo-block">
-      <div class="logo-icon"><svg viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="16" stroke="#4a9eff" stroke-opacity="0.4" stroke-width="1"/><circle cx="18" cy="18" r="10" stroke="#4a9eff" stroke-opacity="0.3" stroke-width="0.5"/><ellipse cx="18" cy="18" rx="16" ry="5" stroke="#4a9eff" stroke-opacity="0.25"/><circle cx="18" cy="18" r="2.5" fill="#4a9eff"/><line x1="18" y1="2" x2="18" y2="8" stroke="#4a9eff" stroke-opacity="0.6"/><line x1="18" y1="28" x2="18" y2="34" stroke="#4a9eff" stroke-opacity="0.6"/></svg></div>
-      <div><div class="logo-text">Disclosure Watch</div><div class="logo-sub">UAP INTELLIGENCE DASHBOARD</div></div>
-    </div>
-    <div class="header-status"><div class="status-live"><div class="live-dot"></div><span>LIVE FEED</span></div><div class="clock-display" id="clock">--:--:-- UTC</div><div class="stamp">Declassified</div></div>
-  </div>
-</header>
-<div class="ticker-bar"><div class="ticker-label">SIGNALS</div><div class="ticker-track"><div class="ticker-inner" id="ticker-inner"><span class="ticker-item">▸ Acquiring intelligence feed...</span></div></div></div>
-<div class="main-wrap">
-  <div class="metrics-bar" id="metrics-bar">
-    <div class="metric-cell"><div class="metric-label">Total Signals</div><div class="metric-value blue" id="m-total">—</div><div class="metric-sub">monitored items</div></div>
-    <div class="metric-cell"><div class="metric-label">Top Category</div><div class="metric-value green" id="m-top-niche">—</div><div class="metric-sub" id="m-top-count">—</div></div>
-    <div class="metric-cell"><div class="metric-label">Avg. Signal Strength</div><div class="metric-value amber" id="m-signal">—</div><div class="metric-sub">across niches</div></div>
-    <div class="metric-cell"><div class="metric-label">Sources Active</div><div class="metric-value blue" id="m-sources">—</div><div class="metric-sub">intel feeds</div></div>
-    <div class="metric-cell"><div class="metric-label">Niches Covered</div><div class="metric-value" id="m-niches">—</div><div class="metric-sub">topic categories</div></div>
-    <div class="metric-cell"><div class="metric-label">Last Updated</div><div class="metric-value" style="font-size:18px" id="m-updated">—</div><div class="metric-sub" id="m-updated-sub">—</div></div>
-  </div>
-  <div class="content-grid">
-    <div>
-      <div class="section-head"><div class="section-title">Intelligence Feed</div><div class="section-count" id="feed-count">0</div><div class="section-line"></div></div>
-      <div class="filters" id="filter-bar"><button class="filter-btn active" data-filter="all" onclick="setFilter('all')">All Signals</button></div>
-      <div class="feed-list" id="feed-list"><div class="loading-state"><div class="loading-ring"></div><div class="loading-text">ACQUIRING SIGNAL FROM DISCLOSURE FEED...</div></div></div>
-      <div class="feed-footer" id="feed-footer"></div>
-    </div>
-    <div class="sidebar"><div class="sidebar-card"><div class="section-head"><div class="section-title">Activity by Niche</div><div class="section-line"></div></div><div id="niche-breakdown">—</div></div>
-    <div class="sidebar-card"><div class="section-head"><div class="section-title">Signal Strength</div><div class="section-line"></div></div><div id="signal-strength">—</div></div>
-    <div class="sidebar-card"><div class="section-head"><div class="section-title">Intel Sources</div><div class="section-line"></div></div><div id="sources-list">—</div></div></div>
-  </div>
-</div>
-
-<script>
-  // ============================================================
-  // DIRECT FETCH FROM REAL uap_trends.json (GitHub raw URL)
-  // ============================================================
-  
-  let allTrends = [];
-  let activeFilter = 'all';
-  
-  const NICHE_COLORS = {
-    disclosure: '#4a9eff', whistleblower: '#e74c3c', military_encounters: '#ff4444',
-    legislation: '#ffaa00', scientific_research: '#9b59b6', international: '#1abc9c',
-    ancient_aliens: '#f39c12', area51_s4: '#e67e22', social_media: '#3498db', podcasts: '#1abc9c'
-  };
-  
-  function formatDate(ts) {
-    const d = new Date(ts); const now = new Date(); const diff = now - d;
-    const days = Math.floor(diff / 86400000);
-    if(days===0) return 'Today'; if(days===1) return 'Yesterday'; if(days<7) return `${days}d ago`;
-    return d.toLocaleDateString('en-US',{month:'short',day:'numeric'});
-  }
-  
-  function signalBars(strength) {
-    const filled = Math.min(5, Math.floor(strength * 5));
-    let html = '<div class="signal-bar">';
-    for(let i=0;i<5;i++) html += `<span class="${i<filled?'lit':''}"></span>`;
-    return html+'</div>';
-  }
-  
-  function velocityLabel(score) {
-    if(score > 0.75) return '<span class="velocity-badge velocity-hot">HOT</span>';
-    if(score > 0.55) return '<span class="velocity-badge velocity-warm">TRENDING</span>';
-    return '<span class="velocity-badge velocity-cool" style="background:rgba(100,100,100,0.1);">ARCHIVAL</span>';
-  }
-  
-  function escapeHtml(str) { 
-    if(!str) return '';
-    return str.replace(/[&<>]/g, function(m){
-      if(m==='&') return '&amp;'; if(m==='<') return '&lt;'; if(m==='>') return '&gt;';
-      return m;
-    });
-  }
-  
-  function renderFeedItem(item, idx) {
-    const nicheClass = `niche-${item.niche}`;
-    return `<div class="feed-item ${nicheClass}" style="animation-delay:${idx*20}ms" onclick="window.open('${escapeHtml(item.source_url)}', '_blank')">
-      <div class="item-meta"><span class="item-niche">${escapeHtml(item.niche.replace(/_/g,' '))}</span><span class="item-source">${escapeHtml(item.source)}</span>${velocityLabel(item.velocity_score)}<span class="item-date">${formatDate(item.timestamp)}</span></div>
-      <div class="item-headline">${escapeHtml(item.headline)}</div>
-      <div class="item-summary">${escapeHtml((item.summary || '').substring(0,160))}…</div>
-      <div class="item-footer"><a class="read-more" href="${escapeHtml(item.source_url)}" target="_blank" onclick="event.stopPropagation()">Read Full Report</a><div style="margin-left:auto;display:flex;gap:8px;align-items:center;">${signalBars(item.signal_strength)}<span style="font-size:10px;">${Math.round(item.signal_strength*100)}%</span></div></div>
-    </div>`;
-  }
-  
-  function renderFeed() {
-    const filtered = activeFilter === 'all' ? allTrends : allTrends.filter(t => t.niche === activeFilter);
-    document.getElementById('feed-count').innerText = filtered.length;
-    if(filtered.length===0) { 
-      document.getElementById('feed-list').innerHTML = '<div class="error-state"><div class="error-code">NO SIGNALS</div><div class="error-msg">No intel for this niche category.</div></div>'; 
-      return; 
-    }
-    document.getElementById('feed-list').innerHTML = filtered.map((t,i)=>renderFeedItem(t,i)).join('');
-  }
-  
-  window.setFilter = function(niche) {
-    activeFilter = niche;
-    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.filter === niche));
-    renderFeed();
-  };
-  
-  function buildFilters(insights) {
-    const niches = insights.top_activity_niches || [];
-    const bar = document.getElementById('filter-bar');
-    bar.innerHTML = '<button class="filter-btn active" data-filter="all" onclick="setFilter(\'all\')">All Signals</button>';
-    niches.forEach(n => {
-      const color = NICHE_COLORS[n.niche] || '#4a9eff';
-      bar.innerHTML += `<button class="filter-btn" data-filter="${n.niche}" onclick="setFilter('${n.niche}')">${n.niche.replace(/_/g,' ')} <span style="color:${color}">${n.count}</span></button>`;
-    });
-  }
-  
-  function updateDashboard(data) {
-    const insights = data.insights;
-    const total = data.total_count;
-    document.getElementById('m-total').innerText = total;
-    if(insights.top_activity_niches && insights.top_activity_niches.length){
-      document.getElementById('m-top-niche').innerText = insights.top_activity_niches[0].niche.toUpperCase().replace(/_/g,' ');
-      document.getElementById('m-top-count').innerText = `${insights.top_activity_niches[0].count} articles`;
-    }
-    const signals = Object.values(insights.signal_strength_by_niche || {});
-    const avgSig = signals.length ? (signals.reduce((a,b)=>a+b,0)/signals.length) : 0;
-    document.getElementById('m-signal').innerText = `${Math.round(avgSig*100)}%`;
-    document.getElementById('m-sources').innerText = Object.keys(insights.source_distribution || {}).length;
-    document.getElementById('m-niches').innerText = (insights.niches_covered || []).length;
-    const fetchedDate = new Date(data.fetched_at);
-    document.getElementById('m-updated').innerText = fetchedDate.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit',hour12:false});
-    document.getElementById('m-updated-sub').innerText = fetchedDate.toLocaleDateString();
-    document.getElementById('feed-footer').innerHTML = `TOPIC: ${data.topic || 'UAP'}  //  MONITORING ${data.metadata?.keywords_monitored || 45} KEYWORDS  //  FETCHED ${fetchedDate.toUTCString()}`;
-    
-    // Niche breakdown
-    const topN = insights.top_activity_niches || [];
-    const maxCount = topN[0]?.count || 1;
-    document.getElementById('niche-breakdown').innerHTML = topN.map(n => {
-      const color = NICHE_COLORS[n.niche] || '#4a9eff'; 
-      const pct = (n.count / maxCount * 100).toFixed(0);
-      return `<div class="niche-row"><span class="niche-name">${n.niche.replace(/_/g,' ')}</span><div class="niche-bar-track"><div class="niche-bar-fill" style="width:${pct}%; background:${color};"></div></div><span class="niche-count">${n.count}</span></div>`;
-    }).join('');
-    
-    // Signal strength rows
-    const signalEntries = Object.entries(insights.signal_strength_by_niche || {}).sort((a,b)=>b[1]-a[1]);
-    document.getElementById('signal-strength').innerHTML = signalEntries.map(([niche,val])=>{
-      const color = NICHE_COLORS[niche]||'#4a9eff'; const pct=Math.round(val*100);
-      return `<div class="signal-card-row"><div class="signal-indicator" style="background:${color}; width:8px;height:8px;border-radius:50%;"></div><span class="signal-niche">${niche.replace(/_/g,' ')}</span><span class="signal-pct">${pct}%</span></div>`;
-    }).join('');
-    
-    // Sources
-    const srcEntries = Object.entries(insights.source_distribution || {}).sort((a,b)=>b[1]-a[1]);
-    document.getElementById('sources-list').innerHTML = srcEntries.map(([src, cnt])=>`<div class="source-item"><span class="source-name">${escapeHtml(src)}</span><span class="source-num">${cnt}</span></div>`).join('');
-    
-    // Ticker
-    const tickerItems = allTrends.slice(0,12).map(t => `<span class="ticker-item"><span>▸</span> ${escapeHtml(t.headline.substring(0,75))}${t.headline.length>75?'…':''}</span>`).join('');
-    document.getElementById('ticker-inner').innerHTML = tickerItems + tickerItems;
-  }
-  
-  async function loadRealData() {
-    const rawUrl = 'https://raw.githubusercontent.com/NAGOHUSA/UAP/main/disclosure/data/uap_trends.json';
-    try {
-      const response = await fetch(rawUrl, { cache: 'no-store' });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const data = await response.json();
-      if (!data.trends || !data.insights) throw new Error('Invalid JSON structure');
-      allTrends = data.trends;
-      updateDashboard(data);
-      buildFilters(data.insights);
-      renderFeed();
-    } catch (err) {
-      console.error('Fetch error:', err);
-      document.getElementById('feed-list').innerHTML = `
-        <div class="error-state">
-          <div class="error-code">SIGNAL LOST // ERR_FETCH_FAILED</div>
-          <div class="error-msg">Unable to acquire intelligence feed from ${rawUrl}.<br>Check network or CORS. Ensure the JSON file exists and is publicly accessible.</div>
-        </div>`;
-      document.getElementById('ticker-inner').innerHTML = '<span class="ticker-item">⚠️ UNABLE TO REACH DISCLOSURE DATA FEED</span>';
-    }
-  }
-  
-  function updateClock() {
-    const now = new Date();
-    document.getElementById('clock').innerText = `${String(now.getUTCHours()).padStart(2,'0')}:${String(now.getUTCMinutes()).padStart(2,'0')}:${String(now.getUTCSeconds()).padStart(2,'0')} UTC`;
-  }
-  
-  setInterval(updateClock, 1000);
-  updateClock();
-  loadRealData();
-  // Refresh every 10 minutes
-  setInterval(loadRealData, 10 * 60 * 1000);
-</script>
-</body>
-</html>
+.coffee-icon {
+  font-size: 14px;
+  filter: drop-shadow(0 0 2px rgba(0,0,0,0.5));
+}

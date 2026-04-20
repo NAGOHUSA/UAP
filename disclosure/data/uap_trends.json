@@ -7,12 +7,12 @@
       "source": "AARO",
       "source_url": "https://www.aaro.mil",
       "signal_strength": 0.95,
-      "id": "trend_0_1776703330",
-      "timestamp": "2026-04-20T16:42:10.220730+00:00",
+      "id": "trend_0_1776709172",
+      "timestamp": "2026-04-20T18:19:32.825430+00:00",
       "tags": [
         "disclosure"
       ],
-      "velocity_score": 0.5728094612054526
+      "velocity_score": 0.6211251609946392
     },
     {
       "niche": "whistleblower",
@@ -21,12 +21,12 @@
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com",
       "signal_strength": 0.92,
-      "id": "trend_1_1776703330",
-      "timestamp": "2026-04-20T16:42:10.220753+00:00",
+      "id": "trend_1_1776709172",
+      "timestamp": "2026-04-20T18:19:32.825456+00:00",
       "tags": [
         "whistleblower"
       ],
-      "velocity_score": 0.8193034389115452
+      "velocity_score": 0.4940521855803099
     },
     {
       "niche": "military_encounters",
@@ -35,12 +35,12 @@
       "source": "The War Zone",
       "source_url": "https://www.thedrive.com",
       "signal_strength": 0.88,
-      "id": "trend_2_1776703330",
-      "timestamp": "2026-04-20T16:42:10.220759+00:00",
+      "id": "trend_2_1776709172",
+      "timestamp": "2026-04-20T18:19:32.825461+00:00",
       "tags": [
         "military_encounters"
       ],
-      "velocity_score": 0.6221509858932762
+      "velocity_score": 0.6561088301924095
     },
     {
       "niche": "legislation",
@@ -49,12 +49,12 @@
       "source": "The Debrief",
       "source_url": "https://thedebrief.org",
       "signal_strength": 0.85,
-      "id": "trend_3_1776703330",
-      "timestamp": "2026-04-20T16:42:10.220763+00:00",
+      "id": "trend_3_1776709172",
+      "timestamp": "2026-04-20T18:19:32.825489+00:00",
       "tags": [
         "legislation"
       ],
-      "velocity_score": 0.4826835454911854
+      "velocity_score": 0.6586290749672712
     },
     {
       "niche": "scientific_research",
@@ -63,12 +63,12 @@
       "source": "Galileo Project",
       "source_url": "https://projects.iq.harvard.edu/galileo",
       "signal_strength": 0.82,
-      "id": "trend_4_1776703330",
-      "timestamp": "2026-04-20T16:42:10.220766+00:00",
+      "id": "trend_4_1776709172",
+      "timestamp": "2026-04-20T18:19:32.825492+00:00",
       "tags": [
         "scientific_research"
       ],
-      "velocity_score": 0.60266271309097
+      "velocity_score": 0.8494262211157817
     },
     {
       "niche": "international",
@@ -77,12 +77,12 @@
       "source": "Brazil News",
       "source_url": "https://www.brazilnews.net",
       "signal_strength": 0.78,
-      "id": "trend_5_1776703330",
-      "timestamp": "2026-04-20T16:42:10.220768+00:00",
+      "id": "trend_5_1776709172",
+      "timestamp": "2026-04-20T18:19:32.825495+00:00",
       "tags": [
         "international"
       ],
-      "velocity_score": 0.5196052104289335
+      "velocity_score": 0.6718550141641538
     },
     {
       "niche": "ancient_aliens",
@@ -91,12 +91,12 @@
       "source": "Ancient Origins",
       "source_url": "https://www.ancient-origins.net",
       "signal_strength": 0.65,
-      "id": "trend_6_1776703330",
-      "timestamp": "2026-04-20T16:42:10.220771+00:00",
+      "id": "trend_6_1776709172",
+      "timestamp": "2026-04-20T18:19:32.825498+00:00",
       "tags": [
         "ancient_aliens"
       ],
-      "velocity_score": 0.4159342242720344
+      "velocity_score": 0.6991283165716327
     },
     {
       "niche": "area51_s4",
@@ -105,12 +105,12 @@
       "source": "Space.com",
       "source_url": "https://www.space.com",
       "signal_strength": 0.72,
-      "id": "trend_7_1776703330",
-      "timestamp": "2026-04-20T16:42:10.220774+00:00",
+      "id": "trend_7_1776709172",
+      "timestamp": "2026-04-20T18:19:32.825501+00:00",
       "tags": [
         "area51_s4"
       ],
-      "velocity_score": 0.6966070637909378
+      "velocity_score": 0.7196607114442828
     },
     {
       "niche": "social_media",
@@ -119,12 +119,12 @@
       "source": "Twitter/X",
       "source_url": "https://twitter.com/search?q=uap",
       "signal_strength": 0.91,
-      "id": "trend_8_1776703330",
-      "timestamp": "2026-04-20T16:42:10.220777+00:00",
+      "id": "trend_8_1776709172",
+      "timestamp": "2026-04-20T18:19:32.825504+00:00",
       "tags": [
         "social_media"
       ],
-      "velocity_score": 0.6673887341448608
+      "velocity_score": 0.7496342013511532
     },
     {
       "niche": "podcasts",
@@ -133,15 +133,15 @@
       "source": "Apple Podcasts",
       "source_url": "https://podcasts.apple.com",
       "signal_strength": 0.87,
-      "id": "trend_9_1776703330",
-      "timestamp": "2026-04-20T16:42:10.220780+00:00",
+      "id": "trend_9_1776709172",
+      "timestamp": "2026-04-20T18:19:32.825506+00:00",
       "tags": [
         "podcasts"
       ],
-      "velocity_score": 0.727142960322768
+      "velocity_score": 0.5583825602406637
     }
   ],
-  "fetched_at": "2026-04-20T16:42:10.220828+00:00",
+  "fetched_at": "2026-04-20T18:19:32.825553+00:00",
   "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {

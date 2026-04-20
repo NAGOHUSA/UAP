@@ -3,16 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>DISCLOSURE WATCH — UAP Intelligence Nexus</title>
+<title>DISCLOSURE WATCH — UAP Intelligence Dashboard</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
 
   :root {
     --bg: #050810;
@@ -44,7 +40,6 @@
     min-height: 100vh;
   }
 
-  /* ambient radial glow */
   body::before {
     content: '';
     position: fixed;
@@ -55,7 +50,6 @@
     z-index: 0;
   }
 
-  /* noise overlay */
   body::after {
     content: '';
     position: fixed;
@@ -74,7 +68,6 @@
     z-index: 1;
   }
 
-  /* header & layout */
   header {
     position: relative;
     z-index: 20;
@@ -104,7 +97,6 @@
   .clock-display { color: var(--text-dim); font-size: 11px; letter-spacing: 0.5px; }
   .stamp { font-family: var(--head); font-size: 11px; letter-spacing: 0.2em; border: 1.5px solid rgba(0,212,170,0.4); color: rgba(0,212,170,0.7); padding: 2px 10px; border-radius: 2px; transform: rotate(-0.5deg); }
 
-  /* ticker */
   .ticker-bar {
     position: relative; z-index: 15;
     background: rgba(74,158,255,0.05);
@@ -155,14 +147,16 @@
   @keyframes fadeSlide { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
   .feed-item:hover { background: var(--surface2); border-color: var(--border-hot); }
   .feed-item.niche-disclosure { border-left-color: var(--accent); }
-  .feed-item.niche-sightings { border-left-color: var(--accent2); }
-  .feed-item.niche-legislation { border-left-color: var(--amber); }
-  .feed-item.niche-scientific { border-left-color: #9b59b6; }
-  .feed-item.niche-military { border-left-color: var(--red); }
   .feed-item.niche-whistleblower { border-left-color: #e74c3c; }
-  .feed-item.niche-media_coverage { border-left-color: #1abc9c; }
+  .feed-item.niche-military_encounters { border-left-color: var(--red); }
+  .feed-item.niche-legislation { border-left-color: var(--amber); }
+  .feed-item.niche-scientific_research { border-left-color: #9b59b6; }
+  .feed-item.niche-international { border-left-color: #1abc9c; }
   .feed-item.niche-ancient_aliens { border-left-color: #f39c12; }
-  .feed-item.niche-exopolitics { border-left-color: #3498db; }
+  .feed-item.niche-area51_s4 { border-left-color: #e67e22; }
+  .feed-item.niche-social_media { border-left-color: #3498db; }
+  .feed-item.niche-podcasts { border-left-color: #1abc9c; }
+  
   .item-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 8px; }
   .item-niche { font-family: var(--mono); font-size: 9px; letter-spacing: 0.12em; padding: 2px 8px; border-radius: 2px; background: rgba(74,158,255,0.1); }
   .item-source { font-family: var(--mono); font-size: 10px; color: var(--text-dim); }
@@ -181,7 +175,7 @@
 
   .sidebar-card { background: var(--surface); border: 1px solid var(--border); border-radius: 3px; padding: 1.2rem; margin-bottom: 1.5rem; }
   .niche-row { display: flex; align-items: center; gap: 12px; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.04); }
-  .niche-name { font-family: var(--mono); font-size: 10px; text-transform: uppercase; width: 100px; flex-shrink: 0; }
+  .niche-name { font-family: var(--mono); font-size: 10px; text-transform: uppercase; width: 120px; flex-shrink: 0; }
   .niche-bar-track { flex: 1; height: 4px; background: rgba(255,255,255,0.06); border-radius: 2px; overflow: hidden; }
   .niche-bar-fill { height: 100%; border-radius: 2px; }
   .niche-count { font-family: var(--mono); font-size: 11px; width: 28px; text-align: right; }
@@ -193,6 +187,9 @@
   .signal-pct { font-family: var(--mono); font-size: 12px; }
   .feed-footer { margin-top: 1.2rem; text-align: center; font-family: var(--mono); font-size: 9px; color: var(--text-dim); border-top: 1px solid var(--border); padding-top: 1rem; }
   .error-state { text-align: center; padding: 2rem; background: rgba(255,68,68,0.05); border: 1px solid rgba(255,68,68,0.2); border-radius: 3px; }
+  .loading-state { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 3rem; gap: 1rem; }
+  .loading-ring { width: 36px; height: 36px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
 </style>
 </head>
 <body>
@@ -206,7 +203,7 @@
     <div class="header-status"><div class="status-live"><div class="live-dot"></div><span>LIVE FEED</span></div><div class="clock-display" id="clock">--:--:-- UTC</div><div class="stamp">Declassified</div></div>
   </div>
 </header>
-<div class="ticker-bar"><div class="ticker-label">SIGNALS</div><div class="ticker-track"><div class="ticker-inner" id="ticker-inner"></div></div></div>
+<div class="ticker-bar"><div class="ticker-label">SIGNALS</div><div class="ticker-track"><div class="ticker-inner" id="ticker-inner"><span class="ticker-item">▸ Acquiring intelligence feed...</span></div></div></div>
 <div class="main-wrap">
   <div class="metrics-bar" id="metrics-bar">
     <div class="metric-cell"><div class="metric-label">Total Signals</div><div class="metric-value blue" id="m-total">—</div><div class="metric-sub">monitored items</div></div>
@@ -220,7 +217,7 @@
     <div>
       <div class="section-head"><div class="section-title">Intelligence Feed</div><div class="section-count" id="feed-count">0</div><div class="section-line"></div></div>
       <div class="filters" id="filter-bar"><button class="filter-btn active" data-filter="all" onclick="setFilter('all')">All Signals</button></div>
-      <div class="feed-list" id="feed-list"><div class="loading-state" style="padding:2rem; text-align:center;"><div class="loading-ring" style="width:30px;height:30px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin 0.8s infinite;margin:0 auto;"></div><div style="margin-top:12px;">ACQUIRING SIGNAL...</div></div></div>
+      <div class="feed-list" id="feed-list"><div class="loading-state"><div class="loading-ring"></div><div class="loading-text">ACQUIRING SIGNAL FROM DISCLOSURE FEED...</div></div></div>
       <div class="feed-footer" id="feed-footer"></div>
     </div>
     <div class="sidebar"><div class="sidebar-card"><div class="section-head"><div class="section-title">Activity by Niche</div><div class="section-line"></div></div><div id="niche-breakdown">—</div></div>
@@ -228,113 +225,20 @@
     <div class="sidebar-card"><div class="section-head"><div class="section-title">Intel Sources</div><div class="section-line"></div></div><div id="sources-list">—</div></div></div>
   </div>
 </div>
-<style>.loading-ring { animation: spin 0.8s linear infinite; } @keyframes spin { to { transform: rotate(360deg); } }</style>
+
 <script>
-  // --------------------------------------------------------------
-  // FULLY STANDALONE GENERATOR — ALIGNED WITH PYTHON LOGIC (v3.1)
-  // Generates realistic UAP intelligence feed with niches, signals, velocity
-  // No external JSON required, self-contained, updates every 5 min with drift
-  // --------------------------------------------------------------
+  // ============================================================
+  // DIRECT FETCH FROM REAL uap_trends.json (GitHub raw URL)
+  // ============================================================
   
   let allTrends = [];
   let activeFilter = 'all';
   
-  const NICHE_MAP = {
-    disclosure: 'disclosure', sightings: 'sightings', legislation: 'legislation', scientific: 'scientific',
-    military: 'military', whistleblower: 'whistleblower', media_coverage: 'media_coverage',
-    ancient_aliens: 'ancient_aliens', exopolitics: 'exopolitics'
+  const NICHE_COLORS = {
+    disclosure: '#4a9eff', whistleblower: '#e74c3c', military_encounters: '#ff4444',
+    legislation: '#ffaa00', scientific_research: '#9b59b6', international: '#1abc9c',
+    ancient_aliens: '#f39c12', area51_s4: '#e67e22', social_media: '#3498db', podcasts: '#1abc9c'
   };
-  
-  const NICHE_COLORS = { disclosure:'#4a9eff', sightings:'#00d4aa', legislation:'#ffaa00', scientific:'#9b59b6', military:'#ff4444', whistleblower:'#e74c3c', media_coverage:'#1abc9c', ancient_aliens:'#f39c12', exopolitics:'#3498db' };
-  
-  // source pool and dynamic headlines (evolving content)
-  const SOURCES = ["AARO", "NewsNation", "The War Zone", "The Debrief", "Galileo Project", "Brazil News", "Ancient Origins", "Space.com", "Twitter/X", "Apple Podcasts", "Liberty Times", "SCU", "UFOB", "NARCAP"];
-  
-  const HEADLINE_POOL = [
-    { niche:'disclosure', headlines:["AARO Releases Quarterly UAP Report to Congress","Pentagon Confirms New UAP Task Force","Disclosure Act Draft Leaked","Senate Hearing on Non-Human Intelligence"], summary:"Official documentation regarding unidentified anomalous phenomena and potential NHI." },
-    { niche:'sightings', headlines:["Navy Pilot Reports New UAP Encounters","FLIR Footage Shows Tic-Tac Object","Mass Sighting Over Phoenix Updated","Radar Confirms Unknown Transmedium Vehicle"], summary:"Multiple eyewitness accounts and sensor data reveal anomalous aerial maneuvers." },
-    { niche:'legislation', headlines:["UAP Disclosure Act Gains Bipartisan Support","House Oversight Subpoenas Whistleblowers","New Bill Mandates Public UAP Records","Senate Intel Committee Seeks Classified Briefing"], summary:"Legislative momentum forces transparency about reverse engineering programs." },
-    { niche:'scientific', headlines:["Harvard Galileo Project Releases Sensor Data","Stanford Publishes Material Analysis","AI Detects UAP Patterns in Satellite Data","New Radar Network Tracks Anomalies"], summary:"Academic research pushes scientific validation of UAP phenomena." },
-    { niche:'military', headlines:["US Navy Updates UAP Reporting Protocols","NORAD Tracks Unknown Objects","Foreign Military Encounters Surge","Pentagon Leaked Memo on Crash Retrieval"], summary:"Military channels increase engagement with unidentified aerial systems." },
-    { niche:'whistleblower', headlines:["David Grusch Provides New Testimony","Former Intel Officer Reveals Program Names","Whistleblower Complaint Filed","Ex-Contractor Describes Alien Recovery"], summary:"High-level insiders disclose classified special access programs." },
-    { niche:'media_coverage', headlines:["60 Minutes Covers UAP Phenomenon","Major Newspaper Drops Investigation","Documentary Exposes Hidden Archives","Podcast Reaches #1 with UAP Episode"], summary:"Mainstream media accelerates disclosure narrative." },
-    { niche:'ancient_aliens', headlines:["Gobekli Tepe Anomalies Decoded","Egyptian Hieroglyphs Show Craft","Ancient Astronaut Theory New Evidence","Mayan Artifacts Reveal Contact"], summary:"Archaeological findings suggest paleocontact and advanced knowledge." },
-    { niche:'exopolitics', headlines:["UN Discusses Extraterrestrial Contact","Global Coalition for Disclosure Formed","Space Treaty Amendments Proposed","Diplomatic Sources Confirm NHI Talks"], summary:"International political frameworks for post-disclosure world." }
-  ];
-  
-  function randomDateRecent() {
-    const now = Date.now();
-    const offset = Math.random() * 14 * 86400000; // last 14 days
-    return new Date(now - offset).toISOString();
-  }
-  
-  function generateTrends(count = 28) {
-    const trends = [];
-    const nichesList = Object.keys(NICHE_MAP);
-    for (let i = 0; i < count; i++) {
-      const niche = nichesList[Math.floor(Math.random() * nichesList.length)];
-      const nicheData = HEADLINE_POOL.find(h => h.niche === niche) || HEADLINE_POOL[0];
-      const headlineOptions = nicheData.headlines;
-      const randomHeadline = headlineOptions[Math.floor(Math.random() * headlineOptions.length)];
-      const source = SOURCES[Math.floor(Math.random() * SOURCES.length)];
-      const signalBase = 0.55 + Math.random() * 0.4;
-      const velocity = Math.random() > 0.65 ? 0.7 + Math.random() * 0.3 : 0.3 + Math.random() * 0.4;
-      const timestamp = randomDateRecent();
-      const id = `trend_${Date.now()}_${i}_${Math.random()}`;
-      trends.push({
-        id, niche, headline: randomHeadline,
-        summary: nicheData.summary + " " + (Math.random() > 0.5 ? "Sources indicate growing corroboration." : "Analysts highlight significant implications."),
-        source: source,
-        source_url: `https://example.com/uap/${encodeURIComponent(randomHeadline.slice(0,20))}`,
-        signal_strength: parseFloat(signalBase.toFixed(2)),
-        velocity_score: parseFloat(velocity.toFixed(2)),
-        timestamp: timestamp,
-        tags: [niche, 'uap']
-      });
-    }
-    // sort by timestamp descending
-    trends.sort((a,b) => new Date(b.timestamp) - new Date(a.timestamp));
-    return trends;
-  }
-  
-  // insights & metrics builder (matching Python output)
-  function computeInsights(trends) {
-    const nicheCounts = new Map();
-    const sourceCounts = new Map();
-    const signalByNiche = new Map();
-    trends.forEach(t => {
-      nicheCounts.set(t.niche, (nicheCounts.get(t.niche)||0)+1);
-      sourceCounts.set(t.source, (sourceCounts.get(t.source)||0)+1);
-      if(!signalByNiche.has(t.niche)) signalByNiche.set(t.niche, []);
-      signalByNiche.get(t.niche).push(t.signal_strength);
-    });
-    const topNiches = Array.from(nicheCounts.entries()).map(([niche,count])=>({niche,count})).sort((a,b)=>b.count-a.count).slice(0,6);
-    const signalObj = {};
-    for(let [niche, vals] of signalByNiche.entries()){
-      signalObj[niche] = parseFloat((vals.reduce((a,b)=>a+b,0)/vals.length).toFixed(2));
-    }
-    return { top_activity_niches: topNiches, signal_strength_by_niche: signalObj, source_distribution: Object.fromEntries(sourceCounts), niches_covered: Array.from(nicheCounts.keys()) };
-  }
-  
-  let currentData = null;
-  
-  function refreshData() {
-    const trends = generateTrends(32);
-    const insights = computeInsights(trends);
-    const total = trends.length;
-    const avgSig = Object.values(insights.signal_strength_by_niche).reduce((a,b)=>a+b,0) / Object.keys(insights.signal_strength_by_niche).length;
-    const fetchedISO = new Date().toISOString();
-    currentData = {
-      trends: trends,
-      fetched_at: fetchedISO,
-      total_count: total,
-      topic: "UFO/UAP/NHI - Non-Human Intelligence",
-      insights: insights,
-      metadata: { version: "3.1-standalone", status: "ACTIVE", keywords_monitored: 42 }
-    };
-    allTrends = trends;
-    return currentData;
-  }
   
   function formatDate(ts) {
     const d = new Date(ts); const now = new Date(); const diff = now - d;
@@ -356,80 +260,113 @@
     return '<span class="velocity-badge velocity-cool" style="background:rgba(100,100,100,0.1);">ARCHIVAL</span>';
   }
   
-  function renderFeedItem(item, idx) {
-    const nicheClass = `niche-${item.niche}`;
-    return `<div class="feed-item ${nicheClass}" style="animation-delay:${idx*20}ms" onclick="window.open('${item.source_url}', '_blank')">
-      <div class="item-meta"><span class="item-niche">${item.niche.replace('_',' ')}</span><span class="item-source">${item.source}</span>${velocityLabel(item.velocity_score)}<span class="item-date">${formatDate(item.timestamp)}</span></div>
-      <div class="item-headline">${escapeHtml(item.headline)}</div>
-      <div class="item-summary">${escapeHtml(item.summary.substring(0,160))}…</div>
-      <div class="item-footer"><a class="read-more" href="${item.source_url}" target="_blank" onclick="event.stopPropagation()">Read Full Report</a><div style="margin-left:auto;display:flex;gap:8px;align-items:center;">${signalBars(item.signal_strength)}<span style="font-size:10px;">${Math.round(item.signal_strength*100)}%</span></div></div>
-    </div>`;
+  function escapeHtml(str) { 
+    if(!str) return '';
+    return str.replace(/[&<>]/g, function(m){
+      if(m==='&') return '&amp;'; if(m==='<') return '&lt;'; if(m==='>') return '&gt;';
+      return m;
+    });
   }
   
-  function escapeHtml(str) { return str.replace(/[&<>]/g, function(m){if(m==='&') return '&amp;'; if(m==='<') return '&lt;'; if(m==='>') return '&gt;'; return m;}); }
+  function renderFeedItem(item, idx) {
+    const nicheClass = `niche-${item.niche}`;
+    return `<div class="feed-item ${nicheClass}" style="animation-delay:${idx*20}ms" onclick="window.open('${escapeHtml(item.source_url)}', '_blank')">
+      <div class="item-meta"><span class="item-niche">${escapeHtml(item.niche.replace(/_/g,' '))}</span><span class="item-source">${escapeHtml(item.source)}</span>${velocityLabel(item.velocity_score)}<span class="item-date">${formatDate(item.timestamp)}</span></div>
+      <div class="item-headline">${escapeHtml(item.headline)}</div>
+      <div class="item-summary">${escapeHtml((item.summary || '').substring(0,160))}…</div>
+      <div class="item-footer"><a class="read-more" href="${escapeHtml(item.source_url)}" target="_blank" onclick="event.stopPropagation()">Read Full Report</a><div style="margin-left:auto;display:flex;gap:8px;align-items:center;">${signalBars(item.signal_strength)}<span style="font-size:10px;">${Math.round(item.signal_strength*100)}%</span></div></div>
+    </div>`;
+  }
   
   function renderFeed() {
     const filtered = activeFilter === 'all' ? allTrends : allTrends.filter(t => t.niche === activeFilter);
     document.getElementById('feed-count').innerText = filtered.length;
-    if(filtered.length===0) { document.getElementById('feed-list').innerHTML = '<div class="error-state"><div class="error-code">NO SIGNALS</div><div class="error-msg">No intel for this niche category.</div></div>'; return; }
+    if(filtered.length===0) { 
+      document.getElementById('feed-list').innerHTML = '<div class="error-state"><div class="error-code">NO SIGNALS</div><div class="error-msg">No intel for this niche category.</div></div>'; 
+      return; 
+    }
     document.getElementById('feed-list').innerHTML = filtered.map((t,i)=>renderFeedItem(t,i)).join('');
   }
   
-  function setFilter(niche) {
+  window.setFilter = function(niche) {
     activeFilter = niche;
     document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.filter === niche));
     renderFeed();
-  }
+  };
   
-  function buildFilters(niches) {
+  function buildFilters(insights) {
+    const niches = insights.top_activity_niches || [];
     const bar = document.getElementById('filter-bar');
     bar.innerHTML = '<button class="filter-btn active" data-filter="all" onclick="setFilter(\'all\')">All Signals</button>';
     niches.forEach(n => {
-      bar.innerHTML += `<button class="filter-btn" data-filter="${n.niche}" onclick="setFilter('${n.niche}')">${n.niche.replace('_',' ')} <span style="color:${NICHE_COLORS[n.niche]||'#4a9eff'}">${n.count}</span></button>`;
+      const color = NICHE_COLORS[n.niche] || '#4a9eff';
+      bar.innerHTML += `<button class="filter-btn" data-filter="${n.niche}" onclick="setFilter('${n.niche}')">${n.niche.replace(/_/g,' ')} <span style="color:${color}">${n.count}</span></button>`;
     });
   }
   
   function updateDashboard(data) {
     const insights = data.insights;
-    document.getElementById('m-total').innerText = data.total_count;
-    if(insights.top_activity_niches.length){
-      document.getElementById('m-top-niche').innerText = insights.top_activity_niches[0].niche.toUpperCase();
+    const total = data.total_count;
+    document.getElementById('m-total').innerText = total;
+    if(insights.top_activity_niches && insights.top_activity_niches.length){
+      document.getElementById('m-top-niche').innerText = insights.top_activity_niches[0].niche.toUpperCase().replace(/_/g,' ');
       document.getElementById('m-top-count').innerText = `${insights.top_activity_niches[0].count} articles`;
-    } else { document.getElementById('m-top-niche').innerText = '—'; }
-    const signals = Object.values(insights.signal_strength_by_niche);
+    }
+    const signals = Object.values(insights.signal_strength_by_niche || {});
     const avgSig = signals.length ? (signals.reduce((a,b)=>a+b,0)/signals.length) : 0;
     document.getElementById('m-signal').innerText = `${Math.round(avgSig*100)}%`;
-    document.getElementById('m-sources').innerText = Object.keys(insights.source_distribution).length;
-    document.getElementById('m-niches').innerText = insights.niches_covered.length;
+    document.getElementById('m-sources').innerText = Object.keys(insights.source_distribution || {}).length;
+    document.getElementById('m-niches').innerText = (insights.niches_covered || []).length;
     const fetchedDate = new Date(data.fetched_at);
     document.getElementById('m-updated').innerText = fetchedDate.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit',hour12:false});
     document.getElementById('m-updated-sub').innerText = fetchedDate.toLocaleDateString();
-    document.getElementById('feed-footer').innerHTML = `TOPIC: ${data.topic}  //  MONITORING ${data.metadata.keywords_monitored} KEYWORDS  //  FETCHED ${fetchedDate.toUTCString()}`;
-    // niche breakdown
-    const maxCount = insights.top_activity_niches[0]?.count || 1;
-    document.getElementById('niche-breakdown').innerHTML = insights.top_activity_niches.map(n => {
-      const color = NICHE_COLORS[n.niche]||'#4a9eff'; const pct = (n.count / maxCount * 100).toFixed(0);
-      return `<div class="niche-row"><span class="niche-name">${n.niche.replace('_',' ')}</span><div class="niche-bar-track"><div class="niche-bar-fill" style="width:${pct}%; background:${color};"></div></div><span class="niche-count">${n.count}</span></div>`;
+    document.getElementById('feed-footer').innerHTML = `TOPIC: ${data.topic || 'UAP'}  //  MONITORING ${data.metadata?.keywords_monitored || 45} KEYWORDS  //  FETCHED ${fetchedDate.toUTCString()}`;
+    
+    // Niche breakdown
+    const topN = insights.top_activity_niches || [];
+    const maxCount = topN[0]?.count || 1;
+    document.getElementById('niche-breakdown').innerHTML = topN.map(n => {
+      const color = NICHE_COLORS[n.niche] || '#4a9eff'; 
+      const pct = (n.count / maxCount * 100).toFixed(0);
+      return `<div class="niche-row"><span class="niche-name">${n.niche.replace(/_/g,' ')}</span><div class="niche-bar-track"><div class="niche-bar-fill" style="width:${pct}%; background:${color};"></div></div><span class="niche-count">${n.count}</span></div>`;
     }).join('');
-    // signal strength rows
-    const signalEntries = Object.entries(insights.signal_strength_by_niche).sort((a,b)=>b[1]-a[1]);
+    
+    // Signal strength rows
+    const signalEntries = Object.entries(insights.signal_strength_by_niche || {}).sort((a,b)=>b[1]-a[1]);
     document.getElementById('signal-strength').innerHTML = signalEntries.map(([niche,val])=>{
       const color = NICHE_COLORS[niche]||'#4a9eff'; const pct=Math.round(val*100);
-      return `<div class="signal-card-row"><div class="signal-indicator" style="background:${color}; width:8px;height:8px;border-radius:50%;"></div><span class="signal-niche">${niche.replace('_',' ')}</span><span class="signal-pct">${pct}%</span></div>`;
+      return `<div class="signal-card-row"><div class="signal-indicator" style="background:${color}; width:8px;height:8px;border-radius:50%;"></div><span class="signal-niche">${niche.replace(/_/g,' ')}</span><span class="signal-pct">${pct}%</span></div>`;
     }).join('');
-    // sources
-    const srcEntries = Object.entries(insights.source_distribution).sort((a,b)=>b[1]-a[1]);
-    document.getElementById('sources-list').innerHTML = srcEntries.map(([src, cnt])=>`<div class="source-item"><span class="source-name">${src}</span><span class="source-num">${cnt}</span></div>`).join('');
-    // ticker
-    const tickerItems = allTrends.slice(0,12).map(t => `<span class="ticker-item"><span>▸</span> ${t.headline.substring(0,75)}${t.headline.length>75?'…':''}</span>`).join('');
+    
+    // Sources
+    const srcEntries = Object.entries(insights.source_distribution || {}).sort((a,b)=>b[1]-a[1]);
+    document.getElementById('sources-list').innerHTML = srcEntries.map(([src, cnt])=>`<div class="source-item"><span class="source-name">${escapeHtml(src)}</span><span class="source-num">${cnt}</span></div>`).join('');
+    
+    // Ticker
+    const tickerItems = allTrends.slice(0,12).map(t => `<span class="ticker-item"><span>▸</span> ${escapeHtml(t.headline.substring(0,75))}${t.headline.length>75?'…':''}</span>`).join('');
     document.getElementById('ticker-inner').innerHTML = tickerItems + tickerItems;
   }
   
-  function loadFullIntelligence() {
-    const data = refreshData();
-    updateDashboard(data);
-    buildFilters(data.insights.top_activity_niches);
-    renderFeed();
+  async function loadRealData() {
+    const rawUrl = 'https://raw.githubusercontent.com/NAGOHUSA/UAP/main/disclosure/data/uap_trends.json';
+    try {
+      const response = await fetch(rawUrl, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json();
+      if (!data.trends || !data.insights) throw new Error('Invalid JSON structure');
+      allTrends = data.trends;
+      updateDashboard(data);
+      buildFilters(data.insights);
+      renderFeed();
+    } catch (err) {
+      console.error('Fetch error:', err);
+      document.getElementById('feed-list').innerHTML = `
+        <div class="error-state">
+          <div class="error-code">SIGNAL LOST // ERR_FETCH_FAILED</div>
+          <div class="error-msg">Unable to acquire intelligence feed from ${rawUrl}.<br>Check network or CORS. Ensure the JSON file exists and is publicly accessible.</div>
+        </div>`;
+      document.getElementById('ticker-inner').innerHTML = '<span class="ticker-item">⚠️ UNABLE TO REACH DISCLOSURE DATA FEED</span>';
+    }
   }
   
   function updateClock() {
@@ -439,10 +376,9 @@
   
   setInterval(updateClock, 1000);
   updateClock();
-  loadFullIntelligence();
-  setInterval(() => { loadFullIntelligence(); }, 5 * 60 * 1000);
-  
-  window.setFilter = setFilter;
+  loadRealData();
+  // Refresh every 10 minutes
+  setInterval(loadRealData, 10 * 60 * 1000);
 </script>
 </body>
 </html>

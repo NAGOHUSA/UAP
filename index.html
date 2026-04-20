@@ -3,10 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>DISCLOSURE WATCH — Community UAP Sightings Network | Our Night Sky</title>
+<title>DISCLOSURE WATCH — Live UAP Sightings Map | Our Night Sky</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -44,18 +46,7 @@
     content: '';
     position: fixed;
     inset: 0;
-    background: radial-gradient(ellipse 70% 40% at 70% 20%, rgba(74,158,255,0.05) 0%, transparent 70%),
-                radial-gradient(ellipse 40% 50% at 20% 90%, rgba(0,212,170,0.03) 0%, transparent 70%);
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  body::after {
-    content: '';
-    position: fixed;
-    inset: 0;
-    opacity: 0.02;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background: radial-gradient(ellipse 70% 40% at 70% 20%, rgba(74,158,255,0.05) 0%, transparent 70%);
     pointer-events: none;
     z-index: 0;
   }
@@ -78,7 +69,7 @@
   }
 
   .header-inner {
-    max-width: 1440px;
+    max-width: 1600px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -95,7 +86,7 @@
   .live-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent2); animation: pulse-dot 1.8s infinite; }
   @keyframes pulse-dot { 0%,100% { opacity: 1; } 50% { opacity: 0.4; transform: scale(0.9); } }
   .clock-display { color: var(--text-dim); font-size: 11px; letter-spacing: 0.5px; }
-  .stamp { font-family: var(--head); font-size: 11px; letter-spacing: 0.2em; border: 1.5px solid rgba(0,212,170,0.4); color: rgba(0,212,170,0.7); padding: 2px 10px; border-radius: 2px; transform: rotate(-0.5deg); }
+  .stamp { font-family: var(--head); font-size: 11px; letter-spacing: 0.2em; border: 1.5px solid rgba(0,212,170,0.4); color: rgba(0,212,170,0.7); padding: 2px 10px; border-radius: 2px; }
 
   .ticker-bar {
     position: relative; z-index: 15;
@@ -112,123 +103,105 @@
   .ticker-item { padding: 0 1rem; }
   @keyframes ticker-scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
 
-  .main-wrap { position: relative; z-index: 10; max-width: 1440px; margin: 0 auto; padding: 1.8rem 2rem; }
+  .main-wrap { position: relative; z-index: 10; max-width: 1600px; margin: 0 auto; padding: 1.5rem 2rem; }
   
-  .metrics-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px,1fr)); background: var(--border); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; margin-bottom: 1.8rem; }
-  .metric-cell { background: var(--surface); padding: 1rem 1rem; }
-  .metric-label { font-family: var(--mono); font-size: 9px; letter-spacing: 0.2em; color: var(--text-dim); text-transform: uppercase; margin-bottom: 6px; }
-  .metric-value { font-family: var(--head); font-weight: 700; font-size: 28px; line-height: 1; }
+  .metrics-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); background: var(--border); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; margin-bottom: 1.5rem; }
+  .metric-cell { background: var(--surface); padding: 0.8rem 1rem; }
+  .metric-label { font-family: var(--mono); font-size: 8px; letter-spacing: 0.2em; color: var(--text-dim); text-transform: uppercase; margin-bottom: 4px; }
+  .metric-value { font-family: var(--head); font-weight: 700; font-size: 24px; line-height: 1; }
   .metric-value.green { color: var(--accent2); }
-  .metric-value.amber { color: var(--amber); }
   .metric-value.blue { color: var(--accent); }
   .metric-value.red { color: var(--red); }
-  .metric-sub { font-size: 10px; color: var(--text-dim); margin-top: 4px; }
+  .metric-sub { font-size: 9px; color: var(--text-dim); }
 
-  .tab-nav {
-    display: flex;
-    gap: 4px;
-    margin-bottom: 1.5rem;
-    border-bottom: 1px solid var(--border);
-  }
-  .tab-btn {
-    font-family: var(--head);
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 10px 24px;
-    background: transparent;
-    border: none;
-    color: var(--text-dim);
-    cursor: pointer;
-    transition: all 0.2s;
-    position: relative;
-  }
-  .tab-btn:hover { color: var(--accent); }
-  .tab-btn.active { color: var(--accent2); }
-  .tab-btn.active::after {
-    content: '';
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background: var(--accent2);
-  }
-  .tab-content { display: none; animation: fadeSlide 0.3s ease; }
-  .tab-content.active-tab { display: block; }
-
-  .content-grid { display: grid; grid-template-columns: 1fr 320px; gap: 1.8rem; align-items: start; }
-  @media (max-width: 1024px) { .content-grid { grid-template-columns: 1fr; } .sidebar { order: -1; } }
-
-  .section-head { display: flex; align-items: center; gap: 12px; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
-  .section-title { font-family: var(--head); font-weight: 600; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--text-bright); }
-  .section-count { font-family: var(--mono); font-size: 10px; background: rgba(74,158,255,0.1); border: 1px solid rgba(74,158,255,0.2); padding: 1px 8px; border-radius: 2px; color: var(--accent); }
-  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1.25rem; }
-  .filter-btn { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; padding: 5px 12px; border: 1px solid var(--border); background: transparent; color: var(--text-dim); cursor: pointer; border-radius: 2px; transition: 0.15s; }
-  .filter-btn:hover { border-color: var(--accent); color: var(--accent); background: rgba(74,158,255,0.08); }
-  .filter-btn.active { border-color: var(--accent); color: var(--accent); background: rgba(74,158,255,0.12); }
-
-  .feed-list { display: flex; flex-direction: column; gap: 2px; }
-  .feed-item, .sighting-item {
+  .map-container {
     background: var(--surface);
     border: 1px solid var(--border);
-    border-left-width: 3px;
-    padding: 1rem 1.2rem;
-    transition: all 0.2s ease;
-    animation: fadeSlide 0.35s forwards;
-    opacity: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
   }
-  @keyframes fadeSlide { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
-  .feed-item:hover, .sighting-item:hover { background: var(--surface2); border-color: var(--border-hot); }
-  
-  .sighting-item { border-left-color: var(--accent3); cursor: pointer; }
-  .sighting-item:hover { border-left-color: var(--accent2); }
-  .sighting-location { font-family: var(--mono); font-size: 10px; color: var(--accent3); margin-bottom: 4px; }
-  .sighting-time { font-family: var(--mono); font-size: 9px; color: var(--text-dim); }
-  .upvote-btn {
-    background: rgba(255,255,255,0.05);
-    border: 1px solid var(--border);
-    padding: 2px 8px;
-    border-radius: 12px;
-    font-size: 10px;
-    cursor: pointer;
-    font-family: var(--mono);
+  #sightings-map {
+    height: 450px;
+    width: 100%;
+    background: #0a0e1a;
   }
-  .upvote-btn:hover { background: var(--accent); color: white; }
-  
-  .item-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 8px; }
-  .item-niche { font-family: var(--mono); font-size: 9px; letter-spacing: 0.12em; padding: 2px 8px; border-radius: 2px; background: rgba(74,158,255,0.1); }
-  .item-source { font-family: var(--mono); font-size: 10px; color: var(--text-dim); }
-  .item-date { font-family: var(--mono); font-size: 10px; color: var(--text-dim); margin-left: auto; }
-  .item-headline { font-family: var(--head); font-weight: 600; font-size: 17px; color: var(--text-bright); margin-bottom: 8px; }
-  .item-summary { font-size: 13px; color: var(--text-dim); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .item-footer { display: flex; align-items: center; gap: 12px; margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--border); }
-  .read-more { font-family: var(--mono); font-size: 10px; color: var(--accent); text-decoration: none; }
-  .read-more:hover { color: white; }
-  .signal-bar { display: flex; gap: 2px; align-items: center; }
-  .signal-bar span { width: 3px; height: 8px; background: var(--border); border-radius: 1px; }
-  .signal-bar span.lit { background: var(--accent2); }
+  .map-attribution {
+    font-size: 9px;
+    padding: 6px 12px;
+    background: rgba(0,0,0,0.7);
+    text-align: right;
+    color: var(--text-dim);
+  }
 
-  .sidebar-card { background: var(--surface); border: 1px solid var(--border); border-radius: 3px; padding: 1.2rem; margin-bottom: 1.5rem; }
+  .content-grid { display: grid; grid-template-columns: 1fr 320px; gap: 1.5rem; align-items: start; }
+  @media (max-width: 1024px) { .content-grid { grid-template-columns: 1fr; } }
+
+  .section-head { display: flex; align-items: center; gap: 12px; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+  .section-title { font-family: var(--head); font-weight: 600; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--text-bright); }
+  .section-count { font-family: var(--mono); font-size: 10px; background: rgba(74,158,255,0.1); border: 1px solid rgba(74,158,255,0.2); padding: 1px 8px; border-radius: 2px; }
+
+  .feed-list { display: flex; flex-direction: column; gap: 2px; max-height: 600px; overflow-y: auto; }
+  .sighting-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent3);
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .sighting-item:hover { background: var(--surface2); border-color: var(--accent); }
+  .sighting-location { font-family: var(--mono); font-size: 11px; color: var(--accent3); font-weight: bold; }
+  .sighting-time { font-family: var(--mono); font-size: 9px; color: var(--text-dim); }
+  .sighting-desc { font-size: 12px; margin-top: 6px; color: var(--text-dim); }
+  .sighting-source { font-size: 10px; margin-top: 6px; color: var(--accent); }
+
+  .sidebar-card { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1rem; margin-bottom: 1rem; }
   
   .report-btn {
     width: 100%;
-    padding: 14px;
+    padding: 12px;
     background: linear-gradient(135deg, rgba(74,158,255,0.2), rgba(0,212,170,0.1));
     border: 1px solid var(--accent2);
     color: var(--accent2);
     font-family: var(--head);
     font-weight: 700;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 4px;
-    transition: all 0.2s;
-    margin-top: 16px;
-    font-size: 12px;
+    margin-top: 12px;
   }
-  .report-btn:hover { background: rgba(0,212,170,0.2); transform: scale(1.01); }
+
+  .network-footer {
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--mono);
+    font-size: 10px;
+  }
+  .network-brand a { color: var(--text-dim); text-decoration: none; }
+  .network-brand a:hover { color: var(--accent2); }
+  .donate-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255, 193, 7, 0.12);
+    border: 1px solid rgba(255, 193, 7, 0.3);
+    padding: 5px 12px;
+    border-radius: 40px;
+    color: #ffcd4a;
+    text-decoration: none;
+  }
+
+  .loading-state { text-align: center; padding: 2rem; }
+  .loading-ring { width: 36px; height: 36px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto; }
+  @keyframes spin { to { transform: rotate(360deg); } }
 
   .modal {
     display: none;
@@ -245,70 +218,29 @@
   .modal-content {
     background: var(--surface2);
     border: 1px solid var(--accent2);
-    padding: 2rem;
-    max-width: 550px;
+    padding: 1.5rem;
+    max-width: 500px;
     width: 90%;
     border-radius: 8px;
   }
-  .modal-content h3 { color: var(--accent2); margin-bottom: 1rem; }
   .modal input, .modal textarea, .modal select {
     width: 100%;
     background: var(--bg);
     border: 1px solid var(--border);
     color: var(--text);
-    padding: 10px;
-    margin: 10px 0;
-    font-family: var(--body);
+    padding: 8px;
+    margin: 8px 0;
     border-radius: 4px;
   }
   .modal button {
     background: var(--accent2);
     color: var(--bg);
     border: none;
-    padding: 10px 20px;
+    padding: 8px 16px;
     cursor: pointer;
-    margin-top: 10px;
-    font-weight: bold;
+    margin-top: 8px;
     border-radius: 4px;
   }
-  .modal button:hover { opacity: 0.8; }
-
-  .network-footer {
-    margin-top: 2rem;
-    padding: 1rem 1.5rem;
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-    background: rgba(5, 8, 16, 0.6);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    font-family: var(--mono);
-    font-size: 11px;
-  }
-  .network-brand a { color: var(--text-dim); text-decoration: none; }
-  .network-brand a:hover { color: var(--accent2); }
-  .donate-link a {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background: rgba(255, 193, 7, 0.12);
-    border: 1px solid rgba(255, 193, 7, 0.3);
-    padding: 6px 14px;
-    border-radius: 40px;
-    color: #ffcd4a;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .app-badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(74,158,255,0.08); border: 1px solid var(--border); padding: 5px 12px; border-radius: 40px; color: var(--accent); font-size: 10px; }
-  .loading-state { text-align: center; padding: 2rem; }
-  .loading-ring { width: 36px; height: 36px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto; }
-  @keyframes spin { to { transform: rotate(360deg); } }
-  .error-state { text-align: center; padding: 2rem; background: rgba(255,68,68,0.05); border: 1px solid rgba(255,68,68,0.2); border-radius: 3px; }
-  
-  .hot-badge { background: var(--red); color: white; padding: 2px 8px; border-radius: 12px; font-size: 9px; margin-left: 8px; }
-  .verified-badge { color: var(--accent2); margin-left: 5px; }
 </style>
 </head>
 <body>
@@ -316,339 +248,326 @@
 <header>
   <div class="header-inner">
     <div class="logo-block">
-      <div class="logo-icon"><svg viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="16" stroke="#4a9eff" stroke-opacity="0.4" stroke-width="1"/><circle cx="18" cy="18" r="10" stroke="#4a9eff" stroke-opacity="0.3" stroke-width="0.5"/><ellipse cx="18" cy="18" rx="16" ry="5" stroke="#4a9eff" stroke-opacity="0.25"/><circle cx="18" cy="18" r="2.5" fill="#4a9eff"/><line x1="18" y1="2" x2="18" y2="8" stroke="#4a9eff" stroke-opacity="0.6"/><line x1="18" y1="28" x2="18" y2="34" stroke="#4a9eff" stroke-opacity="0.6"/></svg></div>
-      <div><div class="logo-text">Disclosure Watch</div><div class="logo-sub">COMMUNITY UAP SIGHTINGS NETWORK</div></div>
+      <div class="logo-icon"><svg viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="16" stroke="#4a9eff" stroke-opacity="0.4" stroke-width="1"/><circle cx="18" cy="18" r="10" stroke="#4a9eff" stroke-opacity="0.3"/><circle cx="18" cy="18" r="2.5" fill="#4a9eff"/></svg></div>
+      <div><div class="logo-text">Disclosure Watch</div><div class="logo-sub">LIVE UAP SIGHTINGS MAP</div></div>
     </div>
     <div class="header-status">
-      <div class="status-live"><div class="live-dot"></div><span>LIVE FEED</span></div>
+      <div class="status-live"><div class="live-dot"></div><span>LIVE RSS FEED</span></div>
       <div class="clock-display" id="clock">--:--:-- UTC</div>
-      <div class="stamp">Declassified</div>
+      <div class="stamp">Real-Time</div>
     </div>
   </div>
 </header>
-<div class="ticker-bar"><div class="ticker-label">COMMUNITY SIGHTINGS</div><div class="ticker-track"><div class="ticker-inner" id="ticker-inner"><span class="ticker-item">▸ Join the community — report your sighting!</span></div></div></div>
+<div class="ticker-bar"><div class="ticker-label">LIVE SIGHTINGS</div><div class="ticker-track"><div class="ticker-inner" id="ticker-inner"><span class="ticker-item">▸ Loading real reports from RSS feeds...</span></div></div></div>
 <div class="main-wrap">
   <div class="metrics-bar">
-    <div class="metric-cell"><div class="metric-label">Community Reports</div><div class="metric-value red" id="sighting-count">—</div><div class="metric-sub">total sightings</div></div>
-    <div class="metric-cell"><div class="metric-label">Total Signals</div><div class="metric-value blue" id="m-total">—</div><div class="metric-sub">intel items</div></div>
-    <div class="metric-cell"><div class="metric-label">Top Location</div><div class="metric-value green" id="top-location">—</div><div class="metric-sub" id="top-location-count">—</div></div>
-    <div class="metric-cell"><div class="metric-label">Active Reporters</div><div class="metric-value blue" id="active-reporters">—</div><div class="metric-sub">community members</div></div>
-    <div class="metric-cell"><div class="metric-label">Last Updated</div><div class="metric-value" style="font-size:18px" id="m-updated">—</div><div class="metric-sub" id="m-updated-sub">—</div></div>
+    <div class="metric-cell"><div class="metric-label">Active Sightings</div><div class="metric-value red" id="sighting-count">—</div><div class="metric-sub">last 30 days</div></div>
+    <div class="metric-cell"><div class="metric-label">Active Sources</div><div class="metric-value green" id="source-count">—</div><div class="metric-sub">RSS feeds</div></div>
+    <div class="metric-cell"><div class="metric-label">Latest Report</div><div class="metric-value blue" id="latest-time">—</div><div class="metric-sub" id="latest-location">—</div></div>
   </div>
 
-  <div class="tab-nav">
-    <button class="tab-btn active" onclick="switchTab('intel')">📡 Intelligence Feed</button>
-    <button class="tab-btn" onclick="switchTab('sightings')">👥 Community Sightings</button>
-    <button class="tab-btn" onclick="switchTab('map')">🗺️ Global Heatmap</button>
+  <!-- Live Map -->
+  <div class="map-container">
+    <div id="sightings-map"></div>
+    <div class="map-attribution">📍 Pins represent real UAP sightings from public RSS feeds | Click for details</div>
   </div>
 
-  <!-- Intelligence Tab -->
-  <div id="intel-tab" class="tab-content active-tab">
-    <div class="content-grid">
-      <div>
-        <div class="section-head"><div class="section-title">Official Intelligence</div><div class="section-count" id="feed-count">0</div></div>
-        <div class="filters" id="filter-bar"></div>
-        <div class="feed-list" id="feed-list"><div class="loading-state"><div class="loading-ring"></div></div></div>
+  <div class="content-grid">
+    <div>
+      <div class="section-head"><div class="section-title">📡 Real-Time Sightings Feed</div><div class="section-count" id="feed-count">0</div></div>
+      <div class="feed-list" id="sightings-list"><div class="loading-state"><div class="loading-ring"></div><div>Fetching live sightings from RSS feeds...</div></div></div>
+    </div>
+    <div>
+      <div class="sidebar-card">
+        <div class="section-title">🌐 Data Sources</div>
+        <div id="sources-list" style="font-size: 11px; margin-top: 8px;">—</div>
+        <button class="report-btn" onclick="openReportModal()">✍️ Add Your Sighting</button>
       </div>
-      <div class="sidebar">
-        <div class="sidebar-card"><div class="section-title">Top Niches</div><div id="niche-breakdown">—</div></div>
-        <div class="sidebar-card"><div class="section-title">Sources</div><div id="sources-list">—</div></div>
+      <div class="sidebar-card">
+        <div class="section-title">📍 Top Locations</div>
+        <div id="top-locations" style="font-size: 11px; margin-top: 8px;">—</div>
+      </div>
+      <div class="sidebar-card">
+        <div class="section-title">📰 Official Intel</div>
+        <div id="intel-summary" style="font-size: 11px; margin-top: 8px;">Loading...</div>
       </div>
     </div>
   </div>
 
-  <!-- Community Sightings Tab -->
-  <div id="sightings-tab" class="tab-content">
-    <div class="section-head"><div class="section-title">👥 Community-Powered Sightings</div><div class="section-count" id="community-sighting-count">0</div></div>
-    <div class="feed-list" id="sightings-list"></div>
-    <button class="report-btn" onclick="openReportModal()">✍️ REPORT A SIGHTING (ADD TO LIVE FEED)</button>
-    <div style="margin-top: 12px; text-align: center; font-size: 11px; color: var(--text-dim);">
-      ⚡ No API needed — this is a community-driven, crowdsourced reporting network
-    </div>
-  </div>
-
-  <!-- Heatmap Tab (Visual Summary) -->
-  <div id="map-tab" class="tab-content">
-    <div class="section-head"><div class="section-title">🗺️ Global Sighting Hotspots</div></div>
-    <div id="heatmap-container" style="background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 2rem; text-align: center;">
-      <div id="heatmap-list" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); gap: 12px;"></div>
-    </div>
-  </div>
-
-  <!-- Network Footer -->
   <div class="network-footer">
-    <div class="network-brand">🌌 A <a href="https://ournightsky.us" target="_blank">Our Night Sky Network</a> Community Project</div>
-    <div style="display: flex; gap: 12px;">
-      <div class="app-badge">📱 iOS App Coming</div>
-      <div class="donate-link"><a href="https://buymeacoffee.com/ournightsky" target="_blank">☕ Support This Work</a></div>
-    </div>
+    <div class="network-brand">🌌 <a href="https://ournightsky.us" target="_blank">Our Night Sky Network</a> — Real UAP Sighting Intelligence</div>
+    <div class="donate-link"><a href="https://buymeacoffee.com/ournightsky" target="_blank">☕ Support Our Work</a></div>
   </div>
 </div>
 
 <!-- Report Modal -->
 <div id="reportModal" class="modal">
   <div class="modal-content">
-    <h3>🛸 Report a UAP Sighting</h3>
-    <input type="text" id="reportLocation" placeholder="Location (City, State, Country)" />
-    <input type="datetime-local" id="reportDateTime" />
-    <select id="reportShape">
-      <option value="">Select shape (optional)</option>
-      <option>Disc/Saucer</option><option>Triangle</option><option>Orb/Sphere</option><option>Cigar/Cylinder</option><option>Chevron/Boomerang</option><option>Other</option>
-    </select>
-    <textarea id="reportDesc" rows="3" placeholder="Describe what you saw... (time, duration, behavior, witnesses)"></textarea>
-    <input type="text" id="reportName" placeholder="Your name or 'Anonymous'" value="Anonymous" />
+    <h3>🛸 Report Your Sighting</h3>
+    <input type="text" id="reportLocation" placeholder="City, State, Country" />
+    <input type="text" id="reportLat" placeholder="Latitude (optional, e.g., 40.7128)" />
+    <input type="text" id="reportLng" placeholder="Longitude (optional)" />
+    <select id="reportShape"><option>Unknown</option><option>Disc/Saucer</option><option>Triangle</option><option>Orb/Sphere</option><option>Cigar/Cylinder</option></select>
+    <textarea id="reportDesc" rows="3" placeholder="Describe what you saw..."></textarea>
+    <input type="text" id="reportName" placeholder="Your name or Anonymous" value="Anonymous" />
     <div style="display: flex; gap: 10px; justify-content: flex-end;">
       <button onclick="closeReportModal()" style="background: #333;">Cancel</button>
-      <button onclick="submitSighting()">Submit Report</button>
+      <button onclick="submitUserSighting()">Submit</button>
     </div>
   </div>
 </div>
 
 <script>
-  // ========== COMMUNITY SIGHTINGS SYSTEM (No API) ==========
-  let communitySightings = [];
-  let allTrends = [];
-  let activeFilter = 'all';
+  // ============================================================
+  // REAL SIGHTINGS FROM PUBLIC RSS FEEDS (No API Keys Required)
+  // Sources: Reddit r/UFOs, MUFON RSS, NUFORC, Twitter RSS via Nitter
+  // ============================================================
+  
+  let map = null;
+  let markers = [];
+  let allSightings = [];
+  let officialIntel = [];
 
-  // Load saved sightings from localStorage
-  function loadSightings() {
-    const saved = localStorage.getItem('uap_community_sightings');
-    if (saved) {
-      communitySightings = JSON.parse(saved);
-    } else {
-      // Seed with example sightings to demonstrate the system
-      communitySightings = [
-        { id: Date.now() + 1, location: "Sedona, Arizona", timestamp: new Date(Date.now() - 2*86400000).toISOString(), shape: "Orb", description: "Silent orange orb hovered for 20 minutes then shot straight up", reporter: "Stargazer42", upvotes: 12, verified: false },
-        { id: Date.now() + 2, location: "Gulf of Mexico", timestamp: new Date(Date.now() - 5*86400000).toISOString(), shape: "Triangle", description: "Three lights in formation, no sound, military jets appeared after", reporter: "PilotMark", upvotes: 28, verified: true },
-        { id: Date.now() + 3, location: "London, UK", timestamp: new Date(Date.now() - 1*86400000).toISOString(), shape: "Cigar", description: "Metallic cigar shape reflecting sunlight, multiple witnesses", reporter: "LondonWatcher", upvotes: 9, verified: false },
-        { id: Date.now() + 4, location: "Cape Town, SA", timestamp: new Date(Date.now() - 12*3600000).toISOString(), shape: "Disc", description: "Classic disc shape with pulsating lights around rim", reporter: "SA_Skywatch", upvotes: 5, verified: false }
-      ];
-      saveSightings();
+  // CORS proxies for RSS feeds (free, public)
+  const RSS_PROXIES = [
+    'https://api.rss2json.com/v1/api.json?rss_url=',
+    'https://cors-anywhere.herokuapp.com/'
+  ];
+
+  // Real RSS feed sources for UAP sightings (public, no auth required)
+  const RSS_FEEDS = [
+    { name: "Reddit r/UFOs", url: "https://www.reddit.com/r/UFOs/.rss", type: "reddit", color: "#ff4500" },
+    { name: "Reddit r/UAP", url: "https://www.reddit.com/r/UAP/.rss", type: "reddit", color: "#ff4500" },
+    { name: "MUFON Recent", url: "https://mufon.com/feed/", type: "mufon", color: "#00d4aa" },
+    { name: "NUFORC Reports", url: "https://nuforc.org/feed/", type: "nuforc", color: "#4a9eff" },
+    { name: "UFOB (Twitter via Nitter)", url: "https://nitter.net/UFOB_Official/rss", type: "twitter", color: "#1da1f2" }
+  ];
+
+  // Location keywords for geocoding (approximate lat/lng based on city mentions)
+  const locationMap = {
+    "phoenix": [33.4484, -112.0740], "arizona": [34.0489, -111.0937], "sedona": [34.8697, -111.7609],
+    "las vegas": [36.1716, -115.1391], "nevada": [39.8760, -117.2243], "area 51": [37.2431, -115.7930],
+    "london": [51.5074, -0.1278], "uk": [55.3781, -3.4360], "england": [52.3555, -1.1743],
+    "new york": [40.7128, -74.0060], "california": [36.7783, -119.4179], "los angeles": [34.0522, -118.2437],
+    "texas": [31.9686, -99.9018], "florida": [27.6648, -81.5158], "chicago": [41.8781, -87.6298],
+    "mexico city": [19.4326, -99.1332], "toronto": [43.6532, -79.3832], "sydney": [-33.8688, 151.2093],
+    "tokyo": [35.6895, 139.6917], "berlin": [52.5200, 13.4050], "paris": [48.8566, 2.3522],
+    "cape town": [-33.9249, 18.4241], "dubai": [25.2048, 55.2708], "mumbai": [19.0760, 72.8777],
+    "sao paulo": [-23.5505, -46.6333], "buenos aires": [-34.6037, -58.3816]
+  };
+
+  function extractLocation(text) {
+    const lower = text.toLowerCase();
+    for (const [loc, coords] of Object.entries(locationMap)) {
+      if (lower.includes(loc)) return { name: loc, lat: coords[0], lng: coords[1] };
     }
-    renderSightings();
-    updateHeatmap();
+    return null;
   }
 
-  function saveSightings() {
-    localStorage.setItem('uap_community_sightings', JSON.stringify(communitySightings));
-  }
-
-  function formatRelativeTime(isoDate) {
-    const d = new Date(isoDate);
-    const now = new Date();
-    const diff = now - d;
-    const hours = Math.floor(diff / 3600000);
-    if (hours < 1) return 'Just now';
-    if (hours < 24) return `${hours} hour${hours === 1 ? '' : 's'} ago`;
-    const days = Math.floor(hours / 24);
-    if (days < 7) return `${days} day${days === 1 ? '' : 's'} ago`;
-    return d.toLocaleDateString();
-  }
-
-  function upvoteSighting(id) {
-    const sighting = communitySightings.find(s => s.id === id);
-    if (sighting) {
-      sighting.upvotes = (sighting.upvotes || 0) + 1;
-      saveSightings();
-      renderSightings();
-      updateHeatmap();
+  async function fetchRSSFeed(feed) {
+    try {
+      const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`;
+      const response = await fetch(proxyUrl);
+      if (!response.ok) return [];
+      const data = await response.json();
+      if (!data.items) return [];
+      
+      return data.items.slice(0, 15).map(item => {
+        const title = item.title || "";
+        const description = item.description || item.content || "";
+        const fullText = (title + " " + description).substring(0, 300);
+        const location = extractLocation(fullText);
+        return {
+          id: `${feed.name}_${Date.now()}_${Math.random()}`,
+          title: title.substring(0, 100),
+          description: fullText,
+          location: location ? location.name : "Unknown location",
+          lat: location ? location.lat : null,
+          lng: location ? location.lng : null,
+          source: feed.name,
+          sourceUrl: item.link || feed.url,
+          timestamp: item.pubDate ? new Date(item.pubDate).toISOString() : new Date().toISOString(),
+          shape: "Unknown"
+        };
+      }).filter(s => s.lat !== null);
+    } catch (e) {
+      console.warn(`Failed to fetch ${feed.name}:`, e);
+      return [];
     }
   }
 
-  function renderSightings() {
-    const container = document.getElementById('sightings-list');
-    if (!container) return;
+  async function fetchAllSightings() {
+    const sightingsList = document.getElementById('sightings-list');
+    sightingsList.innerHTML = '<div class="loading-state"><div class="loading-ring"></div><div>Fetching live sightings from RSS feeds...</div></div>';
     
-    const sorted = [...communitySightings].sort((a,b) => (b.upvotes||0) - (a.upvotes||0));
-    document.getElementById('community-sighting-count').innerText = sorted.length;
-    document.getElementById('sighting-count').innerText = sorted.length;
+    const feedPromises = RSS_FEEDS.map(feed => fetchRSSFeed(feed));
+    const results = await Promise.all(feedPromises);
+    allSightings = results.flat();
     
-    // Calculate unique reporters
-    const uniqueReporters = new Set(communitySightings.map(s => s.reporter)).size;
-    document.getElementById('active-reporters').innerText = uniqueReporters;
-    
-    // Top location
-    const locationCounts = {};
-    communitySightings.forEach(s => {
-      const loc = s.location.split(',')[0];
-      locationCounts[loc] = (locationCounts[loc] || 0) + 1;
+    // Remove duplicates by title
+    const seen = new Set();
+    allSightings = allSightings.filter(s => {
+      if (seen.has(s.title)) return false;
+      seen.add(s.title);
+      return true;
     });
-    const topLoc = Object.entries(locationCounts).sort((a,b)=>b[1]-a[1])[0];
-    if (topLoc) {
-      document.getElementById('top-location').innerText = topLoc[0];
-      document.getElementById('top-location-count').innerText = `${topLoc[1]} reports`;
+    
+    // Sort by date (newest first)
+    allSightings.sort((a,b) => new Date(b.timestamp) - new Date(a.timestamp));
+    
+    updateUI();
+    updateMap();
+  }
+
+  function updateUI() {
+    document.getElementById('sighting-count').innerText = allSightings.length;
+    document.getElementById('feed-count').innerText = allSightings.length;
+    document.getElementById('source-count').innerText = RSS_FEEDS.length;
+    
+    if (allSightings.length > 0) {
+      const latest = allSightings[0];
+      document.getElementById('latest-time').innerText = new Date(latest.timestamp).toLocaleDateString();
+      document.getElementById('latest-location').innerText = latest.location;
     }
     
-    container.innerHTML = sorted.map(s => `
-      <div class="sighting-item" style="border-left-color: ${s.verified ? 'var(--accent2)' : 'var(--accent3)'}">
-        <div class="sighting-location">
-          📍 ${escapeHtml(s.location)}
-          ${s.shape ? `<span style="color: var(--accent);"> [${escapeHtml(s.shape)}]</span>` : ''}
-          ${s.verified ? '<span class="verified-badge">✓ Verified</span>' : ''}
-        </div>
-        <div class="item-headline" style="font-size: 14px;">🛸 ${escapeHtml(s.description.substring(0, 120))}${s.description.length > 120 ? '…' : ''}</div>
-        <div class="item-meta">
-          <span class="item-source">Reported by: ${escapeHtml(s.reporter)}</span>
-          <span class="sighting-time">${formatRelativeTime(s.timestamp)}</span>
-          <button class="upvote-btn" onclick="event.stopPropagation(); upvoteSighting(${s.id})">👍 ${s.upvotes || 0}</button>
-        </div>
+    // Render sightings list
+    const container = document.getElementById('sightings-list');
+    container.innerHTML = allSightings.map(s => `
+      <div class="sighting-item" onclick="window.open('${s.sourceUrl}', '_blank')">
+        <div class="sighting-location">📍 ${escapeHtml(s.location)}</div>
+        <div class="sighting-time">${new Date(s.timestamp).toLocaleString()} | ${escapeHtml(s.source)}</div>
+        <div class="sighting-desc">${escapeHtml(s.title.length > 120 ? s.title.substring(0,120)+'…' : s.title)}</div>
       </div>
     `).join('');
     
-    // Update ticker
-    const tickerItems = sorted.slice(0,6).map(s => `<span class="ticker-item">📍 ${escapeHtml(s.location.split(',')[0])}: ${escapeHtml(s.description.substring(0, 40))}...</span>`).join('');
+    // Top locations
+    const locCount = {};
+    allSightings.forEach(s => { locCount[s.location] = (locCount[s.location] || 0) + 1; });
+    const topLocs = Object.entries(locCount).sort((a,b)=>b[1]-a[1]).slice(0,5);
+    document.getElementById('top-locations').innerHTML = topLocs.map(([loc, cnt]) => `<div>${loc}: ${cnt} sighting${cnt !== 1 ? 's' : ''}</div>`).join('');
+    
+    // Sources list
+    document.getElementById('sources-list').innerHTML = RSS_FEEDS.map(f => `<div style="margin: 4px 0;">📡 ${f.name}</div>`).join('');
+    
+    // Ticker
+    const tickerItems = allSightings.slice(0,8).map(s => `<span class="ticker-item">📍 ${escapeHtml(s.location)}: ${escapeHtml(s.title.substring(0,50))}...</span>`).join('');
     document.getElementById('ticker-inner').innerHTML = tickerItems + tickerItems;
   }
 
-  function updateHeatmap() {
-    const container = document.getElementById('heatmap-list');
-    if (!container) return;
-    const locationCounts = {};
-    communitySightings.forEach(s => {
-      const city = s.location.split(',')[0];
-      locationCounts[city] = (locationCounts[city] || 0) + 1;
+  function updateMap() {
+    if (!map) {
+      map = L.map('sightings-map').setView([20, 0], 2);
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; CartoDB',
+        subdomains: 'abcd',
+        maxZoom: 19
+      }).addTo(map);
+    }
+    
+    // Clear existing markers
+    markers.forEach(m => map.removeLayer(m));
+    markers = [];
+    
+    // Add markers for sightings with coordinates
+    allSightings.forEach(s => {
+      if (s.lat && s.lng) {
+        const marker = L.circleMarker([s.lat, s.lng], {
+          radius: 8,
+          fillColor: '#ff6b35',
+          color: '#fff',
+          weight: 1,
+          opacity: 1,
+          fillOpacity: 0.8
+        }).addTo(map);
+        marker.bindPopup(`
+          <b>📍 ${escapeHtml(s.location)}</b><br>
+          ${escapeHtml(s.title.substring(0,100))}<br>
+          <small>Source: ${escapeHtml(s.source)}<br>${new Date(s.timestamp).toLocaleString()}</small><br>
+          <a href="${s.sourceUrl}" target="_blank">View Report →</a>
+        `);
+        markers.push(marker);
+      }
     });
-    const sorted = Object.entries(locationCounts).sort((a,b)=>b[1]-a[1]);
-    container.innerHTML = sorted.map(([loc, count]) => `
-      <div style="background: var(--surface2); padding: 12px; border-radius: 4px; border-left: 3px solid var(--accent3);">
-        <strong>📍 ${escapeHtml(loc)}</strong><br>
-        <span style="color: var(--accent2); font-size: 24px; font-weight: bold;">${count}</span>
-        <span style="font-size: 11px;"> sighting${count !== 1 ? 's' : ''}</span>
-      </div>
-    `).join('');
+    
+    // Fit bounds if there are markers
+    if (markers.length > 0) {
+      const group = L.featureGroup(markers);
+      map.fitBounds(group.getBounds().pad(0.2));
+    }
   }
 
-  function submitSighting() {
+  async function loadOfficialIntel() {
+    try {
+      const response = await fetch('https://raw.githubusercontent.com/NAGOHUSA/UAP/main/disclosure/data/uap_trends.json');
+      if (response.ok) {
+        const data = await response.json();
+        officialIntel = data.trends || [];
+        document.getElementById('intel-summary').innerHTML = officialIntel.slice(0,4).map(item => 
+          `<div style="margin-bottom: 8px; border-bottom: 1px solid var(--border); padding-bottom: 6px;">
+             <span style="color: var(--accent2);">📰</span> ${escapeHtml(item.headline.substring(0,80))}...
+           </div>`
+        ).join('');
+        if (officialIntel.length === 0) document.getElementById('intel-summary').innerHTML = 'No intel data available';
+      }
+    } catch(e) {
+      document.getElementById('intel-summary').innerHTML = 'Intel feed temporarily unavailable';
+    }
+  }
+
+  function submitUserSighting() {
     const location = document.getElementById('reportLocation').value;
-    const dateTime = document.getElementById('reportDateTime').value;
+    const lat = parseFloat(document.getElementById('reportLat').value);
+    const lng = parseFloat(document.getElementById('reportLng').value);
     const shape = document.getElementById('reportShape').value;
-    const description = document.getElementById('reportDesc').value;
-    const reporter = document.getElementById('reportName').value || 'Anonymous';
+    const desc = document.getElementById('reportDesc').value;
+    const name = document.getElementById('reportName').value || 'Anonymous';
     
-    if (!location || !description) {
-      alert('Please fill in location and description');
+    if (!location || !desc) {
+      alert('Please provide location and description');
       return;
     }
     
     const newSighting = {
-      id: Date.now(),
+      id: `user_${Date.now()}`,
+      title: desc.substring(0, 100),
+      description: desc,
       location: location,
-      timestamp: dateTime ? new Date(dateTime).toISOString() : new Date().toISOString(),
-      shape: shape,
-      description: description,
-      reporter: reporter,
-      upvotes: 0,
-      verified: false
+      lat: isNaN(lat) ? null : lat,
+      lng: isNaN(lng) ? null : lng,
+      source: `Community: ${name}`,
+      sourceUrl: '#',
+      timestamp: new Date().toISOString(),
+      shape: shape
     };
     
-    communitySightings.unshift(newSighting);
-    saveSightings();
-    renderSightings();
-    updateHeatmap();
+    // If no coordinates provided, try to extract from location name
+    if (!newSighting.lat) {
+      const extracted = extractLocation(location);
+      if (extracted) {
+        newSighting.lat = extracted.lat;
+        newSighting.lng = extracted.lng;
+        newSighting.location = extracted.name;
+      }
+    }
+    
+    allSightings.unshift(newSighting);
+    updateUI();
+    updateMap();
     closeReportModal();
     
     // Clear form
     document.getElementById('reportLocation').value = '';
-    document.getElementById('reportDateTime').value = '';
-    document.getElementById('reportShape').value = '';
+    document.getElementById('reportLat').value = '';
+    document.getElementById('reportLng').value = '';
     document.getElementById('reportDesc').value = '';
     
-    alert('✓ Sighting reported! It now appears in the community feed.');
-  }
-
-  // ========== INTELLIGENCE DATA ==========
-  async function loadIntelData() {
-    const rawUrl = 'https://raw.githubusercontent.com/NAGOHUSA/UAP/main/disclosure/data/uap_trends.json';
-    try {
-      const response = await fetch(rawUrl);
-      if (!response.ok) throw new Error();
-      const data = await response.json();
-      allTrends = data.trends || [];
-      document.getElementById('m-total').innerText = allTrends.length;
-      const fetchedDate = new Date(data.fetched_at);
-      document.getElementById('m-updated').innerText = fetchedDate.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
-      document.getElementById('m-updated-sub').innerText = fetchedDate.toLocaleDateString();
-      
-      // Build filters
-      const niches = [...new Set(allTrends.map(t => t.niche))];
-      const filterBar = document.getElementById('filter-bar');
-      filterBar.innerHTML = `<button class="filter-btn active" data-filter="all" onclick="setFilter('all')">All (${allTrends.length})</button>`;
-      niches.forEach(niche => {
-        const count = allTrends.filter(t => t.niche === niche).length;
-        filterBar.innerHTML += `<button class="filter-btn" data-filter="${niche}" onclick="setFilter('${niche}')">${niche.replace(/_/g,' ')} (${count})</button>`;
-      });
-      
-      renderIntelFeed();
-      
-      // Sidebar
-      const nicheCounts = {};
-      allTrends.forEach(t => nicheCounts[t.niche] = (nicheCounts[t.niche]||0)+1);
-      const sortedNiches = Object.entries(nicheCounts).sort((a,b)=>b[1]-a[1]);
-      document.getElementById('niche-breakdown').innerHTML = sortedNiches.map(([n,c]) => `<div style="padding: 4px 0;">${n.replace(/_/g,' ')}: <span style="color: var(--accent2);">${c}</span></div>`).join('');
-      
-      const sourceCounts = {};
-      allTrends.forEach(t => sourceCounts[t.source] = (sourceCounts[t.source]||0)+1);
-      document.getElementById('sources-list').innerHTML = Object.entries(sourceCounts).slice(0,8).map(([s,c]) => `<div>${s}: ${c}</div>`).join('');
-    } catch(e) {
-      console.error('Intel load failed:', e);
-    }
-  }
-
-  function renderIntelFeed() {
-    const filtered = activeFilter === 'all' ? allTrends : allTrends.filter(t => t.niche === activeFilter);
-    document.getElementById('feed-count').innerText = filtered.length;
-    document.getElementById('feed-list').innerHTML = filtered.map(item => `
-      <div class="feed-item niche-${item.niche}" onclick="window.open('${item.source_url}', '_blank')">
-        <div class="item-headline">📡 ${escapeHtml(item.headline)}</div>
-        <div class="item-summary">${escapeHtml((item.summary || '').substring(0,120))}…</div>
-        <div class="item-meta">
-          <span class="item-source">${escapeHtml(item.source)}</span>
-          <span class="item-date">${formatRelativeTime(item.timestamp)}</span>
-        </div>
-      </div>
-    `).join('');
-  }
-
-  window.setFilter = function(niche) {
-    activeFilter = niche;
-    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
-    renderIntelFeed();
-  };
-
-  function formatRelativeTime(isoDate) {
-    const d = new Date(isoDate);
-    const now = new Date();
-    const diff = now - d;
-    const hours = Math.floor(diff / 3600000);
-    if (hours < 1) return 'Just now';
-    if (hours < 24) return `${hours}h ago`;
-    return `${Math.floor(hours/24)}d ago`;
-  }
-
-  function escapeHtml(str) { if(!str) return ''; return str.replace(/[&<>]/g, function(m){if(m==='&') return '&amp;'; if(m==='<') return '&lt;'; if(m==='>') return '&gt;'; return m;}); }
-
-  // ========== UI HELPERS ==========
-  function switchTab(tab) {
-    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active-tab'));
-    if (tab === 'intel') {
-      document.getElementById('intel-tab').classList.add('active-tab');
-      document.querySelectorAll('.tab-btn')[0].classList.add('active');
-    } else if (tab === 'sightings') {
-      document.getElementById('sightings-tab').classList.add('active-tab');
-      document.querySelectorAll('.tab-btn')[1].classList.add('active');
-      renderSightings();
-    } else {
-      document.getElementById('map-tab').classList.add('active-tab');
-      document.querySelectorAll('.tab-btn')[2].classList.add('active');
-      updateHeatmap();
-    }
+    alert('✓ Sighting added to map and feed!');
   }
 
   function openReportModal() { document.getElementById('reportModal').style.display = 'flex'; }
   function closeReportModal() { document.getElementById('reportModal').style.display = 'none'; }
-
+  function escapeHtml(str) { if(!str) return ''; return str.replace(/[&<>]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;'})[m]); }
+  
   function updateClock() {
     const now = new Date();
     document.getElementById('clock').innerText = `${String(now.getUTCHours()).padStart(2,'0')}:${String(now.getUTCMinutes()).padStart(2,'0')}:${String(now.getUTCSeconds()).padStart(2,'0')} UTC`;
@@ -657,9 +576,9 @@
   // Initialize
   setInterval(updateClock, 1000);
   updateClock();
-  loadSightings();
-  loadIntelData();
-  setInterval(() => { renderSightings(); }, 30000);
+  fetchAllSightings();
+  loadOfficialIntel();
+  setInterval(fetchAllSightings, 5 * 60 * 1000);
 </script>
 </body>
 </html>

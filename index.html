@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -157,6 +156,7 @@
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 1.5rem;
+    position: relative;
   }
   #sightings-map {
     height: 400px;
@@ -170,6 +170,23 @@
     text-align: right;
     color: var(--text-dim);
   }
+  .zoom-btn {
+    position: absolute;
+    bottom: 50px;
+    right: 12px;
+    z-index: 1000;
+    background: var(--accent);
+    color: var(--bg);
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-family: var(--mono);
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  }
+  .zoom-btn:hover { background: var(--accent2); }
 
   .content-grid { display: grid; grid-template-columns: 1fr 320px; gap: 1.5rem; align-items: start; }
   @media (max-width: 1024px) { .content-grid { grid-template-columns: 1fr; } }
@@ -408,7 +425,6 @@
   let mapMarkers = [];
   let liveSightings = [];
 
-  // Fetch your JSON news feed
   async function loadNewsFeed() {
     const jsonUrl = 'https://raw.githubusercontent.com/NAGOHUSA/UAP/main/disclosure/data/uap_trends.json';
     try {
@@ -417,14 +433,12 @@
       const data = await response.json();
       allNews = data.trends || [];
       
-      // Update metrics
       document.getElementById('news-count').innerText = allNews.length;
       document.getElementById('feed-count').innerText = allNews.length;
       
       const fetchedDate = new Date(data.fetched_at);
       document.getElementById('last-updated').innerText = fetchedDate.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
       
-      // Calculate top niche
       const nicheCounts = {};
       allNews.forEach(item => { nicheCounts[item.niche] = (nicheCounts[item.niche] || 0) + 1; });
       const topNiche = Object.entries(nicheCounts).sort((a,b)=>b[1]-a[1])[0];
@@ -433,18 +447,13 @@
         document.getElementById('top-niche-count').innerText = `${topNiche[1]} articles`;
       }
       
-      // Build filters
       buildFilters(nicheCounts);
-      
-      // Render news
       renderNews();
-      
-      // Update ticker with news headlines
       updateTicker();
       
     } catch (err) {
       console.error('News feed error:', err);
-      document.getElementById('news-list').innerHTML = `<div class="loading-state" style="color: var(--red);">⚠️ Unable to load news feed. Check JSON URL.</div>`;
+      document.getElementById('news-list').innerHTML = `<div class="loading-state" style="color: var(--red);">⚠️ Unable to load news feed.</div>`;
     }
   }
 
@@ -455,7 +464,6 @@
       filterBar.innerHTML += `<button class="filter-btn" data-niche="${niche}" onclick="setNicheFilter('${niche}')">${niche.replace(/_/g, ' ')} (${count})</button>`;
     }
     
-    // Sidebar breakdown
     const sorted = Object.entries(nicheCounts).sort((a,b)=>b[1]-a[1]);
     document.getElementById('niche-breakdown').innerHTML = sorted.map(([n,c]) => 
       `<div style="margin: 6px 0;">${n.replace(/_/g, ' ')}: <span style="color: var(--accent2);">${c}</span></div>`
@@ -498,7 +506,7 @@
   }
 
   // ============================================================
-  // PART 2: LIVE SIGHTINGS FROM RSS FEEDS (No API)
+  // PART 2: LIVE SIGHTINGS FROM RSS FEEDS
   // ============================================================
   
   const RSS_FEEDS = [
@@ -514,7 +522,8 @@
     "texas": [31.9686, -99.9018], "florida": [27.6648, -81.5158], "chicago": [41.8781, -87.6298],
     "mexico city": [19.4326, -99.1332], "toronto": [43.6532, -79.3832], "sydney": [-33.8688, 151.2093],
     "tokyo": [35.6895, 139.6917], "berlin": [52.52, 13.405], "paris": [48.8566, 2.3522],
-    "cape town": [-33.9249, 18.4241], "seattle": [47.6062, -122.3321], "boston": [42.3601, -71.0589]
+    "cape town": [-33.9249, 18.4241], "seattle": [47.6062, -122.3321], "boston": [42.3601, -71.0589],
+    "miami": [25.7617, -80.1918], "denver": [39.7392, -104.9903], "atlanta": [33.7490, -84.3880]
   };
 
   function extractLocationFromText(text) {
@@ -561,7 +570,6 @@
     const results = await Promise.all(RSS_FEEDS.map(feed => fetchRSSFeed(feed)));
     liveSightings = results.flat();
     
-    // Remove duplicates by title
     const seen = new Set();
     liveSightings = liveSightings.filter(s => {
       if (seen.has(s.title)) return false;
@@ -574,12 +582,10 @@
     document.getElementById('sighting-count').innerText = liveSightings.length;
     document.getElementById('live-feed-count').innerText = liveSightings.length;
     
-    // RSS sources list
     document.getElementById('rss-sources-list').innerHTML = RSS_FEEDS.map(f => 
       `<div style="margin: 6px 0;">📡 ${f.name}</div>`
     ).join('');
     
-    // Top locations
     const locCount = {};
     liveSightings.forEach(s => { locCount[s.location] = (locCount[s.location] || 0) + 1; });
     const topLocs = Object.entries(locCount).sort((a,b)=>b[1]-a[1]).slice(0,5);
@@ -587,7 +593,6 @@
       `<div>📍 ${loc}: ${cnt} sighting${cnt !== 1 ? 's' : ''}</div>`
     ).join('');
     
-    // Render sightings list
     container.innerHTML = liveSightings.map(s => `
       <div class="sighting-item" onclick="window.open('${s.sourceUrl}', '_blank')">
         <div class="sighting-location">📍 ${escapeHtml(s.location)}</div>
@@ -604,12 +609,28 @@
 
   function updateMap() {
     if (!map) {
+      // Start fully zoomed out (zoom level 2 shows entire world)
       map = L.map('sightings-map').setView([20, 0], 2);
       L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org">OSM</a> &copy; CartoDB',
         subdomains: 'abcd',
-        maxZoom: 19
+        maxZoom: 19,
+        minZoom: 2
       }).addTo(map);
+      
+      // Add zoom button
+      const zoomBtn = document.createElement('button');
+      zoomBtn.innerHTML = '🔍 Zoom to Sightings';
+      zoomBtn.className = 'zoom-btn';
+      zoomBtn.onclick = () => {
+        if (mapMarkers.length > 0) {
+          const group = L.featureGroup(mapMarkers);
+          map.fitBounds(group.getBounds().pad(0.2));
+        } else {
+          alert('No sightings with coordinates available yet.');
+        }
+      };
+      document.querySelector('.map-container').appendChild(zoomBtn);
     }
     
     mapMarkers.forEach(m => map.removeLayer(m));
@@ -633,11 +654,6 @@
         mapMarkers.push(marker);
       }
     });
-    
-    if (mapMarkers.length > 0) {
-      const group = L.featureGroup(mapMarkers);
-      map.fitBounds(group.getBounds().pad(0.2));
-    }
   }
 
   function updateTicker() {
@@ -708,10 +724,6 @@
     alert('✓ Sighting added to map and feed!');
   }
 
-  // ============================================================
-  // UTILITIES
-  // ============================================================
-  
   function formatDate(isoDate) {
     const d = new Date(isoDate);
     const now = new Date();
@@ -748,7 +760,7 @@
     document.getElementById('clock').innerText = `${String(now.getUTCHours()).padStart(2,'0')}:${String(now.getUTCMinutes()).padStart(2,'0')}:${String(now.getUTCSeconds()).padStart(2,'0')} UTC`;
   }
 
-  // Initialize everything
+  // Initialize
   setInterval(updateClock, 1000);
   updateClock();
   loadNewsFeed();

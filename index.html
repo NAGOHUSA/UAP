@@ -31,6 +31,10 @@
     --red: #ff4444;
     --amber: #ffaa00;
     --green: #00cc88;
+    --purple: #9b59b6;
+    --cyan: #1abc9c;
+    --pink: #e84393;
+    --orange: #f39c12;
   }
 
   body {
@@ -63,7 +67,7 @@
     position: relative;
     z-index: 20;
     border-bottom: 1px solid var(--border);
-    background: rgba(5,8,16,0.92);
+    background: rgba(5,8,16,0.95);
     backdrop-filter: blur(14px);
     padding: 0 1.8rem;
   }
@@ -73,15 +77,30 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    gap: 2rem;
-    height: 68px;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 72px;
   }
 
   .logo-block { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
   .logo-icon svg { width: 36px; height: 36px; }
   .logo-text { font-family: var(--head); font-weight: 700; font-size: 22px; letter-spacing: 0.18em; color: var(--text-bright); text-transform: uppercase; }
   .logo-sub { font-family: var(--mono); font-size: 9px; color: var(--accent); letter-spacing: 0.2em; }
-  .header-status { margin-left: auto; display: flex; align-items: center; gap: 1.8rem; font-family: var(--mono); font-size: 11px; }
+
+  .network-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(0,212,170,0.1);
+    padding: 6px 14px;
+    border-radius: 40px;
+    border: 1px solid rgba(0,212,170,0.3);
+  }
+  .network-header span { font-family: var(--mono); font-size: 10px; color: var(--accent2); letter-spacing: 0.05em; }
+  .network-header a { color: var(--text-bright); text-decoration: none; font-weight: bold; }
+  .network-header a:hover { color: var(--accent2); }
+
+  .header-status { display: flex; align-items: center; gap: 1.5rem; font-family: var(--mono); font-size: 11px; flex-shrink: 0; }
   .status-live { display: flex; align-items: center; gap: 6px; color: var(--accent2); }
   .live-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent2); animation: pulse-dot 1.8s infinite; }
   @keyframes pulse-dot { 0%,100% { opacity: 1; } 50% { opacity: 0.4; transform: scale(0.9); } }
@@ -203,9 +222,24 @@
     cursor: pointer;
     transition: all 0.2s;
   }
-  .feed-item { border-left: 3px solid var(--accent); }
+  .feed-item:hover, .sighting-item:hover { background: var(--surface2); border-color: var(--border-hot); }
+  
+  /* Category-specific border colors */
+  .feed-item.niche-disclosure { border-left: 3px solid var(--accent); }
+  .feed-item.niche-whistleblower { border-left: 3px solid var(--pink); }
+  .feed-item.niche-military_encounters { border-left: 3px solid var(--red); }
+  .feed-item.niche-legislation { border-left: 3px solid var(--amber); }
+  .feed-item.niche-scientific_research { border-left: 3px solid var(--purple); }
+  .feed-item.niche-international { border-left: 3px solid var(--cyan); }
+  .feed-item.niche-ancient_aliens { border-left: 3px solid var(--orange); }
+  .feed-item.niche-area51_s4 { border-left: 3px solid #e67e22; }
+  .feed-item.niche-social_media { border-left: 3px solid #3498db; }
+  .feed-item.niche-podcasts { border-left: 3px solid #1abc9c; }
+  .feed-item.niche-media_coverage { border-left: 3px solid #48c9b0; }
+  .feed-item.niche-exopolitics { border-left: 3px solid #5dade2; }
+  
   .sighting-item { border-left: 3px solid var(--accent3); }
-  .feed-item:hover, .sighting-item:hover { background: var(--surface2); border-color: var(--accent); }
+  
   .item-headline { font-family: var(--head); font-weight: 600; font-size: 15px; color: var(--text-bright); margin-bottom: 4px; }
   .item-summary { font-size: 12px; color: var(--text-dim); }
   .item-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; font-size: 10px; font-family: var(--mono); }
@@ -229,6 +263,7 @@
     border-radius: 4px;
     margin-top: 12px;
   }
+  .report-btn:hover { background: rgba(0,212,170,0.2); }
 
   .filter-bar { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1rem; }
   .filter-btn {
@@ -240,6 +275,7 @@
     color: var(--text-dim);
     cursor: pointer;
     border-radius: 2px;
+    transition: all 0.15s;
   }
   .filter-btn.active { border-color: var(--accent); color: var(--accent); background: rgba(74,158,255,0.1); }
 
@@ -255,8 +291,8 @@
     font-family: var(--mono);
     font-size: 10px;
   }
-  .network-brand a { color: var(--text-dim); text-decoration: none; }
-  .network-brand a:hover { color: var(--accent2); }
+  .network-footer a { color: var(--text-dim); text-decoration: none; }
+  .network-footer a:hover { color: var(--accent2); }
   .donate-link a {
     display: inline-flex;
     align-items: center;
@@ -272,6 +308,58 @@
   .loading-state { text-align: center; padding: 2rem; }
   .loading-ring { width: 36px; height: 36px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto; }
   @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* Support Popup Modal */
+  .support-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.95);
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+  }
+  .support-popup-content {
+    background: linear-gradient(135deg, var(--surface2), var(--surface));
+    border: 2px solid var(--accent2);
+    padding: 2rem;
+    max-width: 450px;
+    width: 90%;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 0 40px rgba(0,212,170,0.2);
+  }
+  .support-popup-content h2 { color: var(--accent2); margin-bottom: 1rem; font-family: var(--head); letter-spacing: 0.1em; }
+  .support-popup-content p { margin: 1rem 0; line-height: 1.6; }
+  .support-popup-buttons { display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap; }
+  .support-btn {
+    background: var(--accent2);
+    color: var(--bg);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 40px;
+    font-family: var(--head);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .support-btn:hover { opacity: 0.85; transform: scale(1.02); }
+  .later-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    padding: 12px 24px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .coffee-icon { font-size: 18px; }
 
   .modal {
     display: none;
@@ -319,7 +407,11 @@
   <div class="header-inner">
     <div class="logo-block">
       <div class="logo-icon"><svg viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="16" stroke="#4a9eff" stroke-opacity="0.4" stroke-width="1"/><circle cx="18" cy="18" r="10" stroke="#4a9eff" stroke-opacity="0.3"/><circle cx="18" cy="18" r="2.5" fill="#4a9eff"/></svg></div>
-      <div><div class="logo-text">Disclosure Watch</div><div class="logo-sub">UAP NEWS + LIVE SIGHTINGS MAP</div></div>
+      <div><div class="logo-text">DISCLOSURE WATCH</div><div class="logo-sub">UAP INTELLIGENCE + SIGHTINGS MAP</div></div>
+    </div>
+    <div class="network-header">
+      <span>🌌 PART OF</span>
+      <a href="https://ournightsky.us" target="_blank">OUR NIGHT SKY NETWORK</a>
     </div>
     <div class="header-status">
       <div class="status-live"><div class="live-dot"></div><span>LIVE</span></div>
@@ -337,25 +429,22 @@
     <div class="metric-cell"><div class="metric-label">Last Updated</div><div class="metric-value amber" id="last-updated">—</div><div class="metric-sub">fetch time</div></div>
   </div>
 
-  <!-- Map Row -->
   <div class="map-container">
     <div id="sightings-map"></div>
     <div class="map-attribution">📍 Live UAP sightings from Reddit, MUFON, NUFORC | Click pins for details</div>
   </div>
 
-  <!-- Tab Navigation -->
   <div class="tab-nav">
     <button class="tab-btn active" onclick="switchTab('news')">📰 UAP News Feed</button>
     <button class="tab-btn" onclick="switchTab('sightings')">🛸 Live Sightings</button>
   </div>
 
-  <!-- NEWS TAB (JSON Feed) -->
   <div id="news-tab" class="tab-content active-tab">
     <div class="content-grid">
       <div>
         <div class="section-head"><div class="section-title">Intelligence Feed</div><div class="section-count" id="feed-count">0</div></div>
         <div class="filter-bar" id="filter-bar"></div>
-        <div class="feed-list" id="news-list"><div class="loading-state"><div class="loading-ring"></div><div>Loading UAP intelligence from official sources...</div></div></div>
+        <div class="feed-list" id="news-list"><div class="loading-state"><div class="loading-ring"></div><div>Loading UAP intelligence...</div></div></div>
       </div>
       <div>
         <div class="sidebar-card">
@@ -370,12 +459,11 @@
     </div>
   </div>
 
-  <!-- SIGHTINGS TAB (RSS Feed + Map) -->
   <div id="sightings-tab" class="tab-content">
     <div class="content-grid">
       <div>
         <div class="section-head"><div class="section-title">🌎 Live Community Sightings</div><div class="section-count" id="live-feed-count">0</div></div>
-        <div class="feed-list" id="sightings-list"><div class="loading-state"><div class="loading-ring"></div><div>Fetching live sightings from RSS feeds...</div></div></div>
+        <div class="feed-list" id="sightings-list"><div class="loading-state"><div class="loading-ring"></div><div>Fetching live sightings...</div></div></div>
         <button class="report-btn" onclick="openReportModal()">✍️ Report Your Sighting</button>
       </div>
       <div>
@@ -384,7 +472,7 @@
           <div id="rss-sources-list" style="font-size: 11px; margin-top: 8px;">—</div>
         </div>
         <div class="sidebar-card">
-          <div class="section-title">📍 Top Sighting Locations</div>
+          <div class="section-title">📍 Top Locations</div>
           <div id="top-locations" style="font-size: 11px; margin-top: 8px;">—</div>
         </div>
       </div>
@@ -392,12 +480,25 @@
   </div>
 
   <div class="network-footer">
-    <div class="network-brand">🌌 <a href="https://ournightsky.us" target="_blank">Our Night Sky Network</a> — UAP Intelligence + Community Sightings</div>
-    <div class="donate-link"><a href="https://buymeacoffee.com/ournightsky" target="_blank">☕ Support Our Work</a></div>
+    <div class="network-brand">🌌 <a href="https://ournightsky.us" target="_blank">Our Night Sky Network</a> — Faith, Science & UAP Intelligence</div>
+    <div class="donate-link"><a href="https://buymeacoffee.com/ournightsky" target="_blank">☕ Buy us a Coffee</a></div>
   </div>
 </div>
 
-<!-- Report Modal -->
+<!-- Support Popup -->
+<div id="supportPopup" class="support-popup">
+  <div class="support-popup-content">
+    <h2>🌌 Keep DISCLOSURE WATCH Alive</h2>
+    <p>You're viewing real-time UAP intelligence and live community sightings — <strong>completely free</strong> and without ads.</p>
+    <p>If this work brings value to your journey of discovery, please consider supporting <strong>Our Night Sky Network</strong> with a small donation.</p>
+    <div class="support-popup-buttons">
+      <a href="https://buymeacoffee.com/ournightsky" target="_blank" class="support-btn"><span class="coffee-icon">☕</span> Support Now</a>
+      <button class="later-btn" onclick="closeSupportPopup()">Remind Me Later</button>
+    </div>
+    <p style="font-size: 11px; margin-top: 1rem; opacity: 0.7;">Your support helps maintain servers, RSS feeds, and future iOS app development.</p>
+  </div>
+</div>
+
 <div id="reportModal" class="modal">
   <div class="modal-content">
     <h3>🛸 Report Your Sighting</h3>
@@ -416,15 +517,25 @@
 
 <script>
   // ============================================================
-  // PART 1: JSON NEWS FEED (Your original uap_trends.json)
+  // DATA VARIABLES
   // ============================================================
-  
   let allNews = [];
   let activeNiche = 'all';
   let map = null;
   let mapMarkers = [];
   let liveSightings = [];
 
+  // Category colors for UI elements
+  const categoryColors = {
+    disclosure: '#4a9eff', whistleblower: '#e84393', military_encounters: '#ff4444',
+    legislation: '#ffaa00', scientific_research: '#9b59b6', international: '#1abc9c',
+    ancient_aliens: '#f39c12', area51_s4: '#e67e22', social_media: '#3498db', 
+    podcasts: '#1abc9c', media_coverage: '#48c9b0', exopolitics: '#5dade2'
+  };
+
+  // ============================================================
+  // NEWS FEED (JSON)
+  // ============================================================
   async function loadNewsFeed() {
     const jsonUrl = 'https://raw.githubusercontent.com/NAGOHUSA/UAP/main/disclosure/data/uap_trends.json';
     try {
@@ -450,7 +561,6 @@
       buildFilters(nicheCounts);
       renderNews();
       updateTicker();
-      
     } catch (err) {
       console.error('News feed error:', err);
       document.getElementById('news-list').innerHTML = `<div class="loading-state" style="color: var(--red);">⚠️ Unable to load news feed.</div>`;
@@ -461,12 +571,13 @@
     const filterBar = document.getElementById('filter-bar');
     filterBar.innerHTML = `<button class="filter-btn active" data-niche="all" onclick="setNicheFilter('all')">All (${allNews.length})</button>`;
     for (const [niche, count] of Object.entries(nicheCounts)) {
-      filterBar.innerHTML += `<button class="filter-btn" data-niche="${niche}" onclick="setNicheFilter('${niche}')">${niche.replace(/_/g, ' ')} (${count})</button>`;
+      const color = categoryColors[niche] || '#4a9eff';
+      filterBar.innerHTML += `<button class="filter-btn" data-niche="${niche}" style="border-left-color: ${color};" onclick="setNicheFilter('${niche}')">${niche.replace(/_/g, ' ')} (${count})</button>`;
     }
     
     const sorted = Object.entries(nicheCounts).sort((a,b)=>b[1]-a[1]);
     document.getElementById('niche-breakdown').innerHTML = sorted.map(([n,c]) => 
-      `<div style="margin: 6px 0;">${n.replace(/_/g, ' ')}: <span style="color: var(--accent2);">${c}</span></div>`
+      `<div style="margin: 6px 0; color: ${categoryColors[n] || '#4a9eff'};">${n.replace(/_/g, ' ')}: <span style="color: var(--accent2);">${c}</span></div>`
     ).join('');
     
     const sourceCounts = {};
@@ -492,28 +603,29 @@
       container.innerHTML = '<div class="loading-state">No news for this category.</div>';
       return;
     }
-    container.innerHTML = filtered.map(item => `
-      <div class="feed-item" onclick="window.open('${item.source_url}', '_blank')">
+    container.innerHTML = filtered.map(item => {
+      const nicheClass = `niche-${item.niche}`;
+      const borderColor = categoryColors[item.niche] || '#4a9eff';
+      return `<div class="feed-item ${nicheClass}" style="border-left-color: ${borderColor};" onclick="window.open('${item.source_url}', '_blank')">
         <div class="item-headline">📡 ${escapeHtml(item.headline)}</div>
         <div class="item-summary">${escapeHtml((item.summary || '').substring(0, 120))}…</div>
         <div class="item-meta">
           <span class="item-source">${escapeHtml(item.source)}</span>
           <span class="item-date">${formatDate(item.timestamp)}</span>
-          <span style="color: var(--accent2);">${Math.round(item.signal_strength * 100)}% signal</span>
+          <span style="color: ${borderColor};">${Math.round(item.signal_strength * 100)}% signal</span>
         </div>
-      </div>
-    `).join('');
+      </div>`;
+    }).join('');
   }
 
   // ============================================================
-  // PART 2: LIVE SIGHTINGS FROM RSS FEEDS
+  // LIVE SIGHTINGS (RSS)
   // ============================================================
-  
   const RSS_FEEDS = [
-    { name: "Reddit r/UFOs", url: "https://www.reddit.com/r/UFOs/.rss", color: "#ff4500" },
-    { name: "Reddit r/UAP", url: "https://www.reddit.com/r/UAP/.rss", color: "#ff4500" },
-    { name: "MUFON", url: "https://mufon.com/feed/", color: "#00d4aa" },
-    { name: "NUFORC", url: "https://nuforc.org/feed/", color: "#4a9eff" }
+    { name: "Reddit r/UFOs", url: "https://www.reddit.com/r/UFOs/.rss" },
+    { name: "Reddit r/UAP", url: "https://www.reddit.com/r/UAP/.rss" },
+    { name: "MUFON", url: "https://mufon.com/feed/" },
+    { name: "NUFORC", url: "https://nuforc.org/feed/" }
   ];
 
   const locationCoords = {
@@ -522,8 +634,7 @@
     "texas": [31.9686, -99.9018], "florida": [27.6648, -81.5158], "chicago": [41.8781, -87.6298],
     "mexico city": [19.4326, -99.1332], "toronto": [43.6532, -79.3832], "sydney": [-33.8688, 151.2093],
     "tokyo": [35.6895, 139.6917], "berlin": [52.52, 13.405], "paris": [48.8566, 2.3522],
-    "cape town": [-33.9249, 18.4241], "seattle": [47.6062, -122.3321], "boston": [42.3601, -71.0589],
-    "miami": [25.7617, -80.1918], "denver": [39.7392, -104.9903], "atlanta": [33.7490, -84.3880]
+    "cape town": [-33.9249, 18.4241], "seattle": [47.6062, -122.3321], "boston": [42.3601, -71.0589]
   };
 
   function extractLocationFromText(text) {
@@ -541,7 +652,6 @@
       if (!response.ok) return [];
       const data = await response.json();
       if (!data.items) return [];
-      
       return data.items.slice(0, 12).map(item => {
         const fullText = (item.title + " " + (item.description || "")).substring(0, 300);
         const location = extractLocationFromText(fullText);
@@ -558,221 +668,121 @@
         };
       }).filter(s => s.lat !== null);
     } catch (e) {
-      console.warn(`RSS error ${feed.name}:`, e);
       return [];
     }
   }
 
   async function loadLiveSightings() {
     const container = document.getElementById('sightings-list');
-    container.innerHTML = '<div class="loading-state"><div class="loading-ring"></div><div>Fetching live sightings from RSS feeds...</div></div>';
-    
+    container.innerHTML = '<div class="loading-state"><div class="loading-ring"></div><div>Fetching live sightings...</div></div>';
     const results = await Promise.all(RSS_FEEDS.map(feed => fetchRSSFeed(feed)));
     liveSightings = results.flat();
-    
     const seen = new Set();
-    liveSightings = liveSightings.filter(s => {
-      if (seen.has(s.title)) return false;
-      seen.add(s.title);
-      return true;
-    });
-    
+    liveSightings = liveSightings.filter(s => { if (seen.has(s.title)) return false; seen.add(s.title); return true; });
     liveSightings.sort((a,b) => new Date(b.timestamp) - new Date(a.timestamp));
     
     document.getElementById('sighting-count').innerText = liveSightings.length;
     document.getElementById('live-feed-count').innerText = liveSightings.length;
-    
-    document.getElementById('rss-sources-list').innerHTML = RSS_FEEDS.map(f => 
-      `<div style="margin: 6px 0;">📡 ${f.name}</div>`
-    ).join('');
+    document.getElementById('rss-sources-list').innerHTML = RSS_FEEDS.map(f => `<div style="margin: 6px 0;">📡 ${f.name}</div>`).join('');
     
     const locCount = {};
     liveSightings.forEach(s => { locCount[s.location] = (locCount[s.location] || 0) + 1; });
     const topLocs = Object.entries(locCount).sort((a,b)=>b[1]-a[1]).slice(0,5);
-    document.getElementById('top-locations').innerHTML = topLocs.map(([loc, cnt]) => 
-      `<div>📍 ${loc}: ${cnt} sighting${cnt !== 1 ? 's' : ''}</div>`
-    ).join('');
+    document.getElementById('top-locations').innerHTML = topLocs.map(([loc, cnt]) => `<div>📍 ${loc}: ${cnt} sighting${cnt !== 1 ? 's' : ''}</div>`).join('');
     
     container.innerHTML = liveSightings.map(s => `
       <div class="sighting-item" onclick="window.open('${s.sourceUrl}', '_blank')">
         <div class="sighting-location">📍 ${escapeHtml(s.location)}</div>
         <div class="item-headline" style="font-size: 13px;">🛸 ${escapeHtml(s.title.substring(0, 100))}</div>
-        <div class="item-meta">
-          <span class="item-source">${escapeHtml(s.source)}</span>
-          <span class="item-date">${formatDate(s.timestamp)}</span>
-        </div>
+        <div class="item-meta"><span class="item-source">${escapeHtml(s.source)}</span><span class="item-date">${formatDate(s.timestamp)}</span></div>
       </div>
     `).join('');
-    
     updateMap();
   }
 
   function updateMap() {
     if (!map) {
-      // Start fully zoomed out (zoom level 2 shows entire world)
       map = L.map('sightings-map').setView([20, 0], 2);
       L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org">OSM</a> &copy; CartoDB',
-        subdomains: 'abcd',
-        maxZoom: 19,
-        minZoom: 2
+        attribution: '&copy; OSM & CartoDB', subdomains: 'abcd', maxZoom: 19, minZoom: 2
       }).addTo(map);
-      
-      // Add zoom button
       const zoomBtn = document.createElement('button');
       zoomBtn.innerHTML = '🔍 Zoom to Sightings';
       zoomBtn.className = 'zoom-btn';
-      zoomBtn.onclick = () => {
-        if (mapMarkers.length > 0) {
-          const group = L.featureGroup(mapMarkers);
-          map.fitBounds(group.getBounds().pad(0.2));
-        } else {
-          alert('No sightings with coordinates available yet.');
-        }
-      };
+      zoomBtn.onclick = () => { if (mapMarkers.length) map.fitBounds(L.featureGroup(mapMarkers).getBounds().pad(0.2)); else alert('No sightings with coordinates.'); };
       document.querySelector('.map-container').appendChild(zoomBtn);
     }
-    
     mapMarkers.forEach(m => map.removeLayer(m));
     mapMarkers = [];
-    
     liveSightings.forEach(s => {
       if (s.lat && s.lng) {
-        const marker = L.circleMarker([s.lat, s.lng], {
-          radius: 7,
-          fillColor: '#ff6b35',
-          color: '#fff',
-          weight: 1,
-          fillOpacity: 0.8
-        }).addTo(map);
-        marker.bindPopup(`
-          <b>📍 ${escapeHtml(s.location)}</b><br>
-          ${escapeHtml(s.title.substring(0, 80))}<br>
-          <small>Source: ${escapeHtml(s.source)}<br>${new Date(s.timestamp).toLocaleString()}</small><br>
-          <a href="${s.sourceUrl}" target="_blank">View Full Report →</a>
-        `);
+        const marker = L.circleMarker([s.lat, s.lng], { radius: 7, fillColor: '#ff6b35', color: '#fff', weight: 1, fillOpacity: 0.8 }).addTo(map);
+        marker.bindPopup(`<b>📍 ${escapeHtml(s.location)}</b><br>${escapeHtml(s.title.substring(0, 80))}<br><small>${escapeHtml(s.source)}<br>${new Date(s.timestamp).toLocaleString()}</small><br><a href="${s.sourceUrl}" target="_blank">View Report →</a>`);
         mapMarkers.push(marker);
       }
     });
-  }
-
-  function updateTicker() {
-    const headlines = allNews.slice(0, 6).map(item => item.headline.substring(0, 60));
-    const tickerItems = [...headlines, ...liveSightings.slice(0, 3).map(s => `📍 ${s.location}: ${s.title.substring(0, 40)}`)];
-    const tickerHtml = tickerItems.map(t => `<span class="ticker-item">▸ ${escapeHtml(t)}...</span>`).join('');
-    document.getElementById('ticker-inner').innerHTML = tickerHtml + tickerHtml;
   }
 
   function submitUserSighting() {
     const location = document.getElementById('reportLocation').value;
     const lat = parseFloat(document.getElementById('reportLat').value);
     const lng = parseFloat(document.getElementById('reportLng').value);
-    const shape = document.getElementById('reportShape').value;
     const desc = document.getElementById('reportDesc').value;
     const name = document.getElementById('reportName').value || 'Anonymous';
-    
-    if (!location || !desc) {
-      alert('Please provide location and description');
-      return;
-    }
-    
+    if (!location || !desc) { alert('Please provide location and description'); return; }
     let finalLat = lat, finalLng = lng;
-    if (isNaN(finalLat)) {
-      const extracted = extractLocationFromText(location);
-      if (extracted) {
-        finalLat = extracted.lat;
-        finalLng = extracted.lng;
-      }
-    }
-    
-    const newSighting = {
-      id: `user_${Date.now()}`,
-      title: desc.substring(0, 100),
-      description: desc,
-      location: location,
-      lat: finalLat || null,
-      lng: finalLng || null,
-      source: `Community: ${name}`,
-      sourceUrl: '#',
-      timestamp: new Date().toISOString()
-    };
-    
+    if (isNaN(finalLat)) { const extracted = extractLocationFromText(location); if (extracted) { finalLat = extracted.lat; finalLng = extracted.lng; } }
+    const newSighting = { id: `user_${Date.now()}`, title: desc.substring(0, 100), location: location, lat: finalLat || null, lng: finalLng || null, source: `Community: ${name}`, sourceUrl: '#', timestamp: new Date().toISOString() };
     liveSightings.unshift(newSighting);
     document.getElementById('sighting-count').innerText = liveSightings.length;
     document.getElementById('live-feed-count').innerText = liveSightings.length;
-    
-    const container = document.getElementById('sightings-list');
-    container.innerHTML = liveSightings.map(s => `
-      <div class="sighting-item" onclick="window.open('${s.sourceUrl}', '_blank')">
-        <div class="sighting-location">📍 ${escapeHtml(s.location)}</div>
-        <div class="item-headline" style="font-size: 13px;">🛸 ${escapeHtml(s.title.substring(0, 100))}</div>
-        <div class="item-meta">
-          <span class="item-source">${escapeHtml(s.source)}</span>
-          <span class="item-date">Just now</span>
-        </div>
-      </div>
-    `).join('');
-    
+    document.getElementById('sightings-list').innerHTML = liveSightings.map(s => `<div class="sighting-item" onclick="window.open('${s.sourceUrl}', '_blank')"><div class="sighting-location">📍 ${escapeHtml(s.location)}</div><div class="item-headline" style="font-size: 13px;">🛸 ${escapeHtml(s.title.substring(0, 100))}</div><div class="item-meta"><span class="item-source">${escapeHtml(s.source)}</span><span class="item-date">Just now</span></div></div>`).join('');
     updateMap();
     closeReportModal();
-    
-    document.getElementById('reportLocation').value = '';
-    document.getElementById('reportLat').value = '';
-    document.getElementById('reportLng').value = '';
-    document.getElementById('reportDesc').value = '';
-    
-    alert('✓ Sighting added to map and feed!');
+    document.getElementById('reportLocation').value = ''; document.getElementById('reportLat').value = ''; document.getElementById('reportLng').value = ''; document.getElementById('reportDesc').value = '';
+    alert('✓ Sighting added!');
+  }
+
+  function updateTicker() {
+    const headlines = allNews.slice(0, 6).map(item => item.headline.substring(0, 60));
+    const tickerItems = [...headlines, ...liveSightings.slice(0, 3).map(s => `📍 ${s.location}: ${s.title.substring(0, 40)}`)];
+    document.getElementById('ticker-inner').innerHTML = tickerItems.map(t => `<span class="ticker-item">▸ ${escapeHtml(t)}...</span>`).join('') + tickerItems.map(t => `<span class="ticker-item">▸ ${escapeHtml(t)}...</span>`).join('');
   }
 
   function formatDate(isoDate) {
-    const d = new Date(isoDate);
-    const now = new Date();
-    const diff = now - d;
-    const hours = Math.floor(diff / 3600000);
+    const d = new Date(isoDate), now = new Date(), diff = now - d, hours = Math.floor(diff / 3600000);
     if (hours < 1) return 'Just now';
     if (hours < 24) return `${hours}h ago`;
     return `${Math.floor(hours/24)}d ago`;
   }
-
-  function escapeHtml(str) {
-    if (!str) return '';
-    return str.replace(/[&<>]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;'})[m]);
-  }
-
+  function escapeHtml(str) { if (!str) return ''; return str.replace(/[&<>]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;'})[m]); }
   function switchTab(tab) {
     document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
     document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active-tab'));
-    if (tab === 'news') {
-      document.getElementById('news-tab').classList.add('active-tab');
-      document.querySelectorAll('.tab-btn')[0].classList.add('active');
-      renderNews();
-    } else {
-      document.getElementById('sightings-tab').classList.add('active-tab');
-      document.querySelectorAll('.tab-btn')[1].classList.add('active');
-    }
+    if (tab === 'news') { document.getElementById('news-tab').classList.add('active-tab'); document.querySelectorAll('.tab-btn')[0].classList.add('active'); renderNews(); }
+    else { document.getElementById('sightings-tab').classList.add('active-tab'); document.querySelectorAll('.tab-btn')[1].classList.add('active'); }
   }
-
   function openReportModal() { document.getElementById('reportModal').style.display = 'flex'; }
   function closeReportModal() { document.getElementById('reportModal').style.display = 'none'; }
-
-  function updateClock() {
-    const now = new Date();
-    document.getElementById('clock').innerText = `${String(now.getUTCHours()).padStart(2,'0')}:${String(now.getUTCMinutes()).padStart(2,'0')}:${String(now.getUTCSeconds()).padStart(2,'0')} UTC`;
-  }
+  function openSupportPopup() { document.getElementById('supportPopup').style.display = 'flex'; }
+  function closeSupportPopup() { document.getElementById('supportPopup').style.display = 'none'; localStorage.setItem('supportPopupDismissed', Date.now()); }
+  function updateClock() { document.getElementById('clock').innerText = `${String(new Date().getUTCHours()).padStart(2,'0')}:${String(new Date().getUTCMinutes()).padStart(2,'0')}:${String(new Date().getUTCSeconds()).padStart(2,'0')} UTC`; }
 
   // Initialize
-  setInterval(updateClock, 1000);
-  updateClock();
-  loadNewsFeed();
-  loadLiveSightings();
+  setInterval(updateClock, 1000); updateClock();
+  loadNewsFeed(); loadLiveSightings();
   setInterval(loadNewsFeed, 10 * 60 * 1000);
   setInterval(loadLiveSightings, 5 * 60 * 1000);
+  
+  // Support popup - show after 15 seconds, only once per session
+  setTimeout(() => { const dismissed = localStorage.getItem('supportPopupDismissed'); if (!dismissed || (Date.now() - parseInt(dismissed)) > 86400000) openSupportPopup(); }, 15000);
   
   window.setNicheFilter = setNicheFilter;
   window.switchTab = switchTab;
   window.submitUserSighting = submitUserSighting;
   window.openReportModal = openReportModal;
   window.closeReportModal = closeReportModal;
+  window.closeSupportPopup = closeSupportPopup;
 </script>
 </body>
 </html>

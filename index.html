@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>DISCLOSURE WATCH — UAP News + Live Sightings Map | Our Night Sky</title>
+<title>DISCLOSURE WATCH — UAP Intelligence & News Feed | Our Night Sky</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
@@ -134,10 +134,74 @@
   .metric-value.amber { color: var(--amber); }
   .metric-sub { font-size: 9px; color: var(--text-dim); }
 
+  /* Compact Map - Less Prominent */
+  .map-collapsed {
+    margin-bottom: 1rem;
+  }
+  .map-container {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  .map-container.minimized #sightings-map {
+    height: 180px;
+  }
+  #sightings-map {
+    height: 180px;
+    width: 100%;
+    background: #0a0e1a;
+    transition: height 0.3s ease;
+  }
+  .map-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid var(--border);
+    font-family: var(--mono);
+    font-size: 10px;
+  }
+  .map-header span { color: var(--accent2); }
+  .map-toggle {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    cursor: pointer;
+    font-family: var(--mono);
+    font-size: 10px;
+  }
+  .map-toggle:hover { color: var(--accent2); }
+  .map-attribution {
+    font-size: 8px;
+    padding: 4px 8px;
+    background: rgba(0,0,0,0.7);
+    text-align: right;
+    color: var(--text-dim);
+  }
+  .zoom-btn {
+    position: absolute;
+    bottom: 30px;
+    right: 8px;
+    z-index: 1000;
+    background: var(--accent);
+    color: var(--bg);
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-family: var(--mono);
+    font-size: 9px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
   .tab-nav {
     display: flex;
     gap: 4px;
-    margin-bottom: 1.5rem;
+    margin: 1rem 0 1.5rem 0;
     border-bottom: 1px solid var(--border);
   }
   .tab-btn {
@@ -146,7 +210,7 @@
     font-size: 14px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    padding: 10px 24px;
+    padding: 8px 20px;
     background: transparent;
     border: none;
     color: var(--text-dim);
@@ -169,44 +233,6 @@
   .tab-content.active-tab { display: block; }
   @keyframes fadeSlide { from { opacity: 0; } to { opacity: 1; } }
 
-  .map-container {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    overflow: hidden;
-    margin-bottom: 1.5rem;
-    position: relative;
-  }
-  #sightings-map {
-    height: 400px;
-    width: 100%;
-    background: #0a0e1a;
-  }
-  .map-attribution {
-    font-size: 9px;
-    padding: 6px 12px;
-    background: rgba(0,0,0,0.7);
-    text-align: right;
-    color: var(--text-dim);
-  }
-  .zoom-btn {
-    position: absolute;
-    bottom: 50px;
-    right: 12px;
-    z-index: 1000;
-    background: var(--accent);
-    color: var(--bg);
-    border: none;
-    padding: 6px 12px;
-    border-radius: 4px;
-    font-family: var(--mono);
-    font-size: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-  }
-  .zoom-btn:hover { background: var(--accent2); }
-
   .content-grid { display: grid; grid-template-columns: 1fr 320px; gap: 1.5rem; align-items: start; }
   @media (max-width: 1024px) { .content-grid { grid-template-columns: 1fr; } }
 
@@ -214,15 +240,15 @@
   .section-title { font-family: var(--head); font-weight: 600; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--text-bright); }
   .section-count { font-family: var(--mono); font-size: 10px; background: rgba(74,158,255,0.1); border: 1px solid rgba(74,158,255,0.2); padding: 1px 8px; border-radius: 2px; }
 
-  .feed-list { display: flex; flex-direction: column; gap: 2px; max-height: 550px; overflow-y: auto; }
-  .feed-item, .sighting-item {
+  .feed-list { display: flex; flex-direction: column; gap: 2px; max-height: 600px; overflow-y: auto; }
+  .feed-item {
     background: var(--surface);
     border: 1px solid var(--border);
-    padding: 0.8rem 1rem;
+    padding: 1rem;
     cursor: pointer;
     transition: all 0.2s;
   }
-  .feed-item:hover, .sighting-item:hover { background: var(--surface2); border-color: var(--border-hot); }
+  .feed-item:hover { background: var(--surface2); border-color: var(--border-hot); transform: translateX(2px); }
   
   /* Category-specific border colors */
   .feed-item.niche-disclosure { border-left: 3px solid var(--accent); }
@@ -232,39 +258,18 @@
   .feed-item.niche-scientific_research { border-left: 3px solid var(--purple); }
   .feed-item.niche-international { border-left: 3px solid var(--cyan); }
   .feed-item.niche-ancient_aliens { border-left: 3px solid var(--orange); }
-  .feed-item.niche-area51_s4 { border-left: 3px solid #e67e22; }
-  .feed-item.niche-social_media { border-left: 3px solid #3498db; }
-  .feed-item.niche-podcasts { border-left: 3px solid #1abc9c; }
   .feed-item.niche-media_coverage { border-left: 3px solid #48c9b0; }
-  .feed-item.niche-exopolitics { border-left: 3px solid #5dade2; }
   
-  .sighting-item { border-left: 3px solid var(--accent3); }
-  
-  .item-headline { font-family: var(--head); font-weight: 600; font-size: 15px; color: var(--text-bright); margin-bottom: 4px; }
-  .item-summary { font-size: 12px; color: var(--text-dim); }
-  .item-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; font-size: 10px; font-family: var(--mono); }
+  .item-headline { font-family: var(--head); font-weight: 600; font-size: 15px; color: var(--text-bright); margin-bottom: 6px; line-height: 1.3; }
+  .item-summary { font-size: 12px; color: var(--text-dim); margin-bottom: 8px; }
+  .item-meta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px; font-size: 10px; font-family: var(--mono); align-items: center; }
   .item-source { color: var(--accent); }
-  .item-date { color: var(--text-dim); }
-  .sighting-location { font-family: var(--mono); font-size: 11px; color: var(--accent3); font-weight: bold; }
+  .item-date { color: var(--accent2); }
+  .item-link-hint { font-size: 9px; color: var(--text-dim); margin-top: 6px; }
+  .item-link-hint span { color: var(--accent); }
 
   .sidebar-card { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1rem; margin-bottom: 1rem; }
   
-  .report-btn {
-    width: 100%;
-    padding: 12px;
-    background: linear-gradient(135deg, rgba(74,158,255,0.2), rgba(0,212,170,0.1));
-    border: 1px solid var(--accent2);
-    color: var(--accent2);
-    font-family: var(--head);
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-top: 12px;
-  }
-  .report-btn:hover { background: rgba(0,212,170,0.2); }
-
   .filter-bar { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1rem; }
   .filter-btn {
     font-family: var(--mono);
@@ -309,7 +314,6 @@
   .loading-ring { width: 36px; height: 36px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto; }
   @keyframes spin { to { transform: rotate(360deg); } }
 
-  /* Support Popup Modal */
   .support-popup {
     display: none;
     position: fixed;
@@ -331,35 +335,27 @@
     width: 90%;
     border-radius: 16px;
     text-align: center;
-    box-shadow: 0 0 40px rgba(0,212,170,0.2);
   }
-  .support-popup-content h2 { color: var(--accent2); margin-bottom: 1rem; font-family: var(--head); letter-spacing: 0.1em; }
-  .support-popup-content p { margin: 1rem 0; line-height: 1.6; }
+  .support-popup-content h2 { color: var(--accent2); margin-bottom: 1rem; font-family: var(--head); }
   .support-popup-buttons { display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap; }
   .support-btn {
     background: var(--accent2);
     color: var(--bg);
     border: none;
-    padding: 12px 24px;
+    padding: 10px 20px;
     border-radius: 40px;
-    font-family: var(--head);
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
   }
-  .support-btn:hover { opacity: 0.85; transform: scale(1.02); }
   .later-btn {
     background: transparent;
     border: 1px solid var(--border);
     color: var(--text-dim);
-    padding: 12px 24px;
+    padding: 10px 20px;
     border-radius: 40px;
     cursor: pointer;
   }
-  .coffee-icon { font-size: 18px; }
 
   .modal {
     display: none;
@@ -396,7 +392,6 @@
     border: none;
     padding: 8px 16px;
     cursor: pointer;
-    margin-top: 8px;
     border-radius: 4px;
   }
 </style>
@@ -407,7 +402,7 @@
   <div class="header-inner">
     <div class="logo-block">
       <div class="logo-icon"><svg viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="16" stroke="#4a9eff" stroke-opacity="0.4" stroke-width="1"/><circle cx="18" cy="18" r="10" stroke="#4a9eff" stroke-opacity="0.3"/><circle cx="18" cy="18" r="2.5" fill="#4a9eff"/></svg></div>
-      <div><div class="logo-text">DISCLOSURE WATCH</div><div class="logo-sub">UAP INTELLIGENCE + SIGHTINGS MAP</div></div>
+      <div><div class="logo-text">DISCLOSURE WATCH</div><div class="logo-sub">UAP INTELLIGENCE FEED</div></div>
     </div>
     <div class="network-header">
       <span>🌌 PART OF</span>
@@ -423,57 +418,78 @@
 <div class="ticker-bar"><div class="ticker-label">BREAKING</div><div class="ticker-track"><div class="ticker-inner" id="ticker-inner"><span class="ticker-item">▸ Loading intelligence feed...</span></div></div></div>
 <div class="main-wrap">
   <div class="metrics-bar">
-    <div class="metric-cell"><div class="metric-label">News Signals</div><div class="metric-value blue" id="news-count">—</div><div class="metric-sub">intel items</div></div>
-    <div class="metric-cell"><div class="metric-label">Live Sightings</div><div class="metric-value red" id="sighting-count">—</div><div class="metric-sub">from RSS feeds</div></div>
+    <div class="metric-cell"><div class="metric-label">News Signals</div><div class="metric-value blue" id="news-count">—</div><div class="metric-sub">articles</div></div>
     <div class="metric-cell"><div class="metric-label">Top Category</div><div class="metric-value green" id="top-niche">—</div><div class="metric-sub" id="top-niche-count">—</div></div>
-    <div class="metric-cell"><div class="metric-label">Last Updated</div><div class="metric-value amber" id="last-updated">—</div><div class="metric-sub">fetch time</div></div>
+    <div class="metric-cell"><div class="metric-label">Latest Article</div><div class="metric-value" style="font-size: 14px;" id="latest-time">—</div><div class="metric-sub" id="latest-title">—</div></div>
+    <div class="metric-cell"><div class="metric-label">Sources</div><div class="metric-value amber" id="source-count">—</div><div class="metric-sub">active feeds</div></div>
   </div>
 
-  <div class="map-container">
-    <div id="sightings-map"></div>
-    <div class="map-attribution">📍 Live UAP sightings from Reddit, MUFON, NUFORC | Click pins for details</div>
+  <!-- Compact Map - Less Prominent -->
+  <div class="map-collapsed">
+    <div class="map-container minimized" id="mapContainer">
+      <div class="map-header">
+        <span>📍 LIVE SIGHTINGS MAP</span>
+        <button class="map-toggle" onclick="toggleMapSize()">[ − ]</button>
+      </div>
+      <div id="sightings-map"></div>
+      <div class="map-attribution">Pins: Reddit, MUFON, NUFORC | Click for details</div>
+    </div>
   </div>
 
   <div class="tab-nav">
-    <button class="tab-btn active" onclick="switchTab('news')">📰 UAP News Feed</button>
-    <button class="tab-btn" onclick="switchTab('sightings')">🛸 Live Sightings</button>
+    <button class="tab-btn active" onclick="switchTab('news')">📰 UAP NEWS FEED</button>
+    <button class="tab-btn" onclick="switchTab('sightings')">🛸 REPORT A SIGHTING</button>
   </div>
 
+  <!-- MAIN NEWS TAB -->
   <div id="news-tab" class="tab-content active-tab">
     <div class="content-grid">
       <div>
-        <div class="section-head"><div class="section-title">Intelligence Feed</div><div class="section-count" id="feed-count">0</div></div>
+        <div class="section-head"><div class="section-title">INTELLIGENCE FEED</div><div class="section-count" id="feed-count">0</div></div>
         <div class="filter-bar" id="filter-bar"></div>
-        <div class="feed-list" id="news-list"><div class="loading-state"><div class="loading-ring"></div><div>Loading UAP intelligence...</div></div></div>
+        <div class="feed-list" id="news-list"><div class="loading-state"><div class="loading-ring"></div><div>Loading intelligence feed...</div></div></div>
       </div>
       <div>
         <div class="sidebar-card">
-          <div class="section-title">📊 Top Niches</div>
+          <div class="section-title">📊 TOP NICHES</div>
           <div id="niche-breakdown" style="font-size: 11px; margin-top: 8px;">—</div>
         </div>
         <div class="sidebar-card">
-          <div class="section-title">📰 Top Sources</div>
+          <div class="section-title">📰 TOP SOURCES</div>
           <div id="source-breakdown" style="font-size: 11px; margin-top: 8px;">—</div>
+        </div>
+        <div class="sidebar-card">
+          <div class="section-title">ℹ️ ABOUT</div>
+          <div style="font-size: 11px; line-height: 1.5;">
+            Real-time UAP intelligence from official reports, whistleblower testimony, and scientific research. Each article links directly to the original source.
+          </div>
         </div>
       </div>
     </div>
   </div>
 
+  <!-- SIGHTINGS TAB (Simplified) -->
   <div id="sightings-tab" class="tab-content">
     <div class="content-grid">
       <div>
-        <div class="section-head"><div class="section-title">🌎 Live Community Sightings</div><div class="section-count" id="live-feed-count">0</div></div>
-        <div class="feed-list" id="sightings-list"><div class="loading-state"><div class="loading-ring"></div><div>Fetching live sightings...</div></div></div>
-        <button class="report-btn" onclick="openReportModal()">✍️ Report Your Sighting</button>
+        <div class="section-head"><div class="section-title">🌎 REPORT A SIGHTING</div></div>
+        <div class="sidebar-card">
+          <input type="text" id="reportLocation" placeholder="City, State, Country" style="width:100%; margin-bottom:8px; background:var(--bg); border:1px solid var(--border); color:var(--text); padding:8px;">
+          <textarea id="reportDesc" rows="3" placeholder="Describe what you saw..." style="width:100%; background:var(--bg); border:1px solid var(--border); color:var(--text); padding:8px;"></textarea>
+          <input type="text" id="reportName" placeholder="Your name or Anonymous" value="Anonymous" style="width:100%; margin:8px 0; background:var(--bg); border:1px solid var(--border); color:var(--text); padding:8px;">
+          <button onclick="submitSimpleSighting()" style="width:100%; background:var(--accent2); color:var(--bg); border:none; padding:10px; cursor:pointer;">✍️ SUBMIT SIGHTING</button>
+        </div>
+        <div class="sidebar-card">
+          <div class="section-title">📡 RECENT COMMUNITY REPORTS</div>
+          <div id="simple-sightings-list" style="font-size: 11px; max-height: 300px; overflow-y: auto;">Loading...</div>
+        </div>
       </div>
       <div>
         <div class="sidebar-card">
-          <div class="section-title">📡 RSS Sources</div>
-          <div id="rss-sources-list" style="font-size: 11px; margin-top: 8px;">—</div>
-        </div>
-        <div class="sidebar-card">
-          <div class="section-title">📍 Top Locations</div>
-          <div id="top-locations" style="font-size: 11px; margin-top: 8px;">—</div>
+          <div class="section-title">📍 WHY REPORT?</div>
+          <div style="font-size: 11px; line-height: 1.5;">
+            Your sightings help build a crowdsourced database of UAP activity. All reports are stored locally and contribute to community awareness.
+          </div>
         </div>
       </div>
     </div>
@@ -489,53 +505,48 @@
 <div id="supportPopup" class="support-popup">
   <div class="support-popup-content">
     <h2>🌌 Keep DISCLOSURE WATCH Alive</h2>
-    <p>You're viewing real-time UAP intelligence and live community sightings — <strong>completely free</strong> and without ads.</p>
-    <p>If this work brings value to your journey of discovery, please consider supporting <strong>Our Night Sky Network</strong> with a small donation.</p>
+    <p>Real-time UAP intelligence, direct article links, and community reporting — <strong>completely free</strong>.</p>
+    <p>Support <strong>Our Night Sky Network</strong> with a small donation.</p>
     <div class="support-popup-buttons">
-      <a href="https://buymeacoffee.com/ournightsky" target="_blank" class="support-btn"><span class="coffee-icon">☕</span> Support Now</a>
+      <a href="https://buymeacoffee.com/ournightsky" target="_blank" class="support-btn">☕ Support Now</a>
       <button class="later-btn" onclick="closeSupportPopup()">Remind Me Later</button>
-    </div>
-    <p style="font-size: 11px; margin-top: 1rem; opacity: 0.7;">Your support helps maintain servers, RSS feeds, and future iOS app development.</p>
-  </div>
-</div>
-
-<div id="reportModal" class="modal">
-  <div class="modal-content">
-    <h3>🛸 Report Your Sighting</h3>
-    <input type="text" id="reportLocation" placeholder="City, State, Country" />
-    <input type="text" id="reportLat" placeholder="Latitude (optional, e.g., 40.7128)" />
-    <input type="text" id="reportLng" placeholder="Longitude (optional)" />
-    <select id="reportShape"><option>Unknown</option><option>Disc/Saucer</option><option>Triangle</option><option>Orb/Sphere</option><option>Cigar/Cylinder</option></select>
-    <textarea id="reportDesc" rows="3" placeholder="Describe what you saw..."></textarea>
-    <input type="text" id="reportName" placeholder="Your name or Anonymous" value="Anonymous" />
-    <div style="display: flex; gap: 10px; justify-content: flex-end;">
-      <button onclick="closeReportModal()" style="background: #333;">Cancel</button>
-      <button onclick="submitUserSighting()">Submit</button>
     </div>
   </div>
 </div>
 
 <script>
   // ============================================================
-  // DATA VARIABLES
+  // MAIN NEWS FEED - Direct article links + clear dates
   // ============================================================
   let allNews = [];
   let activeNiche = 'all';
   let map = null;
   let mapMarkers = [];
-  let liveSightings = [];
 
-  // Category colors for UI elements
   const categoryColors = {
     disclosure: '#4a9eff', whistleblower: '#e84393', military_encounters: '#ff4444',
     legislation: '#ffaa00', scientific_research: '#9b59b6', international: '#1abc9c',
-    ancient_aliens: '#f39c12', area51_s4: '#e67e22', social_media: '#3498db', 
-    podcasts: '#1abc9c', media_coverage: '#48c9b0', exopolitics: '#5dade2'
+    ancient_aliens: '#f39c12', media_coverage: '#48c9b0'
   };
 
-  // ============================================================
-  // NEWS FEED (JSON)
-  // ============================================================
+  // Format date nicely for display
+  function formatDateSmart(isoDate) {
+    const d = new Date(isoDate);
+    if (isNaN(d.getTime())) return 'Recent';
+    const now = new Date();
+    const diffMs = now - d;
+    const diffMins = Math.floor(diffMs / 60000);
+    const diffHours = Math.floor(diffMs / 3600000);
+    const diffDays = Math.floor(diffMs / 86400000);
+    
+    if (diffMins < 1) return 'Just now';
+    if (diffMins < 60) return `${diffMins}m ago`;
+    if (diffHours < 24) return `${diffHours}h ago`;
+    if (diffDays === 1) return 'Yesterday';
+    if (diffDays < 7) return `${diffDays}d ago`;
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  }
+
   async function loadNewsFeed() {
     const jsonUrl = 'https://raw.githubusercontent.com/NAGOHUSA/UAP/main/disclosure/data/uap_trends.json';
     try {
@@ -546,9 +557,14 @@
       
       document.getElementById('news-count').innerText = allNews.length;
       document.getElementById('feed-count').innerText = allNews.length;
+      document.getElementById('source-count').innerText = new Set(allNews.map(n => n.source)).size;
       
-      const fetchedDate = new Date(data.fetched_at);
-      document.getElementById('last-updated').innerText = fetchedDate.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+      // Show latest article info
+      if (allNews.length > 0) {
+        const latest = allNews[0];
+        document.getElementById('latest-time').innerHTML = formatDateSmart(latest.timestamp);
+        document.getElementById('latest-title').innerHTML = latest.headline.substring(0, 35) + (latest.headline.length > 35 ? '...' : '');
+      }
       
       const nicheCounts = {};
       allNews.forEach(item => { nicheCounts[item.niche] = (nicheCounts[item.niche] || 0) + 1; });
@@ -563,28 +579,27 @@
       updateTicker();
     } catch (err) {
       console.error('News feed error:', err);
-      document.getElementById('news-list').innerHTML = `<div class="loading-state" style="color: var(--red);">⚠️ Unable to load news feed.</div>`;
+      document.getElementById('news-list').innerHTML = `<div class="loading-state" style="color: var(--red);">⚠️ Unable to load news feed. Check connection.</div>`;
     }
   }
 
   function buildFilters(nicheCounts) {
     const filterBar = document.getElementById('filter-bar');
-    filterBar.innerHTML = `<button class="filter-btn active" data-niche="all" onclick="setNicheFilter('all')">All (${allNews.length})</button>`;
+    filterBar.innerHTML = `<button class="filter-btn active" data-niche="all" onclick="setNicheFilter('all')">ALL (${allNews.length})</button>`;
     for (const [niche, count] of Object.entries(nicheCounts)) {
-      const color = categoryColors[niche] || '#4a9eff';
-      filterBar.innerHTML += `<button class="filter-btn" data-niche="${niche}" style="border-left-color: ${color};" onclick="setNicheFilter('${niche}')">${niche.replace(/_/g, ' ')} (${count})</button>`;
+      filterBar.innerHTML += `<button class="filter-btn" data-niche="${niche}" onclick="setNicheFilter('${niche}')">${niche.replace(/_/g, ' ').toUpperCase()} (${count})</button>`;
     }
     
     const sorted = Object.entries(nicheCounts).sort((a,b)=>b[1]-a[1]);
     document.getElementById('niche-breakdown').innerHTML = sorted.map(([n,c]) => 
-      `<div style="margin: 6px 0; color: ${categoryColors[n] || '#4a9eff'};">${n.replace(/_/g, ' ')}: <span style="color: var(--accent2);">${c}</span></div>`
+      `<div style="margin: 6px 0;"><span style="color: ${categoryColors[n] || '#4a9eff'};">●</span> ${n.replace(/_/g, ' ')}: <strong style="color: var(--accent2);">${c}</strong></div>`
     ).join('');
     
     const sourceCounts = {};
     allNews.forEach(item => { sourceCounts[item.source] = (sourceCounts[item.source] || 0) + 1; });
     const topSources = Object.entries(sourceCounts).sort((a,b)=>b[1]-a[1]).slice(0,6);
     document.getElementById('source-breakdown').innerHTML = topSources.map(([s,c]) => 
-      `<div style="margin: 6px 0;">${s}: ${c}</div>`
+      `<div style="margin: 5px 0;">📡 ${s}: ${c}</div>`
     ).join('');
   }
 
@@ -600,188 +615,173 @@
     const filtered = activeNiche === 'all' ? allNews : allNews.filter(item => item.niche === activeNiche);
     const container = document.getElementById('news-list');
     if (filtered.length === 0) {
-      container.innerHTML = '<div class="loading-state">No news for this category.</div>';
+      container.innerHTML = '<div class="loading-state">No articles for this category.</div>';
       return;
     }
     container.innerHTML = filtered.map(item => {
-      const nicheClass = `niche-${item.niche}`;
       const borderColor = categoryColors[item.niche] || '#4a9eff';
-      return `<div class="feed-item ${nicheClass}" style="border-left-color: ${borderColor};" onclick="window.open('${item.source_url}', '_blank')">
+      const articleUrl = item.source_url || '#';
+      const dateDisplay = formatDateSmart(item.timestamp);
+      const signalPercent = Math.round((item.signal_strength || 0.7) * 100);
+      
+      return `<div class="feed-item niche-${item.niche}" style="border-left-color: ${borderColor}; cursor: pointer;" onclick="window.open('${articleUrl}', '_blank')">
         <div class="item-headline">📡 ${escapeHtml(item.headline)}</div>
-        <div class="item-summary">${escapeHtml((item.summary || '').substring(0, 120))}…</div>
+        <div class="item-summary">${escapeHtml((item.summary || '').substring(0, 140))}${(item.summary || '').length > 140 ? '…' : ''}</div>
         <div class="item-meta">
-          <span class="item-source">${escapeHtml(item.source)}</span>
-          <span class="item-date">${formatDate(item.timestamp)}</span>
-          <span style="color: ${borderColor};">${Math.round(item.signal_strength * 100)}% signal</span>
+          <span class="item-source">📰 ${escapeHtml(item.source)}</span>
+          <span class="item-date">🕐 ${dateDisplay}</span>
+          <span style="color: ${borderColor};">📊 ${signalPercent}% relevance</span>
         </div>
+        <div class="item-link-hint"><span>🔗 Click to read full article →</span></div>
       </div>`;
     }).join('');
   }
 
   // ============================================================
-  // LIVE SIGHTINGS (RSS)
+  // COMPACT MAP (Sightings from RSS)
   // ============================================================
-  const RSS_FEEDS = [
-    { name: "Reddit r/UFOs", url: "https://www.reddit.com/r/UFOs/.rss" },
-    { name: "Reddit r/UAP", url: "https://www.reddit.com/r/UAP/.rss" },
-    { name: "MUFON", url: "https://mufon.com/feed/" },
-    { name: "NUFORC", url: "https://nuforc.org/feed/" }
-  ];
+  let liveSightings = [];
 
-  const locationCoords = {
-    "phoenix": [33.4484, -112.074], "arizona": [34.0489, -111.0937], "las vegas": [36.1716, -115.1391],
-    "london": [51.5074, -0.1278], "new york": [40.7128, -74.006], "california": [36.7783, -119.4179],
-    "texas": [31.9686, -99.9018], "florida": [27.6648, -81.5158], "chicago": [41.8781, -87.6298],
-    "mexico city": [19.4326, -99.1332], "toronto": [43.6532, -79.3832], "sydney": [-33.8688, 151.2093],
-    "tokyo": [35.6895, 139.6917], "berlin": [52.52, 13.405], "paris": [48.8566, 2.3522],
-    "cape town": [-33.9249, 18.4241], "seattle": [47.6062, -122.3321], "boston": [42.3601, -71.0589]
-  };
-
-  function extractLocationFromText(text) {
-    const lower = text.toLowerCase();
-    for (const [loc, coords] of Object.entries(locationCoords)) {
-      if (lower.includes(loc)) return { name: loc, lat: coords[0], lng: coords[1] };
+  async function loadMapSightings() {
+    const feeds = [
+      { name: "Reddit r/UFOs", url: "https://www.reddit.com/r/UFOs/.rss" },
+      { name: "MUFON", url: "https://mufon.com/feed/" }
+    ];
+    const locationMap = {
+      "phoenix": [33.4484, -112.074], "las vegas": [36.1716, -115.1391], "london": [51.5074, -0.1278],
+      "new york": [40.7128, -74.006], "california": [36.7783, -119.4179], "texas": [31.9686, -99.9018],
+      "florida": [27.6648, -81.5158], "chicago": [41.8781, -87.6298], "seattle": [47.6062, -122.3321]
+    };
+    liveSightings = [];
+    for (const feed of feeds) {
+      try {
+        const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`;
+        const res = await fetch(proxyUrl);
+        if (res.ok) {
+          const data = await res.json();
+          for (const item of (data.items || []).slice(0, 8)) {
+            const text = (item.title + " " + (item.description || "")).toLowerCase();
+            for (const [loc, coords] of Object.entries(locationMap)) {
+              if (text.includes(loc)) {
+                liveSightings.push({
+                  location: loc, lat: coords[0], lng: coords[1],
+                  title: item.title.substring(0, 80), url: item.link
+                });
+                break;
+              }
+            }
+          }
+        }
+      } catch(e) {}
     }
-    return null;
+    updateMapMarkers();
   }
 
-  async function fetchRSSFeed(feed) {
-    try {
-      const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`;
-      const response = await fetch(proxyUrl);
-      if (!response.ok) return [];
-      const data = await response.json();
-      if (!data.items) return [];
-      return data.items.slice(0, 12).map(item => {
-        const fullText = (item.title + " " + (item.description || "")).substring(0, 300);
-        const location = extractLocationFromText(fullText);
-        return {
-          id: `${feed.name}_${Date.now()}_${Math.random()}`,
-          title: item.title || "Sighting report",
-          description: (item.description || item.content || "").substring(0, 200),
-          location: location ? location.name : "Unknown",
-          lat: location ? location.lat : null,
-          lng: location ? location.lng : null,
-          source: feed.name,
-          sourceUrl: item.link || feed.url,
-          timestamp: item.pubDate ? new Date(item.pubDate).toISOString() : new Date().toISOString()
-        };
-      }).filter(s => s.lat !== null);
-    } catch (e) {
-      return [];
-    }
-  }
-
-  async function loadLiveSightings() {
-    const container = document.getElementById('sightings-list');
-    container.innerHTML = '<div class="loading-state"><div class="loading-ring"></div><div>Fetching live sightings...</div></div>';
-    const results = await Promise.all(RSS_FEEDS.map(feed => fetchRSSFeed(feed)));
-    liveSightings = results.flat();
-    const seen = new Set();
-    liveSightings = liveSightings.filter(s => { if (seen.has(s.title)) return false; seen.add(s.title); return true; });
-    liveSightings.sort((a,b) => new Date(b.timestamp) - new Date(a.timestamp));
-    
-    document.getElementById('sighting-count').innerText = liveSightings.length;
-    document.getElementById('live-feed-count').innerText = liveSightings.length;
-    document.getElementById('rss-sources-list').innerHTML = RSS_FEEDS.map(f => `<div style="margin: 6px 0;">📡 ${f.name}</div>`).join('');
-    
-    const locCount = {};
-    liveSightings.forEach(s => { locCount[s.location] = (locCount[s.location] || 0) + 1; });
-    const topLocs = Object.entries(locCount).sort((a,b)=>b[1]-a[1]).slice(0,5);
-    document.getElementById('top-locations').innerHTML = topLocs.map(([loc, cnt]) => `<div>📍 ${loc}: ${cnt} sighting${cnt !== 1 ? 's' : ''}</div>`).join('');
-    
-    container.innerHTML = liveSightings.map(s => `
-      <div class="sighting-item" onclick="window.open('${s.sourceUrl}', '_blank')">
-        <div class="sighting-location">📍 ${escapeHtml(s.location)}</div>
-        <div class="item-headline" style="font-size: 13px;">🛸 ${escapeHtml(s.title.substring(0, 100))}</div>
-        <div class="item-meta"><span class="item-source">${escapeHtml(s.source)}</span><span class="item-date">${formatDate(s.timestamp)}</span></div>
-      </div>
-    `).join('');
-    updateMap();
-  }
-
-  function updateMap() {
+  function updateMapMarkers() {
     if (!map) {
       map = L.map('sightings-map').setView([20, 0], 2);
       L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; OSM & CartoDB', subdomains: 'abcd', maxZoom: 19, minZoom: 2
       }).addTo(map);
       const zoomBtn = document.createElement('button');
-      zoomBtn.innerHTML = '🔍 Zoom to Sightings';
+      zoomBtn.innerHTML = '🔍 Zoom';
       zoomBtn.className = 'zoom-btn';
-      zoomBtn.onclick = () => { if (mapMarkers.length) map.fitBounds(L.featureGroup(mapMarkers).getBounds().pad(0.2)); else alert('No sightings with coordinates.'); };
+      zoomBtn.onclick = () => { if (mapMarkers.length) map.fitBounds(L.featureGroup(mapMarkers).getBounds().pad(0.2)); };
       document.querySelector('.map-container').appendChild(zoomBtn);
     }
     mapMarkers.forEach(m => map.removeLayer(m));
     mapMarkers = [];
     liveSightings.forEach(s => {
-      if (s.lat && s.lng) {
-        const marker = L.circleMarker([s.lat, s.lng], { radius: 7, fillColor: '#ff6b35', color: '#fff', weight: 1, fillOpacity: 0.8 }).addTo(map);
-        marker.bindPopup(`<b>📍 ${escapeHtml(s.location)}</b><br>${escapeHtml(s.title.substring(0, 80))}<br><small>${escapeHtml(s.source)}<br>${new Date(s.timestamp).toLocaleString()}</small><br><a href="${s.sourceUrl}" target="_blank">View Report →</a>`);
-        mapMarkers.push(marker);
-      }
+      const marker = L.circleMarker([s.lat, s.lng], { radius: 6, fillColor: '#ff6b35', color: '#fff', weight: 1, fillOpacity: 0.8 }).addTo(map);
+      marker.bindPopup(`<b>📍 ${s.location}</b><br>${escapeHtml(s.title)}<br><a href="${s.url}" target="_blank">View Report →</a>`);
+      mapMarkers.push(marker);
     });
   }
 
-  function submitUserSighting() {
-    const location = document.getElementById('reportLocation').value;
-    const lat = parseFloat(document.getElementById('reportLat').value);
-    const lng = parseFloat(document.getElementById('reportLng').value);
-    const desc = document.getElementById('reportDesc').value;
-    const name = document.getElementById('reportName').value || 'Anonymous';
+  function toggleMapSize() {
+    const container = document.getElementById('mapContainer');
+    const mapDiv = document.getElementById('sightings-map');
+    const btn = document.querySelector('.map-toggle');
+    if (container.classList.contains('minimized')) {
+      container.classList.remove('minimized');
+      mapDiv.style.height = '350px';
+      btn.innerHTML = '[ − ]';
+      setTimeout(() => map.invalidateSize(), 200);
+    } else {
+      container.classList.add('minimized');
+      mapDiv.style.height = '180px';
+      btn.innerHTML = '[ + ]';
+      setTimeout(() => map.invalidateSize(), 200);
+    }
+  }
+
+  // Simple sightings reporting
+  let userReports = JSON.parse(localStorage.getItem('userReports') || '[]');
+  function renderSimpleSightingsList() {
+    const container = document.getElementById('simple-sightings-list');
+    if (!container) return;
+    if (userReports.length === 0) {
+      container.innerHTML = '<div style="color: var(--text-dim);">No reports yet. Be the first!</div>';
+      return;
+    }
+    container.innerHTML = userReports.slice(0, 10).map(r => `
+      <div style="border-bottom: 1px solid var(--border); padding: 8px 0;">
+        <div style="color: var(--accent3);">📍 ${escapeHtml(r.location)}</div>
+        <div style="font-size: 10px;">${escapeHtml(r.desc.substring(0, 80))}${r.desc.length > 80 ? '…' : ''}</div>
+        <div style="font-size: 9px; color: var(--text-dim);">— ${escapeHtml(r.name)} • ${new Date(r.timestamp).toLocaleString()}</div>
+      </div>
+    `).join('');
+  }
+
+  function submitSimpleSighting() {
+    const location = document.getElementById('reportLocation')?.value;
+    const desc = document.getElementById('reportDesc')?.value;
+    const name = document.getElementById('reportName')?.value || 'Anonymous';
     if (!location || !desc) { alert('Please provide location and description'); return; }
-    let finalLat = lat, finalLng = lng;
-    if (isNaN(finalLat)) { const extracted = extractLocationFromText(location); if (extracted) { finalLat = extracted.lat; finalLng = extracted.lng; } }
-    const newSighting = { id: `user_${Date.now()}`, title: desc.substring(0, 100), location: location, lat: finalLat || null, lng: finalLng || null, source: `Community: ${name}`, sourceUrl: '#', timestamp: new Date().toISOString() };
-    liveSightings.unshift(newSighting);
-    document.getElementById('sighting-count').innerText = liveSightings.length;
-    document.getElementById('live-feed-count').innerText = liveSightings.length;
-    document.getElementById('sightings-list').innerHTML = liveSightings.map(s => `<div class="sighting-item" onclick="window.open('${s.sourceUrl}', '_blank')"><div class="sighting-location">📍 ${escapeHtml(s.location)}</div><div class="item-headline" style="font-size: 13px;">🛸 ${escapeHtml(s.title.substring(0, 100))}</div><div class="item-meta"><span class="item-source">${escapeHtml(s.source)}</span><span class="item-date">Just now</span></div></div>`).join('');
-    updateMap();
-    closeReportModal();
-    document.getElementById('reportLocation').value = ''; document.getElementById('reportLat').value = ''; document.getElementById('reportLng').value = ''; document.getElementById('reportDesc').value = '';
-    alert('✓ Sighting added!');
+    userReports.unshift({ location, desc, name, timestamp: new Date().toISOString() });
+    if (userReports.length > 50) userReports = userReports.slice(0, 50);
+    localStorage.setItem('userReports', JSON.stringify(userReports));
+    renderSimpleSightingsList();
+    document.getElementById('reportLocation').value = '';
+    document.getElementById('reportDesc').value = '';
+    alert('✓ Sighting reported!');
   }
 
   function updateTicker() {
-    const headlines = allNews.slice(0, 6).map(item => item.headline.substring(0, 60));
-    const tickerItems = [...headlines, ...liveSightings.slice(0, 3).map(s => `📍 ${s.location}: ${s.title.substring(0, 40)}`)];
-    document.getElementById('ticker-inner').innerHTML = tickerItems.map(t => `<span class="ticker-item">▸ ${escapeHtml(t)}...</span>`).join('') + tickerItems.map(t => `<span class="ticker-item">▸ ${escapeHtml(t)}...</span>`).join('');
+    const headlines = allNews.slice(0, 5).map(item => item.headline.substring(0, 55));
+    const tickerItems = headlines.map(h => `<span class="ticker-item">▸ ${escapeHtml(h)}...</span>`);
+    document.getElementById('ticker-inner').innerHTML = tickerItems.join('') + tickerItems.join('');
   }
 
-  function formatDate(isoDate) {
-    const d = new Date(isoDate), now = new Date(), diff = now - d, hours = Math.floor(diff / 3600000);
-    if (hours < 1) return 'Just now';
-    if (hours < 24) return `${hours}h ago`;
-    return `${Math.floor(hours/24)}d ago`;
-  }
   function escapeHtml(str) { if (!str) return ''; return str.replace(/[&<>]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;'})[m]); }
   function switchTab(tab) {
     document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
     document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active-tab'));
-    if (tab === 'news') { document.getElementById('news-tab').classList.add('active-tab'); document.querySelectorAll('.tab-btn')[0].classList.add('active'); renderNews(); }
-    else { document.getElementById('sightings-tab').classList.add('active-tab'); document.querySelectorAll('.tab-btn')[1].classList.add('active'); }
+    if (tab === 'news') {
+      document.getElementById('news-tab').classList.add('active-tab');
+      document.querySelectorAll('.tab-btn')[0].classList.add('active');
+      renderNews();
+    } else {
+      document.getElementById('sightings-tab').classList.add('active-tab');
+      document.querySelectorAll('.tab-btn')[1].classList.add('active');
+      renderSimpleSightingsList();
+    }
   }
-  function openReportModal() { document.getElementById('reportModal').style.display = 'flex'; }
-  function closeReportModal() { document.getElementById('reportModal').style.display = 'none'; }
   function openSupportPopup() { document.getElementById('supportPopup').style.display = 'flex'; }
   function closeSupportPopup() { document.getElementById('supportPopup').style.display = 'none'; localStorage.setItem('supportPopupDismissed', Date.now()); }
   function updateClock() { document.getElementById('clock').innerText = `${String(new Date().getUTCHours()).padStart(2,'0')}:${String(new Date().getUTCMinutes()).padStart(2,'0')}:${String(new Date().getUTCSeconds()).padStart(2,'0')} UTC`; }
 
   // Initialize
   setInterval(updateClock, 1000); updateClock();
-  loadNewsFeed(); loadLiveSightings();
+  loadNewsFeed();
+  loadMapSightings();
   setInterval(loadNewsFeed, 10 * 60 * 1000);
-  setInterval(loadLiveSightings, 5 * 60 * 1000);
-  
-  // Support popup - show after 15 seconds, only once per session
-  setTimeout(() => { const dismissed = localStorage.getItem('supportPopupDismissed'); if (!dismissed || (Date.now() - parseInt(dismissed)) > 86400000) openSupportPopup(); }, 15000);
+  setTimeout(() => { const dismissed = localStorage.getItem('supportPopupDismissed'); if (!dismissed || (Date.now() - parseInt(dismissed)) > 86400000) openSupportPopup(); }, 12000);
   
   window.setNicheFilter = setNicheFilter;
   window.switchTab = switchTab;
-  window.submitUserSighting = submitUserSighting;
-  window.openReportModal = openReportModal;
-  window.closeReportModal = closeReportModal;
+  window.submitSimpleSighting = submitSimpleSighting;
+  window.toggleMapSize = toggleMapSize;
   window.closeSupportPopup = closeSupportPopup;
 </script>
 </body>

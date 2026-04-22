@@ -1,29 +1,14 @@
 {
   "trends": [
     {
-      "id": "The Debrief_f04b92da",
-      "niche": "media_coverage",
-      "headline": "Max Planck Institute of Extraterrestrial Physics Makes an ‘Illuminating’ Discovery About the the Solar System’s X-Ray ‘Glow’",
-      "summary": "Scientists from the Max Planck Institute for Extraterrestrial Physics have successfully isolated the Solar System's ubiquitous X-ray glow.",
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/max-planck-institute-of-extraterrestrial-physics-makes-an-illuminating-discovery-about-the-the-solar-systems-x-ray-glow/",
-      "signal_strength": 0.69,
-      "velocity_score": 0.58,
-      "timestamp": "Tue, 21 Apr 2026 12:33:24 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
       "id": "NewsNation_bf37d493",
       "niche": "media_coverage",
       "headline": "Rep. Burchett says he's seen UFO videos that 'defy any reason'",
       "summary": "“I've seen pictures and video of things that defy any reason that we have, and everybody says, ‘Well, it's our stuff, it's the Russians, it's the Chinese,’” he said.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/rep-tim-burchett-ufo-videos/",
-      "signal_strength": 0.77,
-      "velocity_score": 0.69,
+      "signal_strength": 0.94,
+      "velocity_score": 0.76,
       "timestamp": "Wed, 22 Apr 2026 17:30:31 +0000",
       "tags": [
         "media_coverage",
@@ -37,8 +22,8 @@
       "summary": "\"There's no way to describe these objects as anything that I've ever seen before in flight pattern,\" Ron Bilak said.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/former-air-force-vet-describes-uaps-near-base/",
-      "signal_strength": 0.78,
-      "velocity_score": 0.42,
+      "signal_strength": 0.8,
+      "velocity_score": 0.68,
       "timestamp": "Wed, 22 Apr 2026 16:45:56 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +37,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.72,
-      "velocity_score": 0.84,
+      "signal_strength": 0.69,
+      "velocity_score": 0.88,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -67,7 +52,7 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.79,
+      "signal_strength": 0.9,
       "velocity_score": 0.77,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
@@ -82,7 +67,7 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.7,
+      "signal_strength": 0.89,
       "velocity_score": 0.53,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
@@ -97,8 +82,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.74,
-      "velocity_score": 0.57,
+      "signal_strength": 0.91,
+      "velocity_score": 0.63,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +97,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.74,
-      "velocity_score": 0.49,
+      "signal_strength": 0.69,
+      "velocity_score": 0.51,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -121,25 +106,24 @@
       ]
     }
   ],
-  "fetched_at": "2026-04-22T18:22:18.251086+00:00",
-  "total_count": 8,
+  "fetched_at": "2026-04-22T21:17:26.557628+00:00",
+  "total_count": 7,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 8
+        "count": 7
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.74
+      "media_coverage": 0.83
     },
     "source_distribution": {
-      "The Debrief": 1,
       "NewsNation": 2,
       "Live Science": 5
     },
-    "total_trends": 8,
+    "total_trends": 7,
     "niches_covered": [
       "media_coverage"
     ],
@@ -161,7 +145,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 3,
+    "sources_used": 2,
     "keywords_monitored": 45,
     "real_articles": true
   }

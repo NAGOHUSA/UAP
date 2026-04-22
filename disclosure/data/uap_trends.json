@@ -8,7 +8,7 @@
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/max-planck-institute-of-extraterrestrial-physics-makes-an-illuminating-discovery-about-the-the-solar-systems-x-ray-glow/",
       "signal_strength": 0.68,
-      "velocity_score": 0.49,
+      "velocity_score": 0.69,
       "timestamp": "Tue, 21 Apr 2026 12:33:24 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +22,8 @@
       "summary": "\"We have nothing with that capability,\" Burchett said. \"And I just don't see any reason why our government should be hiding it.\"",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/government-ufo-trump-rep-burchett/",
-      "signal_strength": 0.89,
-      "velocity_score": 0.84,
+      "signal_strength": 0.83,
+      "velocity_score": 0.64,
       "timestamp": "Mon, 20 Apr 2026 17:27:29 +0000",
       "tags": [
         "media_coverage",
@@ -37,8 +37,8 @@
       "summary": "The House Oversight Committee is reaching out to four government agencies to arrange briefings.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/politics/congress-briefing-missing-dead-scientists/",
-      "signal_strength": 0.85,
-      "velocity_score": 0.55,
+      "signal_strength": 0.88,
+      "velocity_score": 0.71,
       "timestamp": "Mon, 20 Apr 2026 14:00:00 +0000",
       "tags": [
         "disclosure",
@@ -52,8 +52,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.95,
-      "velocity_score": 0.42,
+      "signal_strength": 0.72,
+      "velocity_score": 0.52,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +67,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.9,
-      "velocity_score": 0.71,
+      "signal_strength": 0.66,
+      "velocity_score": 0.72,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +82,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.8,
-      "velocity_score": 0.49,
+      "signal_strength": 0.66,
+      "velocity_score": 0.8,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +97,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.85,
-      "velocity_score": 0.77,
+      "signal_strength": 0.7,
+      "velocity_score": 0.63,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.8,
-      "velocity_score": 0.6,
+      "signal_strength": 0.81,
+      "velocity_score": 0.82,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -121,7 +121,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-04-22T00:21:18.439756+00:00",
+  "fetched_at": "2026-04-22T04:01:45.749974+00:00",
   "total_count": 8,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -136,8 +136,8 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.84,
-      "disclosure": 0.85
+      "media_coverage": 0.72,
+      "disclosure": 0.88
     },
     "source_distribution": {
       "The Debrief": 1,

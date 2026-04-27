@@ -7,8 +7,8 @@
       "summary": "A detector deep beneath the frozen southern continent has obtained first evidence of a rare cosmic phenomenon.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/deep-below-antarctica-mysterious-radio-signals-from-the-icy-depths-point-to-evidence-of-a-rare-phenomenon/",
-      "signal_strength": 0.66,
-      "velocity_score": 0.62,
+      "signal_strength": 0.86,
+      "velocity_score": 0.82,
       "timestamp": "Mon, 27 Apr 2026 13:43:19 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +22,8 @@
       "summary": "Among substances reportedly found in Matthew Sullivan’s system were Xanax and alcohol.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-witness-overdose-death-congress/",
-      "signal_strength": 0.86,
-      "velocity_score": 0.63,
+      "signal_strength": 0.78,
+      "velocity_score": 0.58,
       "timestamp": "Sat, 25 Apr 2026 23:08:44 +0000",
       "tags": [
         "disclosure",
@@ -37,8 +37,8 @@
       "summary": "The materials show the U.S. government has long lied about its interest in UFOs, Jeremy Corbell says.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/feds-met-about-ufos-in-1990s/",
-      "signal_strength": 0.86,
-      "velocity_score": 0.88,
+      "signal_strength": 0.77,
+      "velocity_score": 0.83,
       "timestamp": "Sat, 25 Apr 2026 02:09:46 +0000",
       "tags": [
         "media_coverage",
@@ -47,16 +47,16 @@
     },
     {
       "id": "NewsNation_7c6f79a2",
-      "niche": "legislation",
+      "niche": "media_coverage",
       "headline": "Missing scientists share 'interesting common ties': UFO insider",
-      "summary": "“There's other individuals that are not on that list that I am personally aware of that might actually be associated with it,” Elizondo said.",
+      "summary": "Many had high-level security clearances, former Pentagon insider says.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/missing-scientists-interesting-common-ties-ufo-insider/",
-      "signal_strength": 0.83,
-      "velocity_score": 0.85,
+      "signal_strength": 0.77,
+      "velocity_score": 0.7,
       "timestamp": "Fri, 24 Apr 2026 16:51:48 +0000",
       "tags": [
-        "legislation",
+        "media_coverage",
         "uap"
       ]
     },
@@ -67,8 +67,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.73,
-      "velocity_score": 0.41,
+      "signal_strength": 0.89,
+      "velocity_score": 0.45,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +82,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.71,
-      "velocity_score": 0.83,
+      "signal_strength": 0.86,
+      "velocity_score": 0.63,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -97,7 +97,7 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.88,
+      "signal_strength": 0.75,
       "velocity_score": 0.58,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
@@ -113,7 +113,7 @@
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
       "signal_strength": 0.66,
-      "velocity_score": 0.56,
+      "velocity_score": 0.46,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.85,
-      "velocity_score": 0.79,
+      "signal_strength": 0.7,
+      "velocity_score": 0.59,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -136,28 +136,23 @@
       ]
     }
   ],
-  "fetched_at": "2026-04-27T18:26:38.629897+00:00",
+  "fetched_at": "2026-04-27T21:22:22.566700+00:00",
   "total_count": 9,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 7
+        "count": 8
       },
       {
         "niche": "disclosure",
         "count": 1
-      },
-      {
-        "niche": "legislation",
-        "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.76,
-      "disclosure": 0.86,
-      "legislation": 0.83
+      "media_coverage": 0.78,
+      "disclosure": 0.78
     },
     "source_distribution": {
       "The Debrief": 1,
@@ -167,7 +162,6 @@
     "total_trends": 9,
     "niches_covered": [
       "disclosure",
-      "legislation",
       "media_coverage"
     ],
     "monitoring_keywords": [

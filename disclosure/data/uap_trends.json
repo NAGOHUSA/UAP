@@ -7,8 +7,8 @@
       "summary": "Christopher Mellon said U.S. agencies have been compiling information on UFOs since World War II.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/cuomo-show/trump-ufo-info-release-skeptics/",
-      "signal_strength": 0.91,
-      "velocity_score": 0.54,
+      "signal_strength": 0.77,
+      "velocity_score": 0.84,
       "timestamp": "Thu, 30 Apr 2026 02:33:46 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +22,8 @@
       "summary": "\"I think some of it is going to be very interesting,\" Trump said during an Oval Office gathering Wednesday.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/trump-artemis-ii-astronauts-white-house/",
-      "signal_strength": 0.92,
-      "velocity_score": 0.66,
+      "signal_strength": 0.89,
+      "velocity_score": 0.68,
       "timestamp": "Wed, 29 Apr 2026 16:23:32 +0000",
       "tags": [
         "media_coverage",
@@ -37,8 +37,8 @@
       "summary": "Among substances reportedly found in Matthew Sullivan’s system were Xanax and alcohol.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-witness-overdose-death-congress/",
-      "signal_strength": 0.82,
-      "velocity_score": 0.75,
+      "signal_strength": 0.95,
+      "velocity_score": 0.61,
       "timestamp": "Sat, 25 Apr 2026 23:08:44 +0000",
       "tags": [
         "disclosure",
@@ -52,8 +52,8 @@
       "summary": "The materials show the U.S. government has long lied about its interest in UFOs, Jeremy Corbell says.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/feds-met-about-ufos-in-1990s/",
-      "signal_strength": 0.85,
-      "velocity_score": 0.66,
+      "signal_strength": 0.66,
+      "velocity_score": 0.6,
       "timestamp": "Sat, 25 Apr 2026 02:09:46 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +67,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.78,
-      "velocity_score": 0.54,
+      "signal_strength": 0.75,
+      "velocity_score": 0.48,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +82,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.77,
-      "velocity_score": 0.43,
+      "signal_strength": 0.79,
+      "velocity_score": 0.63,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +97,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.71,
-      "velocity_score": 0.9,
+      "signal_strength": 0.77,
+      "velocity_score": 0.7,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.82,
-      "velocity_score": 0.49,
+      "signal_strength": 0.79,
+      "velocity_score": 0.73,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.73,
-      "velocity_score": 0.76,
+      "signal_strength": 0.92,
+      "velocity_score": 0.65,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -136,7 +136,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-04-30T04:14:54.565112+00:00",
+  "fetched_at": "2026-04-30T06:51:15.225352+00:00",
   "total_count": 9,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -151,8 +151,8 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.81,
-      "disclosure": 0.82
+      "media_coverage": 0.79,
+      "disclosure": 0.95
     },
     "source_distribution": {
       "NewsNation": 4,

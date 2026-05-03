@@ -7,8 +7,8 @@
       "summary": "Scientists report the discovery of a \"transdimensional anomalous Hall effect\" revealing an unusual behavior in a new kind of layered graphene.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/a-transdimensional-anomalous-hall-effect-has-been-observed-for-the-first-time-heres-what-that-could-mean/",
-      "signal_strength": 0.73,
-      "velocity_score": 0.55,
+      "signal_strength": 0.68,
+      "velocity_score": 0.69,
       "timestamp": "Sat, 02 May 2026 16:08:11 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +22,8 @@
       "summary": "<p>The ex-Qatari royal flight aircraft is scheduled to be delivered to the Presidential Airlift Group this summer after a warp speed modifications and testing regime.</p>\n<p>The post <a href=\"https://www.twz.com/air/new-vc-25b-air-force-one-bridge-aircraft-now-fully-modified-and-flight-tested\">New VC-25B Air Force One &#8220;Bridge&#8221; Aircraft Now Fully Modified And Flight Tested</a> appeared",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/air/new-vc-25b-air-force-one-bridge-aircraft-now-fully-modified-and-flight-tested",
-      "signal_strength": 0.75,
-      "velocity_score": 0.77,
+      "signal_strength": 0.72,
+      "velocity_score": 0.59,
       "timestamp": "Fri, 01 May 2026 19:15:37 -0400",
       "tags": [
         "media_coverage",
@@ -38,7 +38,7 @@
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/jesse-weber-live/avi-loeb-ufo-claims-chandra-levys-parents/",
       "signal_strength": 0.71,
-      "velocity_score": 0.78,
+      "velocity_score": 0.48,
       "timestamp": "Sat, 02 May 2026 04:27:39 +0000",
       "tags": [
         "legislation",
@@ -52,8 +52,8 @@
       "summary": "The parents of murdered D.C. intern Chandra Levy, spoke exclusively to NewsNation about their theories almost 25 years on.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/jesse-weber-live/chandra-levy-parents-murder-ufos/",
-      "signal_strength": 0.65,
-      "velocity_score": 0.41,
+      "signal_strength": 0.84,
+      "velocity_score": 0.63,
       "timestamp": "Fri, 01 May 2026 04:26:52 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +67,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.73,
-      "velocity_score": 0.63,
+      "signal_strength": 0.74,
+      "velocity_score": 0.64,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +82,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.9,
-      "velocity_score": 0.77,
+      "signal_strength": 0.65,
+      "velocity_score": 0.89,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +97,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.71,
-      "velocity_score": 0.55,
+      "signal_strength": 0.78,
+      "velocity_score": 0.76,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.85,
-      "velocity_score": 0.87,
+      "signal_strength": 0.68,
+      "velocity_score": 0.52,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.94,
-      "velocity_score": 0.9,
+      "signal_strength": 0.7,
+      "velocity_score": 0.67,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -136,7 +136,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-05-03T18:17:18.113370+00:00",
+  "fetched_at": "2026-05-03T21:14:46.573800+00:00",
   "total_count": 9,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -151,7 +151,7 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.78,
+      "media_coverage": 0.72,
       "legislation": 0.71
     },
     "source_distribution": {

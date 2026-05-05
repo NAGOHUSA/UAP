@@ -7,8 +7,8 @@
       "summary": "Scientists report the discovery of a \"transdimensional anomalous Hall effect\" revealing an unusual behavior in a new kind of layered graphene.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/a-transdimensional-anomalous-hall-effect-has-been-observed-for-the-first-time-heres-what-that-could-mean/",
-      "signal_strength": 0.76,
-      "velocity_score": 0.54,
+      "signal_strength": 0.81,
+      "velocity_score": 0.63,
       "timestamp": "Sat, 02 May 2026 16:08:11 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +22,8 @@
       "summary": "Chandra Levy's case is one of the biggest unsolved murder mysteries ever to hit Washington, D.C. She disappeared on May 1, 2001.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/jesse-weber-live/avi-loeb-ufo-claims-chandra-levys-parents/",
-      "signal_strength": 0.7,
-      "velocity_score": 0.69,
+      "signal_strength": 0.74,
+      "velocity_score": 0.44,
       "timestamp": "Sat, 02 May 2026 04:27:39 +0000",
       "tags": [
         "legislation",
@@ -37,8 +37,8 @@
       "summary": "The parents of murdered D.C. intern Chandra Levy, spoke exclusively to NewsNation about their theories almost 25 years on.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/jesse-weber-live/chandra-levy-parents-murder-ufos/",
-      "signal_strength": 0.94,
-      "velocity_score": 0.73,
+      "signal_strength": 0.66,
+      "velocity_score": 0.83,
       "timestamp": "Fri, 01 May 2026 04:26:52 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +52,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.85,
-      "velocity_score": 0.76,
+      "signal_strength": 0.87,
+      "velocity_score": 0.7,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +67,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.82,
-      "velocity_score": 0.69,
+      "signal_strength": 0.67,
+      "velocity_score": 0.75,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -83,7 +83,7 @@
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
       "signal_strength": 0.91,
-      "velocity_score": 0.67,
+      "velocity_score": 0.47,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +97,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.77,
-      "velocity_score": 0.79,
+      "signal_strength": 0.72,
+      "velocity_score": 0.48,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.94,
-      "velocity_score": 0.49,
+      "signal_strength": 0.86,
+      "velocity_score": 0.42,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -121,7 +121,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-05-05T06:44:39.257311+00:00",
+  "fetched_at": "2026-05-05T09:36:23.565877+00:00",
   "total_count": 8,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -136,8 +136,8 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.86,
-      "legislation": 0.7
+      "media_coverage": 0.79,
+      "legislation": 0.74
     },
     "source_distribution": {
       "The Debrief": 1,

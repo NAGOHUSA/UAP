@@ -7,8 +7,8 @@
       "summary": "<p>More compact AIM-9Xs will allow aircraft to carry more at once and make them easier to fit at all inside the weapons bays of future drones.</p>\n<p>The post <a href=\"https://www.twz.com/air/smaller-aim-9x-sidewinder-for-stealthy-weapons-bays-is-in-development\">Smaller AIM-9X Sidewinder For Stealthy Weapons Bays Is In Development</a> appeared first on <a href=\"https://www.twz.com\">The War Zone</a",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/air/smaller-aim-9x-sidewinder-for-stealthy-weapons-bays-is-in-development",
-      "signal_strength": 0.87,
-      "velocity_score": 0.67,
+      "signal_strength": 0.73,
+      "velocity_score": 0.44,
       "timestamp": "Tue, 05 May 2026 18:56:42 -0400",
       "tags": [
         "legislation",
@@ -22,8 +22,8 @@
       "summary": "William Neil McCasland, 68, was reported missing after leaving his Albuquerque, N.M., home on foot Feb. 27.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/david-grusch-missing-scientist-case-concerning/",
-      "signal_strength": 0.75,
-      "velocity_score": 0.68,
+      "signal_strength": 0.68,
+      "velocity_score": 0.73,
       "timestamp": "Wed, 06 May 2026 03:43:57 +0000",
       "tags": [
         "whistleblower",
@@ -37,20 +37,99 @@
       "summary": "Chandra Levy's case is one of the biggest unsolved murder mysteries ever to hit Washington, D.C. She disappeared on May 1, 2001.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/jesse-weber-live/avi-loeb-ufo-claims-chandra-levys-parents/",
-      "signal_strength": 0.67,
-      "velocity_score": 0.46,
+      "signal_strength": 0.91,
+      "velocity_score": 0.54,
       "timestamp": "Sat, 02 May 2026 04:27:39 +0000",
       "tags": [
         "legislation",
         "uap"
       ]
+    },
+    {
+      "id": "Live Science_edc882fb",
+      "niche": "media_coverage",
+      "headline": "Bizarre, UFO-like halo of red light appears over small Italian town — for the second time in 3 years",
+      "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
+      "source": "Live Science",
+      "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
+      "signal_strength": 0.84,
+      "velocity_score": 0.55,
+      "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "Live Science_40cd2f03",
+      "niche": "media_coverage",
+      "headline": "Watch eerie 'UFOs' and a solar 'cyclone' take shape in stunning new ESA video of the sun",
+      "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
+      "source": "Live Science",
+      "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
+      "signal_strength": 0.82,
+      "velocity_score": 0.64,
+      "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "Live Science_b44873f8",
+      "niche": "media_coverage",
+      "headline": "Did people report seeing UFOs before the 20th century?",
+      "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
+      "source": "Live Science",
+      "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
+      "signal_strength": 0.95,
+      "velocity_score": 0.87,
+      "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "Live Science_dcf56330",
+      "niche": "media_coverage",
+      "headline": "Earth from space: Bizarre 'pet cloud' reappears above its favorite spot in New Zealand",
+      "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
+      "source": "Live Science",
+      "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
+      "signal_strength": 0.77,
+      "velocity_score": 0.51,
+      "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "Live Science_355fe726",
+      "niche": "media_coverage",
+      "headline": "What's the best evidence we've found for alien life?",
+      "summary": "Don't expect an alien invasion anytime soon.",
+      "source": "Live Science",
+      "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
+      "signal_strength": 0.81,
+      "velocity_score": 0.68,
+      "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
     }
   ],
-  "fetched_at": "2026-05-06T12:35:46.990231+00:00",
-  "total_count": 3,
+  "fetched_at": "2026-05-06T15:45:31.893022+00:00",
+  "total_count": 8,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
+      {
+        "niche": "media_coverage",
+        "count": 5
+      },
       {
         "niche": "legislation",
         "count": 2
@@ -61,16 +140,19 @@
       }
     ],
     "signal_strength_by_niche": {
-      "legislation": 0.77,
-      "whistleblower": 0.75
+      "legislation": 0.82,
+      "whistleblower": 0.68,
+      "media_coverage": 0.84
     },
     "source_distribution": {
       "The War Zone": 1,
-      "NewsNation": 2
+      "NewsNation": 2,
+      "Live Science": 5
     },
-    "total_trends": 3,
+    "total_trends": 8,
     "niches_covered": [
       "legislation",
+      "media_coverage",
       "whistleblower"
     ],
     "monitoring_keywords": [
@@ -91,7 +173,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 2,
+    "sources_used": 3,
     "keywords_monitored": 45,
     "real_articles": true
   }

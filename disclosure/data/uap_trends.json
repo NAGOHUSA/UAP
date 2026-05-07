@@ -7,8 +7,8 @@
       "summary": "\"I think there are going to be very limited releases of maybe more blurry videos, maybe some good videos,\" Coulthart said.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/cuomo-show/non-human-tech-programs-ufo-files-ross-coulthart/",
-      "signal_strength": 0.76,
-      "velocity_score": 0.84,
+      "signal_strength": 0.8,
+      "velocity_score": 0.57,
       "timestamp": "Thu, 07 May 2026 01:53:32 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +22,8 @@
       "summary": "The former president emphasized there’s no way such a secret could stay confidential.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/no-alien-evidence-obama/",
-      "signal_strength": 0.9,
-      "velocity_score": 0.73,
+      "signal_strength": 0.68,
+      "velocity_score": 0.68,
       "timestamp": "Thu, 07 May 2026 01:36:03 +0000",
       "tags": [
         "media_coverage",
@@ -37,8 +37,8 @@
       "summary": "William Neil McCasland, 68, was reported missing after leaving his Albuquerque, N.M., home on foot Feb. 27.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/david-grusch-missing-scientist-case-concerning/",
-      "signal_strength": 0.67,
-      "velocity_score": 0.49,
+      "signal_strength": 0.81,
+      "velocity_score": 0.79,
       "timestamp": "Wed, 06 May 2026 03:43:57 +0000",
       "tags": [
         "whistleblower",
@@ -52,8 +52,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.9,
-      "velocity_score": 0.75,
+      "signal_strength": 0.67,
+      "velocity_score": 0.42,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +67,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.89,
-      "velocity_score": 0.86,
+      "signal_strength": 0.85,
+      "velocity_score": 0.64,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +82,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.88,
-      "velocity_score": 0.46,
+      "signal_strength": 0.77,
+      "velocity_score": 0.43,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +97,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.93,
-      "velocity_score": 0.84,
+      "signal_strength": 0.68,
+      "velocity_score": 0.47,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.91,
-      "velocity_score": 0.66,
+      "signal_strength": 0.94,
+      "velocity_score": 0.58,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -121,7 +121,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-05-07T04:15:37.237601+00:00",
+  "fetched_at": "2026-05-07T06:58:23.171019+00:00",
   "total_count": 8,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -136,8 +136,8 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.88,
-      "whistleblower": 0.67
+      "media_coverage": 0.77,
+      "whistleblower": 0.81
     },
     "source_distribution": {
       "NewsNation": 3,

@@ -1,32 +1,47 @@
 {
   "trends": [
     {
+      "id": "NewsNation_c25fb80a",
+      "niche": "media_coverage",
+      "headline": "Non-human tech programs in UFO files? Unlikely says Ross Coulthart",
+      "summary": "\"I think there are going to be very limited releases of maybe more blurry videos, maybe some good videos,\" Coulthart said.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/cuomo-show/non-human-tech-programs-ufo-files-ross-coulthart/",
+      "signal_strength": 0.76,
+      "velocity_score": 0.84,
+      "timestamp": "Thu, 07 May 2026 01:53:32 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_8d27aef2",
+      "niche": "media_coverage",
+      "headline": "Government not sitting on space alien evidence, Obama reiterates",
+      "summary": "The former president emphasized there’s no way such a secret could stay confidential.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/no-alien-evidence-obama/",
+      "signal_strength": 0.9,
+      "velocity_score": 0.73,
+      "timestamp": "Thu, 07 May 2026 01:36:03 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
       "id": "NewsNation_e28a860f",
       "niche": "whistleblower",
       "headline": "David Grusch: Missing scientist case 'concerning,' producer says",
       "summary": "William Neil McCasland, 68, was reported missing after leaving his Albuquerque, N.M., home on foot Feb. 27.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/david-grusch-missing-scientist-case-concerning/",
-      "signal_strength": 0.82,
-      "velocity_score": 0.88,
+      "signal_strength": 0.67,
+      "velocity_score": 0.49,
       "timestamp": "Wed, 06 May 2026 03:43:57 +0000",
       "tags": [
         "whistleblower",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_aab74a7c",
-      "niche": "legislation",
-      "headline": "Avi Loeb reacts to UFO claims of Chandra Levy's parents",
-      "summary": "Chandra Levy's case is one of the biggest unsolved murder mysteries ever to hit Washington, D.C. She disappeared on May 1, 2001.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/jesse-weber-live/avi-loeb-ufo-claims-chandra-levys-parents/",
-      "signal_strength": 0.72,
-      "velocity_score": 0.55,
-      "timestamp": "Sat, 02 May 2026 04:27:39 +0000",
-      "tags": [
-        "legislation",
         "uap"
       ]
     },
@@ -37,8 +52,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.89,
-      "velocity_score": 0.69,
+      "signal_strength": 0.9,
+      "velocity_score": 0.75,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +67,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.81,
-      "velocity_score": 0.58,
+      "signal_strength": 0.89,
+      "velocity_score": 0.86,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +82,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.76,
-      "velocity_score": 0.56,
+      "signal_strength": 0.88,
+      "velocity_score": 0.46,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +97,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.72,
-      "velocity_score": 0.51,
+      "signal_strength": 0.93,
+      "velocity_score": 0.84,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +112,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.82,
-      "velocity_score": 0.82,
+      "signal_strength": 0.91,
+      "velocity_score": 0.66,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -106,36 +121,30 @@
       ]
     }
   ],
-  "fetched_at": "2026-05-07T00:28:26.784294+00:00",
-  "total_count": 7,
+  "fetched_at": "2026-05-07T04:15:37.237601+00:00",
+  "total_count": 8,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 5
+        "count": 7
       },
       {
         "niche": "whistleblower",
         "count": 1
-      },
-      {
-        "niche": "legislation",
-        "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "whistleblower": 0.82,
-      "legislation": 0.72,
-      "media_coverage": 0.8
+      "media_coverage": 0.88,
+      "whistleblower": 0.67
     },
     "source_distribution": {
-      "NewsNation": 2,
+      "NewsNation": 3,
       "Live Science": 5
     },
-    "total_trends": 7,
+    "total_trends": 8,
     "niches_covered": [
-      "legislation",
       "media_coverage",
       "whistleblower"
     ],

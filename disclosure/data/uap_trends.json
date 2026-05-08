@@ -1,17 +1,92 @@
 {
   "trends": [
     {
+      "id": "The Debrief_d7d8976c",
+      "niche": "media_coverage",
+      "headline": "Pentagon Launches UAP Transparency Effort With First “PURSUE” File Release",
+      "summary": "This week, the Department of War has released a \"new\" batch of U.S. government documents related to unidentified anomalous phenomena (UAP).",
+      "source": "The Debrief",
+      "source_url": "https://thedebrief.org/pentagon-launches-uap-transparency-effort-with-first-pursue-file-release/",
+      "signal_strength": 0.91,
+      "velocity_score": 0.89,
+      "timestamp": "Fri, 08 May 2026 17:37:41 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
       "id": "The Debrief_911acdfb",
       "niche": "military_encounters",
       "headline": "Trump Releases UFO Files with Rollout of New “Presidential Unsealing and Reporting System for UAP Encounters” (PURSUE)",
       "summary": "The Pentagon has released U.S. documents related to UFOs under its Presidential Unsealing and Reporting System for UAP Encounters (PURSUE).",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/trump-releases-ufo-files-with-rollout-of-new-presidential-unsealing-and-reporting-system-for-uap-encounters-pursue/",
-      "signal_strength": 0.92,
-      "velocity_score": 0.53,
+      "signal_strength": 0.72,
+      "velocity_score": 0.44,
       "timestamp": "Fri, 08 May 2026 15:29:23 +0000",
       "tags": [
         "military_encounters",
+        "uap"
+      ]
+    },
+    {
+      "id": "The War Zone_44279acf",
+      "niche": "media_coverage",
+      "headline": "The Newly Released Government UFO Archives Will Leave You Shrugging",
+      "summary": "<p>The latest release of records follows years of muddled messaging and controversial claims on a topic with real national security implications.</p>\n<p>The post <a href=\"https://www.twz.com/news-features/the-newly-released-government-ufo-archives-will-leave-you-shrugging\">The Newly Released Government UFO Archives Will Leave You Shrugging</a> appeared first on <a href=\"https://www.twz.com\">The Wa",
+      "source": "The War Zone",
+      "source_url": "https://www.twz.com/news-features/the-newly-released-government-ufo-archives-will-leave-you-shrugging",
+      "signal_strength": 0.95,
+      "velocity_score": 0.41,
+      "timestamp": "Fri, 08 May 2026 13:15:57 -0400",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_0bc593b5",
+      "niche": "military_encounters",
+      "headline": "Pentagon UFO files include newly released video",
+      "summary": "New videos show unexplained objects captured by military technology.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/pentagon-ufo-files-new-video/",
+      "signal_strength": 0.75,
+      "velocity_score": 0.86,
+      "timestamp": "Fri, 08 May 2026 17:14:25 +0000",
+      "tags": [
+        "military_encounters",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_f97a9d5a",
+      "niche": "military_encounters",
+      "headline": "What is new in the UFO files release?",
+      "summary": "Materials released include footage from U.S. military infrared sensors and archival photographs from NASA's Apollo 12 and 17 missions.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/new-ufo-files-release/",
+      "signal_strength": 0.75,
+      "velocity_score": 0.6,
+      "timestamp": "Fri, 08 May 2026 16:34:48 +0000",
+      "tags": [
+        "military_encounters",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_029b9d33",
+      "niche": "media_coverage",
+      "headline": "UFO files: See the pictures the Pentagon released",
+      "summary": "Five photos from the landing site of NASA's Apollo 12 mission in 1969 were among the images released.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo-files-pictures-pentagon-released/",
+      "signal_strength": 0.79,
+      "velocity_score": 0.58,
+      "timestamp": "Fri, 08 May 2026 16:07:52 +0000",
+      "tags": [
+        "media_coverage",
         "uap"
       ]
     },
@@ -22,8 +97,8 @@
       "summary": "The Pentagon will begin releasing never-before-seen files containing UAPs on a dedicated website, the agency announced Friday.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/pentagon-releases-online-ufo-photo-collection/",
-      "signal_strength": 0.87,
-      "velocity_score": 0.51,
+      "signal_strength": 0.66,
+      "velocity_score": 0.6,
       "timestamp": "Fri, 08 May 2026 12:39:18 +0000",
       "tags": [
         "media_coverage",
@@ -37,56 +112,11 @@
       "summary": "Former Marine Michael Herrera said the memory card and battery of his camera disappeared before military officials coerced him into keeping quiet about what he’d seen.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-witness-experience-recounted-300-foot-ufo/",
-      "signal_strength": 0.65,
-      "velocity_score": 0.41,
+      "signal_strength": 0.8,
+      "velocity_score": 0.74,
       "timestamp": "Fri, 08 May 2026 12:16:01 +0000",
       "tags": [
         "military_encounters",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_b88b50d8",
-      "niche": "media_coverage",
-      "headline": "New film 'S4: The Bob Lazar Story' renews controversial UFO claims",
-      "summary": "\"S4: The Bob Lazar Story,\" narrated by Bob Lazar himself, recounts what he allegedly witnessed at S4, near Area 51.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/entertainment-news/s4-the-bob-lazar-story-new-film/",
-      "signal_strength": 0.66,
-      "velocity_score": 0.86,
-      "timestamp": "Thu, 07 May 2026 14:45:23 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_c25fb80a",
-      "niche": "media_coverage",
-      "headline": "Non-human tech programs in UFO files? Unlikely says Ross Coulthart",
-      "summary": "\"I think there are going to be very limited releases of maybe more blurry videos, maybe some good videos,\" Coulthart said.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/cuomo-show/non-human-tech-programs-ufo-files-ross-coulthart/",
-      "signal_strength": 0.78,
-      "velocity_score": 0.76,
-      "timestamp": "Thu, 07 May 2026 01:53:32 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_8d27aef2",
-      "niche": "media_coverage",
-      "headline": "Government not sitting on space alien evidence, Obama reiterates",
-      "summary": "The former president emphasized there’s no way such a secret could stay confidential.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/ufo/no-alien-evidence-obama/",
-      "signal_strength": 0.85,
-      "velocity_score": 0.7,
-      "timestamp": "Thu, 07 May 2026 01:36:03 +0000",
-      "tags": [
-        "media_coverage",
         "uap"
       ]
     },
@@ -97,8 +127,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.86,
-      "velocity_score": 0.68,
+      "signal_strength": 0.65,
+      "velocity_score": 0.48,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +142,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.91,
-      "velocity_score": 0.5,
+      "signal_strength": 0.83,
+      "velocity_score": 0.62,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +157,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.73,
-      "velocity_score": 0.66,
+      "signal_strength": 0.75,
+      "velocity_score": 0.75,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +172,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.83,
-      "velocity_score": 0.59,
+      "signal_strength": 0.82,
+      "velocity_score": 0.65,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +187,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.74,
-      "velocity_score": 0.55,
+      "signal_strength": 0.9,
+      "velocity_score": 0.73,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,8 +196,8 @@
       ]
     }
   ],
-  "fetched_at": "2026-05-08T15:31:48.565275+00:00",
-  "total_count": 11,
+  "fetched_at": "2026-05-08T18:28:14.561912+00:00",
+  "total_count": 13,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
@@ -177,19 +207,20 @@
       },
       {
         "niche": "military_encounters",
-        "count": 2
+        "count": 4
       }
     ],
     "signal_strength_by_niche": {
-      "military_encounters": 0.79,
-      "media_coverage": 0.8
+      "media_coverage": 0.81,
+      "military_encounters": 0.76
     },
     "source_distribution": {
-      "The Debrief": 1,
+      "The Debrief": 2,
+      "The War Zone": 1,
       "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 11,
+    "total_trends": 13,
     "niches_covered": [
       "media_coverage",
       "military_encounters"
@@ -212,7 +243,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 3,
+    "sources_used": 4,
     "keywords_monitored": 45,
     "real_articles": true
   }

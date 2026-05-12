@@ -7,11 +7,26 @@
       "summary": "This week in stories from The Debrief: An \"invasion\" in the ocean off the northeastern U.S. coast, the Pentagon's new UFO files, and more.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/energy-from-the-vacuum-something-brewing-in-our-oceans-and-the-pentagons-ufo-files/",
-      "signal_strength": 0.69,
-      "velocity_score": 0.83,
+      "signal_strength": 0.87,
+      "velocity_score": 0.71,
       "timestamp": "Tue, 12 May 2026 13:03:59 +0000",
       "tags": [
         "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "The War Zone_7226a400",
+      "niche": "military_encounters",
+      "headline": "U.S. Air Force Special Operations Aircraft Accused Of Austrian Airspace Incursion",
+      "summary": "<p>Austria says it scrambled Eurofighters two days in a row to intercept U.S. military aircraft, likely U-28As operated by Air Force Special Operations Command.</p>\n<p>The post <a href=\"https://www.twz.com/air/u-s-air-force-special-operations-aircraft-accused-of-austrian-airspace-incursion\">U.S. Air Force Special Operations Aircraft Accused Of Austrian Airspace Incursion</a> appeared first on <a h",
+      "source": "The War Zone",
+      "source_url": "https://www.twz.com/air/u-s-air-force-special-operations-aircraft-accused-of-austrian-airspace-incursion",
+      "signal_strength": 0.88,
+      "velocity_score": 0.54,
+      "timestamp": "Tue, 12 May 2026 12:00:22 -0400",
+      "tags": [
+        "military_encounters",
         "uap"
       ]
     },
@@ -22,8 +37,8 @@
       "summary": "The Trump administration released a batch of UFO-related files last week.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/ufo-files-americans-eric-burlison/",
-      "signal_strength": 0.95,
-      "velocity_score": 0.72,
+      "signal_strength": 0.93,
+      "velocity_score": 0.43,
       "timestamp": "Tue, 12 May 2026 00:48:05 +0000",
       "tags": [
         "disclosure",
@@ -37,8 +52,8 @@
       "summary": "Files released include images from U.S. military reports on UAPs and archival imagery from NASA’s Apollo missions.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/next-ufo-file-dump-ross-coulthart/",
-      "signal_strength": 0.94,
-      "velocity_score": 0.7,
+      "signal_strength": 0.9,
+      "velocity_score": 0.75,
       "timestamp": "Mon, 11 May 2026 20:38:00 +0000",
       "tags": [
         "military_encounters",
@@ -52,8 +67,8 @@
       "summary": "Although Skylab anomalies have been discussed previously, the documents released Friday are considered new to the public.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/skylab-ufo-sightings-space/",
-      "signal_strength": 0.75,
-      "velocity_score": 0.84,
+      "signal_strength": 0.79,
+      "velocity_score": 0.6,
       "timestamp": "Sun, 10 May 2026 03:24:09 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +82,8 @@
       "summary": "At the direction of President Donald Trump, this is the first release of files, photos and videos with more to come on a rolling basis.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/new-ufo-videos-deep-analysis-with-ross-coulthart-reality-check/",
-      "signal_strength": 0.76,
-      "velocity_score": 0.71,
+      "signal_strength": 0.87,
+      "velocity_score": 0.86,
       "timestamp": "Sat, 09 May 2026 03:28:09 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +97,8 @@
       "summary": "A hit typically refers to a website visitor’s request for an individual file, such as a web page or an image.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/pentagon-ufo-website-340-million-hits/",
-      "signal_strength": 0.67,
-      "velocity_score": 0.87,
+      "signal_strength": 0.68,
+      "velocity_score": 0.42,
       "timestamp": "Sat, 09 May 2026 02:33:58 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +112,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.86,
-      "velocity_score": 0.54,
+      "signal_strength": 0.65,
+      "velocity_score": 0.44,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +127,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.68,
-      "velocity_score": 0.8,
+      "signal_strength": 0.72,
+      "velocity_score": 0.83,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -127,7 +142,7 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.72,
+      "signal_strength": 0.94,
       "velocity_score": 0.65,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
@@ -142,8 +157,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.66,
-      "velocity_score": 0.47,
+      "signal_strength": 0.92,
+      "velocity_score": 0.53,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +172,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.9,
-      "velocity_score": 0.68,
+      "signal_strength": 0.86,
+      "velocity_score": 0.49,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,8 +181,8 @@
       ]
     }
   ],
-  "fetched_at": "2026-05-12T15:50:56.306315+00:00",
-  "total_count": 11,
+  "fetched_at": "2026-05-12T18:35:55.000171+00:00",
+  "total_count": 12,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
@@ -176,25 +191,26 @@
         "count": 9
       },
       {
-        "niche": "disclosure",
-        "count": 1
+        "niche": "military_encounters",
+        "count": 2
       },
       {
-        "niche": "military_encounters",
+        "niche": "disclosure",
         "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.74,
-      "disclosure": 0.95,
-      "military_encounters": 0.94
+      "media_coverage": 0.81,
+      "military_encounters": 0.89,
+      "disclosure": 0.93
     },
     "source_distribution": {
       "The Debrief": 1,
+      "The War Zone": 1,
       "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 11,
+    "total_trends": 12,
     "niches_covered": [
       "disclosure",
       "media_coverage",
@@ -218,7 +234,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 3,
+    "sources_used": 4,
     "keywords_monitored": 45,
     "real_articles": true
   }

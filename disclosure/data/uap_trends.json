@@ -1,14 +1,29 @@
 {
   "trends": [
     {
+      "id": "The Debrief_cffa1319",
+      "niche": "media_coverage",
+      "headline": "3000-Year-Old Evidence of “Anomalous” Iron Production Suggests Bronze Age Metalsmiths Launched a Technological Revolution by Accident",
+      "summary": "Long before the discovery of iron reshaped civilizations, Bronze Age metalworkers may discovered it by accident, new research suggests.",
+      "source": "The Debrief",
+      "source_url": "https://thedebrief.org/3000-year-old-evidence-of-anomalous-iron-production-suggests-bronze-age-metalsmiths-launched-a-technological-revolution-by-accident/",
+      "signal_strength": 0.91,
+      "velocity_score": 0.52,
+      "timestamp": "Fri, 15 May 2026 16:03:53 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
       "id": "The Debrief_4bf61f97",
       "niche": "whistleblower",
       "headline": "CIA Denials and COVID “Coverup” Allegations Fuel Turbulent Week for U.S. Intelligence",
       "summary": "This week, allegations of CIA cover-ups have taken center stage amid whistleblower tesimony before lawmakers and viral claims.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/cia-denials-and-covid-coverup-allegations-fuel-turbulent-week-for-u-s-intelligence/",
-      "signal_strength": 0.87,
-      "velocity_score": 0.54,
+      "signal_strength": 0.8,
+      "velocity_score": 0.48,
       "timestamp": "Thu, 14 May 2026 16:59:06 +0000",
       "tags": [
         "whistleblower",
@@ -22,11 +37,26 @@
       "summary": "<p>Fresh off extensive combat operations against Iran, Israel is boosting the F-35I Adir’s endurance with external fuel tanks that will also reduce dependence on tanker aircraft.</p>\n<p>The post <a href=\"https://www.twz.com/air/israels-f-35s-are-getting-external-fuel-tanks\">Israel’s F-35s Are Getting External Fuel Tanks</a> appeared first on <a href=\"https://www.twz.com\">The War Zone</a>.</p>",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/air/israels-f-35s-are-getting-external-fuel-tanks",
-      "signal_strength": 0.79,
-      "velocity_score": 0.57,
+      "signal_strength": 0.73,
+      "velocity_score": 0.65,
       "timestamp": "Thu, 14 May 2026 13:45:30 -0400",
       "tags": [
         "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_0b074831",
+      "niche": "legislation",
+      "headline": "Lawmaker requests UFO talk from private contractor",
+      "summary": "Lawmakers have said they believe the Pentagon is using private contractors to conceal UFO-related programs.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/lawmaker-ufo-talk-private-contractor/",
+      "signal_strength": 0.88,
+      "velocity_score": 0.81,
+      "timestamp": "Fri, 15 May 2026 18:04:34 +0000",
+      "tags": [
+        "legislation",
         "uap"
       ]
     },
@@ -37,8 +67,8 @@
       "summary": "The Trump administration released a batch of UFO-related files last week.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/ufo-files-americans-eric-burlison/",
-      "signal_strength": 0.92,
-      "velocity_score": 0.82,
+      "signal_strength": 0.68,
+      "velocity_score": 0.83,
       "timestamp": "Tue, 12 May 2026 00:48:05 +0000",
       "tags": [
         "disclosure",
@@ -52,8 +82,8 @@
       "summary": "Files released include images from U.S. military reports on UAPs and archival imagery from NASA’s Apollo missions.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/next-ufo-file-dump-ross-coulthart/",
-      "signal_strength": 0.86,
-      "velocity_score": 0.44,
+      "signal_strength": 0.75,
+      "velocity_score": 0.83,
       "timestamp": "Mon, 11 May 2026 20:38:00 +0000",
       "tags": [
         "military_encounters",
@@ -67,24 +97,9 @@
       "summary": "Although Skylab anomalies have been discussed previously, the documents released Friday are considered new to the public.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/skylab-ufo-sightings-space/",
-      "signal_strength": 0.91,
-      "velocity_score": 0.87,
+      "signal_strength": 0.85,
+      "velocity_score": 0.84,
       "timestamp": "Sun, 10 May 2026 03:24:09 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_96e246a0",
-      "niche": "media_coverage",
-      "headline": "New UFO videos: Deep analysis with Ross Coulthart | Reality Check",
-      "summary": "At the direction of President Donald Trump, this is the first release of files, photos and videos with more to come on a rolling basis.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/podcasts-newsnation/new-ufo-videos-deep-analysis-with-ross-coulthart-reality-check/",
-      "signal_strength": 0.76,
-      "velocity_score": 0.69,
-      "timestamp": "Sat, 09 May 2026 03:28:09 +0000",
       "tags": [
         "media_coverage",
         "uap"
@@ -97,8 +112,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.92,
-      "velocity_score": 0.53,
+      "signal_strength": 0.65,
+      "velocity_score": 0.58,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +142,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.79,
-      "velocity_score": 0.45,
+      "signal_strength": 0.85,
+      "velocity_score": 0.56,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +157,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.79,
-      "velocity_score": 0.59,
+      "signal_strength": 0.76,
+      "velocity_score": 0.48,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +172,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.74,
-      "velocity_score": 0.45,
+      "signal_strength": 0.72,
+      "velocity_score": 0.67,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,8 +181,8 @@
       ]
     }
   ],
-  "fetched_at": "2026-05-15T15:41:34.487718+00:00",
-  "total_count": 11,
+  "fetched_at": "2026-05-15T18:31:27.830924+00:00",
+  "total_count": 12,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
@@ -180,6 +195,10 @@
         "count": 1
       },
       {
+        "niche": "legislation",
+        "count": 1
+      },
+      {
         "niche": "disclosure",
         "count": 1
       },
@@ -189,20 +208,22 @@
       }
     ],
     "signal_strength_by_niche": {
-      "whistleblower": 0.87,
-      "media_coverage": 0.83,
-      "disclosure": 0.92,
-      "military_encounters": 0.86
+      "media_coverage": 0.8,
+      "whistleblower": 0.8,
+      "legislation": 0.88,
+      "disclosure": 0.68,
+      "military_encounters": 0.75
     },
     "source_distribution": {
-      "The Debrief": 1,
+      "The Debrief": 2,
       "The War Zone": 1,
       "NewsNation": 4,
       "Live Science": 5
     },
-    "total_trends": 11,
+    "total_trends": 12,
     "niches_covered": [
       "disclosure",
+      "legislation",
       "media_coverage",
       "military_encounters",
       "whistleblower"

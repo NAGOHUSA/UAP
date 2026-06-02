@@ -7,8 +7,8 @@
       "summary": "<p>Here's where all of America's aircraft carriers and big-deck amphibious assault ships are as of June 1, 2026.</p>\n<p>The post <a href=\"https://www.twz.com/sea/littoral-combat-force-takes-up-station-in-caribbean-under-navys-new-deployment-concept\">Littoral Combat Force Takes Up Station In Caribbean Under Navy&#8217;s New Deployment Concept</a> appeared first on <a href=\"https://www.twz.com\">The",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/sea/littoral-combat-force-takes-up-station-in-caribbean-under-navys-new-deployment-concept",
-      "signal_strength": 0.7,
-      "velocity_score": 0.54,
+      "signal_strength": 0.72,
+      "velocity_score": 0.5,
       "timestamp": "Mon, 01 Jun 2026 15:49:16 -0400",
       "tags": [
         "military_encounters",
@@ -22,8 +22,8 @@
       "summary": "Before writing the screenplay, David Koepp studied Capitol Hill testimonies and government documents about aliens.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/entertainment-news/disclosure-day-screenwriter-aliens-certain/",
-      "signal_strength": 0.81,
-      "velocity_score": 0.76,
+      "signal_strength": 0.88,
+      "velocity_score": 0.56,
       "timestamp": "Tue, 02 Jun 2026 03:29:15 +0000",
       "tags": [
         "disclosure",
@@ -37,8 +37,8 @@
       "summary": "The website proclaims, “THEY WALK AMONG US,” before getting down to brass tacks that it’s a data hub on federal “encounters” with migrants.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/politics/trump-aliens-site-not-uap/",
-      "signal_strength": 0.75,
-      "velocity_score": 0.64,
+      "signal_strength": 0.83,
+      "velocity_score": 0.84,
       "timestamp": "Sat, 30 May 2026 02:44:09 +0000",
       "tags": [
         "military_encounters",
@@ -52,8 +52,8 @@
       "summary": "The Universal Pictures film is scheduled to hit theaters weeks after the Pentagon released its latest trove of UFO files.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/entertainment-news/steven-spielberg-disclosure-day-pentagon-ufo/",
-      "signal_strength": 0.87,
-      "velocity_score": 0.83,
+      "signal_strength": 0.93,
+      "velocity_score": 0.63,
       "timestamp": "Fri, 29 May 2026 18:36:01 +0000",
       "tags": [
         "disclosure",
@@ -67,8 +67,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.66,
-      "velocity_score": 0.44,
+      "signal_strength": 0.8,
+      "velocity_score": 0.68,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +82,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.78,
-      "velocity_score": 0.85,
+      "signal_strength": 0.76,
+      "velocity_score": 0.66,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +97,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.79,
-      "velocity_score": 0.88,
+      "signal_strength": 0.77,
+      "velocity_score": 0.42,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.73,
-      "velocity_score": 0.87,
+      "signal_strength": 0.66,
+      "velocity_score": 0.72,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.86,
-      "velocity_score": 0.48,
+      "signal_strength": 0.93,
+      "velocity_score": 0.72,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -136,7 +136,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-02T10:32:14.051548+00:00",
+  "fetched_at": "2026-06-02T13:12:44.696223+00:00",
   "total_count": 9,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -155,9 +155,9 @@
       }
     ],
     "signal_strength_by_niche": {
-      "military_encounters": 0.72,
-      "disclosure": 0.84,
-      "media_coverage": 0.76
+      "military_encounters": 0.77,
+      "disclosure": 0.91,
+      "media_coverage": 0.78
     },
     "source_distribution": {
       "The War Zone": 1,

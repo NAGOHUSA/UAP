@@ -1,14 +1,59 @@
 {
   "trends": [
     {
+      "id": "The Debrief_84696fb3",
+      "niche": "media_coverage",
+      "headline": "A Spacecraft Mysteriously Went Silent—Now NASA Officials Are Speaking Up After Months of Speculation",
+      "summary": "This week, NASA has officially confirmed the end of its MAVEN Mars mission after the spacecraft mysteriously fell silent late last year.",
+      "source": "The Debrief",
+      "source_url": "https://thedebrief.org/a-spacecraft-mysteriously-went-silent-now-nasa-officials-are-speaking-up-after-months-of-speculation/",
+      "signal_strength": 0.69,
+      "velocity_score": 0.47,
+      "timestamp": "Thu, 04 Jun 2026 14:00:37 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "The Debrief_9bd451da",
+      "niche": "media_coverage",
+      "headline": "Look What NASA Captured in Satellite Images as This Bizarre Phenomenon Erupted from the Heart of a Super Typhoon",
+      "summary": "A violent typhoon that tore across the North Pacific Ocean in April offered a rare look at an unusual spectacle of the natural world, captured in nighttime imagery by a U.S. satellite.",
+      "source": "The Debrief",
+      "source_url": "https://thedebrief.org/look-what-nasa-captured-in-satellite-images-as-this-bizarre-phenomenon-erupted-from-the-heart-of-a-super-typhoon/",
+      "signal_strength": 0.89,
+      "velocity_score": 0.84,
+      "timestamp": "Thu, 04 Jun 2026 13:47:12 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_f4529455",
+      "niche": "legislation",
+      "headline": "Washington archbishop removes priest over UFO comments",
+      "summary": "Rossetti said UFO sightings \"are in fact demons\" in a May 29 Facebook video.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/washington-archbishop-removes-priest-stephen-rossetti/",
+      "signal_strength": 0.69,
+      "velocity_score": 0.43,
+      "timestamp": "Thu, 04 Jun 2026 15:22:00 +0000",
+      "tags": [
+        "legislation",
+        "uap"
+      ]
+    },
+    {
       "id": "NewsNation_477d53de",
       "niche": "disclosure",
       "headline": "Government disclosure on aliens a 'dead end,' says film director",
       "summary": "So, are we any closer to the government revealing knowledge of nonhuman intelligence? James doesn't think so.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/government-disclosure-aliens-dead-end/",
-      "signal_strength": 0.85,
-      "velocity_score": 0.82,
+      "signal_strength": 0.8,
+      "velocity_score": 0.68,
       "timestamp": "Wed, 03 Jun 2026 02:36:28 +0000",
       "tags": [
         "disclosure",
@@ -22,26 +67,11 @@
       "summary": "Before writing the screenplay, David Koepp studied Capitol Hill testimonies and government documents about aliens.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/entertainment-news/disclosure-day-screenwriter-aliens-certain/",
-      "signal_strength": 0.87,
-      "velocity_score": 0.61,
+      "signal_strength": 0.81,
+      "velocity_score": 0.46,
       "timestamp": "Tue, 02 Jun 2026 03:29:15 +0000",
       "tags": [
         "disclosure",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_d7625adf",
-      "niche": "military_encounters",
-      "headline": "Trump 'aliens' website is about immigration; UAP journalist not amused",
-      "summary": "The website proclaims, “THEY WALK AMONG US,” before getting down to brass tacks that it’s a data hub on federal “encounters” with migrants.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/politics/trump-aliens-site-not-uap/",
-      "signal_strength": 0.87,
-      "velocity_score": 0.46,
-      "timestamp": "Sat, 30 May 2026 02:44:09 +0000",
-      "tags": [
-        "military_encounters",
         "uap"
       ]
     },
@@ -53,7 +83,7 @@
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
       "signal_strength": 0.85,
-      "velocity_score": 0.48,
+      "velocity_score": 0.55,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +97,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.75,
-      "velocity_score": 0.43,
+      "signal_strength": 0.71,
+      "velocity_score": 0.72,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +112,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.9,
-      "velocity_score": 0.42,
+      "signal_strength": 0.79,
+      "velocity_score": 0.49,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +127,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.76,
-      "velocity_score": 0.43,
+      "signal_strength": 0.72,
+      "velocity_score": 0.4,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.7,
-      "velocity_score": 0.6,
+      "signal_strength": 0.72,
+      "velocity_score": 0.72,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -121,38 +151,39 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-04T13:00:37.038949+00:00",
-  "total_count": 8,
+  "fetched_at": "2026-06-04T16:08:39.073282+00:00",
+  "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 5
+        "count": 7
       },
       {
         "niche": "disclosure",
         "count": 2
       },
       {
-        "niche": "military_encounters",
+        "niche": "legislation",
         "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "disclosure": 0.86,
-      "military_encounters": 0.87,
-      "media_coverage": 0.79
+      "media_coverage": 0.77,
+      "legislation": 0.69,
+      "disclosure": 0.81
     },
     "source_distribution": {
+      "The Debrief": 2,
       "NewsNation": 3,
       "Live Science": 5
     },
-    "total_trends": 8,
+    "total_trends": 10,
     "niches_covered": [
       "disclosure",
-      "media_coverage",
-      "military_encounters"
+      "legislation",
+      "media_coverage"
     ],
     "monitoring_keywords": [
       "ufo",
@@ -172,7 +203,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 2,
+    "sources_used": 3,
     "keywords_monitored": 45,
     "real_articles": true
   }

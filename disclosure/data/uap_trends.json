@@ -1,30 +1,30 @@
 {
   "trends": [
     {
-      "id": "The War Zone_20312e52",
+      "id": "The War Zone_7d5b7ee4",
       "niche": "media_coverage",
-      "headline": "Iwo Jima Completes Deployment, Nimitz Heading Back To The United States",
-      "summary": "<p>Here's where America's aircraft carriers and big-deck amphibious assault ships are as of June 8, 2026.</p>\n<p>The post <a href=\"https://www.twz.com/sea/iwo-jima-completes-deployment-nimitz-heading-back-to-the-united-states\">Iwo Jima Completes Deployment, Nimitz Heading Back To The United States</a> appeared first on <a href=\"https://www.twz.com\">The War Zone</a>.</p>",
+      "headline": "VC-25B Air Force One “Bridge” Aircraft Now Wears Trump’s Preferred Red, White, and Blue Paint Job",
+      "summary": "<p>The VC-25B \"Bridge\" jet is also undergoing a final round of modifications before its official debut this summer.</p>\n<p>The post <a href=\"https://www.twz.com/air/vc-25b-air-force-one-bridge-aircraft-now-wears-trumps-preferred-red-white-and-blue-paint-job\">VC-25B Air Force One “Bridge” Aircraft Now Wears Trump&#8217;s Preferred Red, White, and Blue Paint Job</a> appeared first on <a href=\"https:",
       "source": "The War Zone",
-      "source_url": "https://www.twz.com/sea/iwo-jima-completes-deployment-nimitz-heading-back-to-the-united-states",
-      "signal_strength": 0.84,
-      "velocity_score": 0.46,
-      "timestamp": "Mon, 08 Jun 2026 17:21:21 -0400",
+      "source_url": "https://www.twz.com/air/vc-25b-air-force-one-bridge-aircraft-now-wears-trumps-preferred-red-white-and-blue-paint-job",
+      "signal_strength": 0.76,
+      "velocity_score": 0.61,
+      "timestamp": "Mon, 08 Jun 2026 21:09:47 -0400",
       "tags": [
         "media_coverage",
         "uap"
       ]
     },
     {
-      "id": "The War Zone_69d0c65b",
+      "id": "The War Zone_20312e52",
       "niche": "media_coverage",
-      "headline": "Airbus Unveils U145 Uncrewed Cargo Helicopter",
-      "summary": "<p>The U145 transforms one of Europe’s most successful helicopters into an uncrewed aircraft optimized for risky cargo missions.</p>\n<p>The post <a href=\"https://www.twz.com/air/airbus-unveils-u145-uncrewed-cargo-helicopter\">Airbus Unveils U145 Uncrewed Cargo Helicopter</a> appeared first on <a href=\"https://www.twz.com\">The War Zone</a>.</p>",
+      "headline": "Iwo Jima Completes Deployment, Nimitz Heading Back To The United States",
+      "summary": "<p>Here's where America's aircraft carriers and big-deck amphibious assault ships are as of June 8, 2026.</p>\n<p>The post <a href=\"https://www.twz.com/sea/iwo-jima-completes-deployment-nimitz-heading-back-to-the-united-states\">Iwo Jima Completes Deployment, Nimitz Heading Back To The United States</a> appeared first on <a href=\"https://www.twz.com\">The War Zone</a>.</p>",
       "source": "The War Zone",
-      "source_url": "https://www.twz.com/air/airbus-unveils-u145-uncrewed-cargo-helicopter",
-      "signal_strength": 0.74,
-      "velocity_score": 0.65,
-      "timestamp": "Mon, 08 Jun 2026 13:50:26 -0400",
+      "source_url": "https://www.twz.com/sea/iwo-jima-completes-deployment-nimitz-heading-back-to-the-united-states",
+      "signal_strength": 0.67,
+      "velocity_score": 0.42,
+      "timestamp": "Mon, 08 Jun 2026 17:21:21 -0400",
       "tags": [
         "media_coverage",
         "uap"
@@ -37,8 +37,8 @@
       "summary": "Congressional members of the UAP Caucus and whistleblower David Grusch will talk with reporters Tuesday.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/prime/uap-disclosure-news-conference-june-9/",
-      "signal_strength": 0.66,
-      "velocity_score": 0.48,
+      "signal_strength": 0.81,
+      "velocity_score": 0.68,
       "timestamp": "Sun, 07 Jun 2026 04:00:24 +0000",
       "tags": [
         "disclosure",
@@ -52,8 +52,8 @@
       "summary": "Rossetti said UFO sightings \"are in fact demons\" in a May 29 Facebook video.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/washington-archbishop-removes-priest-stephen-rossetti/",
-      "signal_strength": 0.7,
-      "velocity_score": 0.48,
+      "signal_strength": 0.87,
+      "velocity_score": 0.83,
       "timestamp": "Thu, 04 Jun 2026 15:22:00 +0000",
       "tags": [
         "legislation",
@@ -67,8 +67,8 @@
       "summary": "So, are we any closer to the government revealing knowledge of nonhuman intelligence? James doesn't think so.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/government-disclosure-aliens-dead-end/",
-      "signal_strength": 0.92,
-      "velocity_score": 0.85,
+      "signal_strength": 0.91,
+      "velocity_score": 0.75,
       "timestamp": "Wed, 03 Jun 2026 02:36:28 +0000",
       "tags": [
         "disclosure",
@@ -82,8 +82,8 @@
       "summary": "Before writing the screenplay, David Koepp studied Capitol Hill testimonies and government documents about aliens.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/entertainment-news/disclosure-day-screenwriter-aliens-certain/",
-      "signal_strength": 0.78,
-      "velocity_score": 0.67,
+      "signal_strength": 0.82,
+      "velocity_score": 0.66,
       "timestamp": "Tue, 02 Jun 2026 03:29:15 +0000",
       "tags": [
         "disclosure",
@@ -97,8 +97,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.91,
-      "velocity_score": 0.56,
+      "signal_strength": 0.71,
+      "velocity_score": 0.6,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.65,
-      "velocity_score": 0.66,
+      "signal_strength": 0.85,
+      "velocity_score": 0.62,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.85,
-      "velocity_score": 0.61,
+      "signal_strength": 0.88,
+      "velocity_score": 0.82,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.91,
-      "velocity_score": 0.58,
+      "signal_strength": 0.73,
+      "velocity_score": 0.82,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +157,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.75,
-      "velocity_score": 0.49,
+      "signal_strength": 0.89,
+      "velocity_score": 0.6,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,7 +166,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-09T00:33:18.745286+00:00",
+  "fetched_at": "2026-06-09T04:25:21.133320+00:00",
   "total_count": 11,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -185,9 +185,9 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.81,
-      "disclosure": 0.79,
-      "legislation": 0.7
+      "media_coverage": 0.78,
+      "disclosure": 0.85,
+      "legislation": 0.87
     },
     "source_distribution": {
       "The War Zone": 2,

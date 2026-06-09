@@ -7,8 +7,8 @@
       "summary": "Proposed \"HALO Act\" would require human oversight of AI weapons, ban autonomous nuclear decisions, and impose new Pentagon AI safeguards.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/we-must-act-now-congress-warns-of-potential-threat-in-new-effort-to-ban-a-i-from-making-life-and-death-military-decisions/",
-      "signal_strength": 0.69,
-      "velocity_score": 0.44,
+      "signal_strength": 0.66,
+      "velocity_score": 0.74,
       "timestamp": "Tue, 09 Jun 2026 12:02:50 +0000",
       "tags": [
         "disclosure",
@@ -22,8 +22,8 @@
       "summary": "<p>As Europe’s flagship next-generation fighter effort unravels, Airbus is betting heavily on uncrewed collaborative combat aircraft.</p>\n<p>The post <a href=\"https://www.twz.com/air/ravenstorm-at-the-center-of-airbuss-new-combat-drone-portfolio\">Ravenstorm At The Center Of Airbus’s New Combat Drone Portfolio</a> appeared first on <a href=\"https://www.twz.com\">The War Zone</a>.</p>",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/air/ravenstorm-at-the-center-of-airbuss-new-combat-drone-portfolio",
-      "signal_strength": 0.92,
-      "velocity_score": 0.73,
+      "signal_strength": 0.66,
+      "velocity_score": 0.4,
       "timestamp": "Tue, 09 Jun 2026 14:05:02 -0400",
       "tags": [
         "media_coverage",
@@ -31,32 +31,32 @@
       ]
     },
     {
-      "id": "The War Zone_7d5b7ee4",
-      "niche": "media_coverage",
-      "headline": "VC-25B Air Force One “Bridge” Aircraft Now Wears Trump’s Preferred Red, White, and Blue Paint Job",
-      "summary": "<p>The VC-25B \"Bridge\" jet is also undergoing a final round of modifications before its official debut this summer.</p>\n<p>The post <a href=\"https://www.twz.com/air/vc-25b-air-force-one-bridge-aircraft-now-wears-trumps-preferred-red-white-and-blue-paint-job\">VC-25B Air Force One “Bridge” Aircraft Now Wears Trump&#8217;s Preferred Red, White, and Blue Paint Job</a> appeared first on <a href=\"https:",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/air/vc-25b-air-force-one-bridge-aircraft-now-wears-trumps-preferred-red-white-and-blue-paint-job",
-      "signal_strength": 0.67,
-      "velocity_score": 0.56,
-      "timestamp": "Mon, 08 Jun 2026 21:09:47 -0400",
+      "id": "NewsNation_21c3e1df",
+      "niche": "whistleblower",
+      "headline": "Lawmakers want UFO whistleblowers to have immunity",
+      "summary": "A bipartisan group of lawmakers is pushing for more transparency on alleged UFO programs.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/lawmakers-ufo-whistleblowers-immunity/",
+      "signal_strength": 0.78,
+      "velocity_score": 0.55,
+      "timestamp": "Tue, 09 Jun 2026 20:28:52 +0000",
       "tags": [
-        "media_coverage",
+        "whistleblower",
         "uap"
       ]
     },
     {
-      "id": "The War Zone_20312e52",
-      "niche": "media_coverage",
-      "headline": "Iwo Jima Completes Deployment, Nimitz Heading Back To The United States",
-      "summary": "<p>Here's where America's aircraft carriers and big-deck amphibious assault ships are as of June 8, 2026.</p>\n<p>The post <a href=\"https://www.twz.com/sea/iwo-jima-completes-deployment-nimitz-heading-back-to-the-united-states\">Iwo Jima Completes Deployment, Nimitz Heading Back To The United States</a> appeared first on <a href=\"https://www.twz.com\">The War Zone</a>.</p>",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/sea/iwo-jima-completes-deployment-nimitz-heading-back-to-the-united-states",
-      "signal_strength": 0.92,
-      "velocity_score": 0.55,
-      "timestamp": "Mon, 08 Jun 2026 17:21:21 -0400",
+      "id": "NewsNation_99342f94",
+      "niche": "disclosure",
+      "headline": "Rep. Burchett decries 'roadblocks' to UFO declassification",
+      "summary": "\"If Congress says we're going to go to Area 51, all we're going to get is a dadgum T-shirt,\" Burchett said.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/rep-burchett-decries-roadblocks-ufo-declassification/",
+      "signal_strength": 0.91,
+      "velocity_score": 0.78,
+      "timestamp": "Tue, 09 Jun 2026 19:22:40 +0000",
       "tags": [
-        "media_coverage",
+        "disclosure",
         "uap"
       ]
     },
@@ -67,8 +67,8 @@
       "summary": "Lawmakers called on the White House to grant immunity to whistleblowers who come forward with UFO information.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/ufo-whistleblower-david-grusch-declassified-uap-files/",
-      "signal_strength": 0.65,
-      "velocity_score": 0.71,
+      "signal_strength": 0.67,
+      "velocity_score": 0.6,
       "timestamp": "Tue, 09 Jun 2026 09:24:08 +0000",
       "tags": [
         "whistleblower",
@@ -82,8 +82,8 @@
       "summary": "Congressional members of the UAP Caucus and whistleblower David Grusch will talk with reporters Tuesday.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/prime/uap-disclosure-news-conference-june-9/",
-      "signal_strength": 0.68,
-      "velocity_score": 0.88,
+      "signal_strength": 0.86,
+      "velocity_score": 0.84,
       "timestamp": "Sun, 07 Jun 2026 04:00:24 +0000",
       "tags": [
         "disclosure",
@@ -97,41 +97,11 @@
       "summary": "Rossetti said UFO sightings \"are in fact demons\" in a May 29 Facebook video.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/washington-archbishop-removes-priest-stephen-rossetti/",
-      "signal_strength": 0.8,
-      "velocity_score": 0.49,
+      "signal_strength": 0.81,
+      "velocity_score": 0.47,
       "timestamp": "Thu, 04 Jun 2026 15:22:00 +0000",
       "tags": [
         "legislation",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_477d53de",
-      "niche": "disclosure",
-      "headline": "Government disclosure on aliens a 'dead end,' says film director",
-      "summary": "So, are we any closer to the government revealing knowledge of nonhuman intelligence? James doesn't think so.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/ufo/government-disclosure-aliens-dead-end/",
-      "signal_strength": 0.83,
-      "velocity_score": 0.52,
-      "timestamp": "Wed, 03 Jun 2026 02:36:28 +0000",
-      "tags": [
-        "disclosure",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_9555be68",
-      "niche": "disclosure",
-      "headline": "'Disclosure Day’ screenwriter says aliens are ‘a mathematical certainty’",
-      "summary": "Before writing the screenplay, David Koepp studied Capitol Hill testimonies and government documents about aliens.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/entertainment-news/disclosure-day-screenwriter-aliens-certain/",
-      "signal_strength": 0.8,
-      "velocity_score": 0.89,
-      "timestamp": "Tue, 02 Jun 2026 03:29:15 +0000",
-      "tags": [
-        "disclosure",
         "uap"
       ]
     },
@@ -142,8 +112,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.88,
-      "velocity_score": 0.78,
+      "signal_strength": 0.82,
+      "velocity_score": 0.66,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +127,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.78,
-      "velocity_score": 0.61,
+      "signal_strength": 0.95,
+      "velocity_score": 0.81,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +142,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.91,
-      "velocity_score": 0.77,
+      "signal_strength": 0.75,
+      "velocity_score": 0.45,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -187,8 +157,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.86,
-      "velocity_score": 0.65,
+      "signal_strength": 0.68,
+      "velocity_score": 0.61,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -203,7 +173,7 @@
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
       "signal_strength": 0.79,
-      "velocity_score": 0.54,
+      "velocity_score": 0.7,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -211,22 +181,22 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-09T18:42:18.120017+00:00",
-  "total_count": 14,
+  "fetched_at": "2026-06-09T21:33:29.197703+00:00",
+  "total_count": 12,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 8
+        "count": 6
       },
       {
         "niche": "disclosure",
-        "count": 4
+        "count": 3
       },
       {
         "niche": "whistleblower",
-        "count": 1
+        "count": 2
       },
       {
         "niche": "legislation",
@@ -234,18 +204,18 @@
       }
     ],
     "signal_strength_by_niche": {
-      "disclosure": 0.75,
-      "media_coverage": 0.84,
-      "whistleblower": 0.65,
-      "legislation": 0.8
+      "disclosure": 0.81,
+      "media_coverage": 0.78,
+      "whistleblower": 0.73,
+      "legislation": 0.81
     },
     "source_distribution": {
       "The Debrief": 1,
-      "The War Zone": 3,
+      "The War Zone": 1,
       "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 14,
+    "total_trends": 12,
     "niches_covered": [
       "disclosure",
       "legislation",

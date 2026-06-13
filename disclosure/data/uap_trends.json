@@ -1,88 +1,13 @@
 {
   "trends": [
     {
-      "id": "NewsNation_dcad0c80",
-      "niche": "media_coverage",
-      "headline": "Christianity compatible with concept of UFOs, aliens: Theologian",
-      "summary": "Dr. Christopher Baglow writes about the intersection of religion and science.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/religion/christianity-ufos-aliens-compatible/",
-      "signal_strength": 0.7,
-      "velocity_score": 0.78,
-      "timestamp": "Sat, 13 Jun 2026 04:47:40 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_f844b13e",
-      "niche": "whistleblower",
-      "headline": "UFO files: Plasma orbs a focus in third tranche of documents",
-      "summary": "“What are they exactly? Who knows? They could be scouts or something like that,” one UAP whistleblower says.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/ufo/ufo-files-orbs-plasma-northeast/",
-      "signal_strength": 0.72,
-      "velocity_score": 0.53,
-      "timestamp": "Sat, 13 Jun 2026 04:10:25 +0000",
-      "tags": [
-        "whistleblower",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_11387737",
-      "niche": "media_coverage",
-      "headline": "Pentagon UFO files include video recreations of UFO sightings",
-      "summary": "The latest batch of UFO files from the Pentagon includes artistic renderings by credible witnesses.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/ufo/pentagon-ufo-video-recreations-sightings/",
-      "signal_strength": 0.89,
-      "velocity_score": 0.42,
-      "timestamp": "Fri, 12 Jun 2026 17:03:15 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_09585169",
-      "niche": "media_coverage",
-      "headline": "Pentagon releases third tranche of UFO files",
-      "summary": "Four of the videos were shot in the United States and show orbs moving through the sky.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/ufo/pentagon-ufo-files-third-tranche/",
-      "signal_strength": 0.85,
-      "velocity_score": 0.66,
-      "timestamp": "Fri, 12 Jun 2026 12:43:00 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_6a05075a",
-      "niche": "media_coverage",
-      "headline": "AI helps screen overwhelming amount of data in search for UFOs: Avi Loeb",
-      "summary": "AI can analyze large datasets and use older data to recognize objects such as airplanes, balloons, drones and satellites, Loeb says.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/ufo/ai-ufo-data-avi-loeb/",
-      "signal_strength": 0.93,
-      "velocity_score": 0.54,
-      "timestamp": "Fri, 12 Jun 2026 04:56:36 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
       "id": "Live Science_edc882fb",
       "niche": "media_coverage",
       "headline": "Bizarre, UFO-like halo of red light appears over small Italian town — for the second time in 3 years",
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.66,
+      "signal_strength": 0.88,
       "velocity_score": 0.59,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
@@ -97,8 +22,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.84,
-      "velocity_score": 0.53,
+      "signal_strength": 0.83,
+      "velocity_score": 0.61,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +37,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.7,
-      "velocity_score": 0.83,
+      "signal_strength": 0.95,
+      "velocity_score": 0.44,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +52,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.8,
-      "velocity_score": 0.65,
+      "signal_strength": 0.78,
+      "velocity_score": 0.63,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +67,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.85,
-      "velocity_score": 0.7,
+      "signal_strength": 0.77,
+      "velocity_score": 0.67,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -151,32 +76,25 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-13T18:27:48.238498+00:00",
-  "total_count": 10,
+  "fetched_at": "2026-06-13T21:27:50.197726+00:00",
+  "total_count": 5,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 9
-      },
-      {
-        "niche": "whistleblower",
-        "count": 1
+        "count": 5
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.8,
-      "whistleblower": 0.72
+      "media_coverage": 0.84
     },
     "source_distribution": {
-      "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 10,
+    "total_trends": 5,
     "niches_covered": [
-      "media_coverage",
-      "whistleblower"
+      "media_coverage"
     ],
     "monitoring_keywords": [
       "ufo",
@@ -196,7 +114,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 2,
+    "sources_used": 1,
     "keywords_monitored": 45,
     "real_articles": true
   }

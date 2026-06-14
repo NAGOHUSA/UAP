@@ -1,14 +1,74 @@
 {
   "trends": [
     {
+      "id": "NewsNation_b9f5a914",
+      "niche": "disclosure",
+      "headline": "Who is the NewsNation reporter with a cameo in Spielberg’s ‘Disclosure Day'?",
+      "summary": "Emmy Award-winning journalist said David Koepp and Steven Spielberg were a dream to work with.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/newsnation/newsnation-cameo-disclosure-day/",
+      "signal_strength": 0.9,
+      "velocity_score": 0.52,
+      "timestamp": "Sun, 14 Jun 2026 00:04:24 +0000",
+      "tags": [
+        "disclosure",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_2f7b6b8a",
+      "niche": "disclosure",
+      "headline": "Behind the scenes of infamous interview with UFO whistleblower David Grusch",
+      "summary": "In 2023, David Grusch was thrust into the spotlight as an advocate for government transparency on UFOs. Now in 2026, “Road to Disclosure\" includes new footage of the whistleblower’s iconic statements.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/newsnation/newsnation-special-footage-ufo-whistleblowe/",
+      "signal_strength": 0.75,
+      "velocity_score": 0.44,
+      "timestamp": "Sun, 14 Jun 2026 00:04:15 +0000",
+      "tags": [
+        "disclosure",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_b3b048a6",
+      "niche": "disclosure",
+      "headline": "Ross Coulthart's review of Steven Spielberg's 'Disclosure Day'",
+      "summary": "Coulthart says he loved the ending of the movie, but no spoilers here.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/entertainment-news/disclosure-day-ross-coultharts-review/",
+      "signal_strength": 0.81,
+      "velocity_score": 0.54,
+      "timestamp": "Sun, 14 Jun 2026 00:04:05 +0000",
+      "tags": [
+        "disclosure",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_dcad0c80",
+      "niche": "media_coverage",
+      "headline": "Christianity compatible with concept of UFOs, aliens: Theologian",
+      "summary": "Dr. Christopher Baglow writes about the intersection of religion and science.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/religion/christianity-ufos-aliens-compatible/",
+      "signal_strength": 0.66,
+      "velocity_score": 0.88,
+      "timestamp": "Sat, 13 Jun 2026 04:47:40 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
       "id": "Live Science_edc882fb",
       "niche": "media_coverage",
       "headline": "Bizarre, UFO-like halo of red light appears over small Italian town — for the second time in 3 years",
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.88,
-      "velocity_score": 0.59,
+      "signal_strength": 0.79,
+      "velocity_score": 0.53,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +82,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.83,
-      "velocity_score": 0.61,
+      "signal_strength": 0.9,
+      "velocity_score": 0.69,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -37,8 +97,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.95,
-      "velocity_score": 0.44,
+      "signal_strength": 0.93,
+      "velocity_score": 0.63,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +112,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.78,
-      "velocity_score": 0.63,
+      "signal_strength": 0.85,
+      "velocity_score": 0.86,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +127,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.77,
-      "velocity_score": 0.67,
+      "signal_strength": 0.68,
+      "velocity_score": 0.47,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -76,24 +136,31 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-13T21:27:50.197726+00:00",
-  "total_count": 5,
+  "fetched_at": "2026-06-14T00:39:03.887032+00:00",
+  "total_count": 9,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 5
+        "count": 6
+      },
+      {
+        "niche": "disclosure",
+        "count": 3
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.84
+      "disclosure": 0.82,
+      "media_coverage": 0.8
     },
     "source_distribution": {
+      "NewsNation": 4,
       "Live Science": 5
     },
-    "total_trends": 5,
+    "total_trends": 9,
     "niches_covered": [
+      "disclosure",
       "media_coverage"
     ],
     "monitoring_keywords": [
@@ -114,7 +181,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 1,
+    "sources_used": 2,
     "keywords_monitored": 45,
     "real_articles": true
   }

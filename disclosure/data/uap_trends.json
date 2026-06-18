@@ -1,29 +1,14 @@
 {
   "trends": [
     {
-      "id": "The Debrief_264d6875",
-      "niche": "media_coverage",
-      "headline": "NASA Just Tested a Secretive Experimental Aircraft in a “Major Milestone” for Supersonic Flight",
-      "summary": "An experimental aircraft just achieved a “major milestone” that NASA officials say brings the future of quiet supersonic flight closer to being a reality. The test flights involved the American space agency’s secretive X-59 aircraft, which reportedly reached speeds of 1.4 Mach—roughly 924 miles per hour—during a flight last Friday. Reaching an altitude of 55,000 feet, the experimental aircraft’s s",
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/nasa-just-tested-a-secretive-experimental-aircraft-in-a-major-milestone-for-supersonic-flight/",
-      "signal_strength": 0.77,
-      "velocity_score": 0.81,
-      "timestamp": "Wed, 17 Jun 2026 17:53:23 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
       "id": "The War Zone_913d4790",
       "niche": "disclosure",
       "headline": "Pentagon’s Ability To Supply Ukraine With More Patriot Interceptors Questioned By Congress (Updated)",
       "summary": "<p>The Senate action comes amid deep concerns about how the U.S. can provide enough Patriot interceptors for itself and allies.</p>\n<p>The post <a href=\"https://www.twz.com/land/pentagons-ability-to-supply-ukraine-with-more-patriot-interceptors-questioned-by-congress\">Pentagon&#8217;s Ability To Supply Ukraine With More Patriot Interceptors Questioned By Congress (Updated)</a> appeared first on <a",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/land/pentagons-ability-to-supply-ukraine-with-more-patriot-interceptors-questioned-by-congress",
-      "signal_strength": 0.89,
-      "velocity_score": 0.9,
+      "signal_strength": 0.83,
+      "velocity_score": 0.66,
       "timestamp": "Wed, 17 Jun 2026 18:59:36 -0400",
       "tags": [
         "disclosure",
@@ -37,8 +22,8 @@
       "summary": "<p>Buying both Collaborative Combat Aircraft designs instead of just selecting one has a number of big advantages to what is still a high-risk program.</p>\n<p>The post <a href=\"https://www.twz.com/air/usaf-orders-both-general-atomics-fq-42-and-andurils-fq-44-into-production\">USAF Orders Both General Atomics&#8217; FQ-42 And Anduril&#8217;s FQ-44 Into Production</a> appeared first on <a href=\"https",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/air/usaf-orders-both-general-atomics-fq-42-and-andurils-fq-44-into-production",
-      "signal_strength": 0.75,
-      "velocity_score": 0.84,
+      "signal_strength": 0.91,
+      "velocity_score": 0.59,
       "timestamp": "Wed, 17 Jun 2026 18:44:44 -0400",
       "tags": [
         "media_coverage",
@@ -52,8 +37,8 @@
       "summary": "John Seer describes messages he has been receiving from what he believes are nonhuman entities.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-encounter-psychic-messages-former-sailor/",
-      "signal_strength": 0.85,
-      "velocity_score": 0.53,
+      "signal_strength": 0.73,
+      "velocity_score": 0.42,
       "timestamp": "Wed, 17 Jun 2026 16:24:18 +0000",
       "tags": [
         "military_encounters",
@@ -67,8 +52,8 @@
       "summary": "The story gained renewed attention after a NewsNation interview with UFO whistleblower David Grusch.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/religion/ufo-crash-records-vatican-archives-david-grusch-whistleblower/",
-      "signal_strength": 0.74,
-      "velocity_score": 0.82,
+      "signal_strength": 0.81,
+      "velocity_score": 0.56,
       "timestamp": "Mon, 15 Jun 2026 20:46:35 +0000",
       "tags": [
         "whistleblower",
@@ -82,8 +67,8 @@
       "summary": "\"It's like a detective story. And the best is yet to come,\" says Loeb. \n\"I'm hopeful that we will get to the bottom of it with better data.\"",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/ufo-experts-latest-uap-file-release/",
-      "signal_strength": 0.76,
-      "velocity_score": 0.49,
+      "signal_strength": 0.69,
+      "velocity_score": 0.5,
       "timestamp": "Mon, 15 Jun 2026 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +82,8 @@
       "summary": "Emmy Award-winning journalist said David Koepp and Steven Spielberg were a dream to work with.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/newsnation/newsnation-cameo-disclosure-day/",
-      "signal_strength": 0.88,
-      "velocity_score": 0.87,
+      "signal_strength": 0.85,
+      "velocity_score": 0.43,
       "timestamp": "Sun, 14 Jun 2026 00:04:24 +0000",
       "tags": [
         "disclosure",
@@ -112,8 +97,8 @@
       "summary": "In 2023, David Grusch was thrust into the spotlight as an advocate for government transparency on UFOs. Now in 2026, “Road to Disclosure\" includes new footage of the whistleblower’s iconic statements.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/newsnation/newsnation-special-footage-ufo-whistleblowe/",
-      "signal_strength": 0.94,
-      "velocity_score": 0.67,
+      "signal_strength": 0.67,
+      "velocity_score": 0.89,
       "timestamp": "Sun, 14 Jun 2026 00:04:15 +0000",
       "tags": [
         "disclosure",
@@ -127,8 +112,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.7,
-      "velocity_score": 0.59,
+      "signal_strength": 0.68,
+      "velocity_score": 0.54,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +127,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.9,
-      "velocity_score": 0.86,
+      "signal_strength": 0.91,
+      "velocity_score": 0.78,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +142,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.76,
-      "velocity_score": 0.72,
+      "signal_strength": 0.84,
+      "velocity_score": 0.87,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +157,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.7,
-      "velocity_score": 0.6,
+      "signal_strength": 0.84,
+      "velocity_score": 0.71,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -187,8 +172,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.81,
-      "velocity_score": 0.8,
+      "signal_strength": 0.69,
+      "velocity_score": 0.71,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -196,14 +181,14 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-18T13:06:28.643684+00:00",
-  "total_count": 13,
+  "fetched_at": "2026-06-18T16:10:10.418891+00:00",
+  "total_count": 12,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 8
+        "count": 7
       },
       {
         "niche": "disclosure",
@@ -219,18 +204,17 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.77,
-      "disclosure": 0.9,
-      "military_encounters": 0.85,
-      "whistleblower": 0.74
+      "disclosure": 0.78,
+      "media_coverage": 0.79,
+      "military_encounters": 0.73,
+      "whistleblower": 0.81
     },
     "source_distribution": {
-      "The Debrief": 1,
       "The War Zone": 2,
       "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 13,
+    "total_trends": 12,
     "niches_covered": [
       "disclosure",
       "media_coverage",
@@ -255,7 +239,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 4,
+    "sources_used": 3,
     "keywords_monitored": 45,
     "real_articles": true
   }

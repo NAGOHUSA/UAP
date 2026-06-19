@@ -1,44 +1,14 @@
 {
   "trends": [
     {
-      "id": "The War Zone_94763b69",
-      "niche": "disclosure",
-      "headline": "Congress Questions Air Force’s Combat Rescue Readiness As HH-60W Helicopters Get Turned Into VIP Transports",
-      "summary": "<p>It's clear the HH-60W fleet isn't ideal for the Pacific, but concerns are growing around the capacity of any dedicated combat rescue capabilities.</p>\n<p>The post <a href=\"https://www.twz.com/air/congress-questions-air-forces-combat-rescue-readiness-as-hh-60w-helicopters-get-turned-into-vip-transports\">Congress Questions Air Force’s Combat Rescue Readiness As HH-60W Helicopters Get Turned Into",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/air/congress-questions-air-forces-combat-rescue-readiness-as-hh-60w-helicopters-get-turned-into-vip-transports",
-      "signal_strength": 0.81,
-      "velocity_score": 0.53,
-      "timestamp": "Thu, 18 Jun 2026 16:11:37 -0400",
-      "tags": [
-        "disclosure",
-        "uap"
-      ]
-    },
-    {
-      "id": "The War Zone_25822e09",
-      "niche": "media_coverage",
-      "headline": "No, A VC-25A Air Force One Jet Isn’t Being Retired Just Yet",
-      "summary": "<p>The ex-Qatari VC-25B “Bridge” aircraft is set to enter service soon, but, contrary to reports, the older VC-25As will keep flying.</p>\n<p>The post <a href=\"https://www.twz.com/air/no-the-air-force-isnt-retiring-a-vc-25a-air-force-one-jet-just-yet\">No, A VC-25A Air Force One Jet Isn&#8217;t Being Retired Just Yet</a> appeared first on <a href=\"https://www.twz.com\">The War Zone</a>.</p>",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/air/no-the-air-force-isnt-retiring-a-vc-25a-air-force-one-jet-just-yet",
-      "signal_strength": 0.81,
-      "velocity_score": 0.52,
-      "timestamp": "Thu, 18 Jun 2026 14:40:44 -0400",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
       "id": "NewsNation_672ca16d",
       "niche": "media_coverage",
       "headline": "Are Majestic 12 papers legitimate?",
       "summary": "The Majestic 12 papers detail information about UFOs and government programs.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/are-majestic-12-papers-legitimate/",
-      "signal_strength": 0.78,
-      "velocity_score": 0.62,
+      "signal_strength": 0.84,
+      "velocity_score": 0.49,
       "timestamp": "Thu, 18 Jun 2026 21:30:00 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +22,8 @@
       "summary": "John Seer describes messages he has been receiving from what he believes are nonhuman entities.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-encounter-psychic-messages-former-sailor/",
-      "signal_strength": 0.87,
-      "velocity_score": 0.73,
+      "signal_strength": 0.8,
+      "velocity_score": 0.64,
       "timestamp": "Wed, 17 Jun 2026 16:24:18 +0000",
       "tags": [
         "military_encounters",
@@ -67,8 +37,8 @@
       "summary": "The story gained renewed attention after a NewsNation interview with UFO whistleblower David Grusch.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/religion/ufo-crash-records-vatican-archives-david-grusch-whistleblower/",
-      "signal_strength": 0.74,
-      "velocity_score": 0.47,
+      "signal_strength": 0.93,
+      "velocity_score": 0.78,
       "timestamp": "Mon, 15 Jun 2026 20:46:35 +0000",
       "tags": [
         "whistleblower",
@@ -82,8 +52,8 @@
       "summary": "\"It's like a detective story. And the best is yet to come,\" says Loeb. \n\"I'm hopeful that we will get to the bottom of it with better data.\"",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/ufo-experts-latest-uap-file-release/",
-      "signal_strength": 0.93,
-      "velocity_score": 0.66,
+      "signal_strength": 0.82,
+      "velocity_score": 0.69,
       "timestamp": "Mon, 15 Jun 2026 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +67,8 @@
       "summary": "Emmy Award-winning journalist said David Koepp and Steven Spielberg were a dream to work with.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/newsnation/newsnation-cameo-disclosure-day/",
-      "signal_strength": 0.75,
-      "velocity_score": 0.79,
+      "signal_strength": 0.92,
+      "velocity_score": 0.75,
       "timestamp": "Sun, 14 Jun 2026 00:04:24 +0000",
       "tags": [
         "disclosure",
@@ -112,8 +82,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.86,
-      "velocity_score": 0.7,
+      "signal_strength": 0.8,
+      "velocity_score": 0.78,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +97,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.79,
-      "velocity_score": 0.79,
+      "signal_strength": 0.82,
+      "velocity_score": 0.42,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +112,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.9,
-      "velocity_score": 0.89,
+      "signal_strength": 0.65,
+      "velocity_score": 0.7,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +127,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.8,
-      "velocity_score": 0.52,
+      "signal_strength": 0.71,
+      "velocity_score": 0.65,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.95,
-      "velocity_score": 0.78,
+      "signal_strength": 0.89,
+      "velocity_score": 0.67,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -181,18 +151,14 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-19T18:35:07.176683+00:00",
-  "total_count": 12,
+  "fetched_at": "2026-06-19T21:24:33.057136+00:00",
+  "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 8
-      },
-      {
-        "niche": "disclosure",
-        "count": 2
+        "count": 7
       },
       {
         "niche": "military_encounters",
@@ -201,20 +167,23 @@
       {
         "niche": "whistleblower",
         "count": 1
+      },
+      {
+        "niche": "disclosure",
+        "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "disclosure": 0.78,
-      "media_coverage": 0.85,
-      "military_encounters": 0.87,
-      "whistleblower": 0.74
+      "media_coverage": 0.79,
+      "military_encounters": 0.8,
+      "whistleblower": 0.93,
+      "disclosure": 0.92
     },
     "source_distribution": {
-      "The War Zone": 2,
       "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 12,
+    "total_trends": 10,
     "niches_covered": [
       "disclosure",
       "media_coverage",
@@ -239,7 +208,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 3,
+    "sources_used": 2,
     "keywords_monitored": 45,
     "real_articles": true
   }

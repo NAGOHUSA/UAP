@@ -1,14 +1,29 @@
 {
   "trends": [
     {
+      "id": "NewsNation_5db56865",
+      "niche": "media_coverage",
+      "headline": "Skeptic on UAP panel? That's fine, up to a point, Ross Coulthart says",
+      "summary": "Michael Shermer has been named to the newly created UAP Science Advisory Council.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/skeptic-uap-panel-ross-coulthart/",
+      "signal_strength": 0.91,
+      "velocity_score": 0.57,
+      "timestamp": "Sun, 21 Jun 2026 03:46:24 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
       "id": "NewsNation_a3e1493a",
       "niche": "media_coverage",
       "headline": "New UAP panel to advise feds: ‘A completely different mindset’",
       "summary": "The UAP Science Advisory Council, a scientific research team, will assist the feds in “figuring out the nature of UAPs.”",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/avi-loeb-uap-advisory-panel/",
-      "signal_strength": 0.72,
-      "velocity_score": 0.42,
+      "signal_strength": 0.77,
+      "velocity_score": 0.58,
       "timestamp": "Sat, 20 Jun 2026 01:30:25 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +37,8 @@
       "summary": "The Majestic 12 papers detail information about UFOs and government programs.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/are-majestic-12-papers-legitimate/",
-      "signal_strength": 0.7,
-      "velocity_score": 0.9,
+      "signal_strength": 0.88,
+      "velocity_score": 0.58,
       "timestamp": "Thu, 18 Jun 2026 21:30:00 +0000",
       "tags": [
         "media_coverage",
@@ -37,8 +52,8 @@
       "summary": "John Seer describes messages he has been receiving from what he believes are nonhuman entities.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-encounter-psychic-messages-former-sailor/",
-      "signal_strength": 0.82,
-      "velocity_score": 0.55,
+      "signal_strength": 0.9,
+      "velocity_score": 0.64,
       "timestamp": "Wed, 17 Jun 2026 16:24:18 +0000",
       "tags": [
         "military_encounters",
@@ -52,26 +67,11 @@
       "summary": "The story gained renewed attention after a NewsNation interview with UFO whistleblower David Grusch.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/religion/ufo-crash-records-vatican-archives-david-grusch-whistleblower/",
-      "signal_strength": 0.76,
-      "velocity_score": 0.55,
+      "signal_strength": 0.8,
+      "velocity_score": 0.51,
       "timestamp": "Mon, 15 Jun 2026 20:46:35 +0000",
       "tags": [
         "whistleblower",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_b01f3bdb",
-      "niche": "media_coverage",
-      "headline": "New UAP files reveal China, Russia may have retrieved objects",
-      "summary": "\"It's like a detective story. And the best is yet to come,\" says Loeb. \n\"I'm hopeful that we will get to the bottom of it with better data.\"",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/ufo/ufo-experts-latest-uap-file-release/",
-      "signal_strength": 0.73,
-      "velocity_score": 0.78,
-      "timestamp": "Mon, 15 Jun 2026 07:00:00 +0000",
-      "tags": [
-        "media_coverage",
         "uap"
       ]
     },
@@ -82,8 +82,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.93,
-      "velocity_score": 0.78,
+      "signal_strength": 0.86,
+      "velocity_score": 0.77,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +97,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.89,
-      "velocity_score": 0.69,
+      "signal_strength": 0.83,
+      "velocity_score": 0.8,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -113,7 +113,7 @@
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
       "signal_strength": 0.7,
-      "velocity_score": 0.69,
+      "velocity_score": 0.65,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.7,
-      "velocity_score": 0.59,
+      "signal_strength": 0.93,
+      "velocity_score": 0.66,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.77,
-      "velocity_score": 0.58,
+      "signal_strength": 0.94,
+      "velocity_score": 0.86,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -151,7 +151,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-21T00:39:44.575220+00:00",
+  "fetched_at": "2026-06-21T04:30:55.869874+00:00",
   "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -170,9 +170,9 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.77,
-      "military_encounters": 0.82,
-      "whistleblower": 0.76
+      "media_coverage": 0.85,
+      "military_encounters": 0.9,
+      "whistleblower": 0.8
     },
     "source_distribution": {
       "NewsNation": 5,

@@ -1,15 +1,45 @@
 {
   "trends": [
     {
-      "id": "The Debrief_bd087dc5",
-      "niche": "media_coverage",
-      "headline": "Earthlings on Europa? Provocative Study Explores ‘Reverse Panspermia’ Scenario Where Earth Life May Have Invaded an Alien Moon",
-      "summary": "A provocative study suggests that Jupiter’s frozen moon Europa may not only be hospitable, but that life from Earth could be thriving there.",
+      "id": "The Debrief_55cb601e",
+      "niche": "military_encounters",
+      "headline": "Scientists Warn Extraterrestrial Encounters Could Endanger Earth—a Quarantine Facility on the Moon May Be Our Last Line of Defense",
+      "summary": "Researchers say a biocontainment facility on the Moon could be humanity's last line of defense against potential future alien contamination.",
       "source": "The Debrief",
-      "source_url": "https://thedebrief.org/earthlings-on-europa-provocative-study-explores-reverse-panspermia-scenario-where-earth-life-may-have-invaded-an-alien-moon/",
-      "signal_strength": 0.68,
-      "velocity_score": 0.56,
-      "timestamp": "Sun, 21 Jun 2026 13:51:36 +0000",
+      "source_url": "https://thedebrief.org/scientists-warn-extraterrestrial-encounters-could-endanger-earth-a-quarantine-facility-on-the-moon-may-be-our-last-line-of-defense/",
+      "signal_strength": 0.69,
+      "velocity_score": 0.52,
+      "timestamp": "Mon, 22 Jun 2026 13:28:19 +0000",
+      "tags": [
+        "military_encounters",
+        "uap"
+      ]
+    },
+    {
+      "id": "The Debrief_6e3b1d00",
+      "niche": "media_coverage",
+      "headline": "eVTOLS Are Here: Archer Aviation Confirms ‘Midnight’ Aircraft On-Track for FAA Certification, 2028 Olympics",
+      "summary": "Archer Aviation is in the final stages of FAA certification for its Midnight eVTOL aircraft and will ferry Team USA at the 2028 Olympics.",
+      "source": "The Debrief",
+      "source_url": "https://thedebrief.org/evtols-are-here-archer-aviation-confirms-midnight-aircraft-on-track-for-faa-certification-2028-olympics/",
+      "signal_strength": 0.85,
+      "velocity_score": 0.58,
+      "timestamp": "Mon, 22 Jun 2026 11:55:05 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "The Debrief_fe259537",
+      "niche": "media_coverage",
+      "headline": "Scientists Release New Images Captured by the Lucy Spacecraft Flyby of Asteroid Donaldjohanson",
+      "summary": "Newly released images of the asteroid Donaldjohanson captured by NASA's Lucy spacecraft reveal age, rotation, and composition details.",
+      "source": "The Debrief",
+      "source_url": "https://thedebrief.org/scientists-release-new-images-captured-by-the-lucy-spacecraft-flyby-of-asteroid-donaldjohanson/",
+      "signal_strength": 0.66,
+      "velocity_score": 0.79,
+      "timestamp": "Mon, 22 Jun 2026 11:50:43 +0000",
       "tags": [
         "media_coverage",
         "uap"
@@ -23,7 +53,7 @@
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-disclosure-forum-whistleblower-pentagon/",
       "signal_strength": 0.65,
-      "velocity_score": 0.67,
+      "velocity_score": 0.61,
       "timestamp": "Mon, 22 Jun 2026 05:28:10 +0000",
       "tags": [
         "disclosure",
@@ -38,7 +68,7 @@
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/skeptic-uap-panel-ross-coulthart/",
       "signal_strength": 0.77,
-      "velocity_score": 0.86,
+      "velocity_score": 0.67,
       "timestamp": "Sun, 21 Jun 2026 03:46:24 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +82,8 @@
       "summary": "The UAP Science Advisory Council, a scientific research team, will assist the feds in “figuring out the nature of UAPs.”",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/avi-loeb-uap-advisory-panel/",
-      "signal_strength": 0.79,
-      "velocity_score": 0.75,
+      "signal_strength": 0.88,
+      "velocity_score": 0.6,
       "timestamp": "Sat, 20 Jun 2026 01:30:25 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +97,8 @@
       "summary": "The Majestic 12 papers detail information about UFOs and government programs.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/are-majestic-12-papers-legitimate/",
-      "signal_strength": 0.9,
-      "velocity_score": 0.66,
+      "signal_strength": 0.78,
+      "velocity_score": 0.74,
       "timestamp": "Thu, 18 Jun 2026 21:30:00 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +112,8 @@
       "summary": "John Seer describes messages he has been receiving from what he believes are nonhuman entities.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-encounter-psychic-messages-former-sailor/",
-      "signal_strength": 0.81,
-      "velocity_score": 0.61,
+      "signal_strength": 0.9,
+      "velocity_score": 0.41,
       "timestamp": "Wed, 17 Jun 2026 16:24:18 +0000",
       "tags": [
         "military_encounters",
@@ -97,8 +127,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.92,
-      "velocity_score": 0.82,
+      "signal_strength": 0.88,
+      "velocity_score": 0.53,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +142,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.88,
-      "velocity_score": 0.69,
+      "signal_strength": 0.66,
+      "velocity_score": 0.74,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +157,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.74,
-      "velocity_score": 0.75,
+      "signal_strength": 0.87,
+      "velocity_score": 0.48,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +172,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.67,
-      "velocity_score": 0.55,
+      "signal_strength": 0.73,
+      "velocity_score": 0.53,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +187,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.93,
-      "velocity_score": 0.75,
+      "signal_strength": 0.94,
+      "velocity_score": 0.64,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,35 +196,35 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-22T10:52:48.203481+00:00",
-  "total_count": 11,
+  "fetched_at": "2026-06-22T13:51:27.355997+00:00",
+  "total_count": 13,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 9
+        "count": 10
+      },
+      {
+        "niche": "military_encounters",
+        "count": 2
       },
       {
         "niche": "disclosure",
         "count": 1
-      },
-      {
-        "niche": "military_encounters",
-        "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.81,
-      "disclosure": 0.65,
-      "military_encounters": 0.81
+      "military_encounters": 0.79,
+      "media_coverage": 0.8,
+      "disclosure": 0.65
     },
     "source_distribution": {
-      "The Debrief": 1,
+      "The Debrief": 3,
       "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 11,
+    "total_trends": 13,
     "niches_covered": [
       "disclosure",
       "media_coverage",

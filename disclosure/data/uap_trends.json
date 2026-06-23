@@ -7,8 +7,8 @@
       "summary": "Researchers say \"timescapes\" offer a new framework for understanding how species experience the flow of reality.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/scientists-say-timescapes-could-unlock-the-mystery-behind-non-human-perception-of-time/",
-      "signal_strength": 0.73,
-      "velocity_score": 0.44,
+      "signal_strength": 0.69,
+      "velocity_score": 0.5,
       "timestamp": "Tue, 23 Jun 2026 16:34:07 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +22,8 @@
       "summary": "<p>USS Nimitz completes its Southern Seas tour and the USS George Washington makes a show of force in the Pacific.</p>\n<p>The post <a href=\"https://www.twz.com/sea/where-are-the-aircraft-carriers-june-22-2026\">Where Are The Aircraft Carriers: June 22, 2026</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-june-22-2026",
-      "signal_strength": 0.73,
-      "velocity_score": 0.72,
+      "signal_strength": 0.91,
+      "velocity_score": 0.53,
       "timestamp": "Mon, 22 Jun 2026 19:15:59 -0400",
       "tags": [
         "media_coverage",
@@ -31,17 +31,17 @@
       ]
     },
     {
-      "id": "The War Zone_5a515ee9",
-      "niche": "media_coverage",
-      "headline": "Turkey’s ‘Fighter Drone’ Teamed With M-346 Fighter-Trainer In Autonomy Trials",
-      "summary": "<p>The demonstrations put Turkey among a small group flight-testing advanced crewed-uncrewed teaming as air forces race to field collaborative combat aircraft.</p>\n<p>The post <a href=\"https://www.twz.com/air/turkeys-fighter-drone-teamed-with-m-346-fighter-trainer-in-autonomy-trials\">Turkey’s ‘Fighter Drone’ Teamed With M-346 Fighter-Trainer In Autonomy Trials</a> appeared first on <a href=\"https:",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/air/turkeys-fighter-drone-teamed-with-m-346-fighter-trainer-in-autonomy-trials",
-      "signal_strength": 0.89,
-      "velocity_score": 0.81,
-      "timestamp": "Mon, 22 Jun 2026 15:58:25 -0400",
+      "id": "NewsNation_1f41f51a",
+      "niche": "disclosure",
+      "headline": "What real-life UFO encounters inspired Disclosure Day?",
+      "summary": "As demand for disclosure on nonhuman intelligence accelerated, Steven Spielberg was inspired to explore cover-ups regarding UFOs and UAPs.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/real-life-ufo-encounters-inspired-disclosure-day/",
+      "signal_strength": 0.7,
+      "velocity_score": 0.8,
+      "timestamp": "Tue, 23 Jun 2026 21:06:49 +0000",
       "tags": [
-        "media_coverage",
+        "disclosure",
         "uap"
       ]
     },
@@ -53,7 +53,7 @@
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-disclosure-forum-whistleblower-pentagon/",
       "signal_strength": 0.75,
-      "velocity_score": 0.5,
+      "velocity_score": 0.85,
       "timestamp": "Mon, 22 Jun 2026 05:28:10 +0000",
       "tags": [
         "disclosure",
@@ -67,8 +67,8 @@
       "summary": "Michael Shermer has been named to the newly created UAP Science Advisory Council.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/skeptic-uap-panel-ross-coulthart/",
-      "signal_strength": 0.82,
-      "velocity_score": 0.71,
+      "signal_strength": 0.95,
+      "velocity_score": 0.6,
       "timestamp": "Sun, 21 Jun 2026 03:46:24 +0000",
       "tags": [
         "media_coverage",
@@ -82,24 +82,9 @@
       "summary": "The UAP Science Advisory Council, a scientific research team, will assist the feds in “figuring out the nature of UAPs.”",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/avi-loeb-uap-advisory-panel/",
-      "signal_strength": 0.73,
-      "velocity_score": 0.64,
+      "signal_strength": 0.87,
+      "velocity_score": 0.57,
       "timestamp": "Sat, 20 Jun 2026 01:30:25 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_672ca16d",
-      "niche": "media_coverage",
-      "headline": "Are Majestic 12 papers legitimate?",
-      "summary": "The Majestic 12 papers detail information about UFOs and government programs.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/ufo/are-majestic-12-papers-legitimate/",
-      "signal_strength": 0.67,
-      "velocity_score": 0.58,
-      "timestamp": "Thu, 18 Jun 2026 21:30:00 +0000",
       "tags": [
         "media_coverage",
         "uap"
@@ -112,8 +97,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.87,
-      "velocity_score": 0.7,
+      "signal_strength": 0.77,
+      "velocity_score": 0.68,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +112,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.77,
-      "velocity_score": 0.58,
+      "signal_strength": 0.68,
+      "velocity_score": 0.84,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +127,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.91,
-      "velocity_score": 0.82,
+      "signal_strength": 0.87,
+      "velocity_score": 0.71,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +142,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.75,
-      "velocity_score": 0.57,
+      "signal_strength": 0.69,
+      "velocity_score": 0.53,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +157,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.75,
-      "velocity_score": 0.85,
+      "signal_strength": 0.76,
+      "velocity_score": 0.68,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -181,31 +166,31 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-23T18:40:03.212789+00:00",
-  "total_count": 12,
+  "fetched_at": "2026-06-23T21:32:42.274799+00:00",
+  "total_count": 11,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 11
+        "count": 9
       },
       {
         "niche": "disclosure",
-        "count": 1
+        "count": 2
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.78,
-      "disclosure": 0.75
+      "media_coverage": 0.8,
+      "disclosure": 0.72
     },
     "source_distribution": {
       "The Debrief": 1,
-      "The War Zone": 2,
+      "The War Zone": 1,
       "NewsNation": 4,
       "Live Science": 5
     },
-    "total_trends": 12,
+    "total_trends": 11,
     "niches_covered": [
       "disclosure",
       "media_coverage"

@@ -1,29 +1,59 @@
 {
   "trends": [
     {
-      "id": "The Debrief_f8748fbb",
-      "niche": "military_encounters",
-      "headline": "“It Was the Most Incredible Thing I Ever Witnessed”: New Film Details World’s First Private Astronauts—and a Life-Altering UAP Encounter",
-      "summary": "A newly released documentary film, 'Beyond Blue Sky: The Untold Story of the First Private Astronauts' describes one pilot's life-changing UAP experience.",
+      "id": "The Debrief_3aa1d37a",
+      "niche": "media_coverage",
+      "headline": "Two-Century-Old Light Phenomenon Could Power the Next Generation of Communications and Data Storage Tech",
+      "summary": "Poisson spots, a light phenomenon first discovered two centuries ago, have been to produce optical skyrmions, with implications for tech.",
       "source": "The Debrief",
-      "source_url": "https://thedebrief.org/it-was-the-most-incredible-thing-i-ever-witnessed-new-film-details-worlds-first-private-astronauts-and-a-life-altering-uap-encounter/",
-      "signal_strength": 0.67,
-      "velocity_score": 0.88,
-      "timestamp": "Wed, 24 Jun 2026 13:20:28 +0000",
+      "source_url": "https://thedebrief.org/two-century-old-light-phenomenon-could-power-the-next-generation-of-communications-and-data-storage-tech/",
+      "signal_strength": 0.71,
+      "velocity_score": 0.53,
+      "timestamp": "Thu, 25 Jun 2026 13:07:52 +0000",
       "tags": [
-        "military_encounters",
+        "media_coverage",
         "uap"
       ]
     },
     {
-      "id": "NewsNation_5d0b81a4",
+      "id": "NewsNation_33bcde16",
+      "niche": "legislation",
+      "headline": "What happens if the Chinese or Russians have UAP technology?",
+      "summary": "Experts mull if human beings are ready for contact with nonhuman life.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/what-happens-chinese-russians-have-uap-technology/",
+      "signal_strength": 0.67,
+      "velocity_score": 0.42,
+      "timestamp": "Thu, 25 Jun 2026 15:32:23 +0000",
+      "tags": [
+        "legislation",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_5375bf5d",
       "niche": "disclosure",
-      "headline": "UFO experts, lawmakers to speak at Disclosure Forum",
+      "headline": "Lawmakers want immunity for list of UFO whistleblowers: Rep. Luna",
+      "summary": "Rep. Eric Burlison said waiving nondisclosure agreements is imperative.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/lawmakers-want-immunity-for-list-of-ufo-whistleblowers-rep-luna/",
+      "signal_strength": 0.71,
+      "velocity_score": 0.86,
+      "timestamp": "Thu, 25 Jun 2026 14:17:36 +0000",
+      "tags": [
+        "disclosure",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_42107fd6",
+      "niche": "disclosure",
+      "headline": "Live: UFO transparency at the heart of Disclosure Forum",
       "summary": "UAP whistleblowers say the Pentagon has been concealing evidence of UFOs and alien life.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/ufo-experts-lawmakers-disclosure-forum/",
-      "signal_strength": 0.83,
-      "velocity_score": 0.49,
+      "signal_strength": 0.87,
+      "velocity_score": 0.84,
       "timestamp": "Wed, 24 Jun 2026 16:00:28 +0000",
       "tags": [
         "disclosure",
@@ -37,24 +67,9 @@
       "summary": "As demand for disclosure on nonhuman intelligence accelerated, Steven Spielberg was inspired to explore cover-ups regarding UFOs and UAPs.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/real-life-ufo-encounters-inspired-disclosure-day/",
-      "signal_strength": 0.86,
-      "velocity_score": 0.63,
+      "signal_strength": 0.7,
+      "velocity_score": 0.83,
       "timestamp": "Tue, 23 Jun 2026 21:06:49 +0000",
-      "tags": [
-        "disclosure",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_80369b85",
-      "niche": "disclosure",
-      "headline": "UAP forum will let public hear from lawmakers, whistleblowers on disclosure",
-      "summary": "89% of Republicans and 88% of Democrats want more information released about UAP, according to a poll conducted by the Disclosure Foundation.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/ufo/uap-disclosure-forum-whistleblower-pentagon/",
-      "signal_strength": 0.77,
-      "velocity_score": 0.45,
-      "timestamp": "Mon, 22 Jun 2026 05:28:10 +0000",
       "tags": [
         "disclosure",
         "uap"
@@ -67,8 +82,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.83,
-      "velocity_score": 0.85,
+      "signal_strength": 0.81,
+      "velocity_score": 0.6,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +97,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.89,
-      "velocity_score": 0.83,
+      "signal_strength": 0.8,
+      "velocity_score": 0.65,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +112,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.79,
-      "velocity_score": 0.73,
+      "signal_strength": 0.95,
+      "velocity_score": 0.61,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +127,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.66,
-      "velocity_score": 0.77,
+      "signal_strength": 0.79,
+      "velocity_score": 0.53,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.77,
-      "velocity_score": 0.59,
+      "signal_strength": 0.72,
+      "velocity_score": 0.58,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -136,39 +151,39 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-25T12:46:01.894852+00:00",
-  "total_count": 9,
+  "fetched_at": "2026-06-25T15:51:09.931169+00:00",
+  "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 5
+        "count": 6
       },
       {
         "niche": "disclosure",
         "count": 3
       },
       {
-        "niche": "military_encounters",
+        "niche": "legislation",
         "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "military_encounters": 0.67,
-      "disclosure": 0.82,
-      "media_coverage": 0.79
+      "media_coverage": 0.8,
+      "legislation": 0.67,
+      "disclosure": 0.76
     },
     "source_distribution": {
       "The Debrief": 1,
-      "NewsNation": 3,
+      "NewsNation": 4,
       "Live Science": 5
     },
-    "total_trends": 9,
+    "total_trends": 10,
     "niches_covered": [
       "disclosure",
-      "media_coverage",
-      "military_encounters"
+      "legislation",
+      "media_coverage"
     ],
     "monitoring_keywords": [
       "ufo",

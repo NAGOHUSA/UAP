@@ -7,8 +7,8 @@
       "summary": "NASA orbital imagery of the Black Sea has revealed eerie-looking swirls of turquoise-green swarming in its waters.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/something-is-swarming-in-swirls-of-green-in-the-black-sea-and-these-nasa-images-captured-the-phenomenon-from-orbit/",
-      "signal_strength": 0.9,
-      "velocity_score": 0.53,
+      "signal_strength": 0.83,
+      "velocity_score": 0.46,
       "timestamp": "Sat, 27 Jun 2026 14:15:09 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +22,8 @@
       "summary": "Archaeologists have unearthed an artifact they say should have been \"impossible\" to craft using techniques available to artisans in the Near East nearly 2,700 years ago.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/2700-year-old-assyrian-artifact-made-from-odd-material-should-have-been-impossible-to-craft-with-ancient-tools-archaeologists-say/",
-      "signal_strength": 0.78,
-      "velocity_score": 0.66,
+      "signal_strength": 0.82,
+      "velocity_score": 0.81,
       "timestamp": "Fri, 26 Jun 2026 16:06:15 +0000",
       "tags": [
         "legislation",
@@ -37,8 +37,8 @@
       "summary": "In this episode, Coulthart and Meagan Medick broadcast live from NewsNation’s Washington, D.C., studio following the UAP Disclosure Forum on Capitol Hill.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/ross-coulthart-qa-weve-got-to-stop-this-bloody-nonsense-coulthart-on-ufo-infighting/",
-      "signal_strength": 0.68,
-      "velocity_score": 0.51,
+      "signal_strength": 0.91,
+      "velocity_score": 0.71,
       "timestamp": "Sun, 28 Jun 2026 12:00:00 +0000",
       "tags": [
         "disclosure",
@@ -46,17 +46,17 @@
       ]
     },
     {
-      "id": "NewsNation_8980ed47",
-      "niche": "disclosure",
-      "headline": "UFO disclosure: Details emerge on ‘Invasion of Washington’ tape",
+      "id": "NewsNation_7f8a874e",
+      "niche": "media_coverage",
+      "headline": "‘Invasion of Washington’ UFO tape may surface as lawmakers push release",
       "summary": "An audio tape reportedly exists of a UFO briefing between Air Force officials and scientists in 1952.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/prime/invasion-of-washington-tape-ufo-uap/",
-      "signal_strength": 0.76,
-      "velocity_score": 0.8,
+      "signal_strength": 0.83,
+      "velocity_score": 0.42,
       "timestamp": "Sun, 28 Jun 2026 03:44:38 +0000",
       "tags": [
-        "disclosure",
+        "media_coverage",
         "uap"
       ]
     },
@@ -67,8 +67,8 @@
       "summary": "UAP have disrupted military operations in hundreds of unexplained incidents.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/jesse-weber-live/uap-incursions-military-ben-hansen/",
-      "signal_strength": 0.67,
-      "velocity_score": 0.58,
+      "signal_strength": 0.69,
+      "velocity_score": 0.53,
       "timestamp": "Sat, 27 Jun 2026 04:44:52 +0000",
       "tags": [
         "military_encounters",
@@ -82,8 +82,8 @@
       "summary": "He estimates hundreds of incidents occur annually that baffle military leaders.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/us-military-stumped-ufo-sightings-ex-defense-official/",
-      "signal_strength": 0.83,
-      "velocity_score": 0.67,
+      "signal_strength": 0.76,
+      "velocity_score": 0.59,
       "timestamp": "Fri, 26 Jun 2026 17:26:43 +0000",
       "tags": [
         "military_encounters",
@@ -97,8 +97,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.79,
-      "velocity_score": 0.44,
+      "signal_strength": 0.68,
+      "velocity_score": 0.57,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.88,
-      "velocity_score": 0.59,
+      "signal_strength": 0.85,
+      "velocity_score": 0.87,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.92,
-      "velocity_score": 0.5,
+      "signal_strength": 0.73,
+      "velocity_score": 0.86,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.68,
-      "velocity_score": 0.66,
+      "signal_strength": 0.87,
+      "velocity_score": 0.58,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +157,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.87,
-      "velocity_score": 0.77,
+      "signal_strength": 0.84,
+      "velocity_score": 0.72,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,18 +166,14 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-28T12:26:42.309434+00:00",
+  "fetched_at": "2026-06-28T15:27:49.953866+00:00",
   "total_count": 11,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 6
-      },
-      {
-        "niche": "disclosure",
-        "count": 2
+        "count": 7
       },
       {
         "niche": "military_encounters",
@@ -186,13 +182,17 @@
       {
         "niche": "legislation",
         "count": 1
+      },
+      {
+        "niche": "disclosure",
+        "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.84,
-      "legislation": 0.78,
-      "disclosure": 0.72,
-      "military_encounters": 0.75
+      "media_coverage": 0.8,
+      "legislation": 0.82,
+      "disclosure": 0.91,
+      "military_encounters": 0.72
     },
     "source_distribution": {
       "The Debrief": 2,

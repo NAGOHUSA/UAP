@@ -7,9 +7,24 @@
       "summary": "<p>USS George Washington and her carrier wing participated in a sinking exercise, sending a decommissioned amphib to the bottom of the Philippine Sea.</p>\n<p>The post <a href=\"https://www.twz.com/sea/where-are-the-aircraft-carriers-june-29-2026\">Where Are The Aircraft Carriers: June 29, 2026</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-june-29-2026",
-      "signal_strength": 0.95,
-      "velocity_score": 0.79,
+      "signal_strength": 0.74,
+      "velocity_score": 0.85,
       "timestamp": "Mon, 29 Jun 2026 19:56:13 -0400",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_75fddd50",
+      "niche": "media_coverage",
+      "headline": "Luis Elizondo denies allegation he was tied to UAP secrecy efforts",
+      "summary": "In the end, Elizondo said any negative press toward him doesn't matter because it still gets people talking about UAP.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/luis-elizondo-denies-uap-secrecy-efforts/",
+      "signal_strength": 0.81,
+      "velocity_score": 0.77,
+      "timestamp": "Tue, 30 Jun 2026 03:12:34 +0000",
       "tags": [
         "media_coverage",
         "uap"
@@ -22,8 +37,8 @@
       "summary": "Ross Coulthart speculates SpaceX employees could be read into secret UFO programs.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/elon-musk-secret-ufo-programs/",
-      "signal_strength": 0.79,
-      "velocity_score": 0.79,
+      "signal_strength": 0.69,
+      "velocity_score": 0.58,
       "timestamp": "Mon, 29 Jun 2026 20:59:30 +0000",
       "tags": [
         "media_coverage",
@@ -37,8 +52,8 @@
       "summary": "Gold said the only reason the issue has progressed this far is because people have openly discussed what they know. Without them, he said, the public would still be in the dark.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-whistleblowers-protection-michael-gold/",
-      "signal_strength": 0.92,
-      "velocity_score": 0.49,
+      "signal_strength": 0.91,
+      "velocity_score": 0.5,
       "timestamp": "Mon, 29 Jun 2026 05:24:43 +0000",
       "tags": [
         "whistleblower",
@@ -52,8 +67,8 @@
       "summary": "In this episode, Coulthart and Meagan Medick broadcast live from NewsNation’s Washington, D.C., studio following the UAP Disclosure Forum on Capitol Hill.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/ross-coulthart-qa-weve-got-to-stop-this-bloody-nonsense-coulthart-on-ufo-infighting/",
-      "signal_strength": 0.78,
-      "velocity_score": 0.61,
+      "signal_strength": 0.79,
+      "velocity_score": 0.58,
       "timestamp": "Sun, 28 Jun 2026 12:00:00 +0000",
       "tags": [
         "disclosure",
@@ -67,26 +82,11 @@
       "summary": "An audio tape reportedly exists of a UFO briefing between Air Force officials and scientists in 1952.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/prime/invasion-of-washington-tape-ufo-uap/",
-      "signal_strength": 0.95,
-      "velocity_score": 0.7,
+      "signal_strength": 0.67,
+      "velocity_score": 0.83,
       "timestamp": "Sun, 28 Jun 2026 03:44:38 +0000",
       "tags": [
         "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_f7d33f6e",
-      "niche": "military_encounters",
-      "headline": "UAP incursions against our military: ‘It’s like they want to be seen’",
-      "summary": "UAP have disrupted military operations in hundreds of unexplained incidents.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/jesse-weber-live/uap-incursions-military-ben-hansen/",
-      "signal_strength": 0.95,
-      "velocity_score": 0.46,
-      "timestamp": "Sat, 27 Jun 2026 04:44:52 +0000",
-      "tags": [
-        "military_encounters",
         "uap"
       ]
     },
@@ -97,8 +97,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.69,
-      "velocity_score": 0.57,
+      "signal_strength": 0.91,
+      "velocity_score": 0.76,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.65,
-      "velocity_score": 0.84,
+      "signal_strength": 0.8,
+      "velocity_score": 0.81,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.8,
-      "velocity_score": 0.87,
+      "signal_strength": 0.74,
+      "velocity_score": 0.86,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.79,
-      "velocity_score": 0.8,
+      "signal_strength": 0.93,
+      "velocity_score": 0.49,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +157,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.72,
-      "velocity_score": 0.46,
+      "signal_strength": 0.79,
+      "velocity_score": 0.52,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,14 +166,14 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-30T00:35:41.579838+00:00",
+  "fetched_at": "2026-06-30T04:25:18.099985+00:00",
   "total_count": 11,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 8
+        "count": 9
       },
       {
         "niche": "whistleblower",
@@ -182,17 +182,12 @@
       {
         "niche": "disclosure",
         "count": 1
-      },
-      {
-        "niche": "military_encounters",
-        "count": 1
       }
     ],
     "signal_strength_by_niche": {
       "media_coverage": 0.79,
-      "whistleblower": 0.92,
-      "disclosure": 0.78,
-      "military_encounters": 0.95
+      "whistleblower": 0.91,
+      "disclosure": 0.79
     },
     "source_distribution": {
       "The War Zone": 1,
@@ -203,7 +198,6 @@
     "niches_covered": [
       "disclosure",
       "media_coverage",
-      "military_encounters",
       "whistleblower"
     ],
     "monitoring_keywords": [

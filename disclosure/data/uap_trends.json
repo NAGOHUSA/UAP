@@ -7,8 +7,8 @@
       "summary": "A team of physicists set out to recreate a 60-year-old quantum mystery using a large water tank.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/scientists-used-water-to-uncover-a-strange-invisible-quantum-phenomenon-that-remained-elusive-for-decades/",
-      "signal_strength": 0.84,
-      "velocity_score": 0.64,
+      "signal_strength": 0.7,
+      "velocity_score": 0.8,
       "timestamp": "Tue, 30 Jun 2026 12:17:49 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +22,8 @@
       "summary": "<p>The train of catapult trucks is part of a larger family of containerized systems that first appeared on a Chinese cargo ship last December.</p>\n<p>The post <a href=\"https://www.twz.com/news-features/chinas-truck-mounted-electromagnetic-aircraft-catapult-seen-in-action-for-the-first-time\">China&#8217;s Truck-Mounted Electromagnetic Aircraft Catapult Seen In Action For The First Time</a> appeared",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/news-features/chinas-truck-mounted-electromagnetic-aircraft-catapult-seen-in-action-for-the-first-time",
-      "signal_strength": 0.95,
-      "velocity_score": 0.41,
+      "signal_strength": 0.8,
+      "velocity_score": 0.84,
       "timestamp": "Tue, 30 Jun 2026 14:34:15 -0400",
       "tags": [
         "legislation",
@@ -31,17 +31,17 @@
       ]
     },
     {
-      "id": "The War Zone_279aebf4",
-      "niche": "media_coverage",
-      "headline": "Where Are The Aircraft Carriers: June 29, 2026",
-      "summary": "<p>USS George Washington and her carrier wing participated in a sinking exercise, sending a decommissioned amphib to the bottom of the Philippine Sea.</p>\n<p>The post <a href=\"https://www.twz.com/sea/where-are-the-aircraft-carriers-june-29-2026\">Where Are The Aircraft Carriers: June 29, 2026</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-june-29-2026",
-      "signal_strength": 0.88,
-      "velocity_score": 0.73,
-      "timestamp": "Mon, 29 Jun 2026 19:56:13 -0400",
+      "id": "NewsNation_34e231a8",
+      "niche": "disclosure",
+      "headline": "Luis Elizondo recalls congressional staffer's warning of plan to 'eliminate' him",
+      "summary": "Elizondo spoke about the warning during an appearance on the \"Hang Out With Sean Hannity\" podcast.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/luis-elizondo-congressional-staffer-warning-plan-elimination/",
+      "signal_strength": 0.94,
+      "velocity_score": 0.62,
+      "timestamp": "Tue, 30 Jun 2026 20:27:41 +0000",
       "tags": [
-        "media_coverage",
+        "disclosure",
         "uap"
       ]
     },
@@ -52,8 +52,8 @@
       "summary": "The “Invasion of Washington” occurred over two weekends in July 1952.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/1952-dc-ufo-encounter-missing-tape/",
-      "signal_strength": 0.65,
-      "velocity_score": 0.57,
+      "signal_strength": 0.77,
+      "velocity_score": 0.6,
       "timestamp": "Tue, 30 Jun 2026 15:56:50 +0000",
       "tags": [
         "military_encounters",
@@ -61,17 +61,17 @@
       ]
     },
     {
-      "id": "NewsNation_75fddd50",
-      "niche": "media_coverage",
-      "headline": "Luis Elizondo denies allegation he was tied to UAP secrecy efforts",
+      "id": "NewsNation_a5a590b0",
+      "niche": "whistleblower",
+      "headline": "UAP whistleblower Luis Elizondo denies claim he was part of government secrecy efforts",
       "summary": "In the end, Elizondo said any negative press toward him doesn't matter because it still gets people talking about UAP.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/luis-elizondo-denies-uap-secrecy-efforts/",
-      "signal_strength": 0.88,
-      "velocity_score": 0.43,
+      "signal_strength": 0.69,
+      "velocity_score": 0.78,
       "timestamp": "Tue, 30 Jun 2026 03:12:34 +0000",
       "tags": [
-        "media_coverage",
+        "whistleblower",
         "uap"
       ]
     },
@@ -82,8 +82,8 @@
       "summary": "Ross Coulthart speculates SpaceX employees could be read into secret UFO programs.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/elon-musk-secret-ufo-programs/",
-      "signal_strength": 0.8,
-      "velocity_score": 0.58,
+      "signal_strength": 0.92,
+      "velocity_score": 0.61,
       "timestamp": "Mon, 29 Jun 2026 20:59:30 +0000",
       "tags": [
         "media_coverage",
@@ -97,26 +97,11 @@
       "summary": "Gold said the only reason the issue has progressed this far is because people have openly discussed what they know. Without them, he said, the public would still be in the dark.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-whistleblowers-protection-michael-gold/",
-      "signal_strength": 0.73,
-      "velocity_score": 0.63,
+      "signal_strength": 0.78,
+      "velocity_score": 0.74,
       "timestamp": "Mon, 29 Jun 2026 05:24:43 +0000",
       "tags": [
         "whistleblower",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_dc8ee58f",
-      "niche": "disclosure",
-      "headline": "Ross Coulthart Q&A: 'We’ve got to stop this bloody nonsense:' Coulthart on UFO infighting",
-      "summary": "In this episode, Coulthart and Meagan Medick broadcast live from NewsNation’s Washington, D.C., studio following the UAP Disclosure Forum on Capitol Hill.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/ross-coulthart-qa-weve-got-to-stop-this-bloody-nonsense-coulthart-on-ufo-infighting/",
-      "signal_strength": 0.84,
-      "velocity_score": 0.83,
-      "timestamp": "Sun, 28 Jun 2026 12:00:00 +0000",
-      "tags": [
-        "disclosure",
         "uap"
       ]
     },
@@ -127,8 +112,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.85,
-      "velocity_score": 0.89,
+      "signal_strength": 0.83,
+      "velocity_score": 0.61,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +127,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.67,
-      "velocity_score": 0.46,
+      "signal_strength": 0.81,
+      "velocity_score": 0.89,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +142,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.93,
-      "velocity_score": 0.69,
+      "signal_strength": 0.75,
+      "velocity_score": 0.42,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +157,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.85,
-      "velocity_score": 0.5,
+      "signal_strength": 0.74,
+      "velocity_score": 0.59,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -187,8 +172,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.77,
-      "velocity_score": 0.83,
+      "signal_strength": 0.73,
+      "velocity_score": 0.8,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -196,46 +181,46 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-30T18:34:58.272696+00:00",
-  "total_count": 13,
+  "fetched_at": "2026-06-30T21:34:32.264394+00:00",
+  "total_count": 12,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 9
+        "count": 7
+      },
+      {
+        "niche": "whistleblower",
+        "count": 2
       },
       {
         "niche": "legislation",
         "count": 1
       },
       {
-        "niche": "military_encounters",
-        "count": 1
-      },
-      {
-        "niche": "whistleblower",
-        "count": 1
-      },
-      {
         "niche": "disclosure",
+        "count": 1
+      },
+      {
+        "niche": "military_encounters",
         "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.83,
-      "legislation": 0.95,
-      "military_encounters": 0.65,
-      "whistleblower": 0.73,
-      "disclosure": 0.84
+      "media_coverage": 0.78,
+      "legislation": 0.8,
+      "disclosure": 0.94,
+      "military_encounters": 0.77,
+      "whistleblower": 0.73
     },
     "source_distribution": {
       "The Debrief": 1,
-      "The War Zone": 2,
+      "The War Zone": 1,
       "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 13,
+    "total_trends": 12,
     "niches_covered": [
       "disclosure",
       "legislation",

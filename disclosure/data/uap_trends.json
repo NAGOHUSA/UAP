@@ -7,8 +7,8 @@
       "summary": "A team of physicists set out to recreate a 60-year-old quantum mystery using a large water tank.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/scientists-used-water-to-uncover-a-strange-invisible-quantum-phenomenon-that-remained-elusive-for-decades/",
-      "signal_strength": 0.7,
-      "velocity_score": 0.8,
+      "signal_strength": 0.89,
+      "velocity_score": 0.43,
       "timestamp": "Tue, 30 Jun 2026 12:17:49 +0000",
       "tags": [
         "media_coverage",
@@ -22,7 +22,7 @@
       "summary": "<p>The train of catapult trucks is part of a larger family of containerized systems that first appeared on a Chinese cargo ship last December.</p>\n<p>The post <a href=\"https://www.twz.com/news-features/chinas-truck-mounted-electromagnetic-aircraft-catapult-seen-in-action-for-the-first-time\">China&#8217;s Truck-Mounted Electromagnetic Aircraft Catapult Seen In Action For The First Time</a> appeared",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/news-features/chinas-truck-mounted-electromagnetic-aircraft-catapult-seen-in-action-for-the-first-time",
-      "signal_strength": 0.8,
+      "signal_strength": 0.81,
       "velocity_score": 0.84,
       "timestamp": "Tue, 30 Jun 2026 14:34:15 -0400",
       "tags": [
@@ -34,11 +34,11 @@
       "id": "NewsNation_34e231a8",
       "niche": "disclosure",
       "headline": "Luis Elizondo recalls congressional staffer's warning of plan to 'eliminate' him",
-      "summary": "Elizondo spoke about the warning during an appearance on the \"Hang Out With Sean Hannity\" podcast.",
+      "summary": "Elizondo spoke about the warning during an appearance on a podcast.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/luis-elizondo-congressional-staffer-warning-plan-elimination/",
-      "signal_strength": 0.94,
-      "velocity_score": 0.62,
+      "signal_strength": 0.86,
+      "velocity_score": 0.51,
       "timestamp": "Tue, 30 Jun 2026 20:27:41 +0000",
       "tags": [
         "disclosure",
@@ -52,8 +52,8 @@
       "summary": "The “Invasion of Washington” occurred over two weekends in July 1952.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/1952-dc-ufo-encounter-missing-tape/",
-      "signal_strength": 0.77,
-      "velocity_score": 0.6,
+      "signal_strength": 0.8,
+      "velocity_score": 0.88,
       "timestamp": "Tue, 30 Jun 2026 15:56:50 +0000",
       "tags": [
         "military_encounters",
@@ -61,14 +61,14 @@
       ]
     },
     {
-      "id": "NewsNation_a5a590b0",
+      "id": "NewsNation_e0a90298",
       "niche": "whistleblower",
-      "headline": "UAP whistleblower Luis Elizondo denies claim he was part of government secrecy efforts",
-      "summary": "In the end, Elizondo said any negative press toward him doesn't matter because it still gets people talking about UAP.",
+      "headline": "UAP whistleblower Luis Elizondo neither confirms nor denies he was part of government secrecy efforts",
+      "summary": "In the end, Elizondo said any negative press toward him doesn't matter because it still gets people talking about UAPs.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/luis-elizondo-denies-uap-secrecy-efforts/",
-      "signal_strength": 0.69,
-      "velocity_score": 0.78,
+      "signal_strength": 0.74,
+      "velocity_score": 0.6,
       "timestamp": "Tue, 30 Jun 2026 03:12:34 +0000",
       "tags": [
         "whistleblower",
@@ -82,8 +82,8 @@
       "summary": "Ross Coulthart speculates SpaceX employees could be read into secret UFO programs.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/elon-musk-secret-ufo-programs/",
-      "signal_strength": 0.92,
-      "velocity_score": 0.61,
+      "signal_strength": 0.82,
+      "velocity_score": 0.52,
       "timestamp": "Mon, 29 Jun 2026 20:59:30 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +97,8 @@
       "summary": "Gold said the only reason the issue has progressed this far is because people have openly discussed what they know. Without them, he said, the public would still be in the dark.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-whistleblowers-protection-michael-gold/",
-      "signal_strength": 0.78,
-      "velocity_score": 0.74,
+      "signal_strength": 0.74,
+      "velocity_score": 0.78,
       "timestamp": "Mon, 29 Jun 2026 05:24:43 +0000",
       "tags": [
         "whistleblower",
@@ -112,8 +112,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.83,
-      "velocity_score": 0.61,
+      "signal_strength": 0.84,
+      "velocity_score": 0.74,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.81,
-      "velocity_score": 0.89,
+      "signal_strength": 0.65,
+      "velocity_score": 0.68,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.75,
-      "velocity_score": 0.42,
+      "signal_strength": 0.88,
+      "velocity_score": 0.6,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +157,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.74,
-      "velocity_score": 0.59,
+      "signal_strength": 0.69,
+      "velocity_score": 0.66,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +172,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.73,
-      "velocity_score": 0.8,
+      "signal_strength": 0.71,
+      "velocity_score": 0.52,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -181,7 +181,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-06-30T21:34:32.264394+00:00",
+  "fetched_at": "2026-07-01T00:37:02.086734+00:00",
   "total_count": 12,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -209,10 +209,10 @@
     ],
     "signal_strength_by_niche": {
       "media_coverage": 0.78,
-      "legislation": 0.8,
-      "disclosure": 0.94,
-      "military_encounters": 0.77,
-      "whistleblower": 0.73
+      "legislation": 0.81,
+      "disclosure": 0.86,
+      "military_encounters": 0.8,
+      "whistleblower": 0.74
     },
     "source_distribution": {
       "The Debrief": 1,

@@ -1,30 +1,30 @@
 {
   "trends": [
     {
-      "id": "The Debrief_f23def3e",
-      "niche": "media_coverage",
-      "headline": "Scientists Used Water to Uncover a Strange, ‘Invisible’ Quantum Phenomenon That Remained Elusive for Decades",
-      "summary": "A team of physicists set out to recreate a 60-year-old quantum mystery using a large water tank.",
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/scientists-used-water-to-uncover-a-strange-invisible-quantum-phenomenon-that-remained-elusive-for-decades/",
-      "signal_strength": 0.84,
-      "velocity_score": 0.61,
-      "timestamp": "Tue, 30 Jun 2026 12:17:49 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
       "id": "The War Zone_2d82435f",
       "niche": "media_coverage",
       "headline": "VC-25B Bridge Aircraft Makes First Flight As Air Force One With Trump Aboard",
       "summary": "<p>The highly-modified ex-Qatari VC-25B \"Bridge\" jet is taking Trump to North Dakota for 250th U.S. anniversary celebrations.</p>\n<p>The post <a href=\"https://www.twz.com/air/vc-25b-bridge-aircraft-makes-first-flight-as-air-force-one-with-trump-aboard\">VC-25B Bridge Aircraft Makes First Flight As Air Force One With Trump Aboard</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/air/vc-25b-bridge-aircraft-makes-first-flight-as-air-force-one-with-trump-aboard",
-      "signal_strength": 0.86,
-      "velocity_score": 0.58,
+      "signal_strength": 0.74,
+      "velocity_score": 0.64,
       "timestamp": "Wed, 01 Jul 2026 11:16:10 -0400",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_8285ab64",
+      "niche": "media_coverage",
+      "headline": "UAP footage eased lawmaker's skepticism on subject",
+      "summary": "Rep. Eric Burlison joined NewsNation's Ross Coulthart to talk about the push for UAP transparency.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/uap-footage-lawmaker-skepticism/",
+      "signal_strength": 0.69,
+      "velocity_score": 0.76,
+      "timestamp": "Wed, 01 Jul 2026 20:16:29 +0000",
       "tags": [
         "media_coverage",
         "uap"
@@ -37,8 +37,8 @@
       "summary": "Elizondo spoke about the warning during an appearance on a podcast.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/luis-elizondo-congressional-staffer-warning-plan-elimination/",
-      "signal_strength": 0.8,
-      "velocity_score": 0.68,
+      "signal_strength": 0.83,
+      "velocity_score": 0.42,
       "timestamp": "Tue, 30 Jun 2026 20:27:41 +0000",
       "tags": [
         "disclosure",
@@ -52,8 +52,8 @@
       "summary": "The “Invasion of Washington” occurred over two weekends in July 1952.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/1952-dc-ufo-encounter-missing-tape/",
-      "signal_strength": 0.92,
-      "velocity_score": 0.5,
+      "signal_strength": 0.74,
+      "velocity_score": 0.63,
       "timestamp": "Tue, 30 Jun 2026 15:56:50 +0000",
       "tags": [
         "military_encounters",
@@ -67,26 +67,11 @@
       "summary": "In the end, Elizondo said any negative press toward him doesn't matter because it still gets people talking about UAPs.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/luis-elizondo-denies-uap-secrecy-efforts/",
-      "signal_strength": 0.84,
-      "velocity_score": 0.5,
+      "signal_strength": 0.86,
+      "velocity_score": 0.86,
       "timestamp": "Tue, 30 Jun 2026 03:12:34 +0000",
       "tags": [
         "whistleblower",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_09804180",
-      "niche": "media_coverage",
-      "headline": "Does Elon Musk know about secret UFO programs?",
-      "summary": "Ross Coulthart speculates SpaceX employees could be read into secret UFO programs.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/ufo/elon-musk-secret-ufo-programs/",
-      "signal_strength": 0.86,
-      "velocity_score": 0.63,
-      "timestamp": "Mon, 29 Jun 2026 20:59:30 +0000",
-      "tags": [
-        "media_coverage",
         "uap"
       ]
     },
@@ -97,8 +82,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.82,
-      "velocity_score": 0.74,
+      "signal_strength": 0.83,
+      "velocity_score": 0.72,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +97,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.76,
-      "velocity_score": 0.54,
+      "signal_strength": 0.81,
+      "velocity_score": 0.77,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +112,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.82,
-      "velocity_score": 0.59,
+      "signal_strength": 0.81,
+      "velocity_score": 0.54,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +127,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.67,
-      "velocity_score": 0.82,
+      "signal_strength": 0.84,
+      "velocity_score": 0.49,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.78,
-      "velocity_score": 0.73,
+      "signal_strength": 0.89,
+      "velocity_score": 0.72,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,14 +151,14 @@
       ]
     }
   ],
-  "fetched_at": "2026-07-01T18:38:07.938045+00:00",
-  "total_count": 11,
+  "fetched_at": "2026-07-01T21:31:42.447850+00:00",
+  "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 8
+        "count": 7
       },
       {
         "niche": "disclosure",
@@ -190,17 +175,16 @@
     ],
     "signal_strength_by_niche": {
       "media_coverage": 0.8,
-      "disclosure": 0.8,
-      "military_encounters": 0.92,
-      "whistleblower": 0.84
+      "disclosure": 0.83,
+      "military_encounters": 0.74,
+      "whistleblower": 0.86
     },
     "source_distribution": {
-      "The Debrief": 1,
       "The War Zone": 1,
       "NewsNation": 4,
       "Live Science": 5
     },
-    "total_trends": 11,
+    "total_trends": 10,
     "niches_covered": [
       "disclosure",
       "media_coverage",
@@ -225,7 +209,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 4,
+    "sources_used": 3,
     "keywords_monitored": 45,
     "real_articles": true
   }

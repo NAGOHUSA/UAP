@@ -7,24 +7,9 @@
       "summary": "The Hayabusa2 spacecraft completed its flyby of the asteroid Torifune over the weekend, according to Japan’s space agency.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/look-japans-hayabusa2-spacecraft-just-had-a-close-encounter-with-the-mysterious-asteroid-torifune/",
-      "signal_strength": 0.72,
-      "velocity_score": 0.48,
+      "signal_strength": 0.65,
+      "velocity_score": 0.61,
       "timestamp": "Mon, 06 Jul 2026 14:50:03 +0000",
-      "tags": [
-        "military_encounters",
-        "uap"
-      ]
-    },
-    {
-      "id": "The War Zone_2f805e8f",
-      "niche": "military_encounters",
-      "headline": "Russian Tu-142 Bear Drops Sonobuoys During Close Encounter With British Carrier",
-      "summary": "<p>The Tu-142 maritime patrol aircraft flew just off the HMS Prince of Wales while deploying submarine-detecting sonobuoys as F-35s shadowed it.</p>\n<p>The post <a href=\"https://www.twz.com/sea/russian-tu-142-bear-drops-sonobuoys-during-close-encounter-with-british-carrier\">Russian Tu-142 Bear Drops Sonobuoys During Close Encounter With British Carrier</a> appeared first on <a href=\"https://www.tw",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/sea/russian-tu-142-bear-drops-sonobuoys-during-close-encounter-with-british-carrier",
-      "signal_strength": 0.85,
-      "velocity_score": 0.8,
-      "timestamp": "Mon, 06 Jul 2026 13:23:24 -0400",
       "tags": [
         "military_encounters",
         "uap"
@@ -37,8 +22,8 @@
       "summary": "If the UAPs are not human-made, Loeb said \"it will be the biggest discovery ever made by humanity.\"",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/jesse-weber-live/avi-loeb-ufo-council-uap-origins/",
-      "signal_strength": 0.66,
-      "velocity_score": 0.66,
+      "signal_strength": 0.68,
+      "velocity_score": 0.42,
       "timestamp": "Fri, 03 Jul 2026 04:32:02 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +37,8 @@
       "summary": "Louis Elizondo has not commented directly on allegations he was involved in UAP retrieval programs.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/coulthart-responds-elizondo-uap-comments/",
-      "signal_strength": 0.94,
-      "velocity_score": 0.68,
+      "signal_strength": 0.93,
+      "velocity_score": 0.57,
       "timestamp": "Thu, 02 Jul 2026 18:22:43 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +52,8 @@
       "summary": "Rep. Eric Burlison joined NewsNation's Ross Coulthart to talk about the push for UAP transparency.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-footage-lawmaker-skepticism/",
-      "signal_strength": 0.83,
-      "velocity_score": 0.82,
+      "signal_strength": 0.75,
+      "velocity_score": 0.89,
       "timestamp": "Wed, 01 Jul 2026 20:16:29 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +67,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.73,
-      "velocity_score": 0.68,
+      "signal_strength": 0.69,
+      "velocity_score": 0.61,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +82,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.72,
-      "velocity_score": 0.73,
+      "signal_strength": 0.7,
+      "velocity_score": 0.89,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +97,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.82,
-      "velocity_score": 0.9,
+      "signal_strength": 0.8,
+      "velocity_score": 0.8,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +112,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.77,
-      "velocity_score": 0.79,
+      "signal_strength": 0.89,
+      "velocity_score": 0.67,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +127,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.71,
-      "velocity_score": 0.47,
+      "signal_strength": 0.84,
+      "velocity_score": 0.69,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -151,8 +136,8 @@
       ]
     }
   ],
-  "fetched_at": "2026-07-07T00:31:55.053209+00:00",
-  "total_count": 10,
+  "fetched_at": "2026-07-07T04:21:08.154528+00:00",
+  "total_count": 9,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
@@ -162,20 +147,19 @@
       },
       {
         "niche": "military_encounters",
-        "count": 2
+        "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "military_encounters": 0.78,
-      "media_coverage": 0.77
+      "military_encounters": 0.65,
+      "media_coverage": 0.79
     },
     "source_distribution": {
       "The Debrief": 1,
-      "The War Zone": 1,
       "NewsNation": 3,
       "Live Science": 5
     },
-    "total_trends": 10,
+    "total_trends": 9,
     "niches_covered": [
       "media_coverage",
       "military_encounters"
@@ -198,7 +182,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 4,
+    "sources_used": 3,
     "keywords_monitored": 45,
     "real_articles": true
   }

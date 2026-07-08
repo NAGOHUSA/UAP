@@ -7,8 +7,8 @@
       "summary": "<p>Boxer amphibious ready group re-aggregates in the Middle East as the U.S. beefs up its naval force posture there.</p>\n<p>The post <a href=\"https://www.twz.com/sea/where-are-the-aircraft-carriers-july-7-2026\">Where Are The Aircraft Carriers: July 7, 2026</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-july-7-2026",
-      "signal_strength": 0.89,
-      "velocity_score": 0.71,
+      "signal_strength": 0.79,
+      "velocity_score": 0.66,
       "timestamp": "Tue, 07 Jul 2026 18:34:06 -0400",
       "tags": [
         "media_coverage",
@@ -22,8 +22,8 @@
       "summary": "If the UAPs are not human-made, Loeb said \"it will be the biggest discovery ever made by humanity.\"",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/jesse-weber-live/avi-loeb-ufo-council-uap-origins/",
-      "signal_strength": 0.73,
-      "velocity_score": 0.7,
+      "signal_strength": 0.74,
+      "velocity_score": 0.86,
       "timestamp": "Fri, 03 Jul 2026 04:32:02 +0000",
       "tags": [
         "media_coverage",
@@ -37,8 +37,8 @@
       "summary": "Louis Elizondo has not commented directly on allegations he was involved in UAP retrieval programs.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/coulthart-responds-elizondo-uap-comments/",
-      "signal_strength": 0.83,
-      "velocity_score": 0.52,
+      "signal_strength": 0.79,
+      "velocity_score": 0.61,
       "timestamp": "Thu, 02 Jul 2026 18:22:43 +0000",
       "tags": [
         "media_coverage",
@@ -53,7 +53,7 @@
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-footage-lawmaker-skepticism/",
       "signal_strength": 0.68,
-      "velocity_score": 0.76,
+      "velocity_score": 0.49,
       "timestamp": "Wed, 01 Jul 2026 20:16:29 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +67,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.7,
-      "velocity_score": 0.7,
+      "signal_strength": 0.91,
+      "velocity_score": 0.79,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +82,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.93,
-      "velocity_score": 0.49,
+      "signal_strength": 0.82,
+      "velocity_score": 0.6,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +97,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.75,
-      "velocity_score": 0.75,
+      "signal_strength": 0.7,
+      "velocity_score": 0.84,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.79,
-      "velocity_score": 0.44,
+      "signal_strength": 0.7,
+      "velocity_score": 0.48,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.95,
-      "velocity_score": 0.41,
+      "signal_strength": 0.79,
+      "velocity_score": 0.42,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -136,7 +136,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-07-08T06:48:30.244523+00:00",
+  "fetched_at": "2026-07-08T09:47:27.012451+00:00",
   "total_count": 9,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -147,7 +147,7 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.81
+      "media_coverage": 0.77
     },
     "source_distribution": {
       "The War Zone": 1,

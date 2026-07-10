@@ -1,14 +1,44 @@
 {
   "trends": [
     {
+      "id": "The Debrief_6d8203ea",
+      "niche": "media_coverage",
+      "headline": "Pentagon Releases New Batch of UAP Videos and Historical Files, But Clarity Remains Elusive",
+      "summary": "The U.S. Department of War released its latest collection of UFO imagery and other materials on Friday. Here's a look at what it reveals.",
+      "source": "The Debrief",
+      "source_url": "https://thedebrief.org/pentagon-releases-new-batch-of-uap-videos-and-historical-files-but-clarity-remains-elusive/",
+      "signal_strength": 0.76,
+      "velocity_score": 0.76,
+      "timestamp": "Fri, 10 Jul 2026 17:18:54 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_78954fa6",
+      "niche": "media_coverage",
+      "headline": "Possible 'jellyfish' UFO video captured over Atlantic Ocean",
+      "summary": "The object resembles what was dubbed a “jellyfish” UFO, captured on video in Iraq in 2018.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/possible-jellyfish-ufo-atlantic-ocean/",
+      "signal_strength": 0.89,
+      "velocity_score": 0.83,
+      "timestamp": "Fri, 10 Jul 2026 16:43:11 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
       "id": "NewsNation_c9727f7c",
       "niche": "media_coverage",
       "headline": "'Diamond-shaped' UFO spotted over US nuclear weapons plant: report",
       "summary": "The object was described as hovering in a “non-threatening” manner for several minutes.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/diamond-shaped-ufo-nuclear-weapons-plant/",
-      "signal_strength": 0.87,
-      "velocity_score": 0.43,
+      "signal_strength": 0.94,
+      "velocity_score": 0.58,
       "timestamp": "Fri, 10 Jul 2026 14:42:38 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +52,8 @@
       "summary": "The volume includes 40 new files, including 19 videos.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/pentagon-ufo-files-fourth-release/",
-      "signal_strength": 0.67,
-      "velocity_score": 0.88,
+      "signal_strength": 0.91,
+      "velocity_score": 0.74,
       "timestamp": "Fri, 10 Jul 2026 12:33:06 +0000",
       "tags": [
         "media_coverage",
@@ -37,24 +67,9 @@
       "summary": "Pastor Joseph Z urged Christians not to fall for what effectively would be a false prophecy.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/pastor-joseph-z-ufo-deception/",
-      "signal_strength": 0.93,
-      "velocity_score": 0.69,
+      "signal_strength": 0.74,
+      "velocity_score": 0.57,
       "timestamp": "Thu, 09 Jul 2026 03:41:25 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_5ad9d3c0",
-      "niche": "media_coverage",
-      "headline": "UFO files: NASA helped prolong UAP stigma, ex-official says",
-      "summary": "Michael Gold previously served as NASA’s associate administrator for space policy and partnerships.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/nasa-ufo-stigma-michael-gold/",
-      "signal_strength": 0.8,
-      "velocity_score": 0.59,
-      "timestamp": "Thu, 09 Jul 2026 00:10:46 +0000",
       "tags": [
         "media_coverage",
         "uap"
@@ -67,8 +82,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.78,
-      "velocity_score": 0.76,
+      "signal_strength": 0.86,
+      "velocity_score": 0.67,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +97,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.94,
-      "velocity_score": 0.68,
+      "signal_strength": 0.65,
+      "velocity_score": 0.5,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +112,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.69,
-      "velocity_score": 0.55,
+      "signal_strength": 0.89,
+      "velocity_score": 0.54,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +127,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.66,
-      "velocity_score": 0.42,
+      "signal_strength": 0.88,
+      "velocity_score": 0.52,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.79,
-      "velocity_score": 0.4,
+      "signal_strength": 0.9,
+      "velocity_score": 0.41,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -136,24 +151,25 @@
       ]
     }
   ],
-  "fetched_at": "2026-07-10T15:46:42.019967+00:00",
-  "total_count": 9,
+  "fetched_at": "2026-07-10T18:29:35.354310+00:00",
+  "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 9
+        "count": 10
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.79
+      "media_coverage": 0.84
     },
     "source_distribution": {
+      "The Debrief": 1,
       "NewsNation": 4,
       "Live Science": 5
     },
-    "total_trends": 9,
+    "total_trends": 10,
     "niches_covered": [
       "media_coverage"
     ],
@@ -175,7 +191,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 2,
+    "sources_used": 3,
     "keywords_monitored": 45,
     "real_articles": true
   }

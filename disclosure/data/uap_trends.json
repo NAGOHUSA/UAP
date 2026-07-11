@@ -7,11 +7,26 @@
       "summary": "The U.S. Department of War released its latest collection of UFO imagery and other materials on Friday. Here's a look at what it reveals.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/pentagon-releases-new-batch-of-uap-videos-and-historical-files-but-clarity-remains-elusive/",
-      "signal_strength": 0.78,
-      "velocity_score": 0.6,
+      "signal_strength": 0.89,
+      "velocity_score": 0.76,
       "timestamp": "Fri, 10 Jul 2026 17:18:54 +0000",
       "tags": [
         "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_58b27b28",
+      "niche": "legislation",
+      "headline": "UFO files: Sightings at defense sites may confirm 'galactic zoo' idea, author says",
+      "summary": "The incident, reportedly over a nuclear weapons assembly plant, was included in the Pentagon’s fourth tranche of UFO files.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/vargasreports/ufo-files-galactic-zoo-theory/",
+      "signal_strength": 0.9,
+      "velocity_score": 0.52,
+      "timestamp": "Sat, 11 Jul 2026 00:47:17 +0000",
+      "tags": [
+        "legislation",
         "uap"
       ]
     },
@@ -22,8 +37,8 @@
       "summary": "The Department of War released a fourth tranche of UFO documents Friday.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/ufo-files-dr-phil-conspiracy/",
-      "signal_strength": 0.9,
-      "velocity_score": 0.77,
+      "signal_strength": 0.78,
+      "velocity_score": 0.87,
       "timestamp": "Fri, 10 Jul 2026 23:48:19 +0000",
       "tags": [
         "media_coverage",
@@ -37,8 +52,8 @@
       "summary": "The object resembles what was dubbed a “jellyfish” UFO, captured on video in Iraq in 2018.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/possible-jellyfish-ufo-atlantic-ocean/",
-      "signal_strength": 0.69,
-      "velocity_score": 0.75,
+      "signal_strength": 0.87,
+      "velocity_score": 0.54,
       "timestamp": "Fri, 10 Jul 2026 16:43:11 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +67,8 @@
       "summary": "The object was described as hovering in a “non-threatening” manner for several minutes.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/diamond-shaped-ufo-nuclear-weapons-plant/",
-      "signal_strength": 0.8,
-      "velocity_score": 0.78,
+      "signal_strength": 0.81,
+      "velocity_score": 0.81,
       "timestamp": "Fri, 10 Jul 2026 14:42:38 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +82,8 @@
       "summary": "The volume includes 40 new files, including 19 videos.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/pentagon-ufo-files-fourth-release/",
-      "signal_strength": 0.82,
-      "velocity_score": 0.45,
+      "signal_strength": 0.93,
+      "velocity_score": 0.87,
       "timestamp": "Fri, 10 Jul 2026 12:33:06 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +97,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.93,
-      "velocity_score": 0.74,
+      "signal_strength": 0.86,
+      "velocity_score": 0.59,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +112,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.71,
-      "velocity_score": 0.69,
+      "signal_strength": 0.92,
+      "velocity_score": 0.82,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +127,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.79,
-      "velocity_score": 0.71,
+      "signal_strength": 0.86,
+      "velocity_score": 0.63,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +142,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.81,
-      "velocity_score": 0.69,
+      "signal_strength": 0.72,
+      "velocity_score": 0.62,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +157,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.93,
-      "velocity_score": 0.43,
+      "signal_strength": 0.67,
+      "velocity_score": 0.49,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -151,26 +166,32 @@
       ]
     }
   ],
-  "fetched_at": "2026-07-11T00:24:55.713270+00:00",
-  "total_count": 10,
+  "fetched_at": "2026-07-11T04:02:07.305476+00:00",
+  "total_count": 11,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
         "count": 10
+      },
+      {
+        "niche": "legislation",
+        "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.82
+      "media_coverage": 0.83,
+      "legislation": 0.9
     },
     "source_distribution": {
       "The Debrief": 1,
-      "NewsNation": 4,
+      "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 10,
+    "total_trends": 11,
     "niches_covered": [
+      "legislation",
       "media_coverage"
     ],
     "monitoring_keywords": [

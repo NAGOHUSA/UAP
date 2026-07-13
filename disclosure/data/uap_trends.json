@@ -7,8 +7,8 @@
       "summary": "An unusual phenomenon that has been recognized around the world for more than a century has finally been resolved: what are the origins of the distinctive, stair-like ridges that form on steep hillsides?",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/these-unusual-step-like-structures-on-hillsides-baffled-darwin-150-years-ago-now-scientists-finally-know-their-origins/",
-      "signal_strength": 0.77,
-      "velocity_score": 0.52,
+      "signal_strength": 0.86,
+      "velocity_score": 0.64,
       "timestamp": "Sat, 11 Jul 2026 15:37:32 +0000",
       "tags": [
         "media_coverage",
@@ -22,9 +22,24 @@
       "summary": "The U.S. Department of War released its latest collection of UFO imagery and other materials on Friday. Here's a look at what it reveals.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/pentagon-releases-new-batch-of-uap-videos-and-historical-files-but-clarity-remains-elusive/",
-      "signal_strength": 0.69,
-      "velocity_score": 0.48,
+      "signal_strength": 0.81,
+      "velocity_score": 0.85,
       "timestamp": "Fri, 10 Jul 2026 17:18:54 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_aff6f284",
+      "niche": "media_coverage",
+      "headline": "Ross Coulthart: Pentagon knows 'a lot more' about UAP than it admits",
+      "summary": "Coulthart said it's clear from all the files the Pentagon has declassified that the agency has been looking at UFOs and other aerial phenomena for the last 80 years.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/coulthart-pentagon-knows-more-uap-admits/",
+      "signal_strength": 0.84,
+      "velocity_score": 0.64,
+      "timestamp": "Mon, 13 Jul 2026 05:23:55 +0000",
       "tags": [
         "media_coverage",
         "uap"
@@ -37,8 +52,8 @@
       "summary": "Some of the documents released by the Trump administration are less than wondrous, UAP researchers say.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/ufo-files-explanations-space-trash/",
-      "signal_strength": 0.7,
-      "velocity_score": 0.48,
+      "signal_strength": 0.93,
+      "velocity_score": 0.49,
       "timestamp": "Sun, 12 Jul 2026 13:07:09 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +67,8 @@
       "summary": "Ross Coulthart and Meagan Medick dive into whether NASA knows more about UFOs than it says, lunar anomalies, secret American bases in Antarctica and there's a special appearance.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/john-kerry-ufo-tech-and-fusion-energy-reality-check-with-ross-coulthart/",
-      "signal_strength": 0.77,
-      "velocity_score": 0.75,
+      "signal_strength": 0.84,
+      "velocity_score": 0.66,
       "timestamp": "Sun, 12 Jul 2026 12:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +82,8 @@
       "summary": "Investigative journalist Ross Coulthart said he’s keeping an open mind.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/antarctica-ufos-nazis-pyramids/",
-      "signal_strength": 0.71,
-      "velocity_score": 0.42,
+      "signal_strength": 0.93,
+      "velocity_score": 0.48,
       "timestamp": "Sun, 12 Jul 2026 12:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -82,24 +97,9 @@
       "summary": "Researchers say it’s impossible to reach conclusions about UFO videos because information has been redacted.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/avi-loeb-ufo-crash-site-biologics/",
-      "signal_strength": 0.65,
-      "velocity_score": 0.4,
+      "signal_strength": 0.9,
+      "velocity_score": 0.84,
       "timestamp": "Sat, 11 Jul 2026 04:14:32 +0000",
-      "tags": [
-        "legislation",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_58b27b28",
-      "niche": "legislation",
-      "headline": "UFO files: Sightings at defense sites may confirm 'galactic zoo' idea, author says",
-      "summary": "The incident, reportedly over a nuclear weapons assembly plant, was included in the Pentagon’s fourth tranche of UFO files.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/vargasreports/ufo-files-galactic-zoo-theory/",
-      "signal_strength": 0.85,
-      "velocity_score": 0.7,
-      "timestamp": "Sat, 11 Jul 2026 00:47:17 +0000",
       "tags": [
         "legislation",
         "uap"
@@ -112,8 +112,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.84,
-      "velocity_score": 0.52,
+      "signal_strength": 0.95,
+      "velocity_score": 0.75,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.65,
-      "velocity_score": 0.82,
+      "signal_strength": 0.84,
+      "velocity_score": 0.72,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.94,
-      "velocity_score": 0.54,
+      "signal_strength": 0.74,
+      "velocity_score": 0.79,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +157,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.82,
-      "velocity_score": 0.64,
+      "signal_strength": 0.83,
+      "velocity_score": 0.59,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +172,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.88,
-      "velocity_score": 0.74,
+      "signal_strength": 0.91,
+      "velocity_score": 0.71,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -181,23 +181,23 @@
       ]
     }
   ],
-  "fetched_at": "2026-07-13T04:13:04.823345+00:00",
+  "fetched_at": "2026-07-13T07:03:54.618541+00:00",
   "total_count": 12,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 10
+        "count": 11
       },
       {
         "niche": "legislation",
-        "count": 2
+        "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.78,
-      "legislation": 0.75
+      "media_coverage": 0.86,
+      "legislation": 0.9
     },
     "source_distribution": {
       "The Debrief": 2,

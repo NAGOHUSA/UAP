@@ -7,11 +7,26 @@
       "summary": "This week, the Pentagon's AARO finally released its long-delayed Fiscal Year 2025 report. Here's what we know.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/aaros-latest-uap-report-finds-no-evidence-of-exotic-technology-but-mysteries-remain/",
-      "signal_strength": 0.84,
-      "velocity_score": 0.4,
+      "signal_strength": 0.93,
+      "velocity_score": 0.41,
       "timestamp": "Thu, 23 Jul 2026 15:31:06 +0000",
       "tags": [
         "disclosure",
+        "uap"
+      ]
+    },
+    {
+      "id": "The War Zone_47b3aed7",
+      "niche": "media_coverage",
+      "headline": "EA-37Bs Arrive At RAF Fairford As Iran Threatens To Attack The UK Air Base",
+      "summary": "<p>RAF Fairford is a major hub for USAF bombers flying missions against Iran and other aircraft transmitting to the Middle East.   </p>\n<p>The post <a href=\"https://www.twz.com/air/ea-37bs-arrive-at-raf-fairford-as-iran-threatens-to-attack-the-uk-air-base\">EA-37Bs Arrive At RAF Fairford As Iran Threatens To Attack The UK Air Base</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
+      "source": "The War Zone",
+      "source_url": "https://www.twz.com/air/ea-37bs-arrive-at-raf-fairford-as-iran-threatens-to-attack-the-uk-air-base",
+      "signal_strength": 0.71,
+      "velocity_score": 0.43,
+      "timestamp": "Thu, 23 Jul 2026 15:31:23 -0400",
+      "tags": [
+        "media_coverage",
         "uap"
       ]
     },
@@ -23,25 +38,10 @@
       "source": "The War Zone",
       "source_url": "https://www.twz.com/air/ukrainian-f-16-scored-first-air-to-air-kill-against-a-russian-fighter-top-u-s-general",
       "signal_strength": 0.75,
-      "velocity_score": 0.42,
+      "velocity_score": 0.77,
       "timestamp": "Wed, 22 Jul 2026 14:19:06 -0400",
       "tags": [
         "disclosure",
-        "uap"
-      ]
-    },
-    {
-      "id": "The War Zone_71f105ce",
-      "niche": "media_coverage",
-      "headline": "Brontanax Fighter Drone Is The UK’s Big Leap Into Collaborative Combat Aircraft",
-      "summary": "<p>BAE Systems just unveiled its stealthy CCA with some intriguing features.</p>\n<p>The post <a href=\"https://www.twz.com/air/brontanax-fighter-drone-is-the-uks-big-leap-into-collaborative-combat-aircraft\">Brontanax Fighter Drone Is The UK&#8217;s Big Leap Into Collaborative Combat Aircraft</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/air/brontanax-fighter-drone-is-the-uks-big-leap-into-collaborative-combat-aircraft",
-      "signal_strength": 0.86,
-      "velocity_score": 0.9,
-      "timestamp": "Wed, 22 Jul 2026 13:57:20 -0400",
-      "tags": [
-        "media_coverage",
         "uap"
       ]
     },
@@ -52,8 +52,8 @@
       "summary": "Dr. Phil believes the American public will be able to handle the news because humans are \"resilient.\"",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/shielding-uap-files-from-public-patronizing-dr-phil/",
-      "signal_strength": 0.82,
-      "velocity_score": 0.58,
+      "signal_strength": 0.86,
+      "velocity_score": 0.52,
       "timestamp": "Wed, 22 Jul 2026 16:25:52 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +67,8 @@
       "summary": "Ross Coulthart speaks with Dr. Phil McGraw about his review of the latest UFO files and what the public saw versus what he saw, the impact of disclosure on society and why he believes there has been a huge cover-up.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/dr-phil-on-ufo-files-there-has-been-a-massive-cover-up-reality-check/",
-      "signal_strength": 0.71,
-      "velocity_score": 0.57,
+      "signal_strength": 0.87,
+      "velocity_score": 0.42,
       "timestamp": "Tue, 21 Jul 2026 21:00:00 +0000",
       "tags": [
         "disclosure",
@@ -82,8 +82,8 @@
       "summary": "Ross Coulthart tackles viewer's questions about whistleblower retaliation, President Trump's \"discombobulator,\" the \"Mars face\" and how he vets his sources.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/ross-coulthart-qa-mars-face-debate-energy-weapons-defining-the-legacy-program-reality-check/",
-      "signal_strength": 0.72,
-      "velocity_score": 0.45,
+      "signal_strength": 0.95,
+      "velocity_score": 0.43,
       "timestamp": "Sun, 19 Jul 2026 12:00:00 +0000",
       "tags": [
         "whistleblower",
@@ -97,8 +97,8 @@
       "summary": "Witnesses have long said a cigar-shaped UFO crashed in Varginha, Brazil, in January 1996.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/roswell-of-brazil-documentary-surgeon-witness/",
-      "signal_strength": 0.7,
-      "velocity_score": 0.59,
+      "signal_strength": 0.86,
+      "velocity_score": 0.68,
       "timestamp": "Fri, 17 Jul 2026 01:01:01 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "Host Joe Rogan pushed back that info has been leaked, with many whistleblowers coming forward.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/vance-skeptical-about-ufos-he-says-on-joe-rogans-podcast/",
-      "signal_strength": 0.76,
-      "velocity_score": 0.71,
+      "signal_strength": 0.68,
+      "velocity_score": 0.42,
       "timestamp": "Thu, 16 Jul 2026 13:34:44 +0000",
       "tags": [
         "whistleblower",
@@ -127,8 +127,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.67,
-      "velocity_score": 0.53,
+      "signal_strength": 0.66,
+      "velocity_score": 0.82,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.85,
-      "velocity_score": 0.45,
+      "signal_strength": 0.86,
+      "velocity_score": 0.48,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +157,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.69,
-      "velocity_score": 0.86,
+      "signal_strength": 0.87,
+      "velocity_score": 0.62,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +172,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.83,
-      "velocity_score": 0.63,
+      "signal_strength": 0.67,
+      "velocity_score": 0.88,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -187,8 +187,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.73,
-      "velocity_score": 0.62,
+      "signal_strength": 0.82,
+      "velocity_score": 0.52,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -196,7 +196,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-07-23T18:26:02.076664+00:00",
+  "fetched_at": "2026-07-23T21:23:10.228965+00:00",
   "total_count": 13,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -215,9 +215,9 @@
       }
     ],
     "signal_strength_by_niche": {
-      "disclosure": 0.77,
-      "media_coverage": 0.77,
-      "whistleblower": 0.74
+      "disclosure": 0.85,
+      "media_coverage": 0.79,
+      "whistleblower": 0.81
     },
     "source_distribution": {
       "The Debrief": 1,

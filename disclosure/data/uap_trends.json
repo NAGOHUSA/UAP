@@ -7,7 +7,7 @@
       "summary": "Impulse Space reveals its new electric propulsion system designed to extend the capabilities of spacecraft during long space missions.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/impulse-space-unveils-new-electric-propulsion-system-to-enable-hybrid-spaceflight-strategy-for-extended-missions/",
-      "signal_strength": 0.66,
+      "signal_strength": 0.88,
       "velocity_score": 0.54,
       "timestamp": "Wed, 29 Jul 2026 14:14:06 +0000",
       "tags": [
@@ -22,8 +22,8 @@
       "summary": "DARPA has announced the successful test flights of an AI-controlled F-16, moving the U.S. one step closer to autonomous fighting platforms.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/after-surviving-a-dogfight-in-a-test-aircraft-darpas-venom-ai-controlled-pilot-just-flew-a-modified-combat-style-f-16/",
-      "signal_strength": 0.69,
-      "velocity_score": 0.59,
+      "signal_strength": 0.92,
+      "velocity_score": 0.7,
       "timestamp": "Wed, 29 Jul 2026 12:17:02 +0000",
       "tags": [
         "military_encounters",
@@ -31,17 +31,17 @@
       ]
     },
     {
-      "id": "The War Zone_9b98b5cf",
-      "niche": "media_coverage",
-      "headline": "Where Are The Aircraft Carriers: July 28, 2026",
-      "summary": "<p>The U.S. may have paused its strike campaign against Iran, for now, but the revived naval blockade remains in full effect.</p>\n<p>The post <a href=\"https://www.twz.com/sea/where-are-the-aircraft-carriers-july-28-2026\">Where Are The Aircraft Carriers: July 28, 2026</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-july-28-2026",
-      "signal_strength": 0.86,
-      "velocity_score": 0.64,
-      "timestamp": "Tue, 28 Jul 2026 11:57:25 -0400",
+      "id": "NewsNation_872f321f",
+      "niche": "legislation",
+      "headline": "Rumored Elizondo UAP role part of 'controlled narrative': researcher",
+      "summary": "UAP activist Luis Elizondo is said to be being positioned to take a role advising on UFO disclsoure.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/elizondo-uap-role-controlled-narrative/",
+      "signal_strength": 0.65,
+      "velocity_score": 0.7,
+      "timestamp": "Wed, 29 Jul 2026 15:56:34 +0000",
       "tags": [
-        "media_coverage",
+        "legislation",
         "uap"
       ]
     },
@@ -52,8 +52,8 @@
       "summary": "Dr. Phil believes the American public will be able to handle the news because humans are \"resilient.\"",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/shielding-uap-files-from-public-patronizing-dr-phil/",
-      "signal_strength": 0.95,
-      "velocity_score": 0.68,
+      "signal_strength": 0.88,
+      "velocity_score": 0.6,
       "timestamp": "Wed, 22 Jul 2026 16:25:52 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +67,8 @@
       "summary": "Ross Coulthart speaks with Dr. Phil McGraw about his review of the latest UFO files and what the public saw versus what he saw, the impact of disclosure on society and why he believes there has been a huge cover-up.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/dr-phil-on-ufo-files-there-has-been-a-massive-cover-up-reality-check/",
-      "signal_strength": 0.74,
-      "velocity_score": 0.46,
+      "signal_strength": 0.85,
+      "velocity_score": 0.73,
       "timestamp": "Tue, 21 Jul 2026 21:00:00 +0000",
       "tags": [
         "disclosure",
@@ -82,8 +82,8 @@
       "summary": "Ross Coulthart tackles viewer's questions about whistleblower retaliation, President Trump's \"discombobulator,\" the \"Mars face\" and how he vets his sources.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/ross-coulthart-qa-mars-face-debate-energy-weapons-defining-the-legacy-program-reality-check/",
-      "signal_strength": 0.69,
-      "velocity_score": 0.86,
+      "signal_strength": 0.76,
+      "velocity_score": 0.47,
       "timestamp": "Sun, 19 Jul 2026 12:00:00 +0000",
       "tags": [
         "whistleblower",
@@ -97,26 +97,11 @@
       "summary": "Witnesses have long said a cigar-shaped UFO crashed in Varginha, Brazil, in January 1996.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/roswell-of-brazil-documentary-surgeon-witness/",
-      "signal_strength": 0.72,
-      "velocity_score": 0.65,
+      "signal_strength": 0.71,
+      "velocity_score": 0.7,
       "timestamp": "Fri, 17 Jul 2026 01:01:01 +0000",
       "tags": [
         "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_04b4504b",
-      "niche": "whistleblower",
-      "headline": "Vance 'skeptical' about UFOs, he says on Joe Rogan's podcast",
-      "summary": "Host Joe Rogan pushed back that info has been leaked, with many whistleblowers coming forward.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/ufo/vance-skeptical-about-ufos-he-says-on-joe-rogans-podcast/",
-      "signal_strength": 0.76,
-      "velocity_score": 0.57,
-      "timestamp": "Thu, 16 Jul 2026 13:34:44 +0000",
-      "tags": [
-        "whistleblower",
         "uap"
       ]
     },
@@ -127,8 +112,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.84,
-      "velocity_score": 0.73,
+      "signal_strength": 0.69,
+      "velocity_score": 0.6,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +127,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.86,
-      "velocity_score": 0.82,
+      "signal_strength": 0.73,
+      "velocity_score": 0.74,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +142,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.69,
-      "velocity_score": 0.49,
+      "signal_strength": 0.86,
+      "velocity_score": 0.81,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +157,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.73,
-      "velocity_score": 0.82,
+      "signal_strength": 0.85,
+      "velocity_score": 0.83,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -187,8 +172,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.71,
-      "velocity_score": 0.49,
+      "signal_strength": 0.78,
+      "velocity_score": 0.9,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -196,43 +181,48 @@
       ]
     }
   ],
-  "fetched_at": "2026-07-29T15:36:58.452050+00:00",
-  "total_count": 13,
+  "fetched_at": "2026-07-29T18:19:36.726854+00:00",
+  "total_count": 12,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 9
-      },
-      {
-        "niche": "whistleblower",
-        "count": 2
+        "count": 8
       },
       {
         "niche": "military_encounters",
         "count": 1
       },
       {
+        "niche": "legislation",
+        "count": 1
+      },
+      {
         "niche": "disclosure",
+        "count": 1
+      },
+      {
+        "niche": "whistleblower",
         "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.78,
-      "military_encounters": 0.69,
-      "disclosure": 0.74,
-      "whistleblower": 0.72
+      "media_coverage": 0.8,
+      "military_encounters": 0.92,
+      "legislation": 0.65,
+      "disclosure": 0.85,
+      "whistleblower": 0.76
     },
     "source_distribution": {
       "The Debrief": 2,
-      "The War Zone": 1,
       "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 13,
+    "total_trends": 12,
     "niches_covered": [
       "disclosure",
+      "legislation",
       "media_coverage",
       "military_encounters",
       "whistleblower"
@@ -255,7 +245,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 4,
+    "sources_used": 3,
     "keywords_monitored": 45,
     "real_articles": true
   }

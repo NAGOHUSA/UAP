@@ -7,8 +7,8 @@
       "summary": "Impulse Space reveals its new electric propulsion system designed to extend the capabilities of spacecraft during long space missions.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/impulse-space-unveils-new-electric-propulsion-system-to-enable-hybrid-spaceflight-strategy-for-extended-missions/",
-      "signal_strength": 0.76,
-      "velocity_score": 0.54,
+      "signal_strength": 0.75,
+      "velocity_score": 0.61,
       "timestamp": "Wed, 29 Jul 2026 14:14:06 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +22,8 @@
       "summary": "DARPA has announced the successful test flights of an AI-controlled F-16, moving the U.S. one step closer to autonomous fighting platforms.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/after-surviving-a-dogfight-in-a-test-aircraft-darpas-venom-ai-controlled-pilot-just-flew-a-modified-combat-style-f-16/",
-      "signal_strength": 0.74,
-      "velocity_score": 0.6,
+      "signal_strength": 0.8,
+      "velocity_score": 0.54,
       "timestamp": "Wed, 29 Jul 2026 12:17:02 +0000",
       "tags": [
         "military_encounters",
@@ -31,17 +31,17 @@
       ]
     },
     {
-      "id": "NewsNation_872f321f",
-      "niche": "legislation",
-      "headline": "Rumored Elizondo UAP role part of 'controlled narrative': researcher",
-      "summary": "UAP activist Luis Elizondo is said to be being positioned to take a role advising on UFO disclsoure.",
+      "id": "NewsNation_79fa46f9",
+      "niche": "disclosure",
+      "headline": "Elizondo responds to researcher's 'controlled narrative' role rumors",
+      "summary": "UAP activist Luis Elizondo is said to be being positioned to take a role advising on UFO disclosure.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/elizondo-uap-role-controlled-narrative/",
-      "signal_strength": 0.76,
-      "velocity_score": 0.85,
+      "signal_strength": 0.7,
+      "velocity_score": 0.87,
       "timestamp": "Wed, 29 Jul 2026 15:56:34 +0000",
       "tags": [
-        "legislation",
+        "disclosure",
         "uap"
       ]
     },
@@ -52,8 +52,8 @@
       "summary": "Dr. Phil believes the American public will be able to handle the news because humans are \"resilient.\"",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/shielding-uap-files-from-public-patronizing-dr-phil/",
-      "signal_strength": 0.9,
-      "velocity_score": 0.56,
+      "signal_strength": 0.72,
+      "velocity_score": 0.78,
       "timestamp": "Wed, 22 Jul 2026 16:25:52 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +67,8 @@
       "summary": "Ross Coulthart speaks with Dr. Phil McGraw about his review of the latest UFO files and what the public saw versus what he saw, the impact of disclosure on society and why he believes there has been a huge cover-up.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/dr-phil-on-ufo-files-there-has-been-a-massive-cover-up-reality-check/",
-      "signal_strength": 0.8,
-      "velocity_score": 0.69,
+      "signal_strength": 0.87,
+      "velocity_score": 0.71,
       "timestamp": "Tue, 21 Jul 2026 21:00:00 +0000",
       "tags": [
         "disclosure",
@@ -82,8 +82,8 @@
       "summary": "Ross Coulthart tackles viewer's questions about whistleblower retaliation, President Trump's \"discombobulator,\" the \"Mars face\" and how he vets his sources.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/ross-coulthart-qa-mars-face-debate-energy-weapons-defining-the-legacy-program-reality-check/",
-      "signal_strength": 0.81,
-      "velocity_score": 0.75,
+      "signal_strength": 0.67,
+      "velocity_score": 0.63,
       "timestamp": "Sun, 19 Jul 2026 12:00:00 +0000",
       "tags": [
         "whistleblower",
@@ -97,8 +97,8 @@
       "summary": "Witnesses have long said a cigar-shaped UFO crashed in Varginha, Brazil, in January 1996.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/roswell-of-brazil-documentary-surgeon-witness/",
-      "signal_strength": 0.78,
-      "velocity_score": 0.67,
+      "signal_strength": 0.86,
+      "velocity_score": 0.46,
       "timestamp": "Fri, 17 Jul 2026 01:01:01 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.75,
-      "velocity_score": 0.44,
+      "signal_strength": 0.88,
+      "velocity_score": 0.58,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.74,
-      "velocity_score": 0.85,
+      "signal_strength": 0.7,
+      "velocity_score": 0.82,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.76,
-      "velocity_score": 0.54,
+      "signal_strength": 0.92,
+      "velocity_score": 0.89,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +157,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.86,
-      "velocity_score": 0.69,
+      "signal_strength": 0.94,
+      "velocity_score": 0.82,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +172,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.66,
-      "velocity_score": 0.75,
+      "signal_strength": 0.73,
+      "velocity_score": 0.62,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -181,7 +181,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-07-29T21:17:59.535976+00:00",
+  "fetched_at": "2026-07-30T00:25:30.905667+00:00",
   "total_count": 12,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -191,15 +191,11 @@
         "count": 8
       },
       {
-        "niche": "military_encounters",
-        "count": 1
-      },
-      {
-        "niche": "legislation",
-        "count": 1
-      },
-      {
         "niche": "disclosure",
+        "count": 2
+      },
+      {
+        "niche": "military_encounters",
         "count": 1
       },
       {
@@ -208,11 +204,10 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.78,
-      "military_encounters": 0.74,
-      "legislation": 0.76,
-      "disclosure": 0.8,
-      "whistleblower": 0.81
+      "media_coverage": 0.81,
+      "military_encounters": 0.8,
+      "disclosure": 0.78,
+      "whistleblower": 0.67
     },
     "source_distribution": {
       "The Debrief": 2,
@@ -222,7 +217,6 @@
     "total_trends": 12,
     "niches_covered": [
       "disclosure",
-      "legislation",
       "media_coverage",
       "military_encounters",
       "whistleblower"

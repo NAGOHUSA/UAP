@@ -1,44 +1,14 @@
 {
   "trends": [
     {
-      "id": "The Debrief_98d67f1b",
-      "niche": "media_coverage",
-      "headline": "The World War II Atomic Blast Over Hiroshima Created a Previously Unidentified Multicomponent Metallic Alloy",
-      "summary": "The extreme energy, temperature, and pressure conditions during the World War II atomic bombing of Hiroshima created an all-new metal alloy.",
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/the-world-war-ii-atomic-blast-over-hiroshima-created-a-previously-unidentified-multicomponent-metallic-alloy/",
-      "signal_strength": 0.7,
-      "velocity_score": 0.73,
-      "timestamp": "Thu, 30 Jul 2026 12:39:46 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "The Debrief_c49c0043",
-      "niche": "media_coverage",
-      "headline": "Impulse Space Unveils New Electric Propulsion System to Enable Hybrid Spaceflight Strategy for Extended Missions",
-      "summary": "Impulse Space reveals its new electric propulsion system designed to extend the capabilities of spacecraft during long space missions.",
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/impulse-space-unveils-new-electric-propulsion-system-to-enable-hybrid-spaceflight-strategy-for-extended-missions/",
-      "signal_strength": 0.78,
-      "velocity_score": 0.53,
-      "timestamp": "Wed, 29 Jul 2026 14:14:06 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
       "id": "NewsNation_79fa46f9",
       "niche": "disclosure",
       "headline": "Elizondo responds to researcher's 'controlled narrative' role rumors",
       "summary": "UAP activist Luis Elizondo is said to be being positioned to take a role advising on UFO disclosure.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/elizondo-uap-role-controlled-narrative/",
-      "signal_strength": 0.76,
-      "velocity_score": 0.72,
+      "signal_strength": 0.93,
+      "velocity_score": 0.54,
       "timestamp": "Wed, 29 Jul 2026 15:56:34 +0000",
       "tags": [
         "disclosure",
@@ -52,8 +22,8 @@
       "summary": "Dr. Phil believes the American public will be able to handle the news because humans are \"resilient.\"",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/shielding-uap-files-from-public-patronizing-dr-phil/",
-      "signal_strength": 0.86,
-      "velocity_score": 0.64,
+      "signal_strength": 0.66,
+      "velocity_score": 0.45,
       "timestamp": "Wed, 22 Jul 2026 16:25:52 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +37,8 @@
       "summary": "Ross Coulthart speaks with Dr. Phil McGraw about his review of the latest UFO files and what the public saw versus what he saw, the impact of disclosure on society and why he believes there has been a huge cover-up.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/dr-phil-on-ufo-files-there-has-been-a-massive-cover-up-reality-check/",
-      "signal_strength": 0.77,
-      "velocity_score": 0.74,
+      "signal_strength": 0.78,
+      "velocity_score": 0.59,
       "timestamp": "Tue, 21 Jul 2026 21:00:00 +0000",
       "tags": [
         "disclosure",
@@ -82,26 +52,11 @@
       "summary": "Ross Coulthart tackles viewer's questions about whistleblower retaliation, President Trump's \"discombobulator,\" the \"Mars face\" and how he vets his sources.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/ross-coulthart-qa-mars-face-debate-energy-weapons-defining-the-legacy-program-reality-check/",
-      "signal_strength": 0.65,
-      "velocity_score": 0.73,
+      "signal_strength": 0.81,
+      "velocity_score": 0.55,
       "timestamp": "Sun, 19 Jul 2026 12:00:00 +0000",
       "tags": [
         "whistleblower",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_e3d430dd",
-      "niche": "media_coverage",
-      "headline": "‘Roswell of Brazil’: Doc director finds UFO crash tale credible",
-      "summary": "Witnesses have long said a cigar-shaped UFO crashed in Varginha, Brazil, in January 1996.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/ufo/roswell-of-brazil-documentary-surgeon-witness/",
-      "signal_strength": 0.9,
-      "velocity_score": 0.57,
-      "timestamp": "Fri, 17 Jul 2026 01:01:01 +0000",
-      "tags": [
-        "media_coverage",
         "uap"
       ]
     },
@@ -112,8 +67,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.93,
-      "velocity_score": 0.48,
+      "signal_strength": 0.69,
+      "velocity_score": 0.45,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +82,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.86,
-      "velocity_score": 0.42,
+      "signal_strength": 0.73,
+      "velocity_score": 0.79,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +97,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.69,
-      "velocity_score": 0.65,
+      "signal_strength": 0.88,
+      "velocity_score": 0.85,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +112,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.71,
-      "velocity_score": 0.76,
+      "signal_strength": 0.78,
+      "velocity_score": 0.61,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +127,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.72,
-      "velocity_score": 0.84,
+      "signal_strength": 0.85,
+      "velocity_score": 0.64,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -181,14 +136,14 @@
       ]
     }
   ],
-  "fetched_at": "2026-07-30T15:37:22.930991+00:00",
-  "total_count": 12,
+  "fetched_at": "2026-07-30T18:29:07.885567+00:00",
+  "total_count": 9,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 9
+        "count": 6
       },
       {
         "niche": "disclosure",
@@ -200,16 +155,15 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.79,
-      "disclosure": 0.77,
-      "whistleblower": 0.65
+      "disclosure": 0.85,
+      "media_coverage": 0.77,
+      "whistleblower": 0.81
     },
     "source_distribution": {
-      "The Debrief": 2,
-      "NewsNation": 5,
+      "NewsNation": 4,
       "Live Science": 5
     },
-    "total_trends": 12,
+    "total_trends": 9,
     "niches_covered": [
       "disclosure",
       "media_coverage",
@@ -233,7 +187,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 3,
+    "sources_used": 2,
     "keywords_monitored": 45,
     "real_articles": true
   }

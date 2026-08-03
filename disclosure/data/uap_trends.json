@@ -1,29 +1,14 @@
 {
   "trends": [
     {
-      "id": "The War Zone_dfb3c13a",
-      "niche": "media_coverage",
-      "headline": "Turkey’s Latest Kaan Fighter Prototype Begins Taxi Tests",
-      "summary": "<p>The P1 aircraft begins powered taxi testing as Turkish Aerospace pushes toward multiple flying prototypes.</p>\n<p>The post <a href=\"https://www.twz.com/air/turkeys-latest-kaan-fighter-prototype-begins-taxi-tests\">Turkey’s Latest Kaan Fighter Prototype Begins Taxi Tests</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/air/turkeys-latest-kaan-fighter-prototype-begins-taxi-tests",
-      "signal_strength": 0.84,
-      "velocity_score": 0.44,
-      "timestamp": "Fri, 31 Jul 2026 13:59:59 -0400",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
       "id": "NewsNation_b3dfc13e",
       "niche": "media_coverage",
       "headline": "Coulthart on Elizondo: 'Still constrained by his security oaths' | Ross Coulthart Q&A",
       "summary": "In this week's episode of \"Reality Check,\" Ross Coulthart returns from Toronto's Scientific Coalition for UAP Studies conference to answer viewer questions.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/coulthart-on-elizondo-still-constrained-by-his-security-oaths-ross-coulthart-qa/",
-      "signal_strength": 0.72,
-      "velocity_score": 0.72,
+      "signal_strength": 0.77,
+      "velocity_score": 0.47,
       "timestamp": "Sun, 02 Aug 2026 12:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -37,8 +22,8 @@
       "summary": "New plan would let UAP whistleblowers share information without violating secrecy agreements or NDAs.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-whistleblower-system-pentagon-intelligence/",
-      "signal_strength": 0.77,
-      "velocity_score": 0.69,
+      "signal_strength": 0.95,
+      "velocity_score": 0.61,
       "timestamp": "Sat, 01 Aug 2026 22:33:09 +0000",
       "tags": [
         "whistleblower",
@@ -53,7 +38,7 @@
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/elizondo-uap-role-controlled-narrative/",
       "signal_strength": 0.89,
-      "velocity_score": 0.48,
+      "velocity_score": 0.89,
       "timestamp": "Wed, 29 Jul 2026 15:56:34 +0000",
       "tags": [
         "disclosure",
@@ -68,7 +53,7 @@
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/shielding-uap-files-from-public-patronizing-dr-phil/",
       "signal_strength": 0.7,
-      "velocity_score": 0.56,
+      "velocity_score": 0.57,
       "timestamp": "Wed, 22 Jul 2026 16:25:52 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +67,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.88,
-      "velocity_score": 0.59,
+      "signal_strength": 0.9,
+      "velocity_score": 0.83,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +82,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.86,
-      "velocity_score": 0.44,
+      "signal_strength": 0.69,
+      "velocity_score": 0.67,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -113,7 +98,7 @@
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
       "signal_strength": 0.95,
-      "velocity_score": 0.41,
+      "velocity_score": 0.51,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +112,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.92,
-      "velocity_score": 0.47,
+      "signal_strength": 0.67,
+      "velocity_score": 0.51,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +127,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.75,
-      "velocity_score": 0.42,
+      "signal_strength": 0.82,
+      "velocity_score": 0.8,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -151,14 +136,14 @@
       ]
     }
   ],
-  "fetched_at": "2026-08-03T15:52:09.278402+00:00",
-  "total_count": 10,
+  "fetched_at": "2026-08-03T18:33:52.514374+00:00",
+  "total_count": 9,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 8
+        "count": 7
       },
       {
         "niche": "whistleblower",
@@ -170,16 +155,15 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.83,
-      "whistleblower": 0.77,
+      "media_coverage": 0.79,
+      "whistleblower": 0.95,
       "disclosure": 0.89
     },
     "source_distribution": {
-      "The War Zone": 1,
       "NewsNation": 4,
       "Live Science": 5
     },
-    "total_trends": 10,
+    "total_trends": 9,
     "niches_covered": [
       "disclosure",
       "media_coverage",
@@ -203,7 +187,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 3,
+    "sources_used": 2,
     "keywords_monitored": 45,
     "real_articles": true
   }

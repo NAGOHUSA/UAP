@@ -7,7 +7,7 @@
       "summary": "This week, engineers at NASA’s JPL succeeded in once again extending the lifespan of one of the space agency’s most iconic spacecraft.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/this-ancient-spacecraft-keeps-defying-death-but-how-much-longer-will-its-extended-mission-last/",
-      "signal_strength": 0.78,
+      "signal_strength": 0.84,
       "velocity_score": 0.66,
       "timestamp": "Thu, 06 Aug 2026 14:17:07 +0000",
       "tags": [
@@ -22,8 +22,8 @@
       "summary": "Several accounts of triangular anomalies are folded into Friday’s document dump.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/ufo-files-black-triangles/",
-      "signal_strength": 0.71,
-      "velocity_score": 0.58,
+      "signal_strength": 0.88,
+      "velocity_score": 0.66,
       "timestamp": "Sat, 08 Aug 2026 01:36:01 +0000",
       "tags": [
         "media_coverage",
@@ -37,8 +37,8 @@
       "summary": "This release has renderings of a purported sighting of a triangle-shaped object which hovered over the ground.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/pentagon-ufo-files-fifth-release/",
-      "signal_strength": 0.86,
-      "velocity_score": 0.77,
+      "signal_strength": 0.81,
+      "velocity_score": 0.75,
       "timestamp": "Fri, 07 Aug 2026 12:53:14 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +52,8 @@
       "summary": "Researchers from Kyiv reached their conclusion from high-speed photographs taken last summer.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/jesse-weber-live/avi-loeb-ufo-moon-base/",
-      "signal_strength": 0.87,
-      "velocity_score": 0.43,
+      "signal_strength": 0.76,
+      "velocity_score": 0.89,
       "timestamp": "Fri, 07 Aug 2026 04:58:13 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +67,8 @@
       "summary": "The legendary ranch has been a hotbed for paranormal activity and UFO sightings.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/skinwalker-ranch-misinformation-campaign/",
-      "signal_strength": 0.89,
-      "velocity_score": 0.75,
+      "signal_strength": 0.79,
+      "velocity_score": 0.63,
       "timestamp": "Wed, 05 Aug 2026 19:08:21 +0000",
       "tags": [
         "legislation",
@@ -83,7 +83,7 @@
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
       "signal_strength": 0.85,
-      "velocity_score": 0.46,
+      "velocity_score": 0.6,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +97,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.68,
-      "velocity_score": 0.44,
+      "signal_strength": 0.94,
+      "velocity_score": 0.65,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.71,
-      "velocity_score": 0.52,
+      "signal_strength": 0.9,
+      "velocity_score": 0.57,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.73,
-      "velocity_score": 0.82,
+      "signal_strength": 0.93,
+      "velocity_score": 0.85,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.66,
-      "velocity_score": 0.77,
+      "signal_strength": 0.8,
+      "velocity_score": 0.76,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -151,7 +151,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-08-08T09:29:22.004211+00:00",
+  "fetched_at": "2026-08-08T12:31:24.907058+00:00",
   "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -166,8 +166,8 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.76,
-      "legislation": 0.89
+      "media_coverage": 0.86,
+      "legislation": 0.79
     },
     "source_distribution": {
       "The Debrief": 1,

@@ -1,32 +1,32 @@
 {
   "trends": [
     {
+      "id": "The War Zone_2c632909",
+      "niche": "media_coverage",
+      "headline": "Where Are The Aircraft Carriers?: August 24, 2026",
+      "summary": "<p>The USS Abraham Lincoln is finally heading home and will make its first full liberty port call in Thailand soon, after being at sea for nine months.</p>\n<p>The post <a href=\"https://www.twz.com/sea/where-are-the-aircraft-carriers-august-24-2026\">Where Are The Aircraft Carriers?: August 24, 2026</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
+      "source": "The War Zone",
+      "source_url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-august-24-2026",
+      "signal_strength": 0.69,
+      "velocity_score": 0.82,
+      "timestamp": "Mon, 24 Aug 2026 20:24:41 -0400",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
       "id": "The War Zone_29b6ef06",
       "niche": "military_encounters",
       "headline": "Tiny Air-To-Air Missile In Development For Stealthy U.S. Navy Combat Aircraft",
       "summary": "<p>The big AIM-424 long-range air-to-air missile has grabbed headlines, but the Navy is also pursuing a new weapon for the exact opposite use case.</p>\n<p>The post <a href=\"https://www.twz.com/air/tiny-air-to-air-missile-in-development-for-stealthy-u-s-navy-combat-aircraft\">Tiny Air-To-Air Missile In Development For Stealthy U.S. Navy Combat Aircraft</a> appeared first on <a href=\"https://www.twz.",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/air/tiny-air-to-air-missile-in-development-for-stealthy-u-s-navy-combat-aircraft",
-      "signal_strength": 0.83,
-      "velocity_score": 0.82,
+      "signal_strength": 0.7,
+      "velocity_score": 0.51,
       "timestamp": "Mon, 24 Aug 2026 15:39:41 -0400",
       "tags": [
         "military_encounters",
-        "uap"
-      ]
-    },
-    {
-      "id": "The War Zone_19f83bb5",
-      "niche": "media_coverage",
-      "headline": "China’s Next Aircraft Carrier Is Taking Shape",
-      "summary": "<p>China's fourth aircraft carrier, which could be nuclear-powered, is looking more and more like a real ship.</p>\n<p>The post <a href=\"https://www.twz.com/sea/chinas-next-aircraft-carrier-is-taking-shape\">China’s Next Aircraft Carrier Is Taking Shape</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/sea/chinas-next-aircraft-carrier-is-taking-shape",
-      "signal_strength": 0.83,
-      "velocity_score": 0.65,
-      "timestamp": "Sat, 22 Aug 2026 13:29:15 -0400",
-      "tags": [
-        "media_coverage",
         "uap"
       ]
     },
@@ -37,8 +37,8 @@
       "summary": "In this week's episode, Ross Coulthart tackles questions about the alleged decades-long U.S. Air Force disinformation campaign.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/give-us-the-authorization-david-gruschs-direct-message-to-trump-reality-check/",
-      "signal_strength": 0.69,
-      "velocity_score": 0.84,
+      "signal_strength": 0.88,
+      "velocity_score": 0.68,
       "timestamp": "Sun, 23 Aug 2026 12:00:00 +0000",
       "tags": [
         "whistleblower",
@@ -52,8 +52,8 @@
       "summary": "The metals were \"normal isotopic ratios that you would expect for similar metals that were found on this planet,\" Coulthart revealed.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/metals-recovered-russia-alleged-ufo-ross-coulthart/",
-      "signal_strength": 0.69,
-      "velocity_score": 0.55,
+      "signal_strength": 0.86,
+      "velocity_score": 0.66,
       "timestamp": "Sun, 23 Aug 2026 02:02:28 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +67,8 @@
       "summary": "Coulthart says the president is effectively at the height of his political powers before midterms.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/trump-ufo-blanket-immunity-ross-coulthart/",
-      "signal_strength": 0.8,
-      "velocity_score": 0.43,
+      "signal_strength": 0.85,
+      "velocity_score": 0.66,
       "timestamp": "Sat, 22 Aug 2026 04:17:56 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +82,8 @@
       "summary": "Listen to Ross Coulthart's full conversation with astrophysicist Dr. Beatriz Villarroel and Ocean X co-founder Dennis Åsberg about a mystery in Estonia.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/secret-soviet-ufos-what-happened-when-two-scientists-knocked-on-a-door-in-estonia-reality-check/",
-      "signal_strength": 0.72,
-      "velocity_score": 0.67,
+      "signal_strength": 0.73,
+      "velocity_score": 0.69,
       "timestamp": "Thu, 20 Aug 2026 23:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +97,8 @@
       "summary": "The Trump administration has begun planning a process for whistleblowers to share UFO-related information.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/4-types-aliens-ufo-whistleblower/",
-      "signal_strength": 0.74,
-      "velocity_score": 0.48,
+      "signal_strength": 0.75,
+      "velocity_score": 0.81,
       "timestamp": "Tue, 18 Aug 2026 04:26:52 +0000",
       "tags": [
         "whistleblower",
@@ -112,8 +112,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.78,
-      "velocity_score": 0.43,
+      "signal_strength": 0.73,
+      "velocity_score": 0.77,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.71,
-      "velocity_score": 0.53,
+      "signal_strength": 0.92,
+      "velocity_score": 0.6,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.84,
-      "velocity_score": 0.76,
+      "signal_strength": 0.8,
+      "velocity_score": 0.74,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +157,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.66,
-      "velocity_score": 0.51,
+      "signal_strength": 0.83,
+      "velocity_score": 0.66,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +172,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.69,
-      "velocity_score": 0.89,
+      "signal_strength": 0.76,
+      "velocity_score": 0.54,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -181,7 +181,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-08-24T21:20:41.264315+00:00",
+  "fetched_at": "2026-08-25T00:49:02.031359+00:00",
   "total_count": 12,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -200,9 +200,9 @@
       }
     ],
     "signal_strength_by_niche": {
-      "military_encounters": 0.83,
-      "media_coverage": 0.75,
-      "whistleblower": 0.71
+      "media_coverage": 0.8,
+      "military_encounters": 0.7,
+      "whistleblower": 0.81
     },
     "source_distribution": {
       "The War Zone": 2,

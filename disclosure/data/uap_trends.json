@@ -1,29 +1,14 @@
 {
   "trends": [
     {
-      "id": "The Debrief_7471ff85",
-      "niche": "media_coverage",
-      "headline": "Physicists Reveal Possible Connection Between “Warp Drive” Spacecraft and Phenomena Detailed in Recent Pentagon Releases",
-      "summary": "New research by theoretical physicists suggests the dynamics of a warp drive spacecraft could be consistent with some modern UAP reports.",
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/physicists-reveal-possible-connection-between-warp-drive-spacecraft-and-phenomena-detailed-in-recent-pentagon-releases/",
-      "signal_strength": 0.71,
-      "velocity_score": 0.65,
-      "timestamp": "Thu, 27 Aug 2026 12:47:54 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
       "id": "NewsNation_ce3d61e0",
       "niche": "media_coverage",
       "headline": "'Something is observing us': Man tracks every flyover at America's nuclear plants | Reality Check",
       "summary": "Ross Coulthart sits down with Daryl Johnson, the former senior security specialist at the U.S. Nuclear Regulatory Commission, who monitored every reported drone and UAP flyover at nuclear power plants.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/something-is-observing-us-man-tracks-every-flyover-at-americas-nuclear-plants-reality-check/",
-      "signal_strength": 0.92,
-      "velocity_score": 0.78,
+      "signal_strength": 0.87,
+      "velocity_score": 0.65,
       "timestamp": "Tue, 25 Aug 2026 21:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -37,8 +22,8 @@
       "summary": "In this week's episode, Ross Coulthart tackles questions about the alleged decades-long U.S. Air Force disinformation campaign.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/give-us-the-authorization-david-gruschs-direct-message-to-trump-reality-check/",
-      "signal_strength": 0.94,
-      "velocity_score": 0.89,
+      "signal_strength": 0.93,
+      "velocity_score": 0.5,
       "timestamp": "Sun, 23 Aug 2026 12:00:00 +0000",
       "tags": [
         "whistleblower",
@@ -52,8 +37,8 @@
       "summary": "The metals were \"normal isotopic ratios that you would expect for similar metals that were found on this planet,\" Coulthart revealed.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/metals-recovered-russia-alleged-ufo-ross-coulthart/",
-      "signal_strength": 0.65,
-      "velocity_score": 0.69,
+      "signal_strength": 0.75,
+      "velocity_score": 0.88,
       "timestamp": "Sun, 23 Aug 2026 02:02:28 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +52,8 @@
       "summary": "Coulthart says the president is effectively at the height of his political powers before midterms.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/trump-ufo-blanket-immunity-ross-coulthart/",
-      "signal_strength": 0.89,
-      "velocity_score": 0.57,
+      "signal_strength": 0.86,
+      "velocity_score": 0.41,
       "timestamp": "Sat, 22 Aug 2026 04:17:56 +0000",
       "tags": [
         "media_coverage",
@@ -82,7 +67,7 @@
       "summary": "Listen to Ross Coulthart's full conversation with astrophysicist Dr. Beatriz Villarroel and Ocean X co-founder Dennis Åsberg about a mystery in Estonia.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/secret-soviet-ufos-what-happened-when-two-scientists-knocked-on-a-door-in-estonia-reality-check/",
-      "signal_strength": 0.92,
+      "signal_strength": 0.69,
       "velocity_score": 0.66,
       "timestamp": "Thu, 20 Aug 2026 23:00:00 +0000",
       "tags": [
@@ -97,7 +82,7 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.91,
+      "signal_strength": 0.7,
       "velocity_score": 0.87,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
@@ -112,8 +97,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.65,
-      "velocity_score": 0.62,
+      "signal_strength": 0.82,
+      "velocity_score": 0.59,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +112,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.69,
-      "velocity_score": 0.45,
+      "signal_strength": 0.68,
+      "velocity_score": 0.82,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +127,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.7,
-      "velocity_score": 0.64,
+      "signal_strength": 0.67,
+      "velocity_score": 0.86,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.8,
-      "velocity_score": 0.62,
+      "signal_strength": 0.69,
+      "velocity_score": 0.45,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,14 +151,14 @@
       ]
     }
   ],
-  "fetched_at": "2026-08-28T00:10:36.180229+00:00",
-  "total_count": 11,
+  "fetched_at": "2026-08-28T14:45:37.687932+00:00",
+  "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 10
+        "count": 9
       },
       {
         "niche": "whistleblower",
@@ -181,15 +166,14 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.78,
-      "whistleblower": 0.94
+      "media_coverage": 0.75,
+      "whistleblower": 0.93
     },
     "source_distribution": {
-      "The Debrief": 1,
       "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 11,
+    "total_trends": 10,
     "niches_covered": [
       "media_coverage",
       "whistleblower"
@@ -212,7 +196,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 3,
+    "sources_used": 2,
     "keywords_monitored": 45,
     "real_articles": true
   }

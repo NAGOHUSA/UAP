@@ -7,8 +7,8 @@
       "summary": "Ross Coulthart speaks with West Midlands Police Inspector Roy Teague about his book, \"Close Encounters of the Police Kind,\" where he's collected UAP encounters from about 250 British police officers.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/why-250-british-officers-finally-spoke-about-close-encounters-reality-check/",
-      "signal_strength": 0.92,
-      "velocity_score": 0.8,
+      "signal_strength": 0.7,
+      "velocity_score": 0.43,
       "timestamp": "Tue, 01 Sep 2026 21:00:00 +0000",
       "tags": [
         "military_encounters",
@@ -22,8 +22,8 @@
       "summary": "The program allegedly involved meetings between U.S. government officials, senior military officials and nonhuman intelligences.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/white-house-alleged-secret-ufo-retrieval-program/",
-      "signal_strength": 0.85,
-      "velocity_score": 0.87,
+      "signal_strength": 0.93,
+      "velocity_score": 0.62,
       "timestamp": "Mon, 31 Aug 2026 23:45:28 +0000",
       "tags": [
         "military_encounters",
@@ -37,8 +37,8 @@
       "summary": "Ross Coulthart tackles questions about Majestic 12 documents, the alleged 1954 \"Eisenhower Alien Treaty,\" claims about AATIP still being active and why NASA has never released a single continuous video of a full orbit around the moon.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/white-house-authorized-secret-ufo-retrieval-program-coulthart-says-reality-check/",
-      "signal_strength": 0.71,
-      "velocity_score": 0.54,
+      "signal_strength": 0.83,
+      "velocity_score": 0.47,
       "timestamp": "Sun, 30 Aug 2026 12:00:00 +0000",
       "tags": [
         "legislation",
@@ -52,8 +52,8 @@
       "summary": "While Americans remain skeptical on alien origins, the majority believe the U.S. government isn't sharing everything.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/half-americans-skeptical-ufo-poll/",
-      "signal_strength": 0.89,
-      "velocity_score": 0.78,
+      "signal_strength": 0.94,
+      "velocity_score": 0.46,
       "timestamp": "Fri, 28 Aug 2026 14:55:33 +0000",
       "tags": [
         "media_coverage",
@@ -68,7 +68,7 @@
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/something-is-observing-us-man-tracks-every-flyover-at-americas-nuclear-plants-reality-check/",
       "signal_strength": 0.66,
-      "velocity_score": 0.56,
+      "velocity_score": 0.86,
       "timestamp": "Tue, 25 Aug 2026 21:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +82,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.92,
-      "velocity_score": 0.51,
+      "signal_strength": 0.77,
+      "velocity_score": 0.6,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -97,7 +97,7 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.65,
+      "signal_strength": 0.87,
       "velocity_score": 0.45,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
@@ -112,8 +112,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.8,
-      "velocity_score": 0.48,
+      "signal_strength": 0.66,
+      "velocity_score": 0.51,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.73,
-      "velocity_score": 0.55,
+      "signal_strength": 0.75,
+      "velocity_score": 0.66,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.86,
-      "velocity_score": 0.62,
+      "signal_strength": 0.77,
+      "velocity_score": 0.47,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -151,7 +151,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-09-03T18:15:43.433343+00:00",
+  "fetched_at": "2026-09-03T22:54:24.297184+00:00",
   "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -170,9 +170,9 @@
       }
     ],
     "signal_strength_by_niche": {
-      "military_encounters": 0.89,
-      "legislation": 0.71,
-      "media_coverage": 0.79
+      "military_encounters": 0.81,
+      "legislation": 0.83,
+      "media_coverage": 0.77
     },
     "source_distribution": {
       "NewsNation": 5,

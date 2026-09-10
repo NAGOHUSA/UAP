@@ -1,29 +1,14 @@
 {
   "trends": [
     {
-      "id": "The War Zone_9fcc27ff",
-      "niche": "military_encounters",
-      "headline": "Where Are The Aircraft Carriers?: September 9, 2026",
-      "summary": "<p>The Navy is applying lessons learned from recent marathon carrier cruises to the USS Theodore Roosevelt, which conducted an unreported maintenance availability ahead of deployment.</p>\n<p>The post <a href=\"https://www.twz.com/sea/where-are-the-american-aircraft-carriers-september-9-2026\">Where Are The Aircraft Carriers?: September 9, 2026</a> appeared first on <a href=\"https://www.twz.com\">TWZ<",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/sea/where-are-the-american-aircraft-carriers-september-9-2026",
-      "signal_strength": 0.84,
-      "velocity_score": 0.42,
-      "timestamp": "Wed, 09 Sep 2026 16:49:19 -0400",
-      "tags": [
-        "military_encounters",
-        "uap"
-      ]
-    },
-    {
       "id": "NewsNation_b0a8bb7c",
       "niche": "media_coverage",
       "headline": "Was Malmstrom incident caused by UFOs warping space and time?",
       "summary": "Physicist Kevin Knuth explains how one theory on UFO movement could explain how missiles were shut down during a sighting.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/malmstrom-incident-ufo-warp-space-time/",
-      "signal_strength": 0.79,
-      "velocity_score": 0.48,
+      "signal_strength": 0.7,
+      "velocity_score": 0.62,
       "timestamp": "Wed, 09 Sep 2026 21:31:39 +0000",
       "tags": [
         "media_coverage",
@@ -37,8 +22,8 @@
       "summary": "Ross Coulthart speaks with physicist and professor Kevin Knuth, as they dive into Knuth's anomalous experiences, the Nimitz Tic-Tac and the new UAP Science Advisory Council.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/physicist-former-nasa-researcher-takes-uap-seriously-reality-check/",
-      "signal_strength": 0.91,
-      "velocity_score": 0.76,
+      "signal_strength": 0.8,
+      "velocity_score": 0.61,
       "timestamp": "Tue, 08 Sep 2026 21:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +37,8 @@
       "summary": "Ross Coulthart tackles questions about President Trump's NDA-waiver executive order, a report on drone incursions at White Sands and a new claim that nuclear technology is involved.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/ross-coulthart-qa-pentagon-wants-access-to-private-ufo-archive-reality-check/",
-      "signal_strength": 0.9,
-      "velocity_score": 0.75,
+      "signal_strength": 0.76,
+      "velocity_score": 0.77,
       "timestamp": "Sun, 06 Sep 2026 12:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +52,8 @@
       "summary": "The \"Practical Magic 2\" actress said she feels validated by recently released UFO files.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/sandra-bullock-reveals-ufo-sighting/",
-      "signal_strength": 0.9,
-      "velocity_score": 0.89,
+      "signal_strength": 0.81,
+      "velocity_score": 0.45,
       "timestamp": "Fri, 04 Sep 2026 17:58:32 +0000",
       "tags": [
         "legislation",
@@ -82,8 +67,8 @@
       "summary": "Ross Coulthart speaks with West Midlands Police Inspector Roy Teague about his book, \"Close Encounters of the Police Kind,\" where he's collected UAP encounters from about 250 British police officers.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/why-250-british-officers-finally-spoke-about-close-encounters-reality-check/",
-      "signal_strength": 0.93,
-      "velocity_score": 0.47,
+      "signal_strength": 0.78,
+      "velocity_score": 0.89,
       "timestamp": "Tue, 01 Sep 2026 21:00:00 +0000",
       "tags": [
         "military_encounters",
@@ -97,8 +82,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.78,
-      "velocity_score": 0.87,
+      "signal_strength": 0.69,
+      "velocity_score": 0.66,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +97,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.81,
-      "velocity_score": 0.42,
+      "signal_strength": 0.77,
+      "velocity_score": 0.57,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +112,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.67,
-      "velocity_score": 0.55,
+      "signal_strength": 0.87,
+      "velocity_score": 0.49,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +127,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.88,
-      "velocity_score": 0.88,
+      "signal_strength": 0.91,
+      "velocity_score": 0.47,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.91,
-      "velocity_score": 0.57,
+      "signal_strength": 0.66,
+      "velocity_score": 0.71,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,8 +151,8 @@
       ]
     }
   ],
-  "fetched_at": "2026-09-10T20:31:21.420254+00:00",
-  "total_count": 11,
+  "fetched_at": "2026-09-10T22:52:06.127991+00:00",
+  "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
@@ -176,25 +161,24 @@
         "count": 8
       },
       {
-        "niche": "military_encounters",
-        "count": 2
+        "niche": "legislation",
+        "count": 1
       },
       {
-        "niche": "legislation",
+        "niche": "military_encounters",
         "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "military_encounters": 0.89,
-      "media_coverage": 0.83,
-      "legislation": 0.9
+      "media_coverage": 0.77,
+      "legislation": 0.81,
+      "military_encounters": 0.78
     },
     "source_distribution": {
-      "The War Zone": 1,
       "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 11,
+    "total_trends": 10,
     "niches_covered": [
       "legislation",
       "media_coverage",
@@ -218,7 +202,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 3,
+    "sources_used": 2,
     "keywords_monitored": 45,
     "real_articles": true
   }

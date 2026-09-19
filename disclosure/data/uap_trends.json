@@ -7,11 +7,26 @@
       "summary": "<p>Exercise Silver Wotan tests how quickly allied troops, ships, aircraft, and weapons can reach the strategically vital island of Gotland.</p>\n<p>The post <a href=\"https://www.twz.com/news-features/german-forces-surge-onto-baltic-island-in-first-of-its-kind-nato-drill\">German Forces Surge Onto Baltic Island In First-Of-Its-Kind NATO Drill</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/news-features/german-forces-surge-onto-baltic-island-in-first-of-its-kind-nato-drill",
-      "signal_strength": 0.77,
-      "velocity_score": 0.77,
+      "signal_strength": 0.86,
+      "velocity_score": 0.81,
       "timestamp": "Fri, 18 Sep 2026 15:12:13 -0400",
       "tags": [
         "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_5e3d8086",
+      "niche": "disclosure",
+      "headline": "UFO sightings haven't changed. The stigma around them has: Congressman",
+      "summary": "\"Have we just been watching and kind of ignoring this or is there more?\" Burlison asked.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/pentagon-ufo-files-drop-eric-burlison/",
+      "signal_strength": 0.81,
+      "velocity_score": 0.79,
+      "timestamp": "Sat, 19 Sep 2026 02:01:25 +0000",
+      "tags": [
+        "disclosure",
         "uap"
       ]
     },
@@ -22,8 +37,8 @@
       "summary": "Rep. Eric Burlison, R-Mo., pushed for the declassification of the audio from early Air Force investigations into UFOs.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/newly-released-1952-project-blue-book-audio/",
-      "signal_strength": 0.75,
-      "velocity_score": 0.74,
+      "signal_strength": 0.95,
+      "velocity_score": 0.54,
       "timestamp": "Fri, 18 Sep 2026 15:34:42 +0000",
       "tags": [
         "media_coverage",
@@ -37,8 +52,8 @@
       "summary": "The latest release adds to hundreds of UFO files since the Pentagon began declassifying them in May 2026.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/pentagon-ufo-files-sixth-release/",
-      "signal_strength": 0.72,
-      "velocity_score": 0.61,
+      "signal_strength": 0.86,
+      "velocity_score": 0.66,
       "timestamp": "Fri, 18 Sep 2026 11:32:29 +0000",
       "tags": [
         "media_coverage",
@@ -52,26 +67,11 @@
       "summary": "\"In order to get to the bottom of it directly, we really need to collect new data,\" Loeb said.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/avi-loeb-pentagon-uap-whistleblower-waivers/",
-      "signal_strength": 0.7,
-      "velocity_score": 0.66,
+      "signal_strength": 0.76,
+      "velocity_score": 0.42,
       "timestamp": "Tue, 15 Sep 2026 06:08:23 +0000",
       "tags": [
         "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_34409e3f",
-      "niche": "disclosure",
-      "headline": "UAP waiver may allow disclosures on recovered non-human craft, journalist says",
-      "summary": "\"This goes right to Stephen Miller's task force that is looking specifically at this issue.\" says Marik von Rennenkampff.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/ufo/whistleblower-waiver-uap-marik-von-rennenkampff/",
-      "signal_strength": 0.77,
-      "velocity_score": 0.52,
-      "timestamp": "Tue, 15 Sep 2026 01:11:30 +0000",
-      "tags": [
-        "disclosure",
         "uap"
       ]
     },
@@ -82,8 +82,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.81,
-      "velocity_score": 0.86,
+      "signal_strength": 0.74,
+      "velocity_score": 0.83,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +97,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.77,
-      "velocity_score": 0.8,
+      "signal_strength": 0.82,
+      "velocity_score": 0.9,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.79,
-      "velocity_score": 0.82,
+      "signal_strength": 0.94,
+      "velocity_score": 0.54,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.67,
-      "velocity_score": 0.84,
+      "signal_strength": 0.8,
+      "velocity_score": 0.52,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.88,
-      "velocity_score": 0.58,
+      "signal_strength": 0.7,
+      "velocity_score": 0.59,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -151,7 +151,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-09-18T22:55:59.947931+00:00",
+  "fetched_at": "2026-09-19T02:30:05.015988+00:00",
   "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -166,8 +166,8 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.76,
-      "disclosure": 0.77
+      "media_coverage": 0.83,
+      "disclosure": 0.81
     },
     "source_distribution": {
       "The War Zone": 1,

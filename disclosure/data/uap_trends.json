@@ -7,24 +7,9 @@
       "summary": "A decades-old U.S. intelligence satellite has reportedly broken apart in low-Earth orbit, the U.S. Space Force (USSF) recently confirmed.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/mystery-surrounds-destruction-of-u-s-spy-satellite-in-orbit-as-officials-assess-possible-danger-to-spacecraft/",
-      "signal_strength": 0.72,
-      "velocity_score": 0.88,
+      "signal_strength": 0.93,
+      "velocity_score": 0.6,
       "timestamp": "Tue, 29 Sep 2026 17:53:21 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "The Debrief_ee59a8d8",
-      "niche": "media_coverage",
-      "headline": "Strange Waves, Alien Oceans, and a Major Discovery at Göbekli Tepe—The Latest from The Debrief",
-      "summary": "Welcome to The Latest from The Debrief, where we take a look at the latest stories in science, tech, strange physics, ancient mysteries, the search for life beyond Earth, and more.",
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/strange-waves-alien-oceans-and-a-major-discovery-at-gobekli-tepe-the-latest-from-the-debrief/",
-      "signal_strength": 0.79,
-      "velocity_score": 0.43,
-      "timestamp": "Tue, 29 Sep 2026 15:23:58 +0000",
       "tags": [
         "media_coverage",
         "uap"
@@ -37,8 +22,8 @@
       "summary": "Ross Coulthart and astroparticle physicist Matthew Szydagis talk about the UAP Science Advisory Council, declassification requests, testing of Art's Parts samples and who has been harassing Szydagis.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/astroparticle-physicist-matthew-szydagis-on-uap-science-reality-check/",
-      "signal_strength": 0.73,
-      "velocity_score": 0.66,
+      "signal_strength": 0.66,
+      "velocity_score": 0.83,
       "timestamp": "Tue, 22 Sep 2026 21:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +37,8 @@
       "summary": "In this week's episode, Coulthart tackles questions about why there is still no official government platform for ordinary Americans to report UAP sightings, whether DMT could ever be used as a legitimate research tool at Skinwalker Ranch, and the ongoing speculation around a major UAP-related event in 2027.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/ross-coulthart-qa-coulthart-new-whistleblower-rules-are-not-transparency/",
-      "signal_strength": 0.72,
-      "velocity_score": 0.42,
+      "signal_strength": 0.76,
+      "velocity_score": 0.79,
       "timestamp": "Sun, 20 Sep 2026 12:00:00 +0000",
       "tags": [
         "whistleblower",
@@ -67,8 +52,8 @@
       "summary": "Loeb was puzzled by the latest batch of files acknowledging the objects were moving at super-high speed, but making no sound.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/prime/pentagon-ufo-files-avi-loeb/",
-      "signal_strength": 0.8,
-      "velocity_score": 0.71,
+      "signal_strength": 0.76,
+      "velocity_score": 0.67,
       "timestamp": "Sun, 20 Sep 2026 02:30:00 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +67,8 @@
       "summary": "Coulthart and fellow UFO expert Luis Elizondo were unimpressed by the latest release of files by the Pentagon Friday morning.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/ross-coulthart-pentagon-ufo-release/",
-      "signal_strength": 0.82,
-      "velocity_score": 0.62,
+      "signal_strength": 0.89,
+      "velocity_score": 0.83,
       "timestamp": "Sat, 19 Sep 2026 02:53:36 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +82,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.73,
-      "velocity_score": 0.5,
+      "signal_strength": 0.69,
+      "velocity_score": 0.89,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +97,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.93,
-      "velocity_score": 0.75,
+      "signal_strength": 0.74,
+      "velocity_score": 0.88,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +112,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.75,
-      "velocity_score": 0.55,
+      "signal_strength": 0.85,
+      "velocity_score": 0.79,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -143,7 +128,7 @@
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
       "signal_strength": 0.75,
-      "velocity_score": 0.66,
+      "velocity_score": 0.68,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.81,
-      "velocity_score": 0.64,
+      "signal_strength": 0.72,
+      "velocity_score": 0.53,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,14 +151,14 @@
       ]
     }
   ],
-  "fetched_at": "2026-09-30T11:40:40.300837+00:00",
-  "total_count": 11,
+  "fetched_at": "2026-09-30T17:21:01.891308+00:00",
+  "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 10
+        "count": 9
       },
       {
         "niche": "whistleblower",
@@ -182,14 +167,14 @@
     ],
     "signal_strength_by_niche": {
       "media_coverage": 0.78,
-      "whistleblower": 0.72
+      "whistleblower": 0.76
     },
     "source_distribution": {
-      "The Debrief": 2,
+      "The Debrief": 1,
       "NewsNation": 4,
       "Live Science": 5
     },
-    "total_trends": 11,
+    "total_trends": 10,
     "niches_covered": [
       "media_coverage",
       "whistleblower"

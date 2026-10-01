@@ -7,8 +7,8 @@
       "summary": "A decades-old U.S. intelligence satellite has reportedly broken apart in low-Earth orbit, the U.S. Space Force (USSF) recently confirmed.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/mystery-surrounds-destruction-of-u-s-spy-satellite-in-orbit-as-officials-assess-possible-danger-to-spacecraft/",
-      "signal_strength": 0.7,
-      "velocity_score": 0.56,
+      "signal_strength": 0.79,
+      "velocity_score": 0.66,
       "timestamp": "Tue, 29 Sep 2026 17:53:21 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +22,8 @@
       "summary": "<p>The five-ship Theodore Roosevelt Carrier Strike Group and three-ship Makin Island Amphibious Ready Group deploy back-to-back from the West Coast.</p>\n<p>The post <a href=\"https://www.twz.com/sea/where-are-the-aircraft-carriers-september-30-2026\">Where Are The Aircraft Carriers?: September 30, 2026</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-30-2026",
-      "signal_strength": 0.67,
-      "velocity_score": 0.84,
+      "signal_strength": 0.87,
+      "velocity_score": 0.48,
       "timestamp": "Wed, 30 Sep 2026 16:19:46 -0400",
       "tags": [
         "media_coverage",
@@ -37,8 +37,8 @@
       "summary": "Ross Coulthart and astroparticle physicist Matthew Szydagis talk about the UAP Science Advisory Council, declassification requests, testing of Art's Parts samples and who has been harassing Szydagis.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/astroparticle-physicist-matthew-szydagis-on-uap-science-reality-check/",
-      "signal_strength": 0.87,
-      "velocity_score": 0.45,
+      "signal_strength": 0.88,
+      "velocity_score": 0.9,
       "timestamp": "Tue, 22 Sep 2026 21:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +52,8 @@
       "summary": "In this week's episode, Coulthart tackles questions about why there is still no official government platform for ordinary Americans to report UAP sightings, whether DMT could ever be used as a legitimate research tool at Skinwalker Ranch, and the ongoing speculation around a major UAP-related event in 2027.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/ross-coulthart-qa-coulthart-new-whistleblower-rules-are-not-transparency/",
-      "signal_strength": 0.86,
-      "velocity_score": 0.59,
+      "signal_strength": 0.73,
+      "velocity_score": 0.54,
       "timestamp": "Sun, 20 Sep 2026 12:00:00 +0000",
       "tags": [
         "whistleblower",
@@ -67,8 +67,8 @@
       "summary": "Loeb was puzzled by the latest batch of files acknowledging the objects were moving at super-high speed, but making no sound.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/prime/pentagon-ufo-files-avi-loeb/",
-      "signal_strength": 0.69,
-      "velocity_score": 0.74,
+      "signal_strength": 0.68,
+      "velocity_score": 0.62,
       "timestamp": "Sun, 20 Sep 2026 02:30:00 +0000",
       "tags": [
         "media_coverage",
@@ -82,98 +82,23 @@
       "summary": "Coulthart and fellow UFO expert Luis Elizondo were unimpressed by the latest release of files by the Pentagon Friday morning.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/ross-coulthart-pentagon-ufo-release/",
-      "signal_strength": 0.68,
-      "velocity_score": 0.58,
+      "signal_strength": 0.88,
+      "velocity_score": 0.49,
       "timestamp": "Sat, 19 Sep 2026 02:53:36 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "Live Science_edc882fb",
-      "niche": "media_coverage",
-      "headline": "Bizarre, UFO-like halo of red light appears over small Italian town — for the second time in 3 years",
-      "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
-      "source": "Live Science",
-      "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.91,
-      "velocity_score": 0.73,
-      "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "Live Science_40cd2f03",
-      "niche": "media_coverage",
-      "headline": "Watch eerie 'UFOs' and a solar 'cyclone' take shape in stunning new ESA video of the sun",
-      "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
-      "source": "Live Science",
-      "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.87,
-      "velocity_score": 0.46,
-      "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "Live Science_b44873f8",
-      "niche": "media_coverage",
-      "headline": "Did people report seeing UFOs before the 20th century?",
-      "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
-      "source": "Live Science",
-      "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.69,
-      "velocity_score": 0.8,
-      "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "Live Science_9817a003",
-      "niche": "media_coverage",
-      "headline": "Bizarre 'pet cloud' reappears above its favorite spot in New Zealand",
-      "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
-      "source": "Live Science",
-      "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.93,
-      "velocity_score": 0.74,
-      "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "Live Science_355fe726",
-      "niche": "media_coverage",
-      "headline": "What's the best evidence we've found for alien life?",
-      "summary": "Don't expect an alien invasion anytime soon.",
-      "source": "Live Science",
-      "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.81,
-      "velocity_score": 0.83,
-      "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
         "uap"
       ]
     }
   ],
-  "fetched_at": "2026-10-01T03:24:28.456369+00:00",
-  "total_count": 11,
+  "fetched_at": "2026-10-01T12:09:47.699732+00:00",
+  "total_count": 6,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 10
+        "count": 5
       },
       {
         "niche": "whistleblower",
@@ -181,16 +106,15 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.78,
-      "whistleblower": 0.86
+      "media_coverage": 0.82,
+      "whistleblower": 0.73
     },
     "source_distribution": {
       "The Debrief": 1,
       "The War Zone": 1,
-      "NewsNation": 4,
-      "Live Science": 5
+      "NewsNation": 4
     },
-    "total_trends": 11,
+    "total_trends": 6,
     "niches_covered": [
       "media_coverage",
       "whistleblower"
@@ -213,7 +137,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 4,
+    "sources_used": 3,
     "keywords_monitored": 45,
     "real_articles": true
   }

@@ -7,8 +7,8 @@
       "summary": "Welcome to The Latest from The Debrief, where this week we're exploring signals from alien worlds, mysterious ancient writing systems, and more.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/strange-signals-ancient-glyphs-and-rogue-dna-the-latest-from-the-debrief/",
-      "signal_strength": 0.91,
-      "velocity_score": 0.71,
+      "signal_strength": 0.82,
+      "velocity_score": 0.61,
       "timestamp": "Tue, 06 Oct 2026 15:27:39 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +22,8 @@
       "summary": "Scientists may soon have a formidable new tool to help spot any potential signs of alien biology on distant worlds.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/in-the-quest-for-life-beyond-earth-a-nanotech-breakthrough-could-supercharge-the-search-using-electrical-sensing/",
-      "signal_strength": 0.77,
-      "velocity_score": 0.49,
+      "signal_strength": 0.68,
+      "velocity_score": 0.65,
       "timestamp": "Tue, 06 Oct 2026 13:24:14 +0000",
       "tags": [
         "media_coverage",
@@ -31,15 +31,15 @@
       ]
     },
     {
-      "id": "The War Zone_c3b53619",
+      "id": "The War Zone_ee75e8fd",
       "niche": "media_coverage",
-      "headline": "Spain Picks Airbus A321 For New Electronic Intelligence Aircraft",
-      "summary": "<p>The three-aircraft fleet will not only restore Spain’s crewed airborne signals intelligence capability, but make it among the most powerful in Europe.</p>\n<p>The post <a href=\"https://www.twz.com/air/spain-picks-airbus-a321-for-new-electronic-intelligence-aircraft\">Spain Picks Airbus A321 For New Electronic Intelligence Aircraft</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
+      "headline": "Where Are The Aircraft Carriers?: October 6, 2026",
+      "summary": "<p>USS George H.W. Bush pulls into Phuket for first liberty call after 188 days at sea, leaving USS George Washington as the sole carrier supporting operations against Iran.</p>\n<p>The post <a href=\"https://www.twz.com/sea/where-are-the-aircraft-carriers-october-6-2026\">Where Are The Aircraft Carriers?: October 6, 2026</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
       "source": "The War Zone",
-      "source_url": "https://www.twz.com/air/spain-picks-airbus-a321-for-new-electronic-intelligence-aircraft",
+      "source_url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-october-6-2026",
       "signal_strength": 0.93,
-      "velocity_score": 0.77,
-      "timestamp": "Mon, 05 Oct 2026 17:03:32 -0400",
+      "velocity_score": 0.87,
+      "timestamp": "Tue, 06 Oct 2026 18:11:15 -0400",
       "tags": [
         "media_coverage",
         "uap"
@@ -52,8 +52,8 @@
       "summary": "Ross Coulthart tackles questions about whether UAP disclosure, Gen. Neil McCasland's disappearance and UAP incursions.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/david-grusch-americans-killed-by-reptilian-beings-at-crash-site-reality-check/",
-      "signal_strength": 0.89,
-      "velocity_score": 0.58,
+      "signal_strength": 0.68,
+      "velocity_score": 0.89,
       "timestamp": "Sun, 04 Oct 2026 12:00:00 +0000",
       "tags": [
         "disclosure",
@@ -67,26 +67,11 @@
       "summary": "Ross Coulthart and astroparticle physicist Matthew Szydagis talk about the UAP Science Advisory Council, declassification requests, testing of Art's Parts samples and who has been harassing Szydagis.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/astroparticle-physicist-matthew-szydagis-on-uap-science-reality-check/",
-      "signal_strength": 0.72,
-      "velocity_score": 0.57,
+      "signal_strength": 0.85,
+      "velocity_score": 0.7,
       "timestamp": "Tue, 22 Sep 2026 21:00:00 +0000",
       "tags": [
         "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_6a62757a",
-      "niche": "whistleblower",
-      "headline": "Ross Coulthart Q&A: Coulthart: New whistleblower rules are 'not transparency'",
-      "summary": "In this week's episode, Coulthart tackles questions about why there is still no official government platform for ordinary Americans to report UAP sightings, whether DMT could ever be used as a legitimate research tool at Skinwalker Ranch, and the ongoing speculation around a major UAP-related event in 2027.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/ross-coulthart-qa-coulthart-new-whistleblower-rules-are-not-transparency/",
-      "signal_strength": 0.83,
-      "velocity_score": 0.44,
-      "timestamp": "Sun, 20 Sep 2026 12:00:00 +0000",
-      "tags": [
-        "whistleblower",
         "uap"
       ]
     },
@@ -97,8 +82,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.84,
-      "velocity_score": 0.76,
+      "signal_strength": 0.7,
+      "velocity_score": 0.87,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +97,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.66,
-      "velocity_score": 0.47,
+      "signal_strength": 0.83,
+      "velocity_score": 0.85,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +112,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.86,
-      "velocity_score": 0.68,
+      "signal_strength": 0.89,
+      "velocity_score": 0.58,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +127,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.71,
-      "velocity_score": 0.69,
+      "signal_strength": 0.74,
+      "velocity_score": 0.79,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.86,
-      "velocity_score": 0.51,
+      "signal_strength": 0.72,
+      "velocity_score": 0.48,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,8 +151,8 @@
       ]
     }
   ],
-  "fetched_at": "2026-10-06T19:55:35.207684+00:00",
-  "total_count": 11,
+  "fetched_at": "2026-10-07T00:16:53.279533+00:00",
+  "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
@@ -178,28 +163,22 @@
       {
         "niche": "disclosure",
         "count": 1
-      },
-      {
-        "niche": "whistleblower",
-        "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.81,
-      "disclosure": 0.89,
-      "whistleblower": 0.83
+      "media_coverage": 0.8,
+      "disclosure": 0.68
     },
     "source_distribution": {
       "The Debrief": 2,
       "The War Zone": 1,
-      "NewsNation": 3,
+      "NewsNation": 2,
       "Live Science": 5
     },
-    "total_trends": 11,
+    "total_trends": 10,
     "niches_covered": [
       "disclosure",
-      "media_coverage",
-      "whistleblower"
+      "media_coverage"
     ],
     "monitoring_keywords": [
       "ufo",

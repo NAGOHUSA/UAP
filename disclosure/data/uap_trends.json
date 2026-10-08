@@ -1,60 +1,15 @@
 {
   "trends": [
     {
-      "id": "The Debrief_631c9a76",
-      "niche": "media_coverage",
-      "headline": "Strange Signals, Ancient Glyphs, and Rogue DNA—The Latest from The Debrief",
-      "summary": "Welcome to The Latest from The Debrief, where this week we're exploring signals from alien worlds, mysterious ancient writing systems, and more.",
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/strange-signals-ancient-glyphs-and-rogue-dna-the-latest-from-the-debrief/",
-      "signal_strength": 0.9,
-      "velocity_score": 0.69,
-      "timestamp": "Tue, 06 Oct 2026 15:27:39 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "The Debrief_746787fb",
-      "niche": "media_coverage",
-      "headline": "In the Quest for Life Beyond Earth, a Nanotech Breakthrough Could Supercharge the Search Using Electrical Sensing",
-      "summary": "Scientists may soon have a formidable new tool to help spot any potential signs of alien biology on distant worlds.",
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/in-the-quest-for-life-beyond-earth-a-nanotech-breakthrough-could-supercharge-the-search-using-electrical-sensing/",
-      "signal_strength": 0.91,
-      "velocity_score": 0.47,
-      "timestamp": "Tue, 06 Oct 2026 13:24:14 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
       "id": "The War Zone_e28a422b",
       "niche": "media_coverage",
       "headline": "Glaring Lack Of Investment In Aircraft Shelters Highlighted By B-1B’s Sudden Retreat From U.K. Airbase",
       "summary": "<p>At this point, it could take a disaster for the USAF to invest in giving its prized assets sitting in the open on a flightline physical cover from drone attacks.</p>\n<p>The post <a href=\"https://www.twz.com/air/glaring-lack-of-investment-in-aircraft-shelters-highlighted-by-b-1bs-sudden-retreat-from-u-k-airbase\">Glaring Lack Of Investment In Aircraft Shelters Highlighted By B-1B&#8217;s Sudden R",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/air/glaring-lack-of-investment-in-aircraft-shelters-highlighted-by-b-1bs-sudden-retreat-from-u-k-airbase",
-      "signal_strength": 0.75,
-      "velocity_score": 0.4,
+      "signal_strength": 0.86,
+      "velocity_score": 0.68,
       "timestamp": "Wed, 07 Oct 2026 14:09:39 -0400",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "The War Zone_ee75e8fd",
-      "niche": "media_coverage",
-      "headline": "Where Are The Aircraft Carriers?: October 6, 2026",
-      "summary": "<p>USS George H.W. Bush pulls into Phuket for first liberty call after 188 days at sea, leaving USS George Washington as the sole carrier supporting operations against Iran.</p>\n<p>The post <a href=\"https://www.twz.com/sea/where-are-the-aircraft-carriers-october-6-2026\">Where Are The Aircraft Carriers?: October 6, 2026</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-october-6-2026",
-      "signal_strength": 0.82,
-      "velocity_score": 0.67,
-      "timestamp": "Tue, 06 Oct 2026 18:11:15 -0400",
       "tags": [
         "media_coverage",
         "uap"
@@ -67,8 +22,8 @@
       "summary": "Ross Coulthart tackles questions about whether UAP disclosure, Gen. Neil McCasland's disappearance and UAP incursions.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/david-grusch-americans-killed-by-reptilian-beings-at-crash-site-reality-check/",
-      "signal_strength": 0.92,
-      "velocity_score": 0.58,
+      "signal_strength": 0.84,
+      "velocity_score": 0.5,
       "timestamp": "Sun, 04 Oct 2026 12:00:00 +0000",
       "tags": [
         "disclosure",
@@ -82,98 +37,23 @@
       "summary": "Ross Coulthart and astroparticle physicist Matthew Szydagis talk about the UAP Science Advisory Council, declassification requests, testing of Art's Parts samples and who has been harassing Szydagis.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/astroparticle-physicist-matthew-szydagis-on-uap-science-reality-check/",
-      "signal_strength": 0.89,
-      "velocity_score": 0.6,
+      "signal_strength": 0.73,
+      "velocity_score": 0.84,
       "timestamp": "Tue, 22 Sep 2026 21:00:00 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "Live Science_edc882fb",
-      "niche": "media_coverage",
-      "headline": "Bizarre, UFO-like halo of red light appears over small Italian town — for the second time in 3 years",
-      "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
-      "source": "Live Science",
-      "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.68,
-      "velocity_score": 0.89,
-      "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "Live Science_40cd2f03",
-      "niche": "media_coverage",
-      "headline": "Watch eerie 'UFOs' and a solar 'cyclone' take shape in stunning new ESA video of the sun",
-      "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
-      "source": "Live Science",
-      "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.86,
-      "velocity_score": 0.66,
-      "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "Live Science_b44873f8",
-      "niche": "media_coverage",
-      "headline": "Did people report seeing UFOs before the 20th century?",
-      "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
-      "source": "Live Science",
-      "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.66,
-      "velocity_score": 0.46,
-      "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "Live Science_9817a003",
-      "niche": "media_coverage",
-      "headline": "Bizarre 'pet cloud' reappears above its favorite spot in New Zealand",
-      "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
-      "source": "Live Science",
-      "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.68,
-      "velocity_score": 0.77,
-      "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "Live Science_355fe726",
-      "niche": "media_coverage",
-      "headline": "What's the best evidence we've found for alien life?",
-      "summary": "Don't expect an alien invasion anytime soon.",
-      "source": "Live Science",
-      "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.7,
-      "velocity_score": 0.67,
-      "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
         "uap"
       ]
     }
   ],
-  "fetched_at": "2026-10-08T09:46:25.474842+00:00",
-  "total_count": 11,
+  "fetched_at": "2026-10-08T18:14:49.782818+00:00",
+  "total_count": 3,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 10
+        "count": 2
       },
       {
         "niche": "disclosure",
@@ -181,16 +61,14 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.78,
-      "disclosure": 0.92
+      "media_coverage": 0.79,
+      "disclosure": 0.84
     },
     "source_distribution": {
-      "The Debrief": 2,
-      "The War Zone": 2,
-      "NewsNation": 2,
-      "Live Science": 5
+      "The War Zone": 1,
+      "NewsNation": 2
     },
-    "total_trends": 11,
+    "total_trends": 3,
     "niches_covered": [
       "disclosure",
       "media_coverage"
@@ -213,7 +91,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 4,
+    "sources_used": 2,
     "keywords_monitored": 45,
     "real_articles": true
   }

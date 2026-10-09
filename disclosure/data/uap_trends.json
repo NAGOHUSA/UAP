@@ -1,29 +1,14 @@
 {
   "trends": [
     {
-      "id": "The War Zone_e28a422b",
-      "niche": "media_coverage",
-      "headline": "Glaring Lack Of Investment In Aircraft Shelters Highlighted By B-1B’s Sudden Retreat From U.K. Airbase",
-      "summary": "<p>At this point, it could take a disaster for the USAF to invest in giving its prized assets sitting in the open on a flightline physical cover from drone attacks.</p>\n<p>The post <a href=\"https://www.twz.com/air/glaring-lack-of-investment-in-aircraft-shelters-highlighted-by-b-1bs-sudden-retreat-from-u-k-airbase\">Glaring Lack Of Investment In Aircraft Shelters Highlighted By B-1B&#8217;s Sudden R",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/air/glaring-lack-of-investment-in-aircraft-shelters-highlighted-by-b-1bs-sudden-retreat-from-u-k-airbase",
-      "signal_strength": 0.86,
-      "velocity_score": 0.68,
-      "timestamp": "Wed, 07 Oct 2026 14:09:39 -0400",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
       "id": "NewsNation_268f8658",
       "niche": "disclosure",
       "headline": "David Grusch: Americans killed by reptilian beings at crash site | Reality Check",
       "summary": "Ross Coulthart tackles questions about whether UAP disclosure, Gen. Neil McCasland's disappearance and UAP incursions.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/david-grusch-americans-killed-by-reptilian-beings-at-crash-site-reality-check/",
-      "signal_strength": 0.84,
-      "velocity_score": 0.5,
+      "signal_strength": 0.66,
+      "velocity_score": 0.87,
       "timestamp": "Sun, 04 Oct 2026 12:00:00 +0000",
       "tags": [
         "disclosure",
@@ -37,23 +22,98 @@
       "summary": "Ross Coulthart and astroparticle physicist Matthew Szydagis talk about the UAP Science Advisory Council, declassification requests, testing of Art's Parts samples and who has been harassing Szydagis.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/astroparticle-physicist-matthew-szydagis-on-uap-science-reality-check/",
-      "signal_strength": 0.73,
-      "velocity_score": 0.84,
+      "signal_strength": 0.77,
+      "velocity_score": 0.47,
       "timestamp": "Tue, 22 Sep 2026 21:00:00 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "Live Science_edc882fb",
+      "niche": "media_coverage",
+      "headline": "Bizarre, UFO-like halo of red light appears over small Italian town — for the second time in 3 years",
+      "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
+      "source": "Live Science",
+      "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
+      "signal_strength": 0.71,
+      "velocity_score": 0.62,
+      "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "Live Science_40cd2f03",
+      "niche": "media_coverage",
+      "headline": "Watch eerie 'UFOs' and a solar 'cyclone' take shape in stunning new ESA video of the sun",
+      "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
+      "source": "Live Science",
+      "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
+      "signal_strength": 0.71,
+      "velocity_score": 0.55,
+      "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "Live Science_b44873f8",
+      "niche": "media_coverage",
+      "headline": "Did people report seeing UFOs before the 20th century?",
+      "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
+      "source": "Live Science",
+      "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
+      "signal_strength": 0.83,
+      "velocity_score": 0.84,
+      "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "Live Science_9817a003",
+      "niche": "media_coverage",
+      "headline": "Bizarre 'pet cloud' reappears above its favorite spot in New Zealand",
+      "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
+      "source": "Live Science",
+      "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
+      "signal_strength": 0.93,
+      "velocity_score": 0.81,
+      "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "Live Science_355fe726",
+      "niche": "media_coverage",
+      "headline": "What's the best evidence we've found for alien life?",
+      "summary": "Don't expect an alien invasion anytime soon.",
+      "source": "Live Science",
+      "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
+      "signal_strength": 0.84,
+      "velocity_score": 0.85,
+      "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
         "uap"
       ]
     }
   ],
-  "fetched_at": "2026-10-08T18:14:49.782818+00:00",
-  "total_count": 3,
+  "fetched_at": "2026-10-09T00:53:39.935838+00:00",
+  "total_count": 7,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 2
+        "count": 6
       },
       {
         "niche": "disclosure",
@@ -61,14 +121,14 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.79,
-      "disclosure": 0.84
+      "disclosure": 0.66,
+      "media_coverage": 0.8
     },
     "source_distribution": {
-      "The War Zone": 1,
-      "NewsNation": 2
+      "NewsNation": 2,
+      "Live Science": 5
     },
-    "total_trends": 3,
+    "total_trends": 7,
     "niches_covered": [
       "disclosure",
       "media_coverage"

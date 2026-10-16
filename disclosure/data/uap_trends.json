@@ -7,7 +7,7 @@
       "summary": "This week, we examine an incident involving an unidentified object detected near Israel's northern border that triggered a military response.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/israeli-military-continues-the-search-for-an-unidentified-aerial-object-detected-near-lebanese-border/",
-      "signal_strength": 0.71,
+      "signal_strength": 0.8,
       "velocity_score": 0.77,
       "timestamp": "Thu, 15 Oct 2026 15:45:13 +0000",
       "tags": [
@@ -22,8 +22,8 @@
       "summary": "Scientists build a new sensor that tests individual molecules for potential signs of extraterrestrial life in meteorites and soil.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/scientists-build-a-sensor-that-can-test-individual-molecules-for-a-potential-signature-of-life/",
-      "signal_strength": 0.78,
-      "velocity_score": 0.79,
+      "signal_strength": 0.86,
+      "velocity_score": 0.78,
       "timestamp": "Thu, 15 Oct 2026 13:01:45 +0000",
       "tags": [
         "media_coverage",
@@ -38,7 +38,7 @@
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/more-dune-than-avatar-scientists-say-these-nearby-exoplanets-could-be-home-to-alien-life/",
       "signal_strength": 0.65,
-      "velocity_score": 0.43,
+      "velocity_score": 0.41,
       "timestamp": "Wed, 14 Oct 2026 12:00:01 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +52,8 @@
       "summary": "\"If there's nothing to hide, release all of it,\" Coulthart said.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/ross-coulthart-nasa-uap-disclosure-incomplete/",
-      "signal_strength": 0.65,
-      "velocity_score": 0.52,
+      "signal_strength": 0.75,
+      "velocity_score": 0.84,
       "timestamp": "Mon, 12 Oct 2026 00:45:44 +0000",
       "tags": [
         "disclosure",
@@ -67,8 +67,8 @@
       "summary": "Ross Coulthart host tackles questions about the Apollo 17 “blue dots” film, Jake Barber’s new claim about a cylindrical \"mothership\" and whether AI is key to understanding UAP.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/nasa-chief-says-all-uap-data-released-coulthart-says-no-reality-check/",
-      "signal_strength": 0.87,
-      "velocity_score": 0.43,
+      "signal_strength": 0.74,
+      "velocity_score": 0.74,
       "timestamp": "Sun, 11 Oct 2026 12:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +82,8 @@
       "summary": "The danger in posting such a “lie,” Loeb says, is that “some people may believe it.”",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/avi-loeb-16-days-aliens-a-lie/",
-      "signal_strength": 0.79,
-      "velocity_score": 0.47,
+      "signal_strength": 0.78,
+      "velocity_score": 0.6,
       "timestamp": "Fri, 09 Oct 2026 05:54:28 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +97,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.8,
-      "velocity_score": 0.57,
+      "signal_strength": 0.95,
+      "velocity_score": 0.85,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -113,7 +113,7 @@
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
       "signal_strength": 0.76,
-      "velocity_score": 0.5,
+      "velocity_score": 0.53,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -128,7 +128,7 @@
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
       "signal_strength": 0.8,
-      "velocity_score": 0.65,
+      "velocity_score": 0.89,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.78,
-      "velocity_score": 0.54,
+      "signal_strength": 0.69,
+      "velocity_score": 0.8,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +157,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.7,
-      "velocity_score": 0.88,
+      "signal_strength": 0.88,
+      "velocity_score": 0.57,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,7 +166,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-10-15T23:28:20.291707+00:00",
+  "fetched_at": "2026-10-16T02:31:15.210331+00:00",
   "total_count": 11,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -185,9 +185,9 @@
       }
     ],
     "signal_strength_by_niche": {
-      "military_encounters": 0.71,
-      "media_coverage": 0.77,
-      "disclosure": 0.65
+      "military_encounters": 0.8,
+      "media_coverage": 0.79,
+      "disclosure": 0.75
     },
     "source_distribution": {
       "The Debrief": 3,

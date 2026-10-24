@@ -1,14 +1,44 @@
 {
   "trends": [
     {
+      "id": "NewsNation_eb848ddf",
+      "niche": "media_coverage",
+      "headline": "Roswell UFO wreckage account resurfaces in seventh file drop",
+      "summary": "The content of Walter Haut’s affidavit was previously published.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/us-news/west/roswell-ufo-eyewitness-walter-haut/",
+      "signal_strength": 0.94,
+      "velocity_score": 0.82,
+      "timestamp": "Sat, 24 Oct 2026 04:58:23 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_777b7a79",
+      "niche": "media_coverage",
+      "headline": "UFO sightings of ‘black triangles’ part of long history: UAP experts",
+      "summary": "The seventh tranche of documents includes investigative reports into three sightings in June of this year.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/vargasreports/black-triangle-ufos-analysis-seventh-tranche/",
+      "signal_strength": 0.73,
+      "velocity_score": 0.75,
+      "timestamp": "Sat, 24 Oct 2026 03:46:40 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
       "id": "NewsNation_3dce87d2",
       "niche": "military_encounters",
       "headline": "Witnesses say they saw low-flying, triangular craft over military sites | Reality Check",
       "summary": "NewsNation's Joe Khalil dives into intriguing UAP reports that were released in the White House's latest tranche of declassified UFO files Friday.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/witnesses-say-they-saw-low-flying-triangular-craft-over-military-sites-reality-check/",
-      "signal_strength": 0.89,
-      "velocity_score": 0.77,
+      "signal_strength": 0.84,
+      "velocity_score": 0.45,
       "timestamp": "Fri, 23 Oct 2026 19:33:53 +0000",
       "tags": [
         "military_encounters",
@@ -22,8 +52,8 @@
       "summary": "Some documents date back to the 1940s, 1950s and 1960s, but the most intriguing are from this year.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/latest-ufo-files-oct-23/",
-      "signal_strength": 0.82,
-      "velocity_score": 0.5,
+      "signal_strength": 0.68,
+      "velocity_score": 0.7,
       "timestamp": "Fri, 23 Oct 2026 12:00:00 +0000",
       "tags": [
         "military_encounters",
@@ -37,8 +67,8 @@
       "summary": "“What I witnessed initially was this humanoid-looking creature … looking at my son through the window,” Stratton said.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/politics/pentagon-ufo-hunter-jay-stratton-aliens/",
-      "signal_strength": 0.79,
-      "velocity_score": 0.45,
+      "signal_strength": 0.93,
+      "velocity_score": 0.72,
       "timestamp": "Wed, 21 Oct 2026 02:48:39 +0000",
       "tags": [
         "media_coverage",
@@ -52,8 +82,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.89,
-      "velocity_score": 0.67,
+      "signal_strength": 0.78,
+      "velocity_score": 0.82,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -68,7 +98,7 @@
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
       "signal_strength": 0.8,
-      "velocity_score": 0.45,
+      "velocity_score": 0.51,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +112,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.86,
-      "velocity_score": 0.64,
+      "signal_strength": 0.67,
+      "velocity_score": 0.57,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +127,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.8,
-      "velocity_score": 0.57,
+      "signal_strength": 0.71,
+      "velocity_score": 0.78,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.8,
-      "velocity_score": 0.84,
+      "signal_strength": 0.71,
+      "velocity_score": 0.52,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -121,14 +151,14 @@
       ]
     }
   ],
-  "fetched_at": "2026-10-24T02:44:10.977995+00:00",
-  "total_count": 8,
+  "fetched_at": "2026-10-24T07:47:11.826791+00:00",
+  "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 6
+        "count": 8
       },
       {
         "niche": "military_encounters",
@@ -136,14 +166,14 @@
       }
     ],
     "signal_strength_by_niche": {
-      "military_encounters": 0.85,
-      "media_coverage": 0.82
+      "media_coverage": 0.78,
+      "military_encounters": 0.76
     },
     "source_distribution": {
-      "NewsNation": 3,
+      "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 8,
+    "total_trends": 10,
     "niches_covered": [
       "media_coverage",
       "military_encounters"

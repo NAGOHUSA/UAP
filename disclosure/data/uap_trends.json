@@ -7,8 +7,8 @@
       "summary": "This week in news from The Debrief, we look at a strange new phenomenon physicists have discovered hidden in Einstein's equations, and much more.",
       "source": "The Debrief",
       "source_url": "https://thedebrief.org/einsteins-hidden-secret-ancient-cave-art-and-a-strange-cloud-on-mars-the-latest-from-the-debrief/",
-      "signal_strength": 0.78,
-      "velocity_score": 0.55,
+      "signal_strength": 0.67,
+      "velocity_score": 0.49,
       "timestamp": "Tue, 03 Nov 2026 15:58:58 +0000",
       "tags": [
         "media_coverage",
@@ -22,11 +22,26 @@
       "summary": "<p>The new initiative aims to eventually equip Luftwaffe combat aircraft with a laser capable of shooting down drones and missiles.</p>\n<p>The post <a href=\"https://www.twz.com/air/airborne-laser-weapon-for-tactical-aircraft-being-developed-by-germany\">Airborne Laser Weapon For Tactical Aircraft Being Developed By Germany</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/air/airborne-laser-weapon-for-tactical-aircraft-being-developed-by-germany",
-      "signal_strength": 0.81,
-      "velocity_score": 0.88,
+      "signal_strength": 0.84,
+      "velocity_score": 0.65,
       "timestamp": "Tue, 03 Nov 2026 11:29:54 -0500",
       "tags": [
         "legislation",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_aecc9227",
+      "niche": "disclosure",
+      "headline": "Inside the Pentagon's Anomaly Office | Reality Check",
+      "summary": "In this episode of Reality Check, Ross Coulthart sits down with physicist Dr. Randy Bostick, former science advisor to the Pentagon office that investigates unidentified anomalous phenomena (UAP), the All-domain Anomaly Resolution Office (AARO), at the Scientific Coalition for UAP Studies conference in Toronto.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/inside-the-pentagons-anomaly-office-reality-check/",
+      "signal_strength": 0.83,
+      "velocity_score": 0.43,
+      "timestamp": "Tue, 03 Nov 2026 22:42:23 +0000",
+      "tags": [
+        "disclosure",
         "uap"
       ]
     },
@@ -37,8 +52,8 @@
       "summary": "Ross Coulthart tackles questions about reports of werewolf-like beings and UAP sightings near Australian defense and nuclear test sites.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/ross-coulthart-qa-skinwalker-werewolves-secret-deals-and-why-ufo-proof-is-hidden-reality-check/",
-      "signal_strength": 0.74,
-      "velocity_score": 0.8,
+      "signal_strength": 0.7,
+      "velocity_score": 0.88,
       "timestamp": "Sun, 01 Nov 2026 13:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -52,7 +67,7 @@
       "summary": "A creature known as the \"Beast of Bray Road\" has Wisconsin residents divided on whether it is a myth.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/unreported/werewolf-wisconsin-ufos/",
-      "signal_strength": 0.8,
+      "signal_strength": 0.89,
       "velocity_score": 0.65,
       "timestamp": "Wed, 28 Oct 2026 21:19:43 +0000",
       "tags": [
@@ -67,8 +82,8 @@
       "summary": "Sightings of the \"Beast of Bray Road\" have been reported for decades by residents of Elkhorn, Wisconsin.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/unreported/wisconsin-farmers-13-year-hunt-for-the-beast-of-bray-road-unreported/",
-      "signal_strength": 0.88,
-      "velocity_score": 0.44,
+      "signal_strength": 0.83,
+      "velocity_score": 0.49,
       "timestamp": "Wed, 28 Oct 2026 21:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -82,26 +97,11 @@
       "summary": "\"If we lose the midterms, this effort will come to a complete halt,\" the Missouri Republican said on a podcast.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/uap-committees-dems-midterms-burlison/",
-      "signal_strength": 0.76,
-      "velocity_score": 0.57,
+      "signal_strength": 0.66,
+      "velocity_score": 0.81,
       "timestamp": "Wed, 28 Oct 2026 00:42:33 +0000",
       "tags": [
         "podcasts",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_472d1ef7",
-      "niche": "disclosure",
-      "headline": "An unusual client, a congressman and Roswell | Reality Check",
-      "summary": "Ross Coulthart speaks with retired lawyer Robert S. Martinez, who describes a client that said he spent nearly 50 years with a government contractor at White Sands Missile Range.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/an-unusual-client-a-congressman-and-roswell-reality-check/",
-      "signal_strength": 0.72,
-      "velocity_score": 0.69,
-      "timestamp": "Tue, 27 Oct 2026 23:00:00 +0000",
-      "tags": [
-        "disclosure",
         "uap"
       ]
     },
@@ -112,8 +112,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.95,
-      "velocity_score": 0.62,
+      "signal_strength": 0.69,
+      "velocity_score": 0.89,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.9,
-      "velocity_score": 0.83,
+      "signal_strength": 0.95,
+      "velocity_score": 0.72,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.77,
-      "velocity_score": 0.71,
+      "signal_strength": 0.76,
+      "velocity_score": 0.59,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +157,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.87,
-      "velocity_score": 0.66,
+      "signal_strength": 0.92,
+      "velocity_score": 0.47,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +172,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.93,
-      "velocity_score": 0.62,
+      "signal_strength": 0.82,
+      "velocity_score": 0.82,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -181,7 +181,7 @@
       ]
     }
   ],
-  "fetched_at": "2026-11-03T20:43:14.843126+00:00",
+  "fetched_at": "2026-11-04T00:58:49.561036+00:00",
   "total_count": 12,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
@@ -195,19 +195,19 @@
         "count": 1
       },
       {
-        "niche": "podcasts",
+        "niche": "disclosure",
         "count": 1
       },
       {
-        "niche": "disclosure",
+        "niche": "podcasts",
         "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.85,
-      "legislation": 0.81,
-      "podcasts": 0.76,
-      "disclosure": 0.72
+      "media_coverage": 0.8,
+      "legislation": 0.84,
+      "disclosure": 0.83,
+      "podcasts": 0.66
     },
     "source_distribution": {
       "The Debrief": 1,

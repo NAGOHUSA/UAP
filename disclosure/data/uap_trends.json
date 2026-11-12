@@ -1,14 +1,29 @@
 {
   "trends": [
     {
+      "id": "The War Zone_00cf5bba",
+      "niche": "media_coverage",
+      "headline": "L-39NG Skyfox Jets Could Give Ukraine A Critical New Russian Drone Hunting Capability",
+      "summary": "<p>The aircraft would offer a far cheaper alternative to using frontline fighters against Moscow’s expanding arsenal of one-way attack drones.</p>\n<p>The post <a href=\"https://www.twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability\">L-39NG Skyfox Jets Could Give Ukraine A Critical New Russian Drone Hunting Capability</a> appeared first on <a href=\"http",
+      "source": "The War Zone",
+      "source_url": "https://www.twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability",
+      "signal_strength": 0.94,
+      "velocity_score": 0.51,
+      "timestamp": "Thu, 12 Nov 2026 14:13:31 -0500",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
       "id": "NewsNation_31fd3a38",
       "niche": "media_coverage",
       "headline": "Tentacled UFO over Alaska? Experts have explanation for bizarre video",
       "summary": "Sara Osborn captured video and stills of a floating object that appeared to have tentacles.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/tentacled-ufo-alaska/",
-      "signal_strength": 0.9,
-      "velocity_score": 0.8,
+      "signal_strength": 0.87,
+      "velocity_score": 0.63,
       "timestamp": "Thu, 12 Nov 2026 05:58:20 +0000",
       "tags": [
         "media_coverage",
@@ -22,8 +37,8 @@
       "summary": "David Burkett explains why he believes the government’s handling of UAPs is a scandal and what convinced him whistleblowers face real retaliation.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/whistleblowers-fear-being-murdered-author-says-reality-check/",
-      "signal_strength": 0.86,
-      "velocity_score": 0.45,
+      "signal_strength": 0.71,
+      "velocity_score": 0.49,
       "timestamp": "Wed, 11 Nov 2026 01:00:00 +0000",
       "tags": [
         "whistleblower",
@@ -37,8 +52,8 @@
       "summary": "Loeb said officials could gather more information by deploying improved sensors.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/ufo-trump-airforce-pilots-avi-loeb/",
-      "signal_strength": 0.94,
-      "velocity_score": 0.74,
+      "signal_strength": 0.71,
+      "velocity_score": 0.62,
       "timestamp": "Tue, 10 Nov 2026 05:35:42 +0000",
       "tags": [
         "military_encounters",
@@ -52,8 +67,8 @@
       "summary": "Trump said he's not a big believer in UFOs, but that the topic is one of the questions he is asked about most often in private conversations.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/politics/trump-ufos-air-force-revelations/",
-      "signal_strength": 0.66,
-      "velocity_score": 0.81,
+      "signal_strength": 0.88,
+      "velocity_score": 0.7,
       "timestamp": "Mon, 09 Nov 2026 02:00:15 +0000",
       "tags": [
         "military_encounters",
@@ -67,8 +82,8 @@
       "summary": "Ross Coulthart tackles questions about whether the Trump administration is hesitating on disclosure.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/ross-coulthart-qa-ufo-crashes-the-face-on-mars-and-us-midterm-elections-reality-check/",
-      "signal_strength": 0.9,
-      "velocity_score": 0.74,
+      "signal_strength": 0.89,
+      "velocity_score": 0.41,
       "timestamp": "Sun, 08 Nov 2026 13:00:00 +0000",
       "tags": [
         "disclosure",
@@ -82,8 +97,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.82,
-      "velocity_score": 0.8,
+      "signal_strength": 0.71,
+      "velocity_score": 0.48,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +112,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.81,
-      "velocity_score": 0.82,
+      "signal_strength": 0.71,
+      "velocity_score": 0.66,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +127,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.83,
-      "velocity_score": 0.8,
+      "signal_strength": 0.94,
+      "velocity_score": 0.85,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +142,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.94,
-      "velocity_score": 0.89,
+      "signal_strength": 0.82,
+      "velocity_score": 0.46,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +157,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.9,
-      "velocity_score": 0.59,
+      "signal_strength": 0.78,
+      "velocity_score": 0.89,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -151,14 +166,14 @@
       ]
     }
   ],
-  "fetched_at": "2026-11-12T14:23:07.832599+00:00",
-  "total_count": 10,
+  "fetched_at": "2026-11-12T21:39:58.586148+00:00",
+  "total_count": 11,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 6
+        "count": 7
       },
       {
         "niche": "military_encounters",
@@ -174,16 +189,17 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.87,
-      "whistleblower": 0.86,
-      "military_encounters": 0.8,
-      "disclosure": 0.9
+      "media_coverage": 0.82,
+      "whistleblower": 0.71,
+      "military_encounters": 0.79,
+      "disclosure": 0.89
     },
     "source_distribution": {
+      "The War Zone": 1,
       "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 10,
+    "total_trends": 11,
     "niches_covered": [
       "disclosure",
       "media_coverage",
@@ -208,7 +224,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 2,
+    "sources_used": 3,
     "keywords_monitored": 45,
     "real_articles": true
   }

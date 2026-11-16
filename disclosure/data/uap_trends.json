@@ -1,17 +1,17 @@
 {
   "trends": [
     {
-      "id": "The War Zone_727015ec",
-      "niche": "media_coverage",
-      "headline": "Suspected Drones Over RAF Lakenheath Just Triggered Security Response: U.S. Air Force (Updated)",
-      "summary": "<p>The scare comes after some USAF aircraft were evacuated from England and the threat level at bases has been raised. </p>\n<p>The post <a href=\"https://www.twz.com/air/suspected-drones-over-raf-lakenheath-just-triggered-security-response-u-s-air-force\">Suspected Drones Over RAF Lakenheath Just Triggered Security Response: U.S. Air Force (Updated)</a> appeared first on <a href=\"https://www.twz.com",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/air/suspected-drones-over-raf-lakenheath-just-triggered-security-response-u-s-air-force",
-      "signal_strength": 0.9,
-      "velocity_score": 0.7,
-      "timestamp": "Fri, 13 Nov 2026 15:45:42 -0500",
+      "id": "The Debrief_bc7b783e",
+      "niche": "military_encounters",
+      "headline": "Mysterious Asteroid’s Acceleration is Defying Expectations as Scientists Anticipate New Clues from a 2031 Spacecraft Encounter",
+      "summary": "New research is challenging presumptions about a suspected \"dark comet\" exhibiting unusual acceleration in its orbit around the Sun.",
+      "source": "The Debrief",
+      "source_url": "https://thedebrief.org/mysterious-asteroids-acceleration-is-defying-expectations-as-scientists-anticipate-new-clues-from-a-2031-spacecraft-encounter/",
+      "signal_strength": 0.72,
+      "velocity_score": 0.52,
+      "timestamp": "Mon, 16 Nov 2026 15:10:50 +0000",
       "tags": [
-        "media_coverage",
+        "military_encounters",
         "uap"
       ]
     },
@@ -22,8 +22,8 @@
       "summary": "Coulthart said kites were being flown in the area, the wind fits how the object moved, and jellyfish-style kites are actually called \"UFO kites.\"",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/alaska-jellyfish-ufo-ross-coulthart/",
-      "signal_strength": 0.93,
-      "velocity_score": 0.75,
+      "signal_strength": 0.89,
+      "velocity_score": 0.57,
       "timestamp": "Mon, 16 Nov 2026 10:11:23 +0000",
       "tags": [
         "legislation",
@@ -37,8 +37,8 @@
       "summary": "Ross Coulthart tackles questions about why he defends Jake Barber, President Trump's \"60 Minutes\" comments and what Stephen Miller's new role could mean for disclosure.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/what-does-stephen-miller-as-chief-of-staff-mean-for-ufo-disclosure-reality-check/",
-      "signal_strength": 0.81,
-      "velocity_score": 0.9,
+      "signal_strength": 0.74,
+      "velocity_score": 0.55,
       "timestamp": "Sun, 15 Nov 2026 13:00:00 +0000",
       "tags": [
         "disclosure",
@@ -52,8 +52,8 @@
       "summary": "Loeb questions how such a significant asset could be kept from any chief executive.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/politics/trump-ufo-legacy-program-avi-loeb/",
-      "signal_strength": 0.69,
-      "velocity_score": 0.72,
+      "signal_strength": 0.89,
+      "velocity_score": 0.79,
       "timestamp": "Sun, 15 Nov 2026 03:49:07 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +67,8 @@
       "summary": "Avi Loeb has said the government must get better data about UFOs to determine what they are.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/the-hill/avi-loeb-ufo-telescope-plan/",
-      "signal_strength": 0.85,
-      "velocity_score": 0.81,
+      "signal_strength": 0.72,
+      "velocity_score": 0.49,
       "timestamp": "Fri, 13 Nov 2026 01:39:49 +0000",
       "tags": [
         "media_coverage",
@@ -82,8 +82,8 @@
       "summary": "Sara Osborn captured video and stills of a floating object that appeared to have tentacles.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/tentacled-ufo-alaska/",
-      "signal_strength": 0.89,
-      "velocity_score": 0.86,
+      "signal_strength": 0.66,
+      "velocity_score": 0.89,
       "timestamp": "Thu, 12 Nov 2026 05:58:20 +0000",
       "tags": [
         "media_coverage",
@@ -97,8 +97,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.7,
-      "velocity_score": 0.68,
+      "signal_strength": 0.74,
+      "velocity_score": 0.53,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +112,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.94,
-      "velocity_score": 0.62,
+      "signal_strength": 0.8,
+      "velocity_score": 0.55,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.93,
-      "velocity_score": 0.67,
+      "signal_strength": 0.83,
+      "velocity_score": 0.81,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.92,
-      "velocity_score": 0.67,
+      "signal_strength": 0.94,
+      "velocity_score": 0.58,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +157,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.9,
-      "velocity_score": 0.74,
+      "signal_strength": 0.68,
+      "velocity_score": 0.64,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,14 +166,18 @@
       ]
     }
   ],
-  "fetched_at": "2026-11-16T10:25:45.294288+00:00",
+  "fetched_at": "2026-11-16T21:28:19.171821+00:00",
   "total_count": 11,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 9
+        "count": 8
+      },
+      {
+        "niche": "military_encounters",
+        "count": 1
       },
       {
         "niche": "legislation",
@@ -185,12 +189,13 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.86,
-      "legislation": 0.93,
-      "disclosure": 0.81
+      "military_encounters": 0.72,
+      "legislation": 0.89,
+      "disclosure": 0.74,
+      "media_coverage": 0.78
     },
     "source_distribution": {
-      "The War Zone": 1,
+      "The Debrief": 1,
       "NewsNation": 5,
       "Live Science": 5
     },
@@ -198,7 +203,8 @@
     "niches_covered": [
       "disclosure",
       "legislation",
-      "media_coverage"
+      "media_coverage",
+      "military_encounters"
     ],
     "monitoring_keywords": [
       "ufo",

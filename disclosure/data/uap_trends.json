@@ -1,29 +1,14 @@
 {
   "trends": [
     {
-      "id": "The Debrief_bc7b783e",
-      "niche": "military_encounters",
-      "headline": "Mysterious Asteroid’s Acceleration is Defying Expectations as Scientists Anticipate New Clues from a 2031 Spacecraft Encounter",
-      "summary": "New research is challenging presumptions about a suspected \"dark comet\" exhibiting unusual acceleration in its orbit around the Sun.",
-      "source": "The Debrief",
-      "source_url": "https://thedebrief.org/mysterious-asteroids-acceleration-is-defying-expectations-as-scientists-anticipate-new-clues-from-a-2031-spacecraft-encounter/",
-      "signal_strength": 0.81,
-      "velocity_score": 0.87,
-      "timestamp": "Mon, 16 Nov 2026 15:10:50 +0000",
-      "tags": [
-        "military_encounters",
-        "uap"
-      ]
-    },
-    {
       "id": "The War Zone_7a9fb684",
       "niche": "media_coverage",
       "headline": "Russian Tu-95 Bombers Arrive In Vietnam After Flurry Of Northeast Asia Air Alerts",
       "summary": "<p>Russian aircraft violated Japanese airspace and approached Taiwan before two Tu-95s and two Il-76s touched down in Da Nang.</p>\n<p>The post <a href=\"https://www.twz.com/air/russian-bombers-arrive-in-vietnam-after-flurry-of-northeast-asia-air-alerts\">Russian Tu-95 Bombers Arrive In Vietnam After Flurry Of Northeast Asia Air Alerts</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/air/russian-bombers-arrive-in-vietnam-after-flurry-of-northeast-asia-air-alerts",
-      "signal_strength": 0.69,
-      "velocity_score": 0.78,
+      "signal_strength": 0.72,
+      "velocity_score": 0.8,
       "timestamp": "Tue, 17 Nov 2026 18:39:58 -0500",
       "tags": [
         "media_coverage",
@@ -37,8 +22,8 @@
       "summary": "Coulthart said there have been reports of people observing anomalous “golden orbs” over the desert area.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/australian-desert-alleged-hotspot-ufos-ross-coulthart/",
-      "signal_strength": 0.95,
-      "velocity_score": 0.78,
+      "signal_strength": 0.82,
+      "velocity_score": 0.53,
       "timestamp": "Wed, 18 Nov 2026 00:33:29 +0000",
       "tags": [
         "media_coverage",
@@ -53,7 +38,7 @@
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/the-ufo-summoning-experiment-what-ross-coulthart-witnessed-in-australia-reality-check/",
       "signal_strength": 0.81,
-      "velocity_score": 0.44,
+      "velocity_score": 0.65,
       "timestamp": "Tue, 17 Nov 2026 22:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +52,8 @@
       "summary": "Coulthart said kites were being flown in the area, the wind fits how the object moved, and jellyfish-style kites are actually called \"UFO kites.\"",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/alaska-jellyfish-ufo-ross-coulthart/",
-      "signal_strength": 0.8,
-      "velocity_score": 0.66,
+      "signal_strength": 0.9,
+      "velocity_score": 0.79,
       "timestamp": "Mon, 16 Nov 2026 10:11:23 +0000",
       "tags": [
         "legislation",
@@ -82,8 +67,8 @@
       "summary": "Ross Coulthart tackles questions about why he defends Jake Barber, President Trump's \"60 Minutes\" comments and what Stephen Miller's new role could mean for disclosure.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/what-does-stephen-miller-as-chief-of-staff-mean-for-ufo-disclosure-reality-check/",
-      "signal_strength": 0.85,
-      "velocity_score": 0.42,
+      "signal_strength": 0.81,
+      "velocity_score": 0.81,
       "timestamp": "Sun, 15 Nov 2026 13:00:00 +0000",
       "tags": [
         "disclosure",
@@ -97,8 +82,8 @@
       "summary": "Loeb questions how such a significant asset could be kept from any chief executive.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/politics/trump-ufo-legacy-program-avi-loeb/",
-      "signal_strength": 0.85,
-      "velocity_score": 0.8,
+      "signal_strength": 0.67,
+      "velocity_score": 0.59,
       "timestamp": "Sun, 15 Nov 2026 03:49:07 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +97,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.83,
-      "velocity_score": 0.4,
+      "signal_strength": 0.66,
+      "velocity_score": 0.49,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +112,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.91,
-      "velocity_score": 0.82,
+      "signal_strength": 0.81,
+      "velocity_score": 0.7,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +127,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.87,
-      "velocity_score": 0.52,
+      "signal_strength": 0.9,
+      "velocity_score": 0.69,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +142,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.8,
-      "velocity_score": 0.52,
+      "signal_strength": 0.86,
+      "velocity_score": 0.75,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +157,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.81,
-      "velocity_score": 0.88,
+      "signal_strength": 0.85,
+      "velocity_score": 0.77,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -181,18 +166,14 @@
       ]
     }
   ],
-  "fetched_at": "2026-11-18T10:56:06.048412+00:00",
-  "total_count": 12,
+  "fetched_at": "2026-11-18T19:47:49.699139+00:00",
+  "total_count": 11,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
         "count": 9
-      },
-      {
-        "niche": "military_encounters",
-        "count": 1
       },
       {
         "niche": "legislation",
@@ -204,23 +185,20 @@
       }
     ],
     "signal_strength_by_niche": {
-      "military_encounters": 0.81,
-      "media_coverage": 0.84,
-      "legislation": 0.8,
-      "disclosure": 0.85
+      "media_coverage": 0.79,
+      "legislation": 0.9,
+      "disclosure": 0.81
     },
     "source_distribution": {
-      "The Debrief": 1,
       "The War Zone": 1,
       "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 12,
+    "total_trends": 11,
     "niches_covered": [
       "disclosure",
       "legislation",
-      "media_coverage",
-      "military_encounters"
+      "media_coverage"
     ],
     "monitoring_keywords": [
       "ufo",
@@ -240,7 +218,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 4,
+    "sources_used": 3,
     "keywords_monitored": 45,
     "real_articles": true
   }

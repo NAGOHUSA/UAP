@@ -7,8 +7,8 @@
       "summary": "<p>The Navy's Collaborative Combat Aircraft vision is solidifying and F-35s could act as the first airborne ‘quarterbacks’ for those drones.</p>\n<p>The post <a href=\"https://www.twz.com/air/navy-cca-plans-will-not-wait-for-f-a-xx-next-generation-fighter\">Navy CCA Plans Will Not Wait For F/A-XX Next Generation Fighter</a> appeared first on <a href=\"https://www.twz.com\">TWZ</a>.</p>",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/air/navy-cca-plans-will-not-wait-for-f-a-xx-next-generation-fighter",
-      "signal_strength": 0.72,
-      "velocity_score": 0.42,
+      "signal_strength": 0.73,
+      "velocity_score": 0.74,
       "timestamp": "Fri, 20 Nov 2026 14:38:25 -0500",
       "tags": [
         "military_encounters",
@@ -22,9 +22,39 @@
       "summary": "<p>Satellite imagery of the unidentified drone at an obscure Chinese flight test facility raises interesting questions.</p>\n<p>The post <a href=\"https://www.twz.com/air/mysterious-mq-25-stingray-like-chinese-drone-emerges-at-little-known-flight-test-center\">Mysterious MQ-25 Stingray-Like Chinese Drone Emerges At Little-Known Flight Test Center</a> appeared first on <a href=\"https://www.twz.com\">TW",
       "source": "The War Zone",
       "source_url": "https://www.twz.com/air/mysterious-mq-25-stingray-like-chinese-drone-emerges-at-little-known-flight-test-center",
-      "signal_strength": 0.8,
-      "velocity_score": 0.57,
+      "signal_strength": 0.94,
+      "velocity_score": 0.61,
       "timestamp": "Fri, 20 Nov 2026 14:16:03 -0500",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_8291617c",
+      "niche": "media_coverage",
+      "headline": "Latest UFO file drop is for the birds, scientist Avi Loeb says",
+      "summary": "The UFO documents did include at least one unusual offering.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/space/ufo/ufo-videos-likely-birds-avi-loeb/",
+      "signal_strength": 0.82,
+      "velocity_score": 0.46,
+      "timestamp": "Sat, 21 Nov 2026 05:38:47 +0000",
+      "tags": [
+        "media_coverage",
+        "uap"
+      ]
+    },
+    {
+      "id": "NewsNation_f92c6e5e",
+      "niche": "media_coverage",
+      "headline": "UFO files: Mysterious ‘implants’ removed from UAP witness",
+      "summary": "Lue Elizondo joined “CUOMO” to offer some context about what he described as a “technical device” covered in biological tissue.",
+      "source": "NewsNation",
+      "source_url": "https://www.newsnationnow.com/politics/ufo-files-alien-implants/",
+      "signal_strength": 0.68,
+      "velocity_score": 0.82,
+      "timestamp": "Sat, 21 Nov 2026 03:22:12 +0000",
       "tags": [
         "media_coverage",
         "uap"
@@ -37,8 +67,8 @@
       "summary": "The latest drop of Pentagon UFO files includes a report of government research into a Utah location known as Skinwalker Ranch, which reportedly is the site of paranormal activity.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/politics/skinwalker-ranch-mystery-ufo-files/",
-      "signal_strength": 0.65,
-      "velocity_score": 0.44,
+      "signal_strength": 0.8,
+      "velocity_score": 0.51,
       "timestamp": "Sat, 21 Nov 2026 01:13:46 +0000",
       "tags": [
         "legislation",
@@ -52,8 +82,8 @@
       "summary": "The radar file, labeled an unresolved detection over North America in 2023, is part of the eighth release of declassified and historical UAP files.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/eight-uap-radar-analysis-object-mach-2-5/",
-      "signal_strength": 0.91,
-      "velocity_score": 0.67,
+      "signal_strength": 0.73,
+      "velocity_score": 0.7,
       "timestamp": "Fri, 20 Nov 2026 17:27:23 +0000",
       "tags": [
         "media_coverage",
@@ -67,41 +97,11 @@
       "summary": "Coulthart said there have been reports of people observing anomalous “golden orbs” over the desert area.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/australian-desert-alleged-hotspot-ufos-ross-coulthart/",
-      "signal_strength": 0.9,
-      "velocity_score": 0.7,
+      "signal_strength": 0.87,
+      "velocity_score": 0.57,
       "timestamp": "Wed, 18 Nov 2026 00:33:29 +0000",
       "tags": [
         "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_4c4ef6ef",
-      "niche": "media_coverage",
-      "headline": "The UFO summoning experiment: What Ross Coulthart witnessed in Australia | Reality Check",
-      "summary": "Ross Coulthart goes on the road to Barwon Heads in southern Victoria, Australia — an alleged UFO hotspot on the edge of Bass Strait — to put one of the most controversial ideas in ufology to the test.",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/the-ufo-summoning-experiment-what-ross-coulthart-witnessed-in-australia-reality-check/",
-      "signal_strength": 0.88,
-      "velocity_score": 0.63,
-      "timestamp": "Tue, 17 Nov 2026 22:00:00 +0000",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
-      "id": "NewsNation_21b16de9",
-      "niche": "legislation",
-      "headline": "Ross Coulthart wants closer look at Alaska 'jellyfish' UFO before final verdict",
-      "summary": "Coulthart said kites were being flown in the area, the wind fits how the object moved, and jellyfish-style kites are actually called \"UFO kites.\"",
-      "source": "NewsNation",
-      "source_url": "https://www.newsnationnow.com/space/ufo/alaska-jellyfish-ufo-ross-coulthart/",
-      "signal_strength": 0.74,
-      "velocity_score": 0.58,
-      "timestamp": "Mon, 16 Nov 2026 10:11:23 +0000",
-      "tags": [
-        "legislation",
         "uap"
       ]
     },
@@ -112,8 +112,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.73,
-      "velocity_score": 0.63,
+      "signal_strength": 0.82,
+      "velocity_score": 0.75,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +127,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.84,
-      "velocity_score": 0.66,
+      "signal_strength": 0.8,
+      "velocity_score": 0.47,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +142,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.92,
-      "velocity_score": 0.75,
+      "signal_strength": 0.82,
+      "velocity_score": 0.47,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +157,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.88,
-      "velocity_score": 0.61,
+      "signal_strength": 0.77,
+      "velocity_score": 0.82,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -172,8 +172,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.82,
-      "velocity_score": 0.78,
+      "signal_strength": 0.69,
+      "velocity_score": 0.63,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -181,28 +181,28 @@
       ]
     }
   ],
-  "fetched_at": "2026-11-21T01:53:42.705899+00:00",
+  "fetched_at": "2026-11-21T10:29:42.240276+00:00",
   "total_count": 12,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 9
-      },
-      {
-        "niche": "legislation",
-        "count": 2
+        "count": 10
       },
       {
         "niche": "military_encounters",
         "count": 1
+      },
+      {
+        "niche": "legislation",
+        "count": 1
       }
     ],
     "signal_strength_by_niche": {
-      "military_encounters": 0.72,
-      "media_coverage": 0.85,
-      "legislation": 0.7
+      "military_encounters": 0.73,
+      "media_coverage": 0.79,
+      "legislation": 0.8
     },
     "source_distribution": {
       "The War Zone": 2,

@@ -1,29 +1,14 @@
 {
   "trends": [
     {
-      "id": "The War Zone_f6fc5b4e",
-      "niche": "media_coverage",
-      "headline": "Drone Threats Prompt RAF To Install Netting At Bases To Protect Aircraft: Reports",
-      "summary": "<p>The netting is being installed amid growing concerns by the U.S. and allies over the danger to parked aircraft from drones.</p>\n<p>The post <a href=\"https://www.twz.com/news-features/drone-threats-prompt-raf-to-install-netting-at-bases-to-protect-aircraft-reports\">Drone Threats Prompt RAF To Install Netting At Bases To Protect Aircraft: Reports</a> appeared first on <a href=\"https://www.twz.com",
-      "source": "The War Zone",
-      "source_url": "https://www.twz.com/news-features/drone-threats-prompt-raf-to-install-netting-at-bases-to-protect-aircraft-reports",
-      "signal_strength": 0.74,
-      "velocity_score": 0.47,
-      "timestamp": "Wed, 25 Nov 2026 15:47:03 -0500",
-      "tags": [
-        "media_coverage",
-        "uap"
-      ]
-    },
-    {
       "id": "NewsNation_8c4f720a",
       "niche": "military_encounters",
       "headline": "Former Air Force member describes missing time and a UFO encounter | Reality Check with Ross Coulthart",
       "summary": "Can the human mind invite UFOs to appear? \nn this edition of \"Reality Check,\" investigative journalist Ross Coulthart goes on the road to Barwon Heads in southern Victoria, Australia — an alleged UFO hotspot on the edge of Bass Strait — to put one of the most controversial ideas in ufology to the test: CE5, also known as neuromeditative signaling.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/former-air-force-member-describes-missing-time-and-a-ufo-encounter-reality-check-with-ross-coulthart/",
-      "signal_strength": 0.89,
-      "velocity_score": 0.49,
+      "signal_strength": 0.9,
+      "velocity_score": 0.64,
       "timestamp": "Tue, 24 Nov 2026 22:00:00 +0000",
       "tags": [
         "military_encounters",
@@ -37,8 +22,8 @@
       "summary": "In this special \"Reality Check\" Q&#038;A from Brazil, Ross Coulthart is joined by producer Rob Jones to discuss new witnesses and evidence emerging from their investigation into the Varginha UFO case, including accounts that suggest reported UFO activity stretched far beyond a single incident.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/podcasts-newsnation/reality-check/ross-coulthart-qa-trump-could-reveal-the-truth-about-ufos/",
-      "signal_strength": 0.81,
-      "velocity_score": 0.75,
+      "signal_strength": 0.67,
+      "velocity_score": 0.44,
       "timestamp": "Sun, 22 Nov 2026 16:00:00 +0000",
       "tags": [
         "legislation",
@@ -52,8 +37,8 @@
       "summary": "The UFO documents did include at least one unusual offering.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/space/ufo/ufo-videos-likely-birds-avi-loeb/",
-      "signal_strength": 0.7,
-      "velocity_score": 0.73,
+      "signal_strength": 0.8,
+      "velocity_score": 0.71,
       "timestamp": "Sat, 21 Nov 2026 05:38:47 +0000",
       "tags": [
         "media_coverage",
@@ -67,8 +52,8 @@
       "summary": "Lue Elizondo joined “CUOMO” to offer some context about what he described as a “technical device” covered in biological tissue.",
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/politics/ufo-files-alien-implants/",
-      "signal_strength": 0.68,
-      "velocity_score": 0.5,
+      "signal_strength": 0.88,
+      "velocity_score": 0.67,
       "timestamp": "Sat, 21 Nov 2026 03:22:12 +0000",
       "tags": [
         "media_coverage",
@@ -83,7 +68,7 @@
       "source": "NewsNation",
       "source_url": "https://www.newsnationnow.com/politics/skinwalker-ranch-mystery-ufo-files/",
       "signal_strength": 0.69,
-      "velocity_score": 0.77,
+      "velocity_score": 0.85,
       "timestamp": "Sat, 21 Nov 2026 01:13:46 +0000",
       "tags": [
         "legislation",
@@ -97,8 +82,8 @@
       "summary": "An eerie new photo shows a giant red ring shining above Possagno, near the Italian Alps. The eye-catching image is almost identical to one taken in the same town in early 2023.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/bizarre-ufo-like-halo-of-red-light-appears-over-small-italian-town-for-the-second-time-in-3-years",
-      "signal_strength": 0.94,
-      "velocity_score": 0.58,
+      "signal_strength": 0.7,
+      "velocity_score": 0.55,
       "timestamp": "Thu, 27 Nov 2025 12:02:27 +0000",
       "tags": [
         "media_coverage",
@@ -112,8 +97,8 @@
       "summary": "An eerie new video from ESA's Solar Orbiter shows a towering 'cyclone' of plasma exhibiting behaviors never seen before on our sun.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/the-sun/watch-eerie-ufos-and-a-solar-cyclone-take-shape-in-stunning-new-esa-video-of-the-sun",
-      "signal_strength": 0.66,
-      "velocity_score": 0.61,
+      "signal_strength": 0.94,
+      "velocity_score": 0.7,
       "timestamp": "Tue, 01 Apr 2025 17:31:25 +0000",
       "tags": [
         "media_coverage",
@@ -127,8 +112,8 @@
       "summary": "Are UFO sightings a 20th-century phenomena, or did people report seeing them earlier in history?",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/did-people-report-seeing-ufos-before-the-20th-century",
-      "signal_strength": 0.69,
-      "velocity_score": 0.58,
+      "signal_strength": 0.75,
+      "velocity_score": 0.44,
       "timestamp": "Thu, 16 Jan 2025 10:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -142,8 +127,8 @@
       "summary": "A recent satellite image captured the reemergence of a unique, UFO-like cloud, known as the \"Taieri Pet,\" which appears above New Zealand's South Island when conditions are just right.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/planet-earth/weather/earth-from-space-bizarre-pet-cloud-reappears-above-its-favorite-spot-in-new-zealand",
-      "signal_strength": 0.69,
-      "velocity_score": 0.41,
+      "signal_strength": 0.89,
+      "velocity_score": 0.88,
       "timestamp": "Tue, 22 Oct 2024 07:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -157,8 +142,8 @@
       "summary": "Don't expect an alien invasion anytime soon.",
       "source": "Live Science",
       "source_url": "https://www.livescience.com/space/extraterrestrial-life/whats-the-best-evidence-weve-found-for-alien-life",
-      "signal_strength": 0.72,
-      "velocity_score": 0.41,
+      "signal_strength": 0.93,
+      "velocity_score": 0.9,
       "timestamp": "Sat, 28 Oct 2023 09:00:00 +0000",
       "tags": [
         "media_coverage",
@@ -166,14 +151,14 @@
       ]
     }
   ],
-  "fetched_at": "2026-11-27T15:54:29.018966+00:00",
-  "total_count": 11,
+  "fetched_at": "2026-11-28T00:55:15.173390+00:00",
+  "total_count": 10,
   "topic": "UFO/UAP/NHI - Non-Human Intelligence",
   "insights": {
     "top_activity_niches": [
       {
         "niche": "media_coverage",
-        "count": 8
+        "count": 7
       },
       {
         "niche": "legislation",
@@ -185,16 +170,15 @@
       }
     ],
     "signal_strength_by_niche": {
-      "media_coverage": 0.73,
-      "military_encounters": 0.89,
-      "legislation": 0.75
+      "military_encounters": 0.9,
+      "legislation": 0.68,
+      "media_coverage": 0.84
     },
     "source_distribution": {
-      "The War Zone": 1,
       "NewsNation": 5,
       "Live Science": 5
     },
-    "total_trends": 11,
+    "total_trends": 10,
     "niches_covered": [
       "legislation",
       "media_coverage",
@@ -218,7 +202,7 @@
   "metadata": {
     "version": "3.2",
     "status": "ACTIVE",
-    "sources_used": 3,
+    "sources_used": 2,
     "keywords_monitored": 45,
     "real_articles": true
   }
